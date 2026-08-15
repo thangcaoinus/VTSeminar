@@ -8,6 +8,7 @@ import { fetchPage } from './fetch.js';
 import { reduceHtml } from './reduce.js';
 import { extractTalks } from './extract.js';
 import { mergeTalks } from './merge.js';
+import { loadCache, saveCache, hashText } from './cache.js';
 
 const rootDir = fileURLToPath(new URL('..', import.meta.url));
 
@@ -25,20 +26,36 @@ async function main() {
 
   const config = await loadConfig();
   const model = process.env.GEMINI_MODEL || config.model;
+  const cache = await loadCache(rootDir);
   const perSource = [];
 
   for (const source of config.sources) {
     try {
       const html = await fetchPage(source.url);
       const text = reduceHtml(html, source.url);
-      const talks = await extractTalks(text, source, { model, apiKey });
+      const hash = hashText(text);
+
+      // Reuse the prior extraction when the reduced page text is unchanged — this skips the
+      // Gemini call entirely, the dominant cost of a run.
+      const cached = cache.entries[source.url];
+      let talks;
+      if (cached && cached.hash === hash) {
+        talks = cached.talks;
+        console.log(`cache ${source.url} -> ${talks.length} talks`);
+      } else {
+        talks = await extractTalks(text, source, { model, apiKey });
+        cache.entries[source.url] = { hash, talks };
+        console.log(`ok    ${source.url} -> ${talks.length} talks`);
+      }
       perSource.push({ talks, source });
-      console.log(`ok   ${source.url} -> ${talks.length} talks`);
     } catch (err) {
-      // Never write unvalidated data: on failure, skip the page and log it.
-      console.error(`skip ${source.url}: ${err.message}`);
+      // Never write unvalidated data: on failure, skip the page and log it. Any existing cache
+      // entry for this url is left intact — don't overwrite good data with a failure.
+      console.error(`skip  ${source.url}: ${err.message}`);
     }
   }
+
+  await saveCache(rootDir, cache);
 
   const talks = mergeTalks(perSource);
   const outPath = resolve(rootDir, 'data/seminars.json');

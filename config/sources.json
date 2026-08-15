@@ -15,6 +15,31 @@
       "department": "Statistics",
       "series": "Colloquium",
       "url": "https://www.stat.vt.edu/about/colloquium-schedule.html"
+    },
+    {
+      "department": "Mathematics",
+      "series": "Algebra Seminar",
+      "url": "https://seminar.math.vt.edu/algebra/"
+    },
+    {
+      "department": "Computer Science",
+      "series": "Seminars",
+      "url": "https://website.cs.vt.edu/research/Seminars.html"
+    },
+    {
+      "department": "Agricultural and Applied Economics",
+      "series": "Seminars",
+      "url": "https://aaec.vt.edu/seminars.html"
+    },
+    {
+      "department": "Mathematics",
+      "series": "Applied Numerical Analysis Seminar",
+      "url": "https://seminar.math.vt.edu/ana/archives.php"
+    },
+    {
+      "department": "Mathematics",
+      "series": "Mathematical Biology Seminar",
+      "url": "https://seminar.math.vt.edu/mathbio/seminar.html"
     }
   ]
 }

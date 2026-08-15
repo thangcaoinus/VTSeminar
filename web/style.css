@@ -248,6 +248,7 @@ body {
   color: var(--faint);
   font-variant-numeric: tabular-nums;
 }
+.schedule-note { margin: 0.4rem 0 0.2rem; color: var(--muted); font-size: 0.85rem; }
 
 /* The talk row: date gutter + body, divided by hairline rules. */
 .row {

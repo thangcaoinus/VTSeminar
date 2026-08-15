@@ -87,25 +87,32 @@ function render() {
   el.list.innerHTML = renderSchedule(talks);
 }
 
-// Group filtered talks into "Upcoming" and "Past" registers under sticky rules,
-// so the table reads like a live departmental schedule rather than a flat feed.
-// Upcoming reads forward (soonest next); past reads back (most recent first);
-// undated talks sit at the top of Upcoming, since they're not yet in the past.
+// Group filtered talks into "Upcoming", "Past", and "Undated" registers under sticky
+// rules, so the table reads like a live departmental schedule rather than a flat feed.
+// Upcoming reads forward (soonest next); past reads back (most recent first). Talks whose
+// date is missing OR fails to parse go in their own Undated register — never Upcoming, so a
+// stale talk with an unparseable date can't masquerade as something that hasn't happened yet.
 function renderSchedule(talks) {
   const now = Date.now();
   const upcoming = [];
   const past = [];
+  const undated = [];
   for (const t of talks) {
     const ts = t.datetime_start ? Date.parse(t.datetime_start) : NaN;
-    (Number.isNaN(ts) || ts >= now ? upcoming : past).push(t);
+    if (Number.isNaN(ts)) undated.push(t);
+    else (ts >= now ? upcoming : past).push(t);
   }
   upcoming.sort(byDateAsc);
   past.sort(byDateDesc);
-  const section = (label, rows) =>
+  const section = (label, rows, note) =>
     rows.length
-      ? `<div class="schedule-group"><h2 class="schedule-rule">${label}<span class="schedule-rule-n">${rows.length}</span></h2>${rows.map(card).join('')}</div>`
+      ? `<div class="schedule-group"><h2 class="schedule-rule">${label}<span class="schedule-rule-n">${rows.length}</span></h2>${note ? `<p class="schedule-note">${note}</p>` : ''}${rows.map(card).join('')}</div>`
       : '';
-  return section('Upcoming', upcoming) + section('Past', past);
+  return (
+    section('Upcoming', upcoming) +
+    section('Past', past) +
+    section('Undated', undated, 'These matching talks have no confirmed date (or a date we couldn’t parse).')
+  );
 }
 
 function updateCount(n) {
@@ -119,14 +126,15 @@ function setView(view) {
   render();
 }
 
-// Most recent first; talks with no date sort to the bottom (Past register).
+// Most recent first. Both registers are pre-filtered to parseable dates, so the guard
+// here is belt-and-suspenders only.
 function byDateDesc(a, b) {
   const ta = a.datetime_start ? Date.parse(a.datetime_start) : -Infinity;
   const tb = b.datetime_start ? Date.parse(b.datetime_start) : -Infinity;
   return tb - ta;
 }
 
-// Soonest first; undated talks (-Infinity) rise to the top of the Upcoming register.
+// Soonest first.
 function byDateAsc(a, b) {
   const ta = a.datetime_start ? Date.parse(a.datetime_start) : -Infinity;
   const tb = b.datetime_start ? Date.parse(b.datetime_start) : -Infinity;
