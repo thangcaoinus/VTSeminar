@@ -40,6 +40,10 @@ function serveDataFile() {
 
 export default defineConfig({
   root: resolve(rootDir, 'web'),
+  // Relative asset URLs so the built site works under a GitHub Pages project subpath
+  // (thangcaoinus.github.io/VTSeminar/) as well as at a domain root. Matches the already-relative
+  // ./data/seminars.json fetch — no hardcoded repo name to keep in sync.
+  base: './',
   publicDir: false,
   plugins: [serveDataFile()],
   build: {
