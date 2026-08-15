@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VT Seminars</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>VT Seminars</h1>
+      <p class="disclaimer">
+        Prerequisites and context below are <strong>AI-generated</strong> and may be
+        inaccurate.
+      </p>
+    </header>
+
+    <section class="controls">
+      <input id="search" type="search" placeholder="Search title, speaker, abstract…" />
+      <select id="department"><option value="">All departments</option></select>
+      <select id="series"><option value="">All series</option></select>
+      <input id="from" type="date" aria-label="From date" />
+      <input id="to" type="date" aria-label="To date" />
+    </section>
+
+    <nav class="tabs" role="tablist" aria-label="View">
+      <button id="tab-list" class="tab" role="tab" aria-selected="true">List</button>
+      <button id="tab-calendar" class="tab" role="tab" aria-selected="false">Calendar</button>
+    </nav>
+
+    <main id="list" class="list" role="tabpanel" aria-labelledby="tab-list"></main>
+    <main id="calendar" class="calendar" role="tabpanel" aria-labelledby="tab-calendar" hidden></main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

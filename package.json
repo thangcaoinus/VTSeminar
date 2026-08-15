@@ -1,0 +1,25 @@
+{
+  "name": "vt-seminars",
+  "version": "0.1.0",
+  "description": "VT research seminar aggregator — static site fed by a weekly batch job.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ingest": "node src/ingest.js",
+    "eval": "node eval/run-eval.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@mozilla/readability": "^0.6.0",
+    "jsdom": "^26.1.0",
+    "katex": "^0.18.4",
+    "markdown-it": "^15.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1",
+    "vite": "^7.1.0"
+  }
+}

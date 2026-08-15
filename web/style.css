@@ -1,0 +1,247 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #666;
+  --border: #e2e2e2;
+  --accent: #630031; /* VT maroon */
+  --card: #fafafa;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141414;
+    --fg: #ececec;
+    --muted: #9a9a9a;
+    --border: #2c2c2c;
+    --accent: #c9738f;
+    --card: #1c1c1c;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 16px/1.5 system-ui, -apple-system, sans-serif;
+  color: var(--fg);
+  background: var(--bg);
+  max-width: 900px;
+  margin-inline: auto;
+  padding: 1.5rem;
+}
+
+header h1 { margin: 0 0 0.25rem; color: var(--accent); }
+.disclaimer { margin: 0 0 1rem; color: var(--muted); font-size: 0.9rem; }
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.controls #search { grid-column: 1 / -1; }
+.controls input, .controls select {
+  min-width: 0; /* let grid tracks shrink below the input's intrinsic width */
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+}
+
+/* The hidden attribute must win over the display rules below (a bare `display`
+   otherwise overrides the UA `[hidden]{display:none}`), so inactive views collapse. */
+[hidden] { display: none !important; }
+.list { display: flex; flex-direction: column; gap: 1rem; }
+.card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  background: var(--card);
+}
+.card h2 { margin: 0 0 0.4rem; font-size: 1.15rem; }
+.meta { margin: 0.15rem 0; color: var(--muted); font-size: 0.9rem; }
+.abstract { margin: 0.75rem 0; }
+.abstract p { margin: 0.5rem 0; }
+.abstract p:first-child { margin-top: 0; }
+.abstract p:last-child { margin-bottom: 0; }
+.context { margin: 0.5rem 0; }
+/* KaTeX display math: let long equations scroll instead of overflowing the card. */
+.card .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.25rem 0; }
+.ann { margin: 0.5rem 0; font-size: 0.92rem; }
+.ann ul { margin: 0.25rem 0 0; padding-left: 1.2rem; }
+.src { margin: 0.75rem 0 0; font-size: 0.85rem; }
+.src a { color: var(--accent); }
+.empty { color: var(--muted); padding: 2rem 0; text-align: center; }
+
+/* ── View tabs ─────────────────────────────────────────────────────────── */
+.tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.tab {
+  appearance: none;
+  border: none;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 600;
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  border-radius: 6px 6px 0 0;
+}
+.tab:hover { color: var(--fg); background: var(--card); }
+.tab[aria-selected='true'] { color: var(--accent); border-bottom-color: var(--accent); }
+.tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ── Calendar: month header ────────────────────────────────────────────── */
+.cal-head {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.cal-nav { display: flex; gap: 0.35rem; order: 1; }
+.cal-title {
+  order: 2;
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--fg);
+  text-align: center;
+}
+.cal-count { order: 3; margin: 0; color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+.cal-btn {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+  min-width: 2.25rem;
+  height: 2.25rem;
+  padding: 0 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  line-height: 1;
+}
+.cal-btn:hover { border-color: var(--accent); color: var(--accent); }
+.cal-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ── Calendar: month grid ──────────────────────────────────────────────── */
+.cal-grid {
+  display: grid;
+  /* minmax(0, 1fr): floor the track at 0 so a long chip can't inflate its column
+     past an equal 1/7 share. Keeps all 7 columns even and lets titles ellipsis. */
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cal-weekday {
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+.cal-cell {
+  background: var(--bg);
+  min-height: 6.5rem;
+  padding: 0.35rem 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  position: relative;
+}
+.cal-cell--blank { background: var(--card); }
+.cal-cell--has { cursor: pointer; }
+.cal-cell--has:hover { background: var(--card); }
+.cal-cell--has:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.cal-daynum { font-size: 0.82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.cal-cell--has .cal-daynum { color: var(--fg); font-weight: 600; }
+.cal-cell--today .cal-daynum {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  margin: -0.15rem 0 -0.15rem -0.15rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+}
+.cal-cell--selected { box-shadow: inset 0 0 0 2px var(--accent); }
+
+.cal-dots { display: none; } /* dots are a mobile affordance; hidden on the grid */
+.cal-chips { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; }
+.cal-chip {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  min-width: 0;
+  font-size: 0.74rem;
+  line-height: 1.25;
+  padding: 0.12rem 0.35rem;
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--fg);
+}
+.cal-chip-time { color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; flex: none; }
+.cal-chip-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cal-more { font-size: 0.72rem; color: var(--muted); padding: 0 0.35rem; }
+
+/* ── Calendar: day panel + undated ─────────────────────────────────────── */
+.cal-panel, .cal-undated {
+  margin-top: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  background: var(--card);
+}
+.cal-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.cal-panel-head h3, .cal-undated h3 { margin: 0; font-size: 1.05rem; }
+.cal-undated h3 { margin-bottom: 0.15rem; }
+.cal-undated-count {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+.cal-undated-note { margin: 0 0 0.75rem; color: var(--muted); font-size: 0.85rem; }
+
+/* The day panel and Undated section reuse the full List-view .card. The panel
+   already sits on a --card surface, so nested cards take the page --bg and a
+   little spacing to separate multiple talks on one day. */
+.cal-panel .card, .cal-undated .card { background: var(--bg); }
+.cal-panel .card + .card, .cal-undated .card + .card { margin-top: 0.75rem; }
+
+/* ── Calendar: mobile — stack to a day list, no horizontal scroll ──────── */
+@media (max-width: 640px) {
+  .cal-head { grid-template-columns: 1fr auto; row-gap: 0.5rem; }
+  .cal-title { order: 0; grid-column: 1; text-align: left; }
+  .cal-nav { order: 0; grid-column: 2; }
+  .cal-count { order: 1; grid-column: 1 / -1; }
+
+  .cal-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+  .cal-weekday { font-size: 0.6rem; }
+  .cal-cell { min-height: 3rem; padding: 0.3rem 0.2rem; align-items: center; }
+  .cal-daynum { font-size: 0.78rem; }
+  /* Chips don't fit in tiny cells — show dot indicators, reveal talks via the panel. */
+  .cal-chips { display: none; }
+  .cal-dots { display: flex; gap: 2px; justify-content: center; }
+  .cal-dot { width: 4px; height: 4px; border-radius: 999px; background: var(--accent); }
+}
+

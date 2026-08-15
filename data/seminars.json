@@ -1,0 +1,858 @@
+[
+  {
+    "title": "Geometry, Symmetry, and Counting Curves: A Combinatorial Perspective",
+    "annotations": {
+      "prerequisites": [
+        "cohomology ring",
+        "complex projective plane",
+        "intersection theory"
+      ],
+      "related_concepts": [
+        "quantum cohomology",
+        "Goresky–Kottwitz–MacPherson theory",
+        "combinatorics"
+      ],
+      "one_line_context": "This talk explores how geometric counting problems and intersection theory can be analyzed through a combinatorial lens using GKM theory and quantum cohomology.",
+      "ai_generated": true
+    },
+    "abstract": "Hilbert’s 15th problem calls for a rigorous foundation for Schubert’s calculus, which provides classical rules for counting geometric figures satisfying incidence conditions, such as the number of lines in 3‑space meeting four given lines. After surveying a few examples of “counting with geometry,” we turn to a modern viewpoint using the cohomology ring of the complex projective plane to illustrate how intersection theory organizes such problems and leads naturally to quantum cohomology, where curve counts are built into the product structure itself. We then introduce Goresky–Kottwitz–MacPherson (GKM) theory, whose combinatorial framework becomes especially transparent in the case of the complex projective plane, allowing geometric information to be encoded on a graph in a way that simplifies computations and highlights structural patterns. Finally, we describe recent work showing how GKM theory can be used to detect the behavior of quantum parameters, providing a powerful bridge between combinatorics and quantum cohomology.",
+    "affiliation": null,
+    "datetime_end": "2026-01-23T17:00:00",
+    "datetime_start": "2026-01-23T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Ryan Shifler",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "1737d2b342d99954"
+  },
+  {
+    "title": "Structure and dynamics of gene regulatory networks",
+    "annotations": {
+      "prerequisites": [
+        "Boolean networks",
+        "network motifs"
+      ],
+      "related_concepts": [
+        "gene regulatory networks",
+        "cellular decision-making",
+        "canalization"
+      ],
+      "one_line_context": "This talk presents a meta-analysis of expert-curated Boolean network models to uncover structural and dynamical features of gene regulatory networks.",
+      "ai_generated": true
+    },
+    "abstract": "Gene regulatory networks (GRNs) play a central role in cellular decision-making. Understanding their structure and how it impacts their dynamics constitutes thus a fundamental biological question. GRNs are frequently modeled as Boolean networks, which are intuitive, simple to describe, and can yield qualitative results even when data are sparse. We assembled the largest repository of expert-curated Boolean GRN models. A meta-analysis of this diverse set of models reveals several surprising structural and dynamical features. GRNs exhibit more canalization, redundancy, and stable dynamics than expected. Moreover, they are enriched for certain recurring network motifs. Altogether, this raises the important question how these features benefit GRNs.",
+    "affiliation": "Iowa State",
+    "datetime_end": "2026-01-30T17:00:00",
+    "datetime_start": "2026-01-30T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Claus Kadelka",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "ea8083822b7deff2"
+  },
+  {
+    "title": "From harmonic analysis to exact signal recovery",
+    "annotations": {
+      "prerequisites": [
+        "harmonic analysis",
+        "linear and bilinear restriction theory"
+      ],
+      "related_concepts": [
+        "signal recovery",
+        "time series imputation",
+        "applied data science"
+      ],
+      "one_line_context": "This talk discusses how classical techniques from harmonic analysis are applied to study signal recovery and time series imputation.",
+      "ai_generated": true
+    },
+    "abstract": "We are going to describe how classical techniques from harmonic analysis, such as linear and bilinear restriction theory, Bourgain/Talagrand \\Lambda_p inequalities, and related ideas have been used to study signal recovery, both in the classical setting, and in the context of imputation of time series in applied data science.",
+    "affiliation": "University of Rochester",
+    "datetime_end": "2026-02-13T17:00:00",
+    "datetime_start": "2026-02-13T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Alex Iosevich",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "486bd16d800009de"
+  },
+  {
+    "title": "Analysis of the adhesion model and reconstruction in cosmology",
+    "annotations": {
+      "prerequisites": [
+        "partial differential equations",
+        "Monge-Ampère equation",
+        "optimal transport theory"
+      ],
+      "related_concepts": [
+        "cosmology",
+        "adhesion model",
+        "Zeldovich approximation"
+      ],
+      "one_line_context": "This talk examines the mathematical analysis of the adhesion model in cosmology using optimal transport and Monge-Ampère equations.",
+      "ai_generated": true
+    },
+    "abstract": "In cosmology, a basic explanation of the observed concentration of mass in singular structures is provided by the Zeldovich approximation, which takes the form of free-streaming flow for perturbations of a uniform Einstein-de Sitter universe in co-moving coordinates. The adhesion model suppresses multi-streaming by introducing viscosity. We study mass flow in this model by analysis of Lagrangian advection in the zero-viscosity limit. Under mild conditions, we show that a unique limiting Lagrangian semi-flow exists. Limiting particle paths stick together after collision and are characterized uniquely by a differential inclusion. The absolutely continuous part of the mass measure satisfies a Monge-Ampère equation related to convexification of the free-streaming velocity potential. The use of Monge-Ampère equations and optimal transport theory for the reconstruction of inverse Lagrangian maps in cosmology was introduced in work of Brenier and Frisch et al (2003). We show that the singular part of the mass measure can differ from the Alexandrov solution to the Monge-Ampère equation, however, when flows along singular structures merge, as shown by analysis of a 2D Riemann problem. In a neighborhood of merging singular structures in our examples, we show that reconstruction yielding a monotone Lagrangian map cannot be exact a.e., even off of the singularities themselves.",
+    "affiliation": "Duke University",
+    "datetime_end": "2026-02-27T17:00:00",
+    "datetime_start": "2026-02-27T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Jian-Guo Liu",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "a8389458089b622f"
+  },
+  {
+    "title": "Iterated Fourier Series",
+    "annotations": {
+      "prerequisites": [
+        "Fourier series"
+      ],
+      "related_concepts": [
+        "KdV equation",
+        "absolute Galois group"
+      ],
+      "one_line_context": "This talk describes an elementary bridge connecting the KdV equation and the absolute Galois group through analytical objects.",
+      "ai_generated": true
+    },
+    "abstract": "The plan of the talk is to describe a bridge that connects in a natural way two mathematical worlds at the first glance far away from each other: the KdV equation and the absolute Galois group. The pillars of this bridge are given by the analytical objects from the title. The presentation will be “elementary”, one would not need to know what is the KdV equation or the absolute Galois group.",
+    "affiliation": "Cornell University",
+    "datetime_end": "2026-03-20T17:00:00",
+    "datetime_start": "2026-03-20T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Camil Muscalu",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "8f47e896410f90cb"
+  },
+  {
+    "title": "Dilation Methods for Deterministic and Stochastic Dynamics with Quantum Computing Applications",
+    "annotations": {
+      "prerequisites": [
+        "unitary dynamics",
+        "stochastic differential equations"
+      ],
+      "related_concepts": [
+        "quantum computing",
+        "scientific computing",
+        "Schrödingerization"
+      ],
+      "one_line_context": "This talk presents a dilation-based approach for embedding deterministic and stochastic dynamics into systems suitable for quantum computation.",
+      "ai_generated": true
+    },
+    "abstract": "Quantum algorithms are naturally formulated in terms of unitary dynamics, while many models from scientific computing involve dissipation, forcing, or randomness. In this talk I will describe a dilation-based approach for bridging this gap. The main idea is to embed deterministic or stochastic dynamics into a larger system whose evolution has a structure more suitable for quantum computation. I will first discuss deterministic dynamics, where this approach provides a unified framework for several recent constructions, including LCHS-type methods and Schrödingerization. I will then show how the same perspective extends to stochastic differential equations, leading both to trajectory-based representations and to deterministic evolution equations for quadratic statistics. These ideas connect naturally to imaginary-time evolution, Lindblad-type formulations, and recent quantum algorithms for stochastic dynamics and fermionic systems.",
+    "affiliation": "Penn State",
+    "datetime_end": "2026-03-27T17:00:00",
+    "datetime_start": "2026-03-27T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Xiantao Li",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "feafa7a776641460"
+  },
+  {
+    "title": "Expander Graphs and Coding Theory",
+    "annotations": {
+      "prerequisites": [
+        "coding theory",
+        "graph theory"
+      ],
+      "related_concepts": [
+        "expander graphs",
+        "algebraic code ensembles"
+      ],
+      "one_line_context": "This talk introduces graph-based codes, expander graphs, and their applications and performance bounds in coding theory.",
+      "ai_generated": true
+    },
+    "abstract": "One fundamental goal in coding theory is to design explicit algebraic code ensembles that are asymptotically good, meaning that their minimum distance and rate do not go to zero as the block length tends to infinity. In the mid-90s, it was shown that codes whose underlying graph representations had good expansion properties could be used to obtain such ensembles. In this talk, we give an introduction to the area of graph-based codes and review the basics of expander graphs and expander codes. We derive bounds on performance guarantees for four types of expander code frameworks, and end the talk with a discussion of open problems and current uses of expander graphs in coding theory.",
+    "affiliation": "University of Nebraska-Lincoln",
+    "datetime_end": "2026-04-03T17:00:00",
+    "datetime_start": "2026-04-03T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Christine Kelley",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "f3827975849d417c"
+  },
+  {
+    "title": "Real Time Bayesian Inference for Tsunami Early Warning",
+    "annotations": {
+      "prerequisites": [
+        "Bayesian inference",
+        "inverse problems"
+      ],
+      "related_concepts": [
+        "tsunami early warning",
+        "digital twins",
+        "parallel computing"
+      ],
+      "one_line_context": "This talk introduces fast parallel Bayesian inference algorithms for real-time tsunami forecasting using seafloor pressure sensor data.",
+      "ai_generated": true
+    },
+    "abstract": "The Cascadia Subduction Zone (CSZ) extends over 1000 km from northern California to northern Vancouver Island. The CSZ is capable of unleashing a magnitude 9 earthquake with resulting 30 meter high tsunamis. While 43 earthquakes have occurred on the Cascadia fault over the last 10,000 years, it has been eerily silent since 1700, and many consider it overdue for a major earthquake. Plans are underway to deploy a network of seafloor-mounted pressure sensors in the CSZ. The sensors will record acoustic waves in the ocean that are generated when the seafloor is suddenly uplifted during an earthquake. Our goal is to use these observed pressure transients, along with a coupled acoustic-gravity wave propagation forward model, to infer the seafloor motion, and then forward propagate the resulting tsunamis toward coastal regions. Since destructive tsunami waves can arrive onshore in as little as 10 minutes, the inverse solution and subsequent tsunami forecast must be carried out in seconds to be useful for early warning. Not only do we want to predict the mean of the tsunami wave heights, but we also want to equip this digital twin with uncertainty estimates in a fully Bayesian framework. However, a single forward wave propagation simulation takes an hour on 512 A100 GPUs. To infer the billion parameters representing the uncertain spatio-temporal seafloor motion, state-of-the-art inversion algorithms need hundreds of thousands of such forward simulations. We show that by exploiting the time shift-invariance and linearity of the parameter-to-observable map, transforming the inverse operator from the parameter space to the data space, and devising novel parallel Bayesian inference algorithms that map well onto GPUs, we induce a fast offline–online decomposition that allows the seafloor motion inversion and subsequent tsunami forecast to be carried out exactly in a fraction of a second. Finally, we present fast algorithms for the optimal experimental design problem of optimizing the locations of the seafloor pressure sensors to maximize information gain from the data. This work is joint with Stefan Henneking (UT Austin), Sreeram Venkat (UT Austin), and Alice Gabriel (Scripps/UCSD).",
+    "affiliation": "Oden Institute & Mechanical Engineering, UT Austin",
+    "datetime_end": "2026-04-24T17:00:00",
+    "datetime_start": "2026-04-24T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Omar Ghattas",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "2918ce36c4531a43"
+  },
+  {
+    "title": "Sublattices and Subrings of \\mathbb{Z}^n and Random Finite Abelian Groups",
+    "annotations": {
+      "prerequisites": [
+        "abstract algebra",
+        "lattice theory"
+      ],
+      "related_concepts": [
+        "random finite abelian groups",
+        "number theory",
+        "combinatorics"
+      ],
+      "one_line_context": "This talk explores questions about random sublattices and subrings of \\mathbb{Z}^n and their connections to random groups and number theory.",
+      "ai_generated": true
+    },
+    "abstract": "How many sublattices of \\mathbb{Z}^n have index at most X? If we choose such a lattice \\Lambda at random, what is the probability that \\mathbb{Z}^n / \\Lambda is cyclic? What is the probability that its order is odd? Now let R be a random subring of \\mathbb{Z}^n. What is the probability that \\mathbb{Z}^n / R is cyclic? We will see how these questions fit into the study of random groups in number theory and combinatorics. We will discuss connections to Cohen-Lenstra heuristics for class groups of number fields, sandpile groups of random graphs, and cokernels of random matrices over the integers.",
+    "affiliation": "UC Irvine",
+    "datetime_end": "2026-05-01T17:00:00",
+    "datetime_start": "2026-05-01T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Nathan Kaplan",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "07b0b9c6f96a7efb"
+  },
+  {
+    "title": "Two Variations on a Theme by Cremona",
+    "annotations": {
+      "prerequisites": [
+        "algebraic geometry",
+        "toric data",
+        "vector bundles"
+      ],
+      "related_concepts": [
+        "Cremona transformation",
+        "secant varieties",
+        "derived category"
+      ],
+      "one_line_context": "This talk presents two geometric variations on the classical Cremona transformation involving hypercubes, orthogonal matrices, and cosecant varieties.",
+      "ai_generated": true
+    },
+    "abstract": "The Cremona transformation is a non-linear birational map between a projective space and its dual. It can be understood in terms of toric data, in which case it corresponds to the self-duality of the generalized tetrahedron. Or it can be embedded as the diagonal in the projective space of square matrices, in which case it corresponds to the cofactor method for inverting a matrix. I want to talk about two variations on this. The first, jointly with Alicia Lamarche, looks at the analogous geometry for the duality between a hypercube and a generalized octahedron. When we embed this in the space of orthogonal matrices, we obtain an interesting answer to the question: What is the best completion of the space SO(2n+1,C) for the standard representation? Hint: it is not a manifold. The second variation is concerned with Cremona in families. Here, the varieties of secants to a variety embedded in projective space give rise to dual \"cosecant\" varieties that should be understood as families of Cremona-transformed projective spaces. The interesting question is what happens when the points defining the secants come together. When the variety is a curve, this was explained by Michael Thaddeus via moduli of vector bundles (with a section) on the curve. When the variety is a surface, I have a proposal for the cosecant variety inspired by the moduli of objects in the \"derived category\" of coherent sheaves on the surface. It is somewhat surprising to see this machinery appearing in such a classical problem, but it has been a very productive point of view that I hope to convey.",
+    "affiliation": "Utah",
+    "datetime_end": "2026-05-08T17:00:00",
+    "datetime_start": "2026-05-08T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Aaron Bertram",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "36f732709e7d02d9"
+  },
+  {
+    "title": "Atiyah, Bott, and Shapiro's (ABS) foundational work on Clifford modules and K-theory",
+    "annotations": {
+      "prerequisites": [
+        "differential geometry",
+        "homotopy theory",
+        "physics"
+      ],
+      "related_concepts": [
+        "Clifford modules",
+        "K-theory",
+        "C*-algebras",
+        "invertible topological phases",
+        "Gromov-Lawson-Rosenberg conjecture"
+      ],
+      "one_line_context": "The speaker discusses a generalization of the ABS orientation of K-theory to all C*-algebras and its appearance in physics and geometry literature.",
+      "ai_generated": true
+    },
+    "abstract": "Atiyah, Bott, and Shapiro's (ABS) foundational work on Clifford modules and K-theory has enjoyed numerous refinements and applications in differential geometry, homotopy theory, and physics. In joint work with Yigal Kamel, we study a generalization of the ABS orientation of K-theory to all C*-algebras. In this talk I will start from the beginning with the original ABS construction and work my way up to the maps defined in our construction, and explain some examples of where our generalized maps appear in the literature: including Freed-Hopkin's result on invertible topological phases and some of the maps defined in the statement of the Gromov-Lawson-Rosenberg conjecture.",
+    "affiliation": "UIUC (Urbana-Champaign)",
+    "datetime_end": "2025-04-21T17:00:00",
+    "datetime_start": "2025-04-21T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Fredrick Mooers",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "952fe9f8b4408835"
+  },
+  {
+    "title": "Projective geometric algebra",
+    "annotations": {
+      "prerequisites": [
+        "vector space",
+        "exterior algebra"
+      ],
+      "related_concepts": [
+        "projective geometric algebra",
+        "Clifford algebra",
+        "quaternions",
+        "dual quaternions",
+        "projective spacetime"
+      ],
+      "one_line_context": "This talk introduces the objects, operations, and motion operators found in projective geometric algebra across 4D and 5D spaces.",
+      "ai_generated": true
+    },
+    "abstract": "This talk provides an introduction to the various objects and operations found in projective geometric algebra. It first discusses the exterior (Grassmann) algebra as an extension to an ordinary vector space, identifies the 4D homogeneous geometries that arise in the projective case, and demonstrates the kinds of geometric manipulation that can be performed with different forms of multiplication. That is followed by an introduction to the projective geometric (Clifford) algebra and a discussion of the motion operators it contains, highlighting the roles of quaternions and dual quaternions. We finally add a time dimension and examine how quaternions and dual quaternions work in 5D projective spacetime.",
+    "affiliation": "Terathon Software",
+    "datetime_end": "2025-04-21T15:00:00",
+    "datetime_start": "2025-04-21T14:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Eric Lengyel",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "dcaf3c51f1dc381e"
+  },
+  {
+    "title": "An extension of skein lasagna theory for cornered 4-manifolds",
+    "annotations": {
+      "prerequisites": [
+        "Khovanov-Rozansky link homology",
+        "gauge theory"
+      ],
+      "related_concepts": [
+        "skein lasagna modules",
+        "4-manifolds",
+        "exotic compact 4-manifolds",
+        "trisections"
+      ],
+      "one_line_context": "The speaker discusses an extension of skein lasagna theory for cornered 4-manifolds and its application to trisections.",
+      "ai_generated": true
+    },
+    "abstract": "The theory of skein lasagna modules, initiated by Morrison-Walker-Wedrich, has been the subject of much interest in recent years. This theory takes as input Khovanov-Rozansky link homology and yields invariants of oriented 4-manifolds, which are generally very powerful yet hard to calculate. Most excitingly, this theory was used recently to detect exotic compact 4-manifolds by Ren-Willis, marking the first such result proven without the use of gauge theory. In this talk I will discuss an extension of skein lasagna theory for cornered 4-manifolds and describe an application to trisections of 4-manifolds, with an eye towards calculations. This is ongoing joint work with Slava Krushkal and Yangxiao Luo.",
+    "affiliation": "UVA",
+    "datetime_end": "2025-04-14T17:00:00",
+    "datetime_start": "2025-04-14T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Sarah Blackwell",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "2b95a702a6de2c2b"
+  },
+  {
+    "title": "Multivariable irreducible polynomials and splitting types",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "irreducible polynomials",
+        "finite fields",
+        "splitting types",
+        "polysymmetric functions"
+      ],
+      "one_line_context": "This talk presents the formula for the number of irreducible polynomials in the multivariable case using combinatorial objects and polysymmetric functions.",
+      "ai_generated": true
+    },
+    "abstract": "The number of irreducible polynomials in a finite field F can be computed using Gauss's formula, but the multivariable case is not so straightforward. In this talk, we will walk through the one variable case, and discuss how we can record the factorizations in the multivariable case using combinatorial objects called splitting types. We will then present the known formula for the number of irreducible polynomials in the mutivariable case, and discuss how Asvin G and Andrew O'Desky prove it through polysymmetric functions. This talk is accessible without any prerequisites.",
+    "affiliation": "VT",
+    "datetime_end": "2025-04-07T17:00:00",
+    "datetime_start": "2025-04-07T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Aditya Khanna",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "454191316e641a55"
+  },
+  {
+    "title": "Transparent elements in the G-skein module of a 3-dimensional manifold",
+    "annotations": {
+      "prerequisites": [
+        "symmetric polynomials"
+      ],
+      "related_concepts": [
+        "Lie group G",
+        "G-skein module",
+        "topological quantum field theory",
+        "special linear group SL_n"
+      ],
+      "one_line_context": "The speaker describes transparent elements in the G-skein module for the special linear group SL_n using symmetric polynomials.",
+      "ai_generated": true
+    },
+    "abstract": "For a Lie group G, the G-skein module of a 3-dimensional manifold M is a fundamental object in Witten’s interpretation of quantum knot invariants in the framework of a topological quantum field theory. It depends on a parameter q and, when this parameter q is a root of unity, the G-skein module contains elements with a surprising “transparency” property, in the sense that they can be traversed by any other skein without changing the resulting total skein. I will describe some (and conjecturally all) of these transparent elements in the case of the special linear group SL_n. The construction is based on the very classical theory of symmetric polynomials in n variables.",
+    "affiliation": "USC (University of Southern California) / MSU (Michigan State University)",
+    "datetime_end": "2025-03-31T17:00:00",
+    "datetime_start": "2025-03-31T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Francis Bonahon",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "8355d14b7d3a891c"
+  },
+  {
+    "title": "Multiplicity-free manifolds equipped with Gelfand–Cetlin systems",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "multiplicity-free manifolds",
+        "Gelfand–Cetlin systems",
+        "Lagrangian branes",
+        "Fukaya category"
+      ],
+      "one_line_context": "The speaker analyzes critical points of potential functions on multiplicity-free manifolds to identify Lagrangian branes and generation criteria for the Fukaya category.",
+      "ai_generated": true
+    },
+    "abstract": "We study some examples of multiplicity-free manifolds equipped with Gelfand–Cetlin systems. By analyzing the critical points of the potential function, we identify a collection of Lagrangian branes supported on a non-displaceable Lagrangian fiber. We also show that most of the other fibers are displaceable by probes. Finally, we explain how this collection satisfies a generation criterion for the Fukaya category.",
+    "affiliation": "Rutgers",
+    "datetime_end": "2025-03-17T17:00:00",
+    "datetime_start": "2025-03-17T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Yao Xiao",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "db5c414921fb0263"
+  },
+  {
+    "title": "Short cycles in isogeny graphs on superspecial Abelian surfaces",
+    "annotations": {
+      "prerequisites": [
+        "cryptographic background",
+        "lattice-path enumeration techniques"
+      ],
+      "related_concepts": [
+        "elliptic curves",
+        "isogeny graphs",
+        "superspecial Abelian surfaces",
+        "hash functions"
+      ],
+      "one_line_context": "This talk introduces isogeny graphs on superspecial Abelian surfaces, their short cycles related to hash functions, and proofs using lattice-path enumeration.",
+      "ai_generated": true
+    },
+    "abstract": "Geometric objects and their transformations can be naturally modeled with graphs. The graphs on elliptic curves related by isogenies are cycle-free locally. This structure is no longer true for isogeny graphs on superspecial Abelian surfaces, which typically have many small cycles. These cycles correspond to collisions for hash functions derived from walks in the graph. In this talk, we will introduce the cryptographic background and related problems in isogeny graphs on superspecial Abelian surfaces. We will also give a formula for the number of such short cycles. The center of the talk is to present several proofs to the formula using lattice-path enumeration techniques.",
+    "affiliation": "VT",
+    "datetime_end": "2025-03-03T17:00:00",
+    "datetime_start": "2025-03-03T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Wendi Gao",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "e50fae39d1f8d63a"
+  },
+  {
+    "title": "Almost-concordance of knots in non-simply-connected 3-manifolds",
+    "annotations": {
+      "prerequisites": [
+        "Milnor’s link invariants"
+      ],
+      "related_concepts": [
+        "concordance of knots",
+        "almost-concordance",
+        "3-manifolds",
+        "aspherical 3-manifolds"
+      ],
+      "one_line_context": "The speaker discusses a recipe for constructing large families of pairwise homotopic knots in aspherical 3-manifolds distinguished by almost-concordance.",
+      "ai_generated": true
+    },
+    "abstract": "In this talk, we will consider concordance of knots modulo local knotting, or almost-concordance, in non-simply-connected 3-manifolds. Conjecturally, the number of almost-concordance classes of knots representing a fixed free homotopy class in a fixed 3-manifold is infinite, aside from one type of exceptional case. We will discuss a recipe for constructing large families of pairwise homotopic knots in aspherical 3-manifolds which are distinguished up to almost-concordance by extensions of Milnor’s link invariants.",
+    "affiliation": "UVA",
+    "datetime_end": "2025-02-17T17:00:00",
+    "datetime_start": "2025-02-17T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Ryan Stees",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "4bddbe000aa09856"
+  },
+  {
+    "title": "Combination and decomposition theorems for relatively hyperbolic groups",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "relatively hyperbolic group",
+        "Bowditch boundary",
+        "parabolic splitting",
+        "cut pairs"
+      ],
+      "one_line_context": "The speaker presents combination and decomposition theorems regarding parabolic cut pairs on the boundaries of relatively hyperbolic groups.",
+      "ai_generated": true
+    },
+    "abstract": "Given a relatively hyperbolic group, the topology of its Bowditch boundary is useful in understanding the underlying relatively hyperbolic structure. For example, for a connected boundary, we know from the work of Hruska–Dasgupta that the cut points are parabolic and correspond to a parabolic splitting of the group. We also know from Haulmark–Hruska that inseparable loxodromic cut pairs correspond to splittings over 2–ended subgroups.  For some time, it was suspected that inseparable cut pairs on the boundary can only be loxodromic. However, examples of parabolic cut pairs were discovered by Hruska–Walsh. In this talk, we will present a combination theorem for relatively hyperbolic groups, which results in such parabolic cut pairs. We will then present a decomposition theorem, which states that all relatively hyperbolic groups with inseparable parabolic cut pairs on their boundaries arise from the above-mentioned combination theorem.",
+    "affiliation": "UWM (Milwaukee)",
+    "datetime_end": "2025-02-03T17:00:00",
+    "datetime_start": "2025-02-03T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Kushlam Srivastava",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "1a7067f7761d9867"
+  },
+  {
+    "title": "Equivariant K-theory of parabolic flag Hilbert schemes",
+    "annotations": {
+      "prerequisites": [
+        "algebra and combinatorics",
+        "equivariant K-theory"
+      ],
+      "related_concepts": [
+        "Hilbert schemes",
+        "Macdonald Positivity Conjecture",
+        "modified Macdonald polynomials",
+        "Shuffle Conjecture"
+      ],
+      "one_line_context": "The speaker discusses recent work describing the fixed point classes of equivariant K-theory of parabolic flag Hilbert schemes using modified Macdonald polynomials.",
+      "ai_generated": true
+    },
+    "abstract": "The geometry of Hilbert schemes is intimately tied to algebra and combinatorics. In his proof of the Macdonald Positivity Conjecture, Haiman showed through a derived equivalence that the equivariant K-theory of Hilbert schemes of points in the plane is described by the ring of symmetric functions with two parameters. In particular, the fixed point classes correspond to modified Macdonald polynomials. Later, relating to the proof of the Shuffle Conjecture by Carlsson-Mellit, Carlsson-Gorsky-Mellit described the equivariant K-theory of parabolic flag Hilbert schemes using algebraic methods. I will discuss recent work in collaboration with Dan Orr where we describe the fixed point classes of the equivariant K-theory of parabolic flag Hilbert schemes in terms of partially-symmetric modified Macdonald polynomials.",
+    "affiliation": "VT",
+    "datetime_end": "2024-12-09T17:00:00",
+    "datetime_start": "2024-12-09T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Milo Weising",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "8ff5c1d6b2136176"
+  },
+  {
+    "title": "Actions of fusion categories on algebras",
+    "annotations": {
+      "prerequisites": [
+        "finite groups and their representation categories"
+      ],
+      "related_concepts": [
+        "fusion categories",
+        "topology",
+        "operator algebras",
+        "associative algebra",
+        "path algebras"
+      ],
+      "one_line_context": "This talk defines an action of a fusion category on an algebra, relates it to group actions, and applies it to path algebras.",
+      "ai_generated": true
+    },
+    "abstract": "Fusion categories are rich mathematical objects that generalize finite groups and their representation categories. Where do fusion categories appear in topology? What does it mean for a fusion category to act on an algebra? Do these actions generalize group actions on algebras? This question has been studied by many in the context of operator algebras but poses an interesting question for an associative algebra A. In this talk, we will define an action of a fusion category on an algebra and show how it relates to group actions on algebras. Then, as an application of this theory, we will apply our results to study actions of fusion categories on path algebras.",
+    "affiliation": "NCSU",
+    "datetime_end": "2024-12-02T17:00:00",
+    "datetime_start": "2024-12-02T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Alexander Betz",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "4db3aca6fd7068f3"
+  },
+  {
+    "title": "An extension of the Khovanov-Rozansky skein lasagna module to 4-manifolds with corners",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Khovanov-Rozansky skein lasagna module",
+        "4-manifold",
+        "framed oriented link",
+        "codimension 2 corners",
+        "trisections"
+      ],
+      "one_line_context": "The speaker discusses an extension of the skein lasagna theory to 4-manifolds with codimension 2 corners and its application to trisections.",
+      "ai_generated": true
+    },
+    "abstract": "The Khovanov-Rozansky skein lasagna module was introduced by Morrison-Walker-Wedrich as an invariant of 4-manifold with a framed oriented link in the boundary. I will discuss an extension of the skein lasagna theory to 4-manifolds with codimension 2 corners, its behavior under gluing, and applications to trisections of 4-manifolds. This is joint work with Sarah Blackwell and Slava Krushkal.",
+    "affiliation": "UVA",
+    "datetime_end": "2024-11-18T17:00:00",
+    "datetime_start": "2024-11-18T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Yangxiao Luo",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "dbd6c2da5242bdd0"
+  },
+  {
+    "title": "Positivity of line bundles from vertex operator algebra representations",
+    "annotations": {
+      "prerequisites": [
+        "representation theory of vertex operator algebras"
+      ],
+      "related_concepts": [
+        "line bundles",
+        "moduli spaces of curves",
+        "projective varieties"
+      ],
+      "one_line_context": "The speaker discusses criteria for ensuring positivity of line bundles arising from VOA representations to study the geometry of moduli spaces.",
+      "ai_generated": true
+    },
+    "abstract": "The representation theory of vertex operator algebras (VOAs) provides a natural way to construct line bundles on moduli spaces of curves with marked points. When these line bundles are positive, the associated morphisms to projective varieties can shed light on the geometry of the moduli space itself. In this talk, I will discuss several criteria for ensuring positivity of these line bundles arising from VOA representations.",
+    "affiliation": "UPenn",
+    "datetime_end": "2024-11-11T17:00:00",
+    "datetime_start": "2024-11-11T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Avik Chakravarty",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "31459a5bb5e215ca"
+  },
+  {
+    "title": "CSM-Thom polynomials and contact multisingularities",
+    "annotations": {
+      "prerequisites": [
+        "classical Thom polynomial",
+        "geometric representation theory"
+      ],
+      "related_concepts": [
+        "CSM-Thom polynomials",
+        "enumerative geometry",
+        "singularity locus",
+        "stable envelope",
+        "projective spaces"
+      ],
+      "one_line_context": "The speaker proves new formulas for CSM classes of contact multisingularities using interpolation to study geometry of singularity loci.",
+      "ai_generated": true
+    },
+    "abstract": "CSM-Thom polynomials are ℏ-deformations of the classical Thom polynomial, which was introduced to unify problems in classical enumerative geometry. The CSM-Thom polynomials are powerful universal polynomials which capture the geometry of the singularity locus of any map (sharp information), given only (soft) topological information about the map. We prove new formulas for the CSM classes of various contact multisingularities using interpolation, a method recently developed by Koncki-Rimányi inspired by the stable envelope construction of geometric representation theory. As an application, we show how these new formulas can be used to obtain geometric information about singularity loci of maps of projective spaces, utilizing a theorem of Aluffi-Ohmoto.",
+    "affiliation": "UNC",
+    "datetime_end": "2024-11-04T17:00:00",
+    "datetime_start": "2024-11-04T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Reese Lance",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "69e9d38ed880a16a"
+  },
+  {
+    "title": "Generalizing embeddings of SL(3) basis webs to the SL(4) case",
+    "annotations": {
+      "prerequisites": [
+        "representation theory of quantum SL(2)"
+      ],
+      "related_concepts": [
+        "Temperley-Lieb category",
+        "SL(3) web category",
+        "SL(4) case",
+        "affine Grassmannian"
+      ],
+      "one_line_context": "The speaker reviews background materials on web categories and discusses a generalization of isometric embeddings from SL(3) to the SL(4) case.",
+      "ai_generated": true
+    },
+    "abstract": "To learn about the representation theory of quantum SL(2), one can study the Temperley-Lieb category, whose basis morphisms are planar matchings. A generalization to the SL(3) case gives rise to the SL(3) web category, whose basis morphisms are given by non-elliptic webs - planar trivalent graphs with girth greater or equal to 6. It is shown by Fontaine-Kamnitzer-Kuperberg that the dual graphs of SL(3) basis webs are embedded isometrically into the SL(3) affine building, which is defined as a simplicial complex with vertices given by elements in the affine Grassmannian. In this talk, I will review background materials and talk about a generalization of the embeddings to the SL(4) case, based on upcoming joint work with Gaetz-Striker-Swanson.",
+    "affiliation": "JHU",
+    "datetime_end": "2024-10-28T17:00:00",
+    "datetime_start": "2024-10-28T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Haihan Wu",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "47bc0be813f79154"
+  },
+  {
+    "title": "Homotopy invariance of stratified vector bundles",
+    "annotations": {
+      "prerequisites": [
+        "algebraic topology"
+      ],
+      "related_concepts": [
+        "stratified vector bundles",
+        "Nash blow-up",
+        "stratified K-groups",
+        "Chern-Mather classes"
+      ],
+      "one_line_context": "The speaker investigates the homotopy invariance of stratified vector bundles using Nash blow-up constructions.",
+      "ai_generated": true
+    },
+    "abstract": "Stratified vector bundles are like vector bundles over a stratified space, but which may drop rank over the lower strata. They arise naturally in many contexts. As a first step to see if we can \"do algebraic topology\" with them, we investigate the extent to which they exhibit homotopy invariance. We will see that this leads naturally to Nash blow-up constructions, and that we can answer questions about their homotopy invariance in terms of these constructions. If there is time we will discuss how this in turn guides the way to a potentially fruitful definition of stratified K-groups and Chern-Mather classes of stratified vector bundles.",
+    "affiliation": "VT",
+    "datetime_end": "2024-10-21T17:00:00",
+    "datetime_start": "2024-10-21T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Varun Scarlett",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "0b3ad9374cb2703e"
+  },
+  {
+    "title": "Topological branched covers of the 2-sphere and Thurston maps",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Thurston maps",
+        "complex dynamics",
+        "quadratic polynomials",
+        "rational map"
+      ],
+      "one_line_context": "The speaker gives an overview of topological branched covers of the 2-sphere (Thurston maps) and related current problems.",
+      "ai_generated": true
+    },
+    "abstract": "Topological branched covers of the 2-sphere with only finitely many postcritical points (now commonly called Thurston maps) came under scrutiny in complex dynamics about 45 years ago because of the interest of Adrien Douady and John Hubbard in matings of quadratic polynomials. William Thurston gave a topological characterization of when such a branched cover is equivalent to a rational map. Thurston's characterization has been central to the field, but even decades later it can be difficult to work with because of the subtlety of the obstructions. I'll give an overview of the area and discuss some of the problems we're working on now that are related to this. The talk should be widely accessible.",
+    "affiliation": "VT",
+    "datetime_end": "2024-10-07T17:00:00",
+    "datetime_start": "2024-10-07T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "William Floyd",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "2944857762505853"
+  },
+  {
+    "title": "Quantized ideal sheaf basis for equivariant quantum K-theory of cominuscule flag varieties",
+    "annotations": {
+      "prerequisites": [
+        "classical K-theory ring"
+      ],
+      "related_concepts": [
+        "quantum K-theory",
+        "Frobenius algebra",
+        "cominuscule flag varieties",
+        "Schubert calculus"
+      ],
+      "one_line_context": "The speaker defines a quantization of the ideal sheaf basis for equivariant quantum K-theory of cominuscule flag varieties and discusses its combinatorics.",
+      "ai_generated": true
+    },
+    "abstract": "The (equivariant) quantum K-theory ring of a flag variety is a Frobenius algebra equipped with a perfect pairing called the quantum K-metric. It is known that in the classical K-theory ring for a given flag variety, the ideal sheaf basis is dual to the Schubert basis with regard to the sheaf Euler characteristic pairing. We define a quantization of the ideal sheaf basis for the equivariant quantum K-theory of cominuscule flag varieties. Cominuscule flag varieties allow for combinatorial descriptions of their Schubert calculus, beyond that of a general flag variety. In this talk we will give an overview of these cohomology theories and discuss why we care about the dual basis for these various intersection pairings. Time permitting, we will discuss the combinatorics of cominuscule varieties that allow one to write the Schubert expansion of any quantized ideal sheaf very quickly by hand.",
+    "affiliation": "VT",
+    "datetime_end": "2024-09-30T17:00:00",
+    "datetime_start": "2024-09-30T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Kevin Summers",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "f1f97ad9030110c7"
+  },
+  {
+    "title": "Modular polynomials, modular curves, and isogenies of elliptic curves",
+    "annotations": {
+      "prerequisites": [
+        "algebraic closure"
+      ],
+      "related_concepts": [
+        "elliptic curves",
+        "n-isogenies",
+        "modular polynomial",
+        "modular curve X_0(n)"
+      ],
+      "one_line_context": "The speaker gives background on modular polynomials and curves, and demonstrates how to recover isogenies from singular points.",
+      "ai_generated": true
+    },
+    "abstract": "A pair of elliptic curves $E_1, E_2$ over a field $k$ are $n$-isogenous if there exists a non-constant rational map $\\phi: E_1 \\to E_2$ defined over the algebraic closure $\\overline{k}$ of degree $n$ that preserves the group structure. *Usually* there is zero or one $n$-isogenies between two elliptic curves, but this is not always the case. The modular polynomial $\\Phi_{n}(X,Y) \\in \\mathbb{Z}[X,Y]$ of level $n$ is a bivariate symmetric polynomial $\\Phi_n(X, Y) \\in \\mathbb{Z}[X, Y]$ whose $k$-roots $(j_1, j_2)$ correspond to pairs of $n$-isogenous elliptic curves over $\\overline{k}$ with $j$-invariants $j_1, j_2$. The modular curve $X_0(n)$ is a smooth projective curve which is a coarse moduli space for pairs of $n$-isogenous elliptic curves and is birationally equivalent to the affine curve defined by $\\Phi_n(X, Y) = 0$. The singular points of $\\Phi_n(X,Y)=0$ correspond to elliptic curves with more than one $n$-isogeny between them, and by resolving the singularity we can recover the full set of $n$-isogenies. In this talk we give background on $\\Phi_n$ and $ X_0(n)$ and demonstrate how to recover isogenies from singular points of $\\Phi_n(X,Y)$.",
+    "affiliation": "VT",
+    "datetime_end": "2024-09-23T17:00:00",
+    "datetime_start": "2024-09-23T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "William Mahaney",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "dc0292a8d6cb897a"
+  },
+  {
+    "title": "Fano mirror symmetry and flag varieties",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Fano mirror symmetry",
+        "Fano manifolds",
+        "Landau-Ginzburg models",
+        "D-modules",
+        "flag varieties"
+      ],
+      "one_line_context": "The speaker discusses Fano mirror symmetry using the projective line and outlines current progress for flag varieties.",
+      "ai_generated": true
+    },
+    "abstract": "Fano mirror symmetry is a duality between Fano manifolds and Landau-Ginzburg models. Predictions include: Certain D-modules associated with given mirror pairs are isomorphic, and certain integral structures on their spaces of flat sections correspond to each other. I will discuss this picture using the projective line. Then I describe the current progress for a larger class of Fano manifolds called flag varieties.",
+    "affiliation": "VT",
+    "datetime_end": "2024-09-16T17:00:00",
+    "datetime_start": "2024-09-16T16:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Chi Hong Chow",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "5ba0f26f22821b35"
+  },
+  {
+    "title": "Getting Acquainted at The Maroon Door",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "departmental social",
+        "graduate research"
+      ],
+      "one_line_context": "A social gathering for statistics faculty and graduate students to introduce themselves and discuss research interests and goals.",
+      "ai_generated": true
+    },
+    "abstract": "Join us for snacks, drinks, and conversation as we get to know each other better. We’ve reserved the bar area, so we’ll be comfortably inside if it’s too warm/wet outside. We’ll go around and introduce ourselves. Graduate students and faculty, please be ready to share: Your 5-year goal, your current research interests, and a hobby you enjoy",
+    "affiliation": null,
+    "datetime_end": "2026-09-04T15:30:00",
+    "datetime_start": "2026-09-04T14:30:00",
+    "location": "The Maroon Door, 418 N Main St, Blacksburg, VA 24060",
+    "series": "Colloquium",
+    "speaker": null,
+    "department": "Statistics",
+    "source_url": "https://www.stat.vt.edu/about/colloquium-schedule.html",
+    "id": "ea5d671bcf037bbf"
+  },
+  {
+    "title": "Continuous-space occupancy models",
+    "annotations": {
+      "prerequisites": [
+        "spatial statistics",
+        "Bayesian methods",
+        "MCMC algorithms"
+      ],
+      "related_concepts": [
+        "occupancy models",
+        "Gaussian process",
+        "ecological data analysis"
+      ],
+      "one_line_context": "This talk introduces a new class of spatial occupancy models using a clipped Gaussian process to infer species distributions in continuous space.",
+      "ai_generated": true
+    },
+    "abstract": "Occupancy models are commonly used to infer species distributions over large spatial extent while accounting for imperfect detection. Current approaches, however, are unable to model species occurrence over continuous spatial domains while accounting for the discrete spatial domain of the observed data. We develop a new class of spatial occupancy models that embeds a change of spatial support between the observed data and occurrence process. We use a clipped Gaussian process to represent species occurrence in continuous space which can provide inferences at a finer resolution than the observed occupancy data. Our approach is beneficial because it allows for more realistic models of species occurrence, can account for species occurring in only a portion of a surveyed site, and can relate detection probabilities to these within-site occurrence proportions. We show how our model can be fit using Bayesian methods and develop a computationally efficient MCMC algorithm. We also show how our framework can be extended to handle multiple years of data to learn about species occupancy dynamics in continuous space. We demonstrate our model using simulated data and compare our approach to alternative spatial occupancy models. We also use our model to analyze ovenbird occurrence data collected in New Hampshire, USA.",
+    "affiliation": "University of Missouri",
+    "datetime_end": "2026-09-18T15:30:00",
+    "datetime_start": "2026-09-18T14:30:00",
+    "location": "300 Seitz Hall",
+    "series": "Colloquium",
+    "speaker": "Wilson Wright",
+    "department": "Statistics",
+    "source_url": "https://www.stat.vt.edu/about/colloquium-schedule.html",
+    "id": "aa70661ef30185d2"
+  },
+  {
+    "title": "Understanding CNN Efficiency: Statistical Generative Models for Unstructured Image Data",
+    "annotations": {
+      "prerequisites": [
+        "statistical learning theory",
+        "neural networks",
+        "probability and statistics"
+      ],
+      "related_concepts": [
+        "Convolutional Neural Networks",
+        "statistical generative models",
+        "image analysis"
+      ],
+      "one_line_context": "This talk presents novel statistical generative models and feature mapping approaches to analyze the theoretical efficiency of Convolutional Neural Networks in image analysis.",
+      "ai_generated": true
+    },
+    "abstract": "Convolutional Neural Networks (CNNs) are foundational in modern image analysis due to their ability to efficiently learn feature representations. However, theoretical understanding of their efficiency remains limited, largely due to inadequate modeling of image structures and their interaction with CNNs. To address this, we introduce novel statistical generative models (SGMs) that decompose images into task-relevant signals and noise, capturing the complexities of natural image data. Based on these SGMs, we propose a feature mapping approach (FMA) to characterize the transformation from raw image data to feature vectors. We analyze CNNs' approximation capabilities, their adaptation to low-dimensional structures, and their efficiency in vision tasks, ultimately developing statistical learning theories for CNN-based image analysis. Our findings reveal the challenges inherent in vision tasks and highlight CNNs' remarkable efficiency in addressing them, providing new insights into their theoretical and practical capabilities. This is based on the joint work with Dr. Guohao Shen.",
+    "affiliation": "University of North Carolina at Chapel Hill",
+    "datetime_end": "2026-09-25T15:30:00",
+    "datetime_start": "2026-09-25T14:30:00",
+    "location": "300 Seitz Hall",
+    "series": "Colloquium",
+    "speaker": "Hongtu Zhu",
+    "department": "Statistics",
+    "source_url": "https://www.stat.vt.edu/about/colloquium-schedule.html",
+    "id": "35dfe47d21bd4a41"
+  }
+]

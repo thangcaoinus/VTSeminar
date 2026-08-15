@@ -1,0 +1,20 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "sources": [
+    {
+      "department": "Mathematics",
+      "series": "Colloquium",
+      "url": "https://seminar.math.vt.edu/colloquium/"
+    },
+    {
+      "department": "Mathematics",
+      "series": "Geometry/Topology Seminar",
+      "url": "https://seminar.math.vt.edu/geom-top/"
+    },
+    {
+      "department": "Statistics",
+      "series": "Colloquium",
+      "url": "https://www.stat.vt.edu/about/colloquium-schedule.html"
+    }
+  ]
+}
