@@ -3,8 +3,11 @@
 A personal, **static** site of Virginia Tech research seminars. A weekly batch job extracts talks
 from department pages, bakes AI prerequisite/context annotations into one committed JSON file
 (`data/seminars.json`), and the frontend filters/searches that JSON entirely client-side. No backend,
-no database, near-zero cost. See `CLAUDE.md` for the working contract and `spec.md` for the full
-reasoning.
+no database, near-zero cost.
+
+**Design in one line:** precompute-and-serve-static. A scheduled GitHub Action does all the work
+(fetch + LLM extraction) at build time and commits the result; the site is just static files that
+read one JSON. Everything below is what you'd touch to run or extend it.
 
 Pipeline: **fetch → reduce → extract → annotate → merge → write**. Plain HTTP GET →
 `@mozilla/readability` clean text → Gemini structured extraction (schema-constrained, chunked +
@@ -39,8 +42,8 @@ Adding a source is a **one-line, data-only change**: append an object to the `"s
 { "department": "Mathematics", "series": "Colloquium", "url": "https://.../seminars.html" }
 ```
 
-**First, pass the source-selection check** (see `CLAUDE.md`): the page's seminar list must be present
-in the **server-rendered HTML**. Verify by running the URL through `reduceHtml` and confirming the
+**First, pass the source-selection check:** the page's seminar list must be present in the
+**server-rendered HTML**. Verify by running the URL through `reduceHtml` and confirming the
 reduced text actually contains the talks (speaker/date/title) — if you get only a masthead + "meeting
 info" blurb, the list is JS-injected and the page is **not usable** (plain `fetch` won't see it, and
 per project constraints we don't add a headless browser). Note some departments inject their *index*
