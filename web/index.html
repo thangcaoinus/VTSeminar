@@ -3,33 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VT Seminars</title>
+    <title>VT Seminars — Virginia Tech research seminar schedule</title>
+    <meta name="description" content="An aggregated, filterable schedule of Virginia Tech research seminars with AI-generated prerequisite and context notes." />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <h1>VT Seminars</h1>
-      <p class="disclaimer">
-        Prerequisites and context below are <strong>AI-generated</strong> and may be
-        inaccurate.
-      </p>
+    <!--
+      DIRECTION CONTRACT — "The Timetable" (seed f5a057d4, form: institutional
+      course-catalog/departmental schedule, index 4 of grounded list).
+      THESIS: A VT department's printed seminar schedule, made live. Refuses the
+        rounded-card feed; talks are ruled rows in a tabular register.
+      OWN-WORLD: Maroon (#630031) masthead nameplate + rules; Hokie-stone warm
+        grays as ground; burnt orange (#E5751F) as the single live/selected accent.
+        Libre Franklin display, Public Sans body, tabular numerals for schedule data.
+      STORY: Reader scans a semester of talks like a wall schedule, filters to the
+        relevant, opens a row for abstract + AI context, judges relevance in seconds.
+      FIRST VIEWPORT: Maroon masthead nameplate with standing AI disclaimer; a
+        single ruled filter register beneath; List/Calendar as a register toggle;
+        then the schedule table — date gutter, title, meta line, hairline rules.
+      FORM: institutional timetable; index 4 of 7; seed key f5a057d4.
+      FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+    -->
+    <a class="skip-link" href="#results">Skip to schedule</a>
+
+    <header class="masthead">
+      <div class="masthead-bar">
+        <div class="nameplate">
+          <span class="nameplate-mark" aria-hidden="true">VT</span>
+          <span class="nameplate-text">
+            <span class="nameplate-title">Seminars</span>
+            <span class="nameplate-sub">Virginia Tech research schedule</span>
+          </span>
+        </div>
+        <p class="disclaimer" role="note">
+          <span class="disclaimer-tag">AI</span>
+          Prerequisites &amp; context are machine-generated — treat as a hint, verify against the source.
+        </p>
+      </div>
     </header>
 
-    <section class="controls">
-      <input id="search" type="search" placeholder="Search title, speaker, abstract…" />
-      <select id="department"><option value="">All departments</option></select>
-      <select id="series"><option value="">All series</option></select>
-      <input id="from" type="date" aria-label="From date" />
-      <input id="to" type="date" aria-label="To date" />
+    <section class="controls" aria-label="Filter the schedule">
+      <div class="control control--search">
+        <label for="search">Search</label>
+        <input id="search" type="search" placeholder="Title, speaker, or abstract…" />
+      </div>
+      <div class="control">
+        <label for="department">Department</label>
+        <select id="department"><option value="">All departments</option></select>
+      </div>
+      <div class="control">
+        <label for="series">Series</label>
+        <select id="series"><option value="">All series</option></select>
+      </div>
+      <div class="control">
+        <label for="from">From</label>
+        <input id="from" type="date" />
+      </div>
+      <div class="control">
+        <label for="to">To</label>
+        <input id="to" type="date" />
+      </div>
     </section>
 
-    <nav class="tabs" role="tablist" aria-label="View">
-      <button id="tab-list" class="tab" role="tab" aria-selected="true">List</button>
-      <button id="tab-calendar" class="tab" role="tab" aria-selected="false">Calendar</button>
-    </nav>
+    <div class="register" id="results">
+      <nav class="tabs" role="tablist" aria-label="View">
+        <button id="tab-list" class="tab" role="tab" aria-selected="true">Schedule</button>
+        <button id="tab-calendar" class="tab" role="tab" aria-selected="false">Calendar</button>
+      </nav>
+      <p class="count" id="count" aria-live="polite"></p>
+    </div>
 
     <main id="list" class="list" role="tabpanel" aria-labelledby="tab-list"></main>
     <main id="calendar" class="calendar" role="tabpanel" aria-labelledby="tab-calendar" hidden></main>
+
+    <footer class="colophon">
+      <p>An unofficial, personal aggregator. Not affiliated with Virginia Tech. Talk data links back to each department's source page.</p>
+    </footer>
 
     <script type="module" src="./main.js"></script>
   </body>

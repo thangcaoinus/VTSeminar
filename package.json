@@ -19,6 +19,8 @@
     "markdown-it": "^15.0.0"
   },
   "devDependencies": {
+    "@fontsource/libre-franklin": "^5.3.0",
+    "@fontsource/public-sans": "^5.3.0",
     "playwright": "^1.62.1",
     "vite": "^7.1.0"
   }

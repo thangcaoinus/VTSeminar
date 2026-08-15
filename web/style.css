@@ -1,103 +1,440 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   VT Seminars — "The Timetable"
+   A VT department's printed seminar schedule, made live: ruled rows in a tabular
+   register, a maroon masthead nameplate, Hokie-stone grays as ground, and burnt
+   orange as the single live/selected accent. Libre Franklin display + Public Sans.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
 :root {
-  --bg: #ffffff;
-  --fg: #1a1a1a;
-  --muted: #666;
-  --border: #e2e2e2;
-  --accent: #630031; /* VT maroon */
-  --card: #fafafa;
+  /* Brand */
+  --maroon: #630031;      /* VT Chicago Maroon */
+  --maroon-deep: #4a0025;
+  --orange: #e5751f;      /* VT Burnt Orange — the single live/selected accent */
+  --orange-ink: #b4560c;  /* orange readable as text on light ground */
+
+  /* Ground — warm Hokie-stone grays, paper-like */
+  --bg: #f4f2ee;          /* page: warm stone */
+  --surface: #fbfaf7;     /* rows / panels sit a shade lighter */
+  --surface-2: #efece5;   /* recessed wells (gutter, disabled) */
+  --fg: #1b1917;          /* near-black warm ink */
+  --muted: #6b655d;       /* secondary ink, ≥4.5:1 on surfaces */
+  --faint: #938c82;       /* tertiary / captions */
+  --rule: #d9d4ca;        /* hairline rules */
+  --rule-strong: #b9b2a5; /* heavier register rules */
+
+  --gutter-w: 5.5rem;
+  --measure: 68ch;
+  --shadow: 0 1px 2px rgba(27, 25, 23, 0.05), 0 6px 20px -12px rgba(27, 25, 23, 0.18);
+
+  --sans: 'Public Sans', system-ui, -apple-system, sans-serif;
+  --display: 'Libre Franklin', var(--sans);
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #141414;
-    --fg: #ececec;
-    --muted: #9a9a9a;
-    --border: #2c2c2c;
-    --accent: #c9738f;
-    --card: #1c1c1c;
+    --maroon: #8a1f4f;
+    --maroon-deep: #5c0f31;
+    --orange: #f0913f;
+    --orange-ink: #f0913f;
+    --bg: #17140f;
+    --surface: #201c16;
+    --surface-2: #2a251d;
+    --fg: #efe9df;
+    --muted: #a79f92;
+    --faint: #837b6e;
+    --rule: #332d24;
+    --rule-strong: #453d31;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -14px rgba(0, 0, 0, 0.6);
   }
 }
+/* Explicit theme toggle (viewer override) must win both directions. */
+:root[data-theme='light'] { color-scheme: light; }
+:root[data-theme='dark'] { color-scheme: dark; }
 
 * { box-sizing: border-box; }
+html { color-scheme: light dark; }
+
 body {
   margin: 0;
-  font: 16px/1.5 system-ui, -apple-system, sans-serif;
+  font: 400 16px/1.55 var(--sans);
   color: var(--fg);
   background: var(--bg);
-  max-width: 900px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* Content column shared by masthead, controls, register, and results. */
+.masthead-bar,
+.controls,
+.register,
+.list,
+.calendar,
+.colophon {
+  max-width: 62rem;
   margin-inline: auto;
-  padding: 1.5rem;
+  padding-inline: 1.5rem;
 }
 
-header h1 { margin: 0 0 0.25rem; color: var(--accent); }
-.disclaimer { margin: 0 0 1rem; color: var(--muted); font-size: 0.9rem; }
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--maroon);
+  color: #fff;
+  padding: 0.5rem 0.9rem;
+  z-index: 20;
+}
+.skip-link:focus { left: 0.5rem; top: 0.5rem; }
 
+/* ── Masthead ───────────────────────────────────────────────────────────── */
+.masthead {
+  background: var(--maroon);
+  color: #fdf6f0;
+  border-bottom: 3px solid var(--orange);
+}
+.masthead-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem 2rem;
+  flex-wrap: wrap;
+  padding-block: 1.15rem;
+}
+.nameplate { display: flex; align-items: center; gap: 0.8rem; }
+.nameplate-mark {
+  font: 900 1.05rem/1 var(--display);
+  letter-spacing: 0.02em;
+  color: var(--maroon);
+  background: #fdf6f0;
+  padding: 0.35rem 0.5rem;
+  border-radius: 3px;
+}
+.nameplate-text { display: flex; flex-direction: column; line-height: 1.05; }
+.nameplate-title {
+  font: 800 1.55rem/1 var(--display);
+  letter-spacing: -0.02em;
+}
+.nameplate-sub {
+  margin-top: 0.28rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #e6b9c9;
+}
+
+.disclaimer {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin: 0;
+  max-width: 34rem;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: #f0d9e2;
+}
+.disclaimer-tag {
+  flex: none;
+  align-self: center;
+  font: 700 0.62rem/1 var(--sans);
+  letter-spacing: 0.08em;
+  color: var(--maroon);
+  background: var(--orange);
+  padding: 0.22rem 0.4rem;
+  border-radius: 3px;
+}
+
+/* ── Controls: one ruled filter register ────────────────────────────────── */
 .controls {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 0 1.25rem;
+  padding-block: 1.1rem 1.15rem;
+  border-bottom: 1px solid var(--rule);
 }
-.controls #search { grid-column: 1 / -1; }
-.controls input, .controls select {
-  min-width: 0; /* let grid tracks shrink below the input's intrinsic width */
-  padding: 0.5rem;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--bg);
-  color: var(--fg);
+.control { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+.control--search { grid-column: 1 / -1; }
+.control label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.control input,
+.control select {
+  min-width: 0;
+  width: 100%;
+  padding: 0.5rem 0.6rem;
   font: inherit;
+  font-size: 0.92rem;
+  color: var(--fg);
+  background: var(--surface);
+  border: 1px solid var(--rule-strong);
+  border-radius: 4px;
+  transition: border-color 0.12s, box-shadow 0.12s;
 }
-
-/* The hidden attribute must win over the display rules below (a bare `display`
-   otherwise overrides the UA `[hidden]{display:none}`), so inactive views collapse. */
-[hidden] { display: none !important; }
-.list { display: flex; flex-direction: column; gap: 1rem; }
-.card {
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1rem 1.25rem;
-  background: var(--card);
+.control input::placeholder { color: var(--faint); }
+.control input:focus,
+.control select:focus {
+  outline: none;
+  border-color: var(--orange);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--orange) 28%, transparent);
 }
-.card h2 { margin: 0 0 0.4rem; font-size: 1.15rem; }
-.meta { margin: 0.15rem 0; color: var(--muted); font-size: 0.9rem; }
-.abstract { margin: 0.75rem 0; }
-.abstract p { margin: 0.5rem 0; }
-.abstract p:first-child { margin-top: 0; }
-.abstract p:last-child { margin-bottom: 0; }
-.context { margin: 0.5rem 0; }
-/* KaTeX display math: let long equations scroll instead of overflowing the card. */
-.card .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.25rem 0; }
-.ann { margin: 0.5rem 0; font-size: 0.92rem; }
-.ann ul { margin: 0.25rem 0 0; padding-left: 1.2rem; }
-.src { margin: 0.75rem 0 0; font-size: 0.85rem; }
-.src a { color: var(--accent); }
-.empty { color: var(--muted); padding: 2rem 0; text-align: center; }
+/* Date fields sit side-by-side under search on the second grid line. */
+.control input[type='date'] { font-variant-numeric: tabular-nums; }
 
-/* ── View tabs ─────────────────────────────────────────────────────────── */
-.tabs {
+/* ── Register bar: view toggle + count ──────────────────────────────────── */
+.register {
   display: flex;
-  gap: 0.25rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border);
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.25rem;
+  padding-bottom: 0;
 }
+.tabs { display: flex; gap: 1.5rem; }
 .tab {
   appearance: none;
   border: none;
   background: none;
+  font: 700 0.95rem/1 var(--display);
+  letter-spacing: -0.01em;
   color: var(--muted);
-  font: inherit;
-  font-weight: 600;
-  padding: 0.5rem 0.9rem;
+  padding: 0 0 0.6rem;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   margin-bottom: -1px;
-  border-radius: 6px 6px 0 0;
 }
-.tab:hover { color: var(--fg); background: var(--card); }
-.tab[aria-selected='true'] { color: var(--accent); border-bottom-color: var(--accent); }
-.tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tab:hover { color: var(--fg); }
+.tab[aria-selected='true'] { color: var(--maroon); border-bottom-color: var(--orange); }
+.tab:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; border-radius: 2px; }
+.count {
+  margin: 0 0 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.register { border-bottom: 2px solid var(--rule-strong); }
+/* the border sits under the whole register; nudge padding so tab underline meets it */
+.register { padding-bottom: 0; }
 
-/* ── Calendar: month header ────────────────────────────────────────────── */
+/* ── Schedule (List view) ───────────────────────────────────────────────── */
+.list { padding-top: 0; padding-bottom: 3rem; }
+.schedule-group + .schedule-group { margin-top: 2rem; }
+.schedule-rule {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0.85rem 0 0.5rem;
+  font: 800 0.78rem/1 var(--display);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--maroon);
+  background: linear-gradient(var(--bg) 78%, transparent);
+  border-bottom: 1px solid var(--rule);
+}
+.schedule-rule-n {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The talk row: date gutter + body, divided by hairline rules. */
+.row {
+  display: grid;
+  grid-template-columns: var(--gutter-w) 1fr;
+  gap: 0 1.4rem;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.row:hover { background: color-mix(in srgb, var(--orange) 5%, transparent); }
+
+.row-gutter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 0.15rem;
+  padding-left: 0.85rem;
+  line-height: 1.1;
+  position: relative;
+}
+/* Accent tick beside the date, not a full-height rule — keeps tall rows tidy. */
+.row-gutter::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  width: 3px;
+  height: 3.4rem;
+  background: var(--rule-strong);
+  border-radius: 2px;
+}
+.row:hover .row-gutter::before { background: var(--orange); }
+.row-dow {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.row-date { display: flex; align-items: baseline; gap: 0.3rem; margin-top: 0.1rem; }
+.row-mon {
+  font: 700 0.72rem/1 var(--display);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.row-day {
+  font: 800 1.5rem/0.9 var(--display);
+  letter-spacing: -0.02em;
+  color: var(--fg);
+  font-variant-numeric: tabular-nums;
+}
+.row-time {
+  margin-top: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--orange-ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.row-body { min-width: 0; }
+.row-dept {
+  display: inline-block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--maroon);
+}
+.row-title {
+  margin: 0.2rem 0 0.35rem;
+  font: 700 1.22rem/1.28 var(--display);
+  letter-spacing: -0.017em;
+  color: var(--fg);
+  max-width: var(--measure);
+}
+/* Title-as-toggle: a button that reads as the heading, with a caret affordance. */
+.row-toggle {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  width: auto;
+  max-width: var(--measure);
+  padding: 0;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+.row-toggle:hover { color: var(--maroon); }
+.row-toggle:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; border-radius: 2px; }
+.row-caret {
+  flex: none;
+  align-self: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid var(--faint);
+  border-bottom: 2px solid var(--faint);
+  transform: rotate(45deg);
+  transition: transform 0.16s ease;
+}
+.row--open .row-caret { transform: rotate(225deg); }
+.row-toggle:hover .row-caret { border-color: var(--maroon); }
+.row-detail-wrap[hidden] { display: none; }
+.row-who,
+.row-where { margin: 0.1rem 0; font-size: 0.9rem; color: var(--muted); }
+.row-where { color: var(--faint); }
+
+.row-detail { margin-top: 0.85rem; max-width: var(--measure); }
+/* One-line AI context reads as an editor's gloss: a small orange "In context"
+   label leads it, italic, no left-stripe (the world's rules are hairlines). */
+.row-context {
+  margin: 0 0 0.75rem;
+  font-style: italic;
+  color: var(--fg);
+}
+.row-context::before {
+  content: 'In context';
+  display: block;
+  margin-bottom: 0.15rem;
+  font: 700 0.64rem/1 var(--sans);
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--orange-ink);
+}
+.row-abstract { color: var(--fg); }
+.row-abstract p { margin: 0.55rem 0; }
+.row-abstract p:first-child { margin-top: 0; }
+.row-abstract p:last-child { margin-bottom: 0; }
+/* KaTeX display math scrolls instead of overflowing. */
+.row-abstract .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.2rem 0; }
+
+.row-ann {
+  margin-top: 0.85rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--surface-2);
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+.row-ann-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.ai-flag {
+  font: 700 0.6rem/1 var(--sans);
+  letter-spacing: 0.06em;
+  color: #fff;
+  background: var(--orange-ink);
+  padding: 0.16rem 0.32rem;
+  border-radius: 3px;
+}
+.row-ann ul { margin: 0.4rem 0 0; padding-left: 1.15rem; }
+.row-ann li { margin: 0.15rem 0; }
+
+.row-src { margin: 0.85rem 0 0; }
+.row-src a {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--maroon);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--maroon) 35%, transparent);
+}
+.row-src a:hover { color: var(--orange-ink); border-bottom-color: var(--orange); }
+
+.empty {
+  color: var(--muted);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.95rem;
+}
+.empty code {
+  font-family: ui-monospace, monospace;
+  background: var(--surface-2);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+}
+
+/* ═══ Calendar view — same world, tabular grid ═══════════════════════════ */
+.calendar { padding-top: 1.25rem; padding-bottom: 3rem; }
+
 .cal-head {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -109,139 +446,195 @@ header h1 { margin: 0 0 0.25rem; color: var(--accent); }
 .cal-title {
   order: 2;
   margin: 0;
-  font-size: 1.25rem;
-  color: var(--fg);
   text-align: center;
+  font: 800 1.35rem/1 var(--display);
+  letter-spacing: -0.02em;
+  color: var(--maroon);
 }
-.cal-count { order: 3; margin: 0; color: var(--muted); font-size: 0.85rem; white-space: nowrap; }
+.cal-count {
+  order: 3;
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--faint);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
 .cal-btn {
   appearance: none;
-  border: 1px solid var(--border);
-  background: var(--bg);
+  border: 1px solid var(--rule-strong);
+  background: var(--surface);
   color: var(--fg);
-  font: inherit;
-  min-width: 2.25rem;
-  height: 2.25rem;
-  padding: 0 0.6rem;
-  border-radius: 6px;
+  font: 600 0.85rem/1 var(--sans);
+  min-width: 2.3rem;
+  height: 2.3rem;
+  padding: 0 0.7rem;
+  border-radius: 4px;
   cursor: pointer;
-  line-height: 1;
 }
-.cal-btn:hover { border-color: var(--accent); color: var(--accent); }
-.cal-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.cal-btn:hover { border-color: var(--orange); color: var(--orange-ink); }
+.cal-btn:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
 
-/* ── Calendar: month grid ──────────────────────────────────────────────── */
 .cal-grid {
   display: grid;
-  /* minmax(0, 1fr): floor the track at 0 so a long chip can't inflate its column
-     past an equal 1/7 share. Keeps all 7 columns even and lets titles ellipsis. */
   grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
-  border-radius: 10px;
+  gap: 0;
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
   overflow: hidden;
+  background: var(--surface);
 }
 .cal-weekday {
-  background: var(--bg);
-  color: var(--muted);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  background: var(--maroon);
+  color: #f0d9e2;
+  font: 700 0.66rem/1 var(--sans);
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   text-align: center;
-  padding: 0.4rem 0;
+  padding: 0.5rem 0;
 }
 .cal-cell {
-  background: var(--bg);
-  min-height: 6.5rem;
-  padding: 0.35rem 0.4rem;
+  background: var(--surface);
+  min-height: 6.75rem;
+  padding: 0.4rem 0.45rem;
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
-  position: relative;
+  gap: 0.25rem;
+  border-right: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
 }
-.cal-cell--blank { background: var(--card); }
+/* right/bottom edges of the grid don't double the border */
+.cal-cell:nth-child(7n + 1) { /* first col after weekday header offset handled by grid flow */ }
+.cal-cell--blank { background: var(--surface-2); }
 .cal-cell--has { cursor: pointer; }
-.cal-cell--has:hover { background: var(--card); }
-.cal-cell--has:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
-.cal-daynum { font-size: 0.82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-.cal-cell--has .cal-daynum { color: var(--fg); font-weight: 600; }
+.cal-cell--has:hover { background: color-mix(in srgb, var(--orange) 8%, var(--surface)); }
+.cal-cell--has:focus-visible { outline: 2px solid var(--orange); outline-offset: -2px; }
+.cal-daynum {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.cal-cell--has .cal-daynum { color: var(--fg); font-weight: 700; }
 .cal-cell--today .cal-daynum {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 1.5rem;
-  height: 1.5rem;
-  margin: -0.15rem 0 -0.15rem -0.15rem;
-  border-radius: 999px;
-  background: var(--accent);
+  min-width: 1.55rem;
+  height: 1.55rem;
+  margin: -0.15rem 0 -0.1rem -0.15rem;
+  border-radius: 3px;
+  background: var(--maroon);
   color: #fff;
 }
-.cal-cell--selected { box-shadow: inset 0 0 0 2px var(--accent); }
+.cal-cell--selected { box-shadow: inset 0 0 0 2px var(--orange); }
 
-.cal-dots { display: none; } /* dots are a mobile affordance; hidden on the grid */
-.cal-chips { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; }
+.cal-dots { display: none; }
+.cal-chips { display: flex; flex-direction: column; gap: 0.22rem; min-width: 0; }
 .cal-chip {
   display: flex;
   align-items: baseline;
-  gap: 0.3rem;
+  gap: 0.32rem;
   min-width: 0;
-  font-size: 0.74rem;
+  font-size: 0.73rem;
   line-height: 1.25;
-  padding: 0.12rem 0.35rem;
-  border-radius: 4px;
-  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  padding: 0.14rem 0.36rem;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--orange) 16%, transparent);
   color: var(--fg);
 }
-.cal-chip-time { color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; flex: none; }
+.cal-chip-time { color: var(--orange-ink); font-weight: 700; font-variant-numeric: tabular-nums; flex: none; }
 .cal-chip-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.cal-more { font-size: 0.72rem; color: var(--muted); padding: 0 0.35rem; }
+.cal-more { font-size: 0.72rem; font-weight: 600; color: var(--faint); padding: 0 0.36rem; }
 
-/* ── Calendar: day panel + undated ─────────────────────────────────────── */
-.cal-panel, .cal-undated {
-  margin-top: 1.25rem;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1rem 1.25rem;
-  background: var(--card);
+/* Day panel + Undated: reuse the schedule row, on a ruled well. */
+.cal-panel,
+.cal-undated {
+  margin-top: 1.5rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 6px;
+  padding: 1.1rem 1.35rem 0.5rem;
+  background: var(--surface);
 }
+/* The maroon register bar lives inside the panel head as an underline, so no
+   thick border fights the rounded frame. */
 .cal-panel-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--maroon);
+}
+.cal-panel-head h3,
+.cal-undated h3 {
+  margin: 0;
+  font: 800 1.05rem/1.1 var(--display);
+  letter-spacing: -0.01em;
+  color: var(--maroon);
+}
+.cal-undated h3 {
   margin-bottom: 0.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--maroon);
 }
-.cal-panel-head h3, .cal-undated h3 { margin: 0; font-size: 1.05rem; }
-.cal-undated h3 { margin-bottom: 0.15rem; }
 .cal-undated-count {
-  font-size: 0.8rem;
-  color: var(--muted);
-  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--faint);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
-.cal-undated-note { margin: 0 0 0.75rem; color: var(--muted); font-size: 0.85rem; }
+.cal-undated-note { margin: 0 0 0.5rem; color: var(--muted); font-size: 0.85rem; }
+.cal-panel .row:last-child,
+.cal-undated .row:last-child { border-bottom: none; }
 
-/* The day panel and Undated section reuse the full List-view .card. The panel
-   already sits on a --card surface, so nested cards take the page --bg and a
-   little spacing to separate multiple talks on one day. */
-.cal-panel .card, .cal-undated .card { background: var(--bg); }
-.cal-panel .card + .card, .cal-undated .card + .card { margin-top: 0.75rem; }
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width: 720px) {
+  .controls { grid-template-columns: 1fr 1fr; }
+  .control--search { grid-column: 1 / -1; }
+}
 
-/* ── Calendar: mobile — stack to a day list, no horizontal scroll ──────── */
-@media (max-width: 640px) {
+@media (max-width: 560px) {
+  :root { --gutter-w: 4.25rem; }
+  .masthead-bar { padding-block: 1rem; }
+  .nameplate-title { font-size: 1.35rem; }
+  .disclaimer { max-width: none; font-size: 0.78rem; }
+
+  .row { gap: 0 1rem; }
+  .row-title { font-size: 1.08rem; }
+  .row-day { font-size: 1.3rem; }
+
+  /* Calendar: compact cells, dot indicators, talks via the day panel. */
   .cal-head { grid-template-columns: 1fr auto; row-gap: 0.5rem; }
-  .cal-title { order: 0; grid-column: 1; text-align: left; }
+  .cal-title { order: 0; grid-column: 1; text-align: left; font-size: 1.15rem; }
   .cal-nav { order: 0; grid-column: 2; }
   .cal-count { order: 1; grid-column: 1 / -1; }
-
-  .cal-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
-  .cal-weekday { font-size: 0.6rem; }
-  .cal-cell { min-height: 3rem; padding: 0.3rem 0.2rem; align-items: center; }
+  .cal-weekday { font-size: 0.58rem; }
+  .cal-cell { min-height: 3rem; padding: 0.3rem 0.15rem; align-items: center; }
   .cal-daynum { font-size: 0.78rem; }
-  /* Chips don't fit in tiny cells — show dot indicators, reveal talks via the panel. */
   .cal-chips { display: none; }
   .cal-dots { display: flex; gap: 2px; justify-content: center; }
-  .cal-dot { width: 4px; height: 4px; border-radius: 999px; background: var(--accent); }
+  .cal-dot { width: 4px; height: 4px; border-radius: 999px; background: var(--orange); }
+  .cal-panel, .cal-undated { padding-inline: 1rem; }
 }
 
+/* Inactive view must fully collapse (a bare display would beat [hidden]). */
+[hidden] { display: none !important; }
+
+/* ── Colophon ───────────────────────────────────────────────────────────── */
+.colophon {
+  padding-block: 1.5rem 2.5rem;
+  border-top: 1px solid var(--rule);
+  margin-top: 1rem;
+}
+.colophon p {
+  margin: 0;
+  max-width: var(--measure);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: var(--faint);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .row, .tab, .control input, .control select, .cal-btn { transition-duration: 0.14s; }
+}

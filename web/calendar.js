@@ -202,7 +202,8 @@ function dayPanel(key, dayTalks) {
   });
   // Reuse the full List-view card so the day panel shows the complete talk
   // (abstract, context, AI prerequisites, source) — one card renderer, no drift.
-  const items = dayTalks.map(card).join('');
+  // A day is already narrowed to a few talks — show detail expanded.
+  const items = dayTalks.map((t) => card(t, { expanded: true })).join('');
   return `
     <section class="cal-panel" aria-label="Talks on ${esc(heading)}">
       <div class="cal-panel-head">
@@ -214,7 +215,7 @@ function dayPanel(key, dayTalks) {
 }
 
 function undatedSection(undated) {
-  const items = undated.map(card).join('');
+  const items = undated.map((t) => card(t, { expanded: true })).join('');
   return `
     <section class="cal-undated" aria-label="Talks without a scheduled date">
       <h3>Undated <span class="cal-undated-count">${undated.length}</span></h3>
