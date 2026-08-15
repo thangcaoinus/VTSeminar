@@ -1,0 +1,120 @@
+{
+  "source": {
+    "department": "Mathematics",
+    "series": "Colloquium",
+    "url": "https://seminar.math.vt.edu/colloquium/"
+  },
+  "_note": "Ground truth from reduced page text. Fridays 4:00-5:00 PM, McBryde 455 (Spring 2026, US Eastern). 'Host:' is not a schema field and must be ignored. For the Apr 24 (Ghattas) talk the 'Bio:' block is NOT the abstract. Objective fields strict; annotations lenient.",
+  "talks": [
+    {
+      "title": "Geometry, Symmetry, and Counting Curves: A Combinatorial Perspective",
+      "speaker": "Ryan Shifler",
+      "affiliation": null,
+      "series": "Colloquium",
+      "datetime_start": "2026-01-23T16:00:00-05:00",
+      "datetime_end": "2026-01-23T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "Hilbert's 15th problem calls for a rigorous foundation for Schubert's calculus, which provides classical rules for counting geometric figures satisfying incidence conditions.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Structure and dynamics of gene regulatory networks",
+      "speaker": "Claus Kadelka",
+      "affiliation": "Iowa State",
+      "series": "Colloquium",
+      "datetime_start": "2026-01-30T16:00:00-05:00",
+      "datetime_end": "2026-01-30T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "Gene regulatory networks (GRNs) play a central role in cellular decision-making. Understanding their structure and how it impacts their dynamics constitutes a fundamental biological question.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "From harmonic analysis to exact signal recovery",
+      "speaker": "Alex Iosevich",
+      "affiliation": "University of Rochester",
+      "series": "Colloquium",
+      "datetime_start": "2026-02-13T16:00:00-05:00",
+      "datetime_end": "2026-02-13T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "We are going to describe how classical techniques from harmonic analysis, such as linear and bilinear restriction theory, have been used to study signal recovery.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Analysis of the adhesion model and reconstruction in cosmology",
+      "speaker": "Jian-Guo Liu",
+      "affiliation": "Duke University",
+      "series": "Colloquium",
+      "datetime_start": "2026-02-27T16:00:00-05:00",
+      "datetime_end": "2026-02-27T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "In cosmology, a basic explanation of the observed concentration of mass in singular structures is provided by the Zeldovich approximation.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Iterated Fourier Series",
+      "speaker": "Camil Muscalu",
+      "affiliation": "Cornell University",
+      "series": "Colloquium",
+      "datetime_start": "2026-03-20T16:00:00-05:00",
+      "datetime_end": "2026-03-20T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "The plan of the talk is to describe a bridge that connects in a natural way two mathematical worlds: the KdV equation and the absolute Galois group.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Dilation Methods for Deterministic and Stochastic Dynamics with Quantum Computing Applications",
+      "speaker": "Xiantao Li",
+      "affiliation": "Penn State",
+      "series": "Colloquium",
+      "datetime_start": "2026-03-27T16:00:00-05:00",
+      "datetime_end": "2026-03-27T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "Quantum algorithms are naturally formulated in terms of unitary dynamics, while many models from scientific computing involve dissipation, forcing, or randomness. In this talk I will describe a dilation-based approach for bridging this gap.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Expander Graphs and Coding Theory",
+      "speaker": "Christine Kelley",
+      "affiliation": "University of Nebraska-Lincoln",
+      "series": "Colloquium",
+      "datetime_start": "2026-04-03T16:00:00-05:00",
+      "datetime_end": "2026-04-03T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "One fundamental goal in coding theory is to design explicit algebraic code ensembles that are asymptotically good.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Real Time Bayesian Inference for Tsunami Early Warning",
+      "speaker": "Omar Ghattas",
+      "affiliation": "Oden Institute & Mechanical Engineering, UT Austin",
+      "series": "Colloquium",
+      "datetime_start": "2026-04-24T16:00:00-05:00",
+      "datetime_end": "2026-04-24T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "The Cascadia Subduction Zone (CSZ) extends over 1000 km from northern California to northern Vancouver Island, capable of unleashing a magnitude 9 earthquake with resulting 30 meter high tsunamis.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Sublattices and Subrings of Z^n and Random Finite Abelian Groups",
+      "speaker": "Nathan Kaplan",
+      "affiliation": "UC Irvine",
+      "series": "Colloquium",
+      "datetime_start": "2026-05-01T16:00:00-05:00",
+      "datetime_end": "2026-05-01T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "How many sublattices of Z^n have index at most X? If we choose such a lattice at random, what is the probability that the quotient is cyclic?",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Two Variations on a Theme by Cremona",
+      "speaker": "Aaron Bertram",
+      "affiliation": "Utah",
+      "series": "Colloquium",
+      "datetime_start": "2026-05-08T16:00:00-05:00",
+      "datetime_end": "2026-05-08T17:00:00-05:00",
+      "location": "McBryde 455",
+      "abstract": "The Cremona transformation is a non-linear birational map between a projective space and its dual. It can be understood in terms of toric data.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    }
+  ]
+}

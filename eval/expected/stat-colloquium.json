@@ -1,0 +1,61 @@
+{
+  "source": {
+    "department": "Statistics",
+    "series": "Colloquium",
+    "url": "https://www.stat.vt.edu/about/colloquium-schedule.html"
+  },
+  "_note": "REDUCER-NOISE + MISSING-FIELD case. The reduced text is dominated by VT nav chrome (search/universal-access/story-type boilerplate) and a long list of archive links ('20xx Fall/Spring Colloquium Schedule') that must all be dropped. Fall 2026, Fridays 2:30-3:30 PM, 300 Seitz Hall. Two entries have full title+abstract (Wright, Zhu) and MUST be extracted well. The other three (Mak, Maiti, Lin) are TBA: speaker + date given, title/abstract are placeholders ('Title and Abstract Location:'). Because the schema REQUIRES a title, the extractor currently drops these titleless rows -- a known recall gap the eval SURFACES as 'MISSING' (not as field failures, since unmatched talks aren't field-scored). They stay in the fixture to document expected coverage; revisit if we decide titleless-but-scheduled talks should be kept with a synthesized/placeholder title. The Sep 4 'Getting Acquainted at The Maroon Door' is a social event, not a research talk -> the model may or may not include it; align_by=speaker won't match it, so it's neither required nor penalized. Talks align by SPEAKER.",
+  "align_by": "speaker",
+  "talks": [
+    {
+      "title": "Continuous-space occupancy models",
+      "speaker": "Wilson Wright",
+      "affiliation": "University of Missouri",
+      "series": "Colloquium",
+      "datetime_start": "2026-09-18",
+      "location": "300 Seitz",
+      "abstract": "Occupancy models are commonly used to infer species distributions over large spatial extents while accounting for imperfect detection.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Understanding CNN Efficiency: Statistical Generative Models for Unstructured Image Data",
+      "speaker": "Hongtu Zhu",
+      "affiliation": "University of North Carolina at Chapel Hill",
+      "series": "Colloquium",
+      "datetime_start": "2026-09-25",
+      "location": "300 Seitz",
+      "abstract": "Convolutional Neural Networks (CNNs) are foundational in modern image analysis due to their ability to efficiently learn feature representations.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Simon Mak",
+      "affiliation": null,
+      "series": "Colloquium",
+      "datetime_start": "2026-10-23",
+      "location": "300 Seitz",
+      "abstract": null,
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Taps Maiti",
+      "affiliation": null,
+      "series": "Colloquium",
+      "datetime_start": "2026-10-30",
+      "location": "300 Seitz",
+      "abstract": null,
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Lizhen Lin",
+      "affiliation": null,
+      "series": "Colloquium",
+      "datetime_start": "2026-11-13",
+      "location": "300 Seitz",
+      "abstract": null,
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    }
+  ]
+}

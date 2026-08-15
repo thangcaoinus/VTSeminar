@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "ingest": "node --env-file-if-exists=.env src/ingest.js",
+    "check-data": "node scripts/check-data.js",
     "eval": "node --env-file-if-exists=.env eval/run-eval.js",
     "dev": "vite",
     "build": "vite build",

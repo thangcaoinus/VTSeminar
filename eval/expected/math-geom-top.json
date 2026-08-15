@@ -1,0 +1,312 @@
+{
+  "source": {
+    "department": "Mathematics",
+    "series": "Geometry/Topology Seminar",
+    "url": "https://seminar.math.vt.edu/geom-top/"
+  },
+  "_note": "HARD CASE. The page has NO explicit titles (each talk is speaker + abstract only), so the model SYNTHESIZES a title -> title is non-deterministic and NOT strictly scored here (sentinel \"__ANY__\"). Years are absent on the page (schedule spans Sep->May); correct inference is academic year 2024-2025. Rows reading 'No Seminar'/'No Seminar (Break/Holiday)' are NOT talks and must be excluded. The real tests here are: (1) SEGMENTATION/exclusion -> exactly these ~20 talks, no 'No Seminar' rows; (2) speaker/affiliation SPLIT from concatenated text like 'Fredrick MooersUIUC (Urbana-Champaign)'. Talks align by SPEAKER. Location is stated GLOBALLY in the MEETING-INFO blurb (McBryde Hall 563, some Kelly Hall 310), not per talk, so the model may return null per-talk -> location is not strictly scored here (__ANY__). datetime_end is omitted -> not scored.",
+  "align_by": "speaker",
+  "date_ignore_year": true,
+  "talks": [
+    {
+      "title": "__ANY__",
+      "speaker": "Fredrick Mooers",
+      "affiliation": "UIUC (Urbana-Champaign)",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-04-21",
+      "location": "__ANY__",
+      "abstract": "Atiyah, Bott, and Shapiro's (ABS) foundational work on Clifford modules and K-theory has enjoyed numerous refinements.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Eric Lengyel",
+      "affiliation": "Terathon Software",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-04-21",
+      "location": "__ANY__",
+      "abstract": "This talk provides an introduction to the various objects and operations found in projective geometric algebra.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Sarah Blackwell",
+      "affiliation": "UVA",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-04-14",
+      "location": "__ANY__",
+      "abstract": "The theory of skein lasagna modules, initiated by Morrison-Walker-Wedrich, has been the subject of much interest.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Aditya Khanna",
+      "affiliation": "VT",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-04-07",
+      "location": "__ANY__",
+      "abstract": "The number of irreducible polynomials in a finite field can be computed using Gauss's formula, but the multivariable case is not so straightforward.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Francis Bonahon",
+      "affiliation": "USC (University of Southern California) / MSU (Michigan State University)",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-03-31",
+      "location": "__ANY__",
+      "abstract": "For a Lie group G, the G-skein module of a 3-dimensional manifold M is a fundamental object in Witten's interpretation of quantum knot invariants.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Yao Xiao",
+      "affiliation": "Rutgers",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-03-17",
+      "location": "__ANY__",
+      "abstract": "We study some examples of multiplicity-free manifolds equipped with Gelfand-Cetlin systems.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Wendi Gao",
+      "affiliation": "VT",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-03-03",
+      "location": "__ANY__",
+      "abstract": "Geometric objects and their transformations can be naturally modeled with graphs. The graphs on elliptic curves related by isogenies are cycle-free locally.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Ryan Stees",
+      "affiliation": "UVA",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-02-17",
+      "location": "__ANY__",
+      "abstract": "In this talk, we will consider concordance of knots modulo local knotting, or almost-concordance, in non-simply-connected 3-manifolds.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Kushlam Srivastava",
+      "affiliation": "UWM (Milwaukee)",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2025-02-03",
+      "location": "__ANY__",
+      "abstract": "Given a relatively hyperbolic group, the topology of its Bowditch boundary is useful in understanding the underlying relatively hyperbolic structure.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Milo Weising",
+      "affiliation": "VT",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-12-09",
+      "location": "__ANY__",
+      "abstract": "The geometry of Hilbert schemes is intimately tied to algebra and combinatorics. In his proof of the Macdonald Positivity Conjecture, Haiman showed a derived equivalence.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Alexander Betz",
+      "affiliation": "NCSU",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-12-02",
+      "location": "__ANY__",
+      "abstract": "Fusion categories are rich mathematical objects that generalize finite groups and their representation categories.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Yangxiao Luo",
+      "affiliation": "UVA",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-11-18",
+      "location": "__ANY__",
+      "abstract": "The Khovanov-Rozansky skein lasagna module was introduced by Morrison-Walker-Wedrich as an invariant of 4-manifold with a framed oriented link in the boundary.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Avik Chakravarty",
+      "affiliation": "UPenn",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-11-11",
+      "location": "__ANY__",
+      "abstract": "The representation theory of vertex operator algebras (VOAs) provides a natural way to construct line bundles on moduli spaces of curves with marked points.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Reese Lance",
+      "affiliation": "UNC",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-11-04",
+      "location": "__ANY__",
+      "abstract": "CSM-Thom polynomials are h-deformations of the classical Thom polynomial, which was introduced to unify problems in classical enumerative geometry.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Haihan Wu",
+      "affiliation": "JHU",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-10-28",
+      "location": "__ANY__",
+      "abstract": "To learn about the representation theory of quantum SL(2), one can study the Temperley-Lieb category, whose basis morphisms are planar matchings.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Varun Scarlett",
+      "affiliation": "VT",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-10-21",
+      "location": "__ANY__",
+      "abstract": "Stratified vector bundles are like vector bundles over a stratified space, but which may drop rank over the lower strata.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "William Floyd",
+      "affiliation": "VT",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-10-07",
+      "location": "__ANY__",
+      "abstract": "Topological branched covers of the 2-sphere with only finitely many postcritical points (now commonly called Thurston maps) came under scrutiny in complex dynamics.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Kevin Summers",
+      "affiliation": "VT",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-09-30",
+      "location": "__ANY__",
+      "abstract": "The (equivariant) quantum K-theory ring of a flag variety is a Frobenius algebra equipped with a perfect pairing called the quantum K-metric.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "William Mahaney",
+      "affiliation": "VT",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-09-23",
+      "location": "__ANY__",
+      "abstract": "A pair of elliptic curves E1, E2 over a field k are n-isogenous if there exists a non-constant rational map of degree n that preserves the group structure.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    },
+    {
+      "title": "__ANY__",
+      "speaker": "Chi Hong Chow",
+      "affiliation": "VT",
+      "series": "Geometry/Topology Seminar",
+      "datetime_start": "2024-09-16",
+      "location": "__ANY__",
+      "abstract": "Fano mirror symmetry is a duality between Fano manifolds and Landau-Ginzburg models.",
+      "annotations": {
+        "prerequisites": [],
+        "related_concepts": [],
+        "one_line_context": null,
+        "ai_generated": true
+      }
+    }
+  ]
+}

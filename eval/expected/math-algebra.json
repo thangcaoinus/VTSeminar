@@ -1,0 +1,109 @@
+{
+  "source": {
+    "department": "Mathematics",
+    "series": "Algebra Seminar",
+    "url": "https://seminar.math.vt.edu/algebra/"
+  },
+  "_note": "Ground truth authored from the reduced page text. Objective fields (speaker/affiliation/date/time/location/abstract-presence) are scored strictly; annotations are model-generated and scored leniently (present-vs-null). datetime_start is US Eastern (Spring 2026). Talks share a common time/location (Fridays 2:30-3:30 PM, McBryde 321). Note Apr 24 and May 1 are DISTINCT talks with an identical title (segmentation edge case).",
+  "talks": [
+    {
+      "title": "Zeta functions of modular curves and abstract isogeny graphs",
+      "speaker": "Travis Morrison",
+      "affiliation": "VT",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-01-30T14:30:00-05:00",
+      "datetime_end": "2026-01-30T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "Isogeny graphs of supersingular elliptic curves have broad application, from the study and computation of modular forms to post-quantum cryptography.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "3d mirror symmetry and bow varieties",
+      "speaker": "Tommaso Botta",
+      "affiliation": "Columbia",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-02-06T14:30:00-05:00",
+      "datetime_end": "2026-02-06T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "As advocated by Aganagic and Okounkov, mirror symmetry in three dimensions admits an enumerative interpretation in terms of quasimap counts to mirror dual symplectic varieties.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "An Exploration of Sato-Tate Groups of Curves",
+      "speaker": "Heidi Goodson",
+      "affiliation": "Brooklyn College and CUNY Graduate Center",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-02-13T14:30:00-05:00",
+      "datetime_end": "2026-02-13T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "The focus of this talk is on families of curves and their associated Sato-Tate groups - compact Lie groups predicted to determine the limiting distributions of coefficients of the normalized L-polynomials of the curves.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "A volcanic approach to torsion of CM elliptic curves",
+      "speaker": "Freddy Saia",
+      "affiliation": "UIC",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-02-27T14:30:00-05:00",
+      "datetime_end": "2026-02-27T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "A celebrated theorem of Merel states that for any fixed degree d, there are only finitely many groups which can arise as the torsion subgroup of an elliptic curve over a number field of degree d.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Geometric and cohomological properties of Bialynicki-Birula decompositions",
+      "speaker": "Chayim Lowen",
+      "affiliation": "Princeton",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-03-20T14:30:00-05:00",
+      "datetime_end": "2026-03-20T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "A celebrated result of Bialynicki-Birula states that a smooth complete Gm-variety with finite fixed locus admits a pair of pavings by so-called stable and unstable Gm-subvarieties.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Proving two matrices are inverses using pictures",
+      "speaker": "Aditya Khanna",
+      "affiliation": "VT",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-04-03T14:30:00-05:00",
+      "datetime_end": "2026-04-03T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "Many objects in combinatorics can be constructed recursively, and we can associate signed weights to these constructed objects.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "On Generating Maximal Orders in the Endomorphism Algebra of a Supersingular Elliptic Curve",
+      "speaker": "Will Mahaney",
+      "affiliation": "VT",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-04-10T14:30:00-05:00",
+      "datetime_end": "2026-04-10T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "The endomorphism ring of a supersingular elliptic curve is a maximal order in the definite quaternion algebra over Q ramified at a prime p.",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Multiline queue crystals and Demazure atom positivity",
+      "speaker": "Olya Mandelshtam",
+      "affiliation": "Waterloo",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-04-24T14:30:00-05:00",
+      "datetime_end": "2026-04-24T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "Crystal techniques are a standard tool for proving Schur positivity. Can they also be used to study Demazure atom positivity, where the Demazure atoms are the nonsymmetric pieces of Schur polynomials?",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    },
+    {
+      "title": "Multiline queue crystals and Demazure atom positivity",
+      "speaker": "Jiuzu Hong",
+      "affiliation": "UNC",
+      "series": "Algebra Seminar",
+      "datetime_start": "2026-05-01T14:30:00-05:00",
+      "datetime_end": "2026-05-01T15:30:00-05:00",
+      "location": "McBryde 321",
+      "abstract": "Crystal techniques are a standard tool for proving Schur positivity. Can they also be used to study Demazure atom positivity, where the Demazure atoms are the nonsymmetric pieces of Schur polynomials?",
+      "annotations": { "prerequisites": [], "related_concepts": [], "one_line_context": null, "ai_generated": true }
+    }
+  ]
+}

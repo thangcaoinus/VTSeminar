@@ -29,6 +29,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: npm run ingest
+      - name: Validate data before deploy (deterministic gate)
+        # Blocks commit/build/deploy if seminars.json is empty, invalid, missing required fields,
+        # or the talk count collapsed vs. HEAD (mass source failure). No LLM here.
+        run: npm run check-data
       - name: Commit updated data
         run: |
           git config user.name  "github-actions[bot]"
