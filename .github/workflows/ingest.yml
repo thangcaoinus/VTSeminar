@@ -86,6 +86,11 @@ jobs:
 
   deploy:
     needs: build
+    # `build` carries an always() conditional, so its result must be checked explicitly here:
+    # a downstream job with the default `if` is skipped unless every `needs` job *succeeded*, and
+    # GitHub does not treat an always()-gated upstream as an unconditional success. Deploy whenever
+    # build actually succeeded.
+    if: ${{ needs.build.result == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
