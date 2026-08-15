@@ -1,9 +1,21 @@
 name: ingest-and-deploy
 
+# Two paths share this workflow:
+#   - push to main / manual dispatch  -> just BUILD + DEPLOY the already-committed data (cheap, fast).
+#   - weekly cron / manual dispatch   -> also run INGEST first (Gemini calls, commits fresh data).
+# So a code-only push (CSS, JS, config) redeploys the site without spending API calls or rewriting
+# data/seminars.json. Ingest stays a scheduled/opt-in job.
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: '0 6 * * 1' # weekly, Mondays 06:00 UTC
-  workflow_dispatch: {} # allow manual runs
+  workflow_dispatch:
+    inputs:
+      run_ingest:
+        description: 'Run the ingest (Gemini) step before deploying'
+        type: boolean
+        default: false
 
 permissions:
   contents: write # commit updated data/seminars.json
@@ -15,7 +27,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # INGEST — only on the weekly cron or when a manual run opts in. Fetches sources, extracts +
+  # annotates via Gemini, validates, and commits fresh data/seminars.json. Skipped on ordinary
+  # pushes so code changes don't spend API calls.
   ingest:
+    if: >-
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' && inputs.run_ingest)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,16 +48,36 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: npm run ingest
       - name: Validate data before deploy (deterministic gate)
-        # Blocks commit/build/deploy if seminars.json is empty, invalid, missing required fields,
-        # or the talk count collapsed vs. HEAD (mass source failure). No LLM here.
+        # Blocks commit/deploy if seminars.json is empty, invalid, missing required fields, or the
+        # talk count collapsed vs. HEAD (mass source failure). No LLM here.
         run: npm run check-data
       - name: Commit updated data
+        # [skip ci] so this bot commit does not re-trigger the push build below.
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/seminars.json data/extract-cache.json
           git diff --staged --quiet || git commit -m "chore: update seminars.json [skip ci]"
           git push
+
+  # BUILD + DEPLOY — always runs. `needs: [ingest]` with `always()` means it waits for ingest when
+  # ingest ran, but still runs when ingest was skipped (ordinary push). Checks out the latest commit
+  # so it picks up any data the ingest job just pushed.
+  build:
+    needs: [ingest]
+    if: ${{ always() && needs.ingest.result != 'failure' && needs.ingest.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # get the freshest data if ingest just committed
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Validate committed data before deploy
+        run: npm run check-data
       - name: Build site
         run: npm run build
       - uses: actions/upload-pages-artifact@v3
@@ -47,7 +85,7 @@ jobs:
           path: dist
 
   deploy:
-    needs: ingest
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
