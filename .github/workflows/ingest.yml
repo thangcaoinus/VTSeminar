@@ -4,7 +4,7 @@ name: ingest-and-deploy
 # subtle ways):
 #   - BUILD + DEPLOY: runs on every trigger, plain success() semantics. Publishes the committed
 #     data/seminars.json + web/ to Pages.
-#   - INGEST: runs only on the weekly cron or an opt-in manual dispatch. Fetches sources, extracts
+#   - INGEST: runs only on the daily cron or an opt-in manual dispatch. Fetches sources, extracts
 #     via Gemini, validates, and pushes a fresh data commit. That push then triggers this workflow
 #     again (as a `push` event), which builds + deploys the new data. No [skip ci], so the data
 #     actually deploys; no loop, because the follow-up run is a push (ingest is gated off for pushes).
@@ -12,7 +12,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 6 * * 1' # weekly, Mondays 06:00 UTC
+    - cron: '0 6 * * *' # daily, 06:00 UTC (cheap: extract-cache skips the Gemini call on unchanged pages)
   workflow_dispatch:
     inputs:
       run_ingest:

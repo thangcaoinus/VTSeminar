@@ -40,6 +40,17 @@
       "department": "Mathematics",
       "series": "Mathematical Biology Seminar",
       "url": "https://seminar.math.vt.edu/mathbio/seminar.html"
+    },
+    {
+      "department": "Macromolecules Innovation Institute",
+      "series": "SYENSQO Seminar Series",
+      "url": "https://mii.vt.edu/outreach/technical-seminars.html"
+    },
+    {
+      "_comment": "ECE+CS joint colloquium (Alexandria campus). ECE publishes each semester at a NEW year-pinned URL (e.g. fall-2026-colloquium.html); the canonical Colloquium.html goes stale. Update this URL each semester — check ece.vt.edu/news/vt-ece-department-news/ for the current one.",
+      "department": "Electrical and Computer Engineering",
+      "series": "ECE/CS Colloquium",
+      "url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # VT Seminar Aggregator
 
-A personal, **static** site of Virginia Tech research seminars. A weekly batch job extracts talks
+A personal, **static** site of Virginia Tech research seminars. A daily batch job extracts talks
 from department pages, bakes AI prerequisite/context annotations into one committed JSON file
 (`data/seminars.json`), and the frontend filters/searches that JSON entirely client-side. No backend,
 no database, near-zero cost.
@@ -11,7 +11,7 @@ read one JSON. Everything below is what you'd touch to run or extend it.
 
 Pipeline: **fetch → reduce → extract → annotate → merge → write**. Plain HTTP GET →
 `@mozilla/readability` clean text → Gemini structured extraction (schema-constrained, chunked +
-cached) → dedupe/id → `data/seminars.json`. Runs only as a weekly GitHub Action, never on your
+cached) → dedupe/id → `data/seminars.json`. Runs only as a daily GitHub Action, never on your
 machine.
 
 ## Develop
@@ -74,7 +74,7 @@ change. Run it locally when you touch the extractor, prompt, schema, or reducer.
 
 ## CI deploy guard
 
-`.github/workflows/ingest.yml` runs weekly: ingest → **validate** → commit → build → deploy to Pages.
+`.github/workflows/ingest.yml` runs daily: ingest → **validate** → commit → build → deploy to Pages.
 The validate step (`npm run check-data`, `scripts/check-data.js`) is a deterministic gate that runs
 **before** commit/deploy and fails the job (so nothing ships) if `data/seminars.json` is empty or
 invalid, any talk is missing `id`/`title`/`department`/`source_url`, or the talk count collapsed vs.
