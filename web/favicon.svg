@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Seminar schedule">
+  <!-- Generic "timetable" mark: a schedule sheet with ruled rows and one live
+       accent row. Deliberately NOT VT branding — no "VT" letters, no logo. Uses
+       the project's own palette spirit (maroon ground + single orange accent). -->
+  <rect width="64" height="64" rx="12" fill="#630031"/>
+  <!-- date gutter -->
+  <rect x="14" y="16" width="8" height="32" rx="2" fill="#E5751F" opacity="0.35"/>
+  <!-- ruled rows -->
+  <rect x="26" y="18" width="24" height="4" rx="2" fill="#f2ede8"/>
+  <rect x="26" y="27" width="24" height="4" rx="2" fill="#f2ede8" opacity="0.7"/>
+  <!-- the single live/selected row -->
+  <rect x="26" y="36" width="24" height="4" rx="2" fill="#E5751F"/>
+  <rect x="26" y="45" width="16" height="4" rx="2" fill="#f2ede8" opacity="0.7"/>
+</svg>
