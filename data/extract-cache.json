@@ -15355,6 +15355,219 @@
           "speaker": null
         }
       ]
+    },
+    "https://mii.vt.edu/outreach/technical-seminars.html": {
+      "hash": "9b9c0c30975678971ef8a5d61ad383b1daa78a7951ec738efe9f7b8666cef25d",
+      "talks": [
+        {
+          "title": "The Adhesion of Ice to Polydimethylsiloxane",
+          "annotations": {
+            "prerequisites": [
+              "Polymer science",
+              "Surface chemistry"
+            ],
+            "related_concepts": [
+              "Ice adhesion",
+              "Polydimethylsiloxane (PDMS)",
+              "Material interfaces"
+            ],
+            "one_line_context": "This talk explores the adhesion properties of ice on polydimethylsiloxane surfaces.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "North Dakota State University",
+          "datetime_end": "2026-01-28T12:15:00-05:00",
+          "datetime_start": "2026-01-28T11:15:00-05:00",
+          "location": "Kelly Hall 310",
+          "series": "SYENSQO Seminar Series",
+          "speaker": "Andrew Croll"
+        },
+        {
+          "title": "Mitigating Chemical and Thermal Failures of Engineered Wettability Surfaces",
+          "annotations": {
+            "prerequisites": [
+              "Surface science",
+              "Thermodynamics"
+            ],
+            "related_concepts": [
+              "Wettability",
+              "Surface engineering",
+              "Material failure analysis"
+            ],
+            "one_line_context": "This talk discusses strategies to prevent chemical and thermal failures in engineered wettability surfaces.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "Rice University",
+          "datetime_end": "2026-02-04T12:15:00-05:00",
+          "datetime_start": "2026-02-04T11:15:00-05:00",
+          "location": "Steger Hall, Conference Room 145",
+          "series": "SYENSQO Seminar Series",
+          "speaker": "Daniel Preston"
+        },
+        {
+          "title": "Establishing the Precision of Polymerization Methods to Achieve Enhanced Functions",
+          "annotations": {
+            "prerequisites": [
+              "Polymer chemistry",
+              "Organic synthesis"
+            ],
+            "related_concepts": [
+              "Precision polymerization",
+              "Functional polymers"
+            ],
+            "one_line_context": "This talk examines how precision in polymerization techniques can be established to create materials with enhanced functional properties.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "University of Illinois at Urbana Champaign",
+          "datetime_end": "2026-03-04T12:15:00-05:00",
+          "datetime_start": "2026-03-04T11:15:00-05:00",
+          "location": "Kelly Hall 310",
+          "series": "SYENSQO Seminar Series",
+          "speaker": "Damien Guironnet"
+        },
+        {
+          "title": "Toward More Sustainable Macromolecules: from Polyethylene Mimics to Antimicrobial Polypeptides",
+          "annotations": {
+            "prerequisites": [
+              "Polymer science",
+              "Biochemistry or macromolecular chemistry"
+            ],
+            "related_concepts": [
+              "Sustainable polymers",
+              "Polyethylene mimics",
+              "Antimicrobial polypeptides"
+            ],
+            "one_line_context": "This talk focuses on the development of sustainable macromolecules ranging from polyethylene mimics to antimicrobial polypeptides.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "University of South Carolina",
+          "datetime_end": "2026-03-18T12:15:00-05:00",
+          "datetime_start": "2026-03-18T11:15:00-05:00",
+          "location": "Steger Hall, Conference Room 145",
+          "series": "SYENSQO Seminar Series",
+          "speaker": "Chuanbing Tang"
+        },
+        {
+          "title": "Building the Labs of the Future: Putting Automation and AI to Work in Chemistry",
+          "annotations": {
+            "prerequisites": [
+              "Basic chemistry",
+              "Introduction to artificial intelligence or laboratory automation"
+            ],
+            "related_concepts": [
+              "Laboratory automation",
+              "Artificial intelligence in chemistry",
+              "Digital chemistry"
+            ],
+            "one_line_context": "This talk explores the integration of automation and artificial intelligence into chemical laboratories.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "Oak Ridge National Laboratory",
+          "datetime_end": "2026-04-01T12:15:00-04:00",
+          "datetime_start": "2026-04-01T11:15:00-04:00",
+          "location": "Kelly Hall 310",
+          "series": "SYENSQO Seminar Series",
+          "speaker": "Jeff Foster"
+        },
+        {
+          "title": "Designing Adaptive Materials at the Interface of Nanotechnology and Polymer Science",
+          "annotations": {
+            "prerequisites": [
+              "Polymer science",
+              "Nanotechnology fundamentals"
+            ],
+            "related_concepts": [
+              "Adaptive materials",
+              "Nanomaterials",
+              "Smart polymers"
+            ],
+            "one_line_context": "This talk covers the design of adaptive materials combining concepts from nanotechnology and polymer science.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "Arizona State University",
+          "datetime_end": "2026-04-08T12:15:00-04:00",
+          "datetime_start": "2026-04-08T11:15:00-04:00",
+          "location": "Kelly Hall 310",
+          "series": "SYENSQO Seminar Series",
+          "speaker": "Eileen Seo"
+        }
+      ]
+    },
+    "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html": {
+      "hash": "f5c7306a093142e0a1568ee87872c42cb9585cf596001d5f3d35a87836e51725",
+      "talks": [
+        {
+          "title": "Hype to Value: Finding Durable Signal in AI Noise",
+          "annotations": {
+            "prerequisites": [
+              "Basic understanding of enterprise software and corporate strategy"
+            ],
+            "related_concepts": [
+              "Artificial Intelligence",
+              "Product Management",
+              "Enterprise Automation"
+            ],
+            "one_line_context": "This talk explores how companies are navigating artificial intelligence strategies, product integration, and customer relationship shifts amidst noise and high stakes.",
+            "ai_generated": true
+          },
+          "abstract": "Every company claims to have an AI strategy — but what does that actually mean in practice? Behind the announcements, organizations are making high-stakes decisions with incomplete information, caught between competitive pressures and employees whose work is being rapidly reshaped. Drawing on firsthand experience, this talk will look at how companies are trying to answer the questions they're all wrestling with: How does AI change the way we work? How do we incorporate AI into the products and services we offer? And how will it reshape our customers' relationships with us?",
+          "affiliation": "Salesforce",
+          "datetime_end": "2026-10-14T17:00:00",
+          "datetime_start": "2026-10-14T16:00:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Andrew Hall"
+        },
+        {
+          "title": "Grog Finds a Rock: What Cavemen, Cost, and Coordination Teach Us About AI",
+          "annotations": {
+            "prerequisites": [
+              "Familiarity with foundational concepts in software engineering or business operations"
+            ],
+            "related_concepts": [
+              "Digital Engineering",
+              "Model-Based Systems Engineering",
+              "AI Workflow Integration"
+            ],
+            "one_line_context": "Tracy Gregorio discusses practical lessons in adopting, coordinating, and verifying artificial intelligence in engineering workflows and internal operations.",
+            "ai_generated": true
+          },
+          "abstract": "Meet Grog, a fictional fellow who finds a powerful new tool—a rock—and immediately tries to use it for everything. His learning curve mirrors a challenge facing nearly every company adopting AI: capability does not guarantee fit. Tracy Gregorio, CEO of G2 Ops, shares how G2 Ops moved from early AI experimentation to practical applications in engineering workflows and internal operations. Following Grog from one rock to a coordinated crew, she will discuss what G2 Ops learned about coordinating AI, verifying its work, protecting data, and matching the tool—and its cost—to the job. The discussion will also examine how AI is reshaping engineering work, placing greater emphasis on defining objectives, designing workflows, and verifying results. Blending hard-won experience with humor, this talk is about how companies are wrestling with AI—and what it means for the students about to enter that fight.",
+          "affiliation": "G2 Ops, Inc.",
+          "datetime_end": "2026-10-21T17:00:00",
+          "datetime_start": "2026-10-21T16:00:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Tracy Gregorio"
+        },
+        {
+          "title": "Startups: The Good, The Bad, and The Ugly",
+          "annotations": {
+            "prerequisites": [
+              "Basic understanding of engineering careers and business principles"
+            ],
+            "related_concepts": [
+              "Entrepreneurship",
+              "Venture Capital",
+              "Technology Startups"
+            ],
+            "one_line_context": "This session provides engineering students with a practical framework for the founder journey, highlighting common mistakes and venture capital dynamics.",
+            "ai_generated": true
+          },
+          "abstract": "Most engineers who want to build a company will make the same mistakes – not because they lack technical skills, but because no one gave them an honest picture of what founding a company actually involves. This session draws on thirty years of experience as an operator, executive, and venture capital partner – across multiple industries, company builds, exits, and investment decisions – to give engineering students a practical framework for the founder journey. Topics include the mistakes founders most commonly make, what venture capitalists are actually looking for and how founders tend to misread that relationship, and what a realistic path from engineer to founder looks like. The lessons are drawn from specific experiences – some successful, some not.",
+          "affiliation": "Reach Power",
+          "datetime_end": "2026-12-02T17:00:00",
+          "datetime_start": "2026-12-02T16:00:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Jeff White"
+        }
+      ]
     }
   }
 }
