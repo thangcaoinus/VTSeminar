@@ -1,18 +1,23 @@
 name: ingest-and-deploy
 
-# Two independent concerns, deliberately NOT chained with always()/needs (which skips deploy in
-# subtle ways):
-#   - BUILD + DEPLOY: runs on every trigger, plain success() semantics. Publishes the committed
-#     data/seminars.json + web/ to Pages.
-#   - INGEST: runs only on the daily cron or an opt-in manual dispatch. Fetches sources, extracts
-#     via Gemini, validates, and pushes a fresh data commit. That push then triggers this workflow
-#     again (as a `push` event), which builds + deploys the new data. No [skip ci], so the data
-#     actually deploys; no loop, because the follow-up run is a push (ingest is gated off for pushes).
+# Design: DEPLOY ON ANY COMMIT.
+#   - Every commit that lands on main -> build + deploy the committed data. That covers both a
+#     human edit (CSS, config, code) and the daily cron's fresh data commit. One trigger, `push`,
+#     naturally handles both. Deploy doesn't care who committed or why; it just ships main.
+#   - INGEST runs only on the daily cron (or an opt-in manual dispatch). It fetches sources,
+#     extracts via Gemini, validates, and commits data/seminars.json. That commit is what triggers
+#     the deploy -- there is no separate "deploy the ingest result" step.
+#
+# CRITICAL: the ingest commit MUST be pushed with a PAT (secret PAT_PUSH), NOT the default
+# GITHUB_TOKEN. GitHub deliberately does NOT fire workflow runs for commits pushed with the
+# built-in GITHUB_TOKEN (loop-prevention). With the default token the cron's fresh-data commit is
+# invisible to Actions and never deploys -- that was the "data updated but site didn't" bug. A PAT
+# push is treated as a real push, so it triggers the deploy like any human commit would.
 on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 6 * * *' # daily, 06:00 UTC (cheap: extract-cache skips the Gemini call on unchanged pages)
+    - cron: '0 6 * * *' # daily, 06:00 UTC (extract-cache skips the Gemini call on unchanged pages)
   workflow_dispatch:
     inputs:
       run_ingest:
@@ -21,17 +26,22 @@ on:
         default: false
 
 permissions:
-  contents: write # ingest commits data/seminars.json
+  contents: write # deploy job needs read; ingest pushes via PAT, but keep write for safety
   pages: write
   id-token: write
 
+# Serialize Pages deploys; a newer deploy supersedes an in-flight one so the latest commit wins.
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: pages-deploy
+  cancel-in-progress: true
 
 jobs:
-  # BUILD + DEPLOY — every trigger. No needs/always(): plain, reliable success() gating.
+  # BUILD + DEPLOY -- runs for every commit on main (push), and for a manual dispatch that is NOT
+  # doing an ingest (a dispatch WITH run_ingest defers deploy to the commit that ingest pushes).
   build:
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'workflow_dispatch' && !inputs.run_ingest)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -60,14 +70,19 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
 
-  # INGEST — cron or opt-in dispatch only. Pushes fresh data, which re-triggers build+deploy above.
+  # INGEST -- cron or opt-in dispatch only. Commits fresh data pushed WITH THE PAT, so that commit
+  # arrives as a real push and triggers the build+deploy jobs above. No deploy in this job.
   ingest:
     if: >-
       github.event_name == 'schedule' ||
       (github.event_name == 'workflow_dispatch' && inputs.run_ingest)
     runs-on: ubuntu-latest
     steps:
+      # Check out with the PAT so the later `git push` is authed as the PAT (a real push that
+      # re-triggers workflows), not as the default GITHUB_TOKEN (which would not).
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_PUSH }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -80,7 +95,7 @@ jobs:
         run: npm run ingest
       - name: Validate freshly ingested data
         run: npm run check-data
-      - name: Commit + push updated data (triggers a build+deploy run)
+      - name: Commit + push updated data (this commit triggers build+deploy)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
