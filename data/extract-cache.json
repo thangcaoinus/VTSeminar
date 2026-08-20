@@ -15499,20 +15499,44 @@
       ]
     },
     "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html": {
-      "hash": "f5c7306a093142e0a1568ee87872c42cb9585cf596001d5f3d35a87836e51725",
+      "hash": "225dd39b150b78324feeaa7cae61a5a03b337e617d64a21449a39b1a8eb31c2d",
       "talks": [
+        {
+          "title": "From Virginia Tech to Silicon Valley: Navigating the AI Revolution — Career Insights, Tech Trends and Opportunities",
+          "annotations": {
+            "prerequisites": [
+              "basic concepts of artificial intelligence",
+              "general understanding of cloud infrastructure and semiconductors"
+            ],
+            "related_concepts": [
+              "generative AI",
+              "foundation models",
+              "product management"
+            ],
+            "one_line_context": "An industry leader shares career insights and explores how artificial intelligence trends are transforming the technology landscape.",
+            "ai_generated": true
+          },
+          "abstract": "The technology industry is undergoing a seismic transformation driven by artificial intelligence. In this talk, Faisal Wattoo—a Virginia Tech alumnus and Director of Product Management at Meta—shares his 20+ year career journey from the halls of Virginia Tech to leadership roles at Qualcomm, Amazon, and Meta, spanning semiconductors, smartphones, cloud infrastructure, and AI. Faisal will explore the key industry trends shaping AI today—from foundation models and generative AI to the infrastructure powering them at scale—and what these shifts mean for the broader tech landscape. He will then turn his focus to what matters most for students and emerging professionals: how to position yourself for success in this rapidly evolving field, what skills and mindsets are most valuable, and how to identify and seize the opportunities that AI is creating across every sector.",
+          "affiliation": "Meta",
+          "datetime_end": "2026-09-02T17:00:00",
+          "datetime_start": "2026-09-02T16:00:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Faisal Wattoo"
+        },
         {
           "title": "Hype to Value: Finding Durable Signal in AI Noise",
           "annotations": {
             "prerequisites": [
-              "Basic understanding of enterprise software and corporate strategy"
+              "basic corporate organizational concepts",
+              "general awareness of AI technologies"
             ],
             "related_concepts": [
-              "Artificial Intelligence",
-              "Product Management",
-              "Enterprise Automation"
+              "enterprise automation",
+              "artificial intelligence integration",
+              "product management"
             ],
-            "one_line_context": "This talk explores how companies are navigating artificial intelligence strategies, product integration, and customer relationship shifts amidst noise and high stakes.",
+            "one_line_context": "This talk examines how organizations realistically integrate artificial intelligence into products, workflows, and customer relationships.",
             "ai_generated": true
           },
           "abstract": "Every company claims to have an AI strategy — but what does that actually mean in practice? Behind the announcements, organizations are making high-stakes decisions with incomplete information, caught between competitive pressures and employees whose work is being rapidly reshaped. Drawing on firsthand experience, this talk will look at how companies are trying to answer the questions they're all wrestling with: How does AI change the way we work? How do we incorporate AI into the products and services we offer? And how will it reshape our customers' relationships with us?",
@@ -15527,17 +15551,18 @@
           "title": "Grog Finds a Rock: What Cavemen, Cost, and Coordination Teach Us About AI",
           "annotations": {
             "prerequisites": [
-              "Familiarity with foundational concepts in software engineering or business operations"
+              "basic understanding of engineering workflows",
+              "general awareness of AI implementation challenges"
             ],
             "related_concepts": [
-              "Digital Engineering",
+              "digital engineering transformation",
               "Model-Based Systems Engineering",
-              "AI Workflow Integration"
+              "cybersecurity engineering"
             ],
-            "one_line_context": "Tracy Gregorio discusses practical lessons in adopting, coordinating, and verifying artificial intelligence in engineering workflows and internal operations.",
+            "one_line_context": "A discussion on practical AI adoption, workflow coordination, and verifying results in engineering operations.",
             "ai_generated": true
           },
-          "abstract": "Meet Grog, a fictional fellow who finds a powerful new tool—a rock—and immediately tries to use it for everything. His learning curve mirrors a challenge facing nearly every company adopting AI: capability does not guarantee fit. Tracy Gregorio, CEO of G2 Ops, shares how G2 Ops moved from early AI experimentation to practical applications in engineering workflows and internal operations. Following Grog from one rock to a coordinated crew, she will discuss what G2 Ops learned about coordinating AI, verifying its work, protecting data, and matching the tool—and its cost—to the job. The discussion will also examine how AI is reshaping engineering work, placing greater emphasis on defining objectives, designing workflows, and verifying results. Blending hard-won experience with humor, this talk is about how companies are wrestling with AI—and what it means for the students about to enter that fight.",
+          "abstract": "Meet Grog, a fictional fellow who finds a powerful new tool—a rock—and immediately tries to use it for everything. His learning curve mirrors a challenge facing nearly every company adopting AI: capability does not guarantee fit. Tracy Gregorio, CEO of G2 Ops, shares how G2 Ops moved from early AI experimentation to practical applications in engineering workflows and internal operations. Following Grog from one rock to a coordinated crew, she will discuss what G2 Ops learned about coordinating AI, verifying its work, protecting data, and matching the tool—and its cost—to the job. The discussion will also examine how AI is reshaping engineering work, placing greater emphasis on defining objectives, designing workflows, and verifying results.",
           "affiliation": "G2 Ops, Inc.",
           "datetime_end": "2026-10-21T17:00:00",
           "datetime_start": "2026-10-21T16:00:00",
@@ -15549,14 +15574,14 @@
           "title": "Startups: The Good, The Bad, and The Ugly",
           "annotations": {
             "prerequisites": [
-              "Basic understanding of engineering careers and business principles"
+              "fundamental engineering background"
             ],
             "related_concepts": [
-              "Entrepreneurship",
-              "Venture Capital",
-              "Technology Startups"
+              "entrepreneurship",
+              "venture capital",
+              "company founding"
             ],
-            "one_line_context": "This session provides engineering students with a practical framework for the founder journey, highlighting common mistakes and venture capital dynamics.",
+            "one_line_context": "An experienced operator and investor provides a practical framework for engineers navigating the startup founder journey.",
             "ai_generated": true
           },
           "abstract": "Most engineers who want to build a company will make the same mistakes – not because they lack technical skills, but because no one gave them an honest picture of what founding a company actually involves. This session draws on thirty years of experience as an operator, executive, and venture capital partner – across multiple industries, company builds, exits, and investment decisions – to give engineering students a practical framework for the founder journey. Topics include the mistakes founders most commonly make, what venture capitalists are actually looking for and how founders tend to misread that relationship, and what a realistic path from engineer to founder looks like. The lessons are drawn from specific experiences – some successful, some not.",
