@@ -15499,50 +15499,130 @@
       ]
     },
     "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html": {
-      "hash": "225dd39b150b78324feeaa7cae61a5a03b337e617d64a21449a39b1a8eb31c2d",
+      "hash": "bb0ab88b6233bd15ef6d7b834360eda575f7dcbc38dce1bf60122ee89bea190c",
       "talks": [
         {
           "title": "From Virginia Tech to Silicon Valley: Navigating the AI Revolution — Career Insights, Tech Trends and Opportunities",
           "annotations": {
             "prerequisites": [
-              "basic concepts of artificial intelligence",
-              "general understanding of cloud infrastructure and semiconductors"
+              "Computer Engineering",
+              "Artificial Intelligence fundamentals"
             ],
             "related_concepts": [
-              "generative AI",
-              "foundation models",
-              "product management"
+              "Generative AI",
+              "Foundation Models",
+              "Cloud Infrastructure",
+              "Semiconductors"
             ],
-            "one_line_context": "An industry leader shares career insights and explores how artificial intelligence trends are transforming the technology landscape.",
+            "one_line_context": "A Meta product management director discusses his career journey from Virginia Tech and shares industry trends in artificial intelligence and cloud tech.",
             "ai_generated": true
           },
-          "abstract": "The technology industry is undergoing a seismic transformation driven by artificial intelligence. In this talk, Faisal Wattoo—a Virginia Tech alumnus and Director of Product Management at Meta—shares his 20+ year career journey from the halls of Virginia Tech to leadership roles at Qualcomm, Amazon, and Meta, spanning semiconductors, smartphones, cloud infrastructure, and AI. Faisal will explore the key industry trends shaping AI today—from foundation models and generative AI to the infrastructure powering them at scale—and what these shifts mean for the broader tech landscape. He will then turn his focus to what matters most for students and emerging professionals: how to position yourself for success in this rapidly evolving field, what skills and mindsets are most valuable, and how to identify and seize the opportunities that AI is creating across every sector.",
+          "abstract": "The technology industry is undergoing a seismic transformation driven by artificial intelligence. In this talk, Wattoo—a Virginia Tech alumnus and Director of Product Management at Meta—shares his 20+ year career journey from the halls of Virginia Tech to leadership roles at Qualcomm, Amazon, and Meta, spanning semiconductors, smartphones, cloud infrastructure, and AI. Wattoo will explore the key industry trends shaping AI today—from foundation models and generative AI to the infrastructure powering them at scale—and what these shifts mean for the broader tech landscape. He will then turn his focus to what matters most for students and emerging professionals: how to position yourself for success in this rapidly evolving field, what skills and mindsets are most valuable, and how to identify and seize the opportunities that AI is creating across every sector.",
           "affiliation": "Meta",
-          "datetime_end": "2026-09-02T17:00:00",
-          "datetime_start": "2026-09-02T16:00:00",
+          "datetime_end": "2026-09-02T17:00:00-04:00",
+          "datetime_start": "2026-09-02T16:00:00-04:00",
           "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
           "series": "ECE/CS Colloquium",
           "speaker": "Faisal Wattoo"
         },
         {
+          "title": "Pratik Karia",
+          "annotations": {
+            "prerequisites": [],
+            "related_concepts": [
+              "Enterprise Platforms",
+              "Technology Management"
+            ],
+            "one_line_context": "An industry leader from Bloomberg shares insights on enterprise platforms and technology.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "Bloomberg",
+          "datetime_end": "2026-09-09T17:00:00-04:00",
+          "datetime_start": "2026-09-09T16:00:00-04:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Pratik Karia"
+        },
+        {
+          "title": "Ryan Toohil",
+          "annotations": {
+            "prerequisites": [],
+            "related_concepts": [
+              "Computer Engineering",
+              "Software Technology"
+            ],
+            "one_line_context": "A technology executive shares professional insights and engineering experiences.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "GLOBO",
+          "datetime_end": "2026-09-16T17:00:00-04:00",
+          "datetime_start": "2026-09-16T16:00:00-04:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Ryan Toohil"
+        },
+        {
+          "title": "Dong Li",
+          "annotations": {
+            "prerequisites": [
+              "Computer Science",
+              "Computer Engineering"
+            ],
+            "related_concepts": [
+              "Systems Engineering",
+              "High-Performance Computing"
+            ],
+            "one_line_context": "An academic researcher discusses advanced topics in computer science and engineering.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "UC Merced",
+          "datetime_end": "2026-09-30T17:00:00-04:00",
+          "datetime_start": "2026-09-30T16:00:00-04:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Dong Li"
+        },
+        {
+          "title": "Karla Gill",
+          "annotations": {
+            "prerequisites": [],
+            "related_concepts": [
+              "Biopharma Technology",
+              "Information Technology Management"
+            ],
+            "one_line_context": "A biotechnology executive presents perspectives on technology leadership and industry applications.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "KBI Biopharma",
+          "datetime_end": "2026-10-07T17:00:00-04:00",
+          "datetime_start": "2026-10-07T16:00:00-04:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Karla Gill"
+        },
+        {
           "title": "Hype to Value: Finding Durable Signal in AI Noise",
           "annotations": {
             "prerequisites": [
-              "basic corporate organizational concepts",
-              "general awareness of AI technologies"
+              "Basic software development concepts",
+              "Business strategy fundamentals"
             ],
             "related_concepts": [
-              "enterprise automation",
-              "artificial intelligence integration",
-              "product management"
+              "Artificial Intelligence Integration",
+              "Enterprise Automation",
+              "Workflow Optimization"
             ],
-            "one_line_context": "This talk examines how organizations realistically integrate artificial intelligence into products, workflows, and customer relationships.",
+            "one_line_context": "A Salesforce automation leader explores how companies can realistically evaluate and integrate artificial intelligence to create actual business value.",
             "ai_generated": true
           },
           "abstract": "Every company claims to have an AI strategy — but what does that actually mean in practice? Behind the announcements, organizations are making high-stakes decisions with incomplete information, caught between competitive pressures and employees whose work is being rapidly reshaped. Drawing on firsthand experience, this talk will look at how companies are trying to answer the questions they're all wrestling with: How does AI change the way we work? How do we incorporate AI into the products and services we offer? And how will it reshape our customers' relationships with us?",
           "affiliation": "Salesforce",
-          "datetime_end": "2026-10-14T17:00:00",
-          "datetime_start": "2026-10-14T16:00:00",
+          "datetime_end": "2026-10-14T17:00:00-04:00",
+          "datetime_start": "2026-10-14T16:00:00-04:00",
           "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
           "series": "ECE/CS Colloquium",
           "speaker": "Andrew Hall"
@@ -15551,43 +15631,87 @@
           "title": "Grog Finds a Rock: What Cavemen, Cost, and Coordination Teach Us About AI",
           "annotations": {
             "prerequisites": [
-              "basic understanding of engineering workflows",
-              "general awareness of AI implementation challenges"
+              "Engineering workflow concepts"
             ],
             "related_concepts": [
-              "digital engineering transformation",
               "Model-Based Systems Engineering",
-              "cybersecurity engineering"
+              "Digital Engineering Transformation",
+              "Cybersecurity",
+              "Cloud Architecture"
             ],
-            "one_line_context": "A discussion on practical AI adoption, workflow coordination, and verifying results in engineering operations.",
+            "one_line_context": "Using a fictional allegory, a defense contractor CEO discusses practical lessons on matching AI tools and costs to real engineering workflows.",
             "ai_generated": true
           },
-          "abstract": "Meet Grog, a fictional fellow who finds a powerful new tool—a rock—and immediately tries to use it for everything. His learning curve mirrors a challenge facing nearly every company adopting AI: capability does not guarantee fit. Tracy Gregorio, CEO of G2 Ops, shares how G2 Ops moved from early AI experimentation to practical applications in engineering workflows and internal operations. Following Grog from one rock to a coordinated crew, she will discuss what G2 Ops learned about coordinating AI, verifying its work, protecting data, and matching the tool—and its cost—to the job. The discussion will also examine how AI is reshaping engineering work, placing greater emphasis on defining objectives, designing workflows, and verifying results.",
+          "abstract": "Meet Grog, a fictional fellow who finds a powerful new tool—a rock—and immediately tries to use it for everything. His learning curve mirrors a challenge facing nearly every company adopting AI: capability does not guarantee fit. Tracy Gregorio, CEO of G2 Ops, shares how G2 Ops moved from early AI experimentation to practical applications in engineering workflows and internal operations. Following Grog from one rock to a coordinated crew, she will discuss what G2 Ops learned about coordinating AI, verifying its work, protecting data, and matching the tool—and its cost—to the job. The discussion will also examine how AI is reshaping engineering work, placing greater emphasis on defining objectives, designing workflows, and verifying results. Blending hard-won experience with humor, this talk is about how companies are wrestling with AI—and what it means for the students about to enter that fight.",
           "affiliation": "G2 Ops, Inc.",
-          "datetime_end": "2026-10-21T17:00:00",
-          "datetime_start": "2026-10-21T16:00:00",
+          "datetime_end": "2026-10-21T17:00:00-04:00",
+          "datetime_start": "2026-10-21T16:00:00-04:00",
           "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
           "series": "ECE/CS Colloquium",
           "speaker": "Tracy Gregorio"
         },
         {
+          "title": "Setor Zilevu",
+          "annotations": {
+            "prerequisites": [
+              "Computer Science",
+              "Computer Engineering"
+            ],
+            "related_concepts": [
+              "Design Tools",
+              "Software Research"
+            ],
+            "one_line_context": "A software research staff member from Figma shares technical perspectives.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "Figma",
+          "datetime_end": "2026-10-28T17:00:00-04:00",
+          "datetime_start": "2026-10-28T16:00:00-04:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Setor Zilevu"
+        },
+        {
+          "title": "Letitia Long",
+          "annotations": {
+            "prerequisites": [
+              "Electrical Engineering"
+            ],
+            "related_concepts": [
+              "Geospatial Intelligence",
+              "Defense Technology"
+            ],
+            "one_line_context": "A defense and intelligence leader presents insights on national security technology.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "NGA",
+          "datetime_end": "2026-11-04T17:00:00-04:00",
+          "datetime_start": "2026-11-04T16:00:00-04:00",
+          "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
+          "series": "ECE/CS Colloquium",
+          "speaker": "Letitia Long"
+        },
+        {
           "title": "Startups: The Good, The Bad, and The Ugly",
           "annotations": {
             "prerequisites": [
-              "fundamental engineering background"
+              "Engineering fundamentals"
             ],
             "related_concepts": [
-              "entrepreneurship",
-              "venture capital",
-              "company founding"
+              "Venture Capital",
+              "Entrepreneurship",
+              "Startup Management",
+              "Technology Commercialization"
             ],
-            "one_line_context": "An experienced operator and investor provides a practical framework for engineers navigating the startup founder journey.",
+            "one_line_context": "An experienced technology executive and investor provides engineering students with a practical framework for navigating the startup founder journey.",
             "ai_generated": true
           },
           "abstract": "Most engineers who want to build a company will make the same mistakes – not because they lack technical skills, but because no one gave them an honest picture of what founding a company actually involves. This session draws on thirty years of experience as an operator, executive, and venture capital partner – across multiple industries, company builds, exits, and investment decisions – to give engineering students a practical framework for the founder journey. Topics include the mistakes founders most commonly make, what venture capitalists are actually looking for and how founders tend to misread that relationship, and what a realistic path from engineer to founder looks like. The lessons are drawn from specific experiences – some successful, some not.",
           "affiliation": "Reach Power",
-          "datetime_end": "2026-12-02T17:00:00",
-          "datetime_start": "2026-12-02T16:00:00",
+          "datetime_end": "2026-12-02T17:00:00-04:00",
+          "datetime_start": "2026-12-02T16:00:00-04:00",
           "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
           "series": "ECE/CS Colloquium",
           "speaker": "Jeff White"
