@@ -254,540 +254,21 @@
     "id": "36f732709e7d02d9"
   },
   {
-    "title": "Atiyah, Bott, and Shapiro's (ABS) foundational work on Clifford modules and K-theory...",
-    "annotations": {
-      "prerequisites": [
-        "differential geometry",
-        "homotopy theory",
-        "Clifford modules",
-        "K-theory"
-      ],
-      "related_concepts": [
-        "physics",
-        "C*-algebras",
-        "invertible topological phases",
-        "Gromov-Lawson-Rosenberg conjecture"
-      ],
-      "one_line_context": "This talk discusses a generalization of the Atiyah-Bott-Shapiro orientation of K-theory to all C*-algebras.",
-      "ai_generated": true
-    },
-    "abstract": "Atiyah, Bott, and Shapiro's (ABS) foundational work on Clifford modules and K-theory has enjoyed numerous refinements and applications in differential geometry, homotopy theory, and physics. In joint work with Yigal Kamel, we study a generalization of the ABS orientation of K-theory to all C*-algebras. In this talk I will start from the beginning with the original ABS construction and work my way up to the maps defined in our construction, and explain some examples of where our generalized maps appear in the literature: including Freed-Hopkin's result on invertible topological phases and some of the maps defined in the statement of the Gromov-Lawson-Rosenberg conjecture.",
-    "affiliation": "UIUC (Urbana-Champaign)",
-    "datetime_end": "2025-04-21T17:00:00",
-    "datetime_start": "2025-04-21T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Fredrick Mooers",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "5c5871d1e7534637"
-  },
-  {
-    "title": "Projective geometric algebra objects and operations",
-    "annotations": {
-      "prerequisites": [
-        "vector space",
-        "Grassmann algebra",
-        "Clifford algebra"
-      ],
-      "related_concepts": [
-        "projective geometric algebra",
-        "quaternions",
-        "dual quaternions",
-        "projective spacetime"
-      ],
-      "one_line_context": "This talk introduces the objects, operations, and motion operators found in projective geometric algebra across 4D and 5D spaces.",
-      "ai_generated": true
-    },
-    "abstract": "This talk provides an introduction to the various objects and operations found in projective geometric algebra. It first discusses the exterior (Grassmann) algebra as an extension to an ordinary vector space, identifies the 4D homogeneous geometries that arise in the projective case, and demonstrates the kinds of geometric manipulation that can be performed with different forms of multiplication. That is followed by an introduction to the projective geometric (Clifford) algebra and a discussion of the motion operators it contains, highlighting the roles of quaternions and dual quaternions. We finally add a time dimension and examine how quaternions and dual quaternions work in 5D projective spacetime.",
-    "affiliation": "Terathon Software",
-    "datetime_end": "2025-04-21T15:00:00",
-    "datetime_start": "2025-04-21T14:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Eric Lengyel",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "24c0925e95fd7b81"
-  },
-  {
-    "title": "Skein lasagna theory for cornered 4-manifolds",
-    "annotations": {
-      "prerequisites": [
-        "Khovanov-Rozansky link homology",
-        "4-manifolds"
-      ],
-      "related_concepts": [
-        "skein lasagna modules",
-        "exotic compact 4-manifolds",
-        "trisections of 4-manifolds",
-        "gauge theory"
-      ],
-      "one_line_context": "This talk discusses an extension of skein lasagna theory to cornered 4-manifolds with applications to trisections.",
-      "ai_generated": true
-    },
-    "abstract": "The theory of skein lasagna modules, initiated by Morrison-Walker-Wedrich, has been the subject of much interest in recent years. This theory takes as input Khovanov-Rozansky link homology and yields invariants of oriented 4-manifolds, which are generally very powerful yet hard to calculate. Most excitingly, this theory was used recently to detect exotic compact 4-manifolds by Ren-Willis, marking the first such result proven without the use of gauge theory. In this talk I will discuss an extension of skein lasagna theory for cornered 4-manifolds and describe an application to trisections of 4-manifolds, with an eye towards calculations. This is ongoing joint work with Slava Krushkal and Yangxiao Luo.",
-    "affiliation": "UVA",
-    "datetime_end": "2025-04-14T17:00:00",
-    "datetime_start": "2025-04-14T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Sarah Blackwell",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "9ed54850ceba1592"
-  },
-  {
-    "title": "Counting irreducible polynomials in finite fields and multivariable cases",
+    "title": "Title TBD",
     "annotations": {
       "prerequisites": [],
-      "related_concepts": [
-        "finite fields",
-        "Gauss's formula",
-        "splitting types",
-        "polysymmetric functions"
-      ],
-      "one_line_context": "This talk explores how to count irreducible polynomials in multivariable cases using splitting types and polysymmetric functions.",
-      "ai_generated": true
-    },
-    "abstract": "The number of irreducible polynomials in a finite field F can be computed using Gauss's formula, but the multivariable case is not so straightforward. In this talk, we will walk through the one variable case, and discuss how we can record the factorizations in the multivariable case using combinatorial objects called splitting types. We will then present the known formula for the number of irreducible polynomials in the mutivariable case, and discuss how Asvin G and Andrew O'Desky prove it through polysymmetric functions. This talk is accessible without any prerequisites.",
-    "affiliation": "VT",
-    "datetime_end": "2025-04-07T17:00:00",
-    "datetime_start": "2025-04-07T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Aditya Khanna",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "f94eb55b23cbc3c8"
-  },
-  {
-    "title": "Transparent elements in the G-skein module of a 3-manifold",
-    "annotations": {
-      "prerequisites": [
-        "Lie group G",
-        "symmetric polynomials"
-      ],
-      "related_concepts": [
-        "G-skein module",
-        "topological quantum field theory",
-        "quantum knot invariants",
-        "special linear group SL_n"
-      ],
-      "one_line_context": "This talk describes transparent elements in the G-skein modules of 3-manifolds for the special linear group SL_n.",
-      "ai_generated": true
-    },
-    "abstract": "For a Lie group G, the G-skein module of a 3-dimensional manifold M is a fundamental object in Witten’s interpretation of quantum knot invariants in the framework of a topological quantum field theory. It depends on a parameter q and, when this parameter q is a root of unity, the G-skein module contains elements with a surprising “transparency” property, in the sense that they can be traversed by any other skein without changing the resulting total skein. I will describe some (and conjecturally all) of these transparent elements in the case of the special linear group SL_n. The construction is based on the very classical theory of symmetric polynomials in n variables.",
-    "affiliation": "USC (University of Southern California) / MSU (Michigan State University)",
-    "datetime_end": "2025-03-31T17:00:00",
-    "datetime_start": "2025-03-31T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Francis Bonahon",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "b3794f32fbe32ca4"
-  },
-  {
-    "title": "Multiplicity-free manifolds and Gelfand–Cetlin systems",
-    "annotations": {
-      "prerequisites": [
-        "Lagrangian fibers",
-        "Fukaya category"
-      ],
-      "related_concepts": [
-        "Gelfand–Cetlin systems",
-        "Lagrangian branes",
-        "critical points"
-      ],
-      "one_line_context": "This talk studies multiplicity-free manifolds with Gelfand-Cetlin systems to identify Lagrangian branes and generation criteria for the Fukaya category.",
-      "ai_generated": true
-    },
-    "abstract": "We study some examples of multiplicity-free manifolds equipped with Gelfand–Cetlin systems. By analyzing the critical points of the potential function, we identify a collection of Lagrangian branes supported on a non-displaceable Lagrangian fiber. We also show that most of the other fibers are displaceable by probes. Finally, we explain how this collection satisfies a generation criterion for the Fukaya category.",
-    "affiliation": "Rutgers",
-    "datetime_end": "2025-03-17T17:00:00",
-    "datetime_start": "2025-03-17T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Yao Xiao",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "537b8d0559679600"
-  },
-  {
-    "title": "Isogeny graphs on superspecial Abelian surfaces and cycle formulas",
-    "annotations": {
-      "prerequisites": [
-        "elliptic curves",
-        "isogenies",
-        "cryptography"
-      ],
-      "related_concepts": [
-        "superspecial Abelian surfaces",
-        "hash functions",
-        "lattice-path enumeration"
-      ],
-      "one_line_context": "This talk examines isogeny graphs on superspecial Abelian surfaces and presents proofs for the number of short cycles using lattice-path enumeration.",
-      "ai_generated": true
-    },
-    "abstract": "Geometric objects and their transformations can be naturally modeled with graphs. The graphs on elliptic curves related by isogenies are cycle-free locally. This structure is no longer true for isogeny graphs on superspecial Abelian surfaces, which typically have many small cycles. These cycles correspond to collisions for hash functions derived from walks in the graph. In this talk, we will introduce the cryptographic background and related problems in isogeny graphs on superspecial Abelian surfaces. We will also give a formula for the number of such short cycles. The center of the talk is to present several proofs to the formula using lattice-path enumeration techniques.",
-    "affiliation": "VT",
-    "datetime_end": "2025-03-03T17:00:00",
-    "datetime_start": "2025-03-03T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Wendi Gao",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "c0ffb12d5fc55f4f"
-  },
-  {
-    "title": "Almost-concordance of knots in non-simply-connected 3-manifolds",
-    "annotations": {
-      "prerequisites": [
-        "knot concordance",
-        "3-manifolds"
-      ],
-      "related_concepts": [
-        "almost-concordance",
-        "aspherical 3-manifolds",
-        "Milnor’s link invariants"
-      ],
-      "one_line_context": "This talk explores the almost-concordance classes of knots in non-simply-connected 3-manifolds using extensions of Milnor's link invariants.",
-      "ai_generated": true
-    },
-    "abstract": "In this talk, we will consider concordance of knots modulo local knotting, or almost-concordance, in non-simply-connected 3-manifolds. Conjecturally, the number of almost-concordance classes of knots representing a fixed free homotopy class in a fixed 3-manifold is infinite, aside from one type of exceptional case. We will discuss a recipe for constructing large families of pairwise homotopic knots in aspherical 3-manifolds which are distinguished up to almost-concordance by extensions of Milnor’s link invariants.",
-    "affiliation": "UVA",
-    "datetime_end": "2025-02-17T17:00:00",
-    "datetime_start": "2025-02-17T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Ryan Stees",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "4bddbe000aa09856"
-  },
-  {
-    "title": "Topology of Bowditch boundaries and parabolic cut pairs for relatively hyperbolic groups",
-    "annotations": {
-      "prerequisites": [
-        "relatively hyperbolic groups",
-        "Bowditch boundary"
-      ],
-      "related_concepts": [
-        "parabolic splitting",
-        "loxodromic cut pairs",
-        "combination theorem"
-      ],
-      "one_line_context": "This talk presents a combination and decomposition theorem for relatively hyperbolic groups with parabolic cut pairs on their boundaries.",
-      "ai_generated": true
-    },
-    "abstract": "Given a relatively hyperbolic group, the topology of its Bowditch boundary is useful in understanding the underlying relatively hyperbolic structure. For example, for a connected boundary, we know from the work of Hruska–Dasgupta that the cut points are parabolic and correspond to a parabolic splitting of the group. We also know from Haulmark–Hruska that inseparable loxodromic cut pairs correspond to splittings over 2–ended subgroups.  For some time, it was suspected that inseparable cut pairs on the boundary can only be loxodromic. However, examples of parabolic cut pairs were discovered by Hruska–Walsh. In this talk, we will present a combination theorem for relatively hyperbolic groups, which results in such parabolic cut pairs. We will then present a decomposition theorem, which states that all relatively hyperbolic groups with inseparable parabolic cut pairs on their boundaries arise from the above-mentioned combination theorem.",
-    "affiliation": "UWM (Milwaukee)",
-    "datetime_end": "2025-02-03T17:00:00",
-    "datetime_start": "2025-02-03T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Kushlam Srivastava",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "a0b65700d6a33e3b"
-  },
-  {
-    "title": "Equivariant K-theory of parabolic flag Hilbert schemes and modified Macdonald polynomials",
-    "annotations": {
-      "prerequisites": [
-        "algebra",
-        "combinatorics",
-        "equivariant K-theory",
-        "symmetric functions"
-      ],
-      "related_concepts": [
-        "Hilbert schemes",
-        "Macdonald Positivity Conjecture",
-        "Shuffle Conjecture",
-        "parabolic flag Hilbert schemes"
-      ],
-      "one_line_context": "This talk describes fixed point classes of the equivariant K-theory of parabolic flag Hilbert schemes using partially-symmetric modified Macdonald polynomials.",
-      "ai_generated": true
-    },
-    "abstract": "The geometry of Hilbert schemes is intimately tied to algebra and combinatorics. In his proof of the Macdonald Positivity Conjecture, Haiman showed through a derived equivalence that the equivariant K-theory of Hilbert schemes of points in the plane is described by the ring of symmetric functions with two parameters. In particular, the fixed point classes correspond to modified Macdonald polynomials. Later, relating to the proof of the Shuffle Conjecture by Carlsson-Mellit, Carlsson-Gorsky-Mellit described the equivariant K-theory of parabolic flag Hilbert schemes using algebraic methods. I will discuss recent work in collaboration with Dan Orr where we describe the fixed point classes of the equivariant K-theory of parabolic flag Hilbert schemes in terms of partially-symmetric modified Macdonald polynomials.",
-    "affiliation": "VT",
-    "datetime_end": "2024-12-09T17:00:00",
-    "datetime_start": "2024-12-09T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Milo Weising",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "29767c84d0e79483"
-  },
-  {
-    "title": "Fusion categories and their actions on algebras",
-    "annotations": {
-      "prerequisites": [
-        "finite groups",
-        "representation categories",
-        "associative algebra"
-      ],
-      "related_concepts": [
-        "fusion categories",
-        "topology",
-        "operator algebras",
-        "path algebras"
-      ],
-      "one_line_context": "This talk defines actions of fusion categories on associative algebras and applies them to path algebras.",
-      "ai_generated": true
-    },
-    "abstract": "Fusion categories are rich mathematical objects that generalize finite groups and their representation categories. Where do fusion categories appear in topology? What does it mean for a fusion category to act on an algebra? Do these actions generalize group actions on algebras? This question has been studied by many in the context of operator algebras but poses an interesting question for an associative algebra A. In this talk, we will define an action of a fusion category on an algebra and show how it relates to group actions on algebras. Then, as an application of this theory, we will apply our results to study actions of fusion categories on path algebras.",
-    "affiliation": "NCSU",
-    "datetime_end": "2024-12-02T17:00:00",
-    "datetime_start": "2024-12-02T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Alexander Betz",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "b2ce62865970415a"
-  },
-  {
-    "title": "Extension of Khovanov-Rozansky skein lasagna modules to 4-manifolds with corners",
-    "annotations": {
-      "prerequisites": [
-        "Khovanov-Rozansky skein lasagna module",
-        "4-manifolds"
-      ],
-      "related_concepts": [
-        "framed oriented link",
-        "codimension 2 corners",
-        "trisections of 4-manifolds"
-      ],
-      "one_line_context": "This talk discusses an extension of the skein lasagna theory to 4-manifolds with corners and its behavior under gluing.",
-      "ai_generated": true
-    },
-    "abstract": "The Khovanov-Rozansky skein lasagna module was introduced by Morrison-Walker-Wedrich as an invariant of 4-manifold with a framed oriented link in the boundary. I will discuss an extension of the skein lasagna theory to 4-manifolds with codimension 2 corners, its behavior under gluing, and applications to trisections of 4-manifolds. This is joint work with Sarah Blackwell and Slava Krushkal.",
-    "affiliation": "UVA",
-    "datetime_end": "2024-11-18T17:00:00",
-    "datetime_start": "2024-11-18T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Yangxiao Luo",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "ad2dd0f6c425219a"
-  },
-  {
-    "title": "Vertex operator algebras and positivity of line bundles on moduli spaces of curves",
-    "annotations": {
-      "prerequisites": [
-        "representation theory",
-        "vertex operator algebras (VOAs)",
-        "line bundles"
-      ],
-      "related_concepts": [
-        "moduli spaces of curves",
-        "projective varieties"
-      ],
-      "one_line_context": "This talk examines criteria for ensuring the positivity of line bundles constructed from VOA representations on moduli spaces of curves.",
-      "ai_generated": true
-    },
-    "abstract": "The representation theory of vertex operator algebras (VOAs) provides a natural way to construct line bundles on moduli spaces of curves with marked points. When these line bundles are positive, the associated morphisms to projective varieties can shed light on the geometry of the moduli space itself. In this talk, I will discuss several criteria for ensuring positivity of these line bundles arising from VOA representations.",
-    "affiliation": "UPenn",
-    "datetime_end": "2024-11-11T17:00:00",
-    "datetime_start": "2024-11-11T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Avik Chakravarty",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "78735f2af6b202e7"
-  },
-  {
-    "title": "CSM-Thom polynomials and singularity loci of maps",
-    "annotations": {
-      "prerequisites": [
-        "enumerative geometry",
-        "topology"
-      ],
-      "related_concepts": [
-        "CSM-Thom polynomials",
-        "singularity locus",
-        "geometric representation theory",
-        "projective spaces"
-      ],
-      "one_line_context": "This talk presents new formulas for CSM-Thom polynomials to study singularity loci of maps of projective spaces.",
-      "ai_generated": true
-    },
-    "abstract": "CSM-Thom polynomials are ℏ-deformations of the classical Thom polynomial, which was introduced to unify problems in classical enumerative geometry. The CSM-Thom polynomials are powerful universal polynomials which capture the geometry of the singularity locus of any map (sharp information), given only (soft) topological information about the map. We prove new formulas for the CSM classes of various contact multisingularities using interpolation, a method recently developed by Koncki-Rimányi inspired by the stable envelope construction of geometric representation theory. As an application, we show how these new formulas can be used to obtain geometric information about singularity loci of maps of projective spaces, utilizing a theorem of Aluffi-Ohmoto.",
-    "affiliation": "UNC",
-    "datetime_end": "2024-11-04T17:00:00",
-    "datetime_start": "2024-11-04T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Reese Lance",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "27090c8b84f10a36"
-  },
-  {
-    "title": "SL(4) Web Category and Embeddings into Affine Buildings",
-    "annotations": {
-      "prerequisites": [
-        "representation theory",
-        "quantum SL(2)",
-        "Temperley-Lieb category"
-      ],
-      "related_concepts": [
-        "SL(3) web category",
-        "affine Grassmannian",
-        "affine building"
-      ],
-      "one_line_context": "This talk reviews background on web categories and discusses a generalization of isometric embeddings for the SL(4) case.",
-      "ai_generated": true
-    },
-    "abstract": "To learn about the representation theory of quantum SL(2), one can study the Temperley-Lieb category, whose basis morphisms are planar matchings. A generalization to the SL(3) case gives rise to the SL(3) web category, whose basis morphisms are given by non-elliptic webs - planar trivalent graphs with girth greater or equal to 6. It is shown by Fontaine-Kamnitzer-Kuperberg that the dual graphs of SL(3) basis webs are embedded isometrically into the SL(3) affine building, which is defined as a simplicial complex with vertices given by elements in the affine Grassmannian. In this talk, I will review background materials and talk about a generalization of the embeddings to the SL(4) case, based on upcoming joint work with Gaetz-Striker-Swanson.",
-    "affiliation": "JHU",
-    "datetime_end": "2024-10-28T17:00:00",
-    "datetime_start": "2024-10-28T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Haihan Wu",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "2714a48a581d81a3"
-  },
-  {
-    "title": "Homotopy invariance of stratified vector bundles and Nash blow-ups",
-    "annotations": {
-      "prerequisites": [
-        "vector bundles",
-        "algebraic topology"
-      ],
-      "related_concepts": [
-        "stratified spaces",
-        "Nash blow-up",
-        "stratified K-groups",
-        "Chern-Mather classes"
-      ],
-      "one_line_context": "This talk investigates the homotopy invariance of stratified vector bundles using Nash blow-up constructions.",
-      "ai_generated": true
-    },
-    "abstract": "Stratified vector bundles are like vector bundles over a stratified space, but which may drop rank over the lower strata. They arise naturally in many contexts. As a first step to see if we can \"do algebraic topology\" with them, we investigate the extent to which they exhibit homotopy invariance. We will see that this leads naturally to Nash blow-up constructions, and that we can answer questions about their homotopy invariance in terms of these constructions. If there is time we will discuss how this in turn guides the way to a potentially fruitful definition of stratified K-groups and Chern-Mather classes of stratified vector bundles.",
-    "affiliation": "VT",
-    "datetime_end": "2024-10-21T17:00:00",
-    "datetime_start": "2024-10-21T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Varun Scarlett",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "e09fbbad5a8b700a"
-  },
-  {
-    "title": "Thurston maps and topological branched covers",
-    "annotations": {
-      "prerequisites": [
-        "complex dynamics"
-      ],
-      "related_concepts": [
-        "Thurston maps",
-        "quadratic polynomials",
-        "rational maps"
-      ],
-      "one_line_context": "This talk gives an overview of topological branched covers of the 2-sphere and Thurston's characterization of rational maps.",
-      "ai_generated": true
-    },
-    "abstract": "Topological branched covers of the 2-sphere with only finitely many postcritical points (now commonly called Thurston maps) came under scrutiny in complex dynamics about 45 years ago because of the interest of Adrien Douady and John Hubbard in matings of quadratic polynomials. William Thurston gave a topological characterization of when such a branched cover is equivalent to a rational map. Thurston's characterization has been central to the field, but even decades later it can be difficult to work with because of the subtlety of the obstructions. I'll give an overview of the area and discuss some of the problems we're working on now that are related to this. The talk should be widely accessible.",
-    "affiliation": "VT",
-    "datetime_end": "2024-10-07T17:00:00",
-    "datetime_start": "2024-10-07T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "William Floyd",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "8a2e651eda0b3653"
-  },
-  {
-    "title": "Equivariant quantum K-theory of cominuscule flag varieties and quantum K-metrics",
-    "annotations": {
-      "prerequisites": [
-        "quantum K-theory",
-        "Frobenius algebra",
-        "Schubert calculus"
-      ],
-      "related_concepts": [
-        "cominuscule flag varieties",
-        "ideal sheaf",
-        "Macdonald polynomials"
-      ],
-      "one_line_context": "This talk defines a quantization of the ideal sheaf basis for the equivariant quantum K-theory of cominuscule flag varieties.",
-      "ai_generated": true
-    },
-    "abstract": "The (equivariant) quantum K-theory ring of a flag variety is a Frobenius algebra equipped with a perfect pairing called the quantum K-metric. It is known that in the classical K-theory ring for a given flag variety, the ideal sheaf basis is dual to the Schubert basis with regard to the sheaf Euler characteristic pairing. We define a quantization of the ideal sheaf basis for the equivariant quantum K-theory of cominuscule flag varieties. Cominuscule flag varieties allow for combinatorial descriptions of their Schubert calculus, beyond that of a general flag variety. In this talk we will give an overview of these cohomology theories and discuss why we care about the dual basis for these various intersection pairings. Time permitting, we will discuss the combinatorics of cominuscule varieties that allow one to write the Schubert expansion of any quantized ideal sheaf very quickly by hand.",
-    "affiliation": "VT",
-    "datetime_end": "2024-09-30T17:00:00",
-    "datetime_start": "2024-09-30T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Kevin Summers",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "5f230c3aa6ed11f9"
-  },
-  {
-    "title": "Modular polynomials and singular points corresponding to n-isogenous elliptic curves",
-    "annotations": {
-      "prerequisites": [
-        "elliptic curves",
-        "rational maps",
-        "algebraic closure"
-      ],
-      "related_concepts": [
-        "modular polynomial",
-        "modular curve",
-        "j-invariants"
-      ],
-      "one_line_context": "This talk demonstrates how to recover multiple n-isogenies of elliptic curves from the singular points of modular polynomials.",
-      "ai_generated": true
-    },
-    "abstract": "A pair of elliptic curves $E_1, E_2$ over a field $k$ are $n$-isogenous if there exists a non-constant rational map $\\phi: E_1 \\to E_2$ defined over the algebraic closure $\\overline{k}$ of degree $n$ that preserves the group structure. *Usually* there is zero or one $n$-isogenies between two elliptic curves, but this is not always the case. The modular polynomial $\\Phi_{n}(X,Y) \\in \\mathbb{Z}[X,Y]$ of level $n$ is a bivariate symmetric polynomial $\\Phi_n(X, Y) \\in \\mathbb{Z}[X, Y]$ whose $k$-roots $(j_1, j_2)$ correspond to pairs of $n$-isogenous elliptic curves over $\\overline{k}$ with $j$-invariants $j_1, j_2$. The modular curve $X_0(n)$ is a smooth projective curve which is a coarse moduli space for pairs of $n$-isogenous elliptic curves and is birationally equivalent to the affine curve defined by $\\Phi_n(X, Y) = 0$. The singular points of $\\Phi_n(X,Y)=0$ correspond to elliptic curves with more than one $n$-isogeny between them, and by resolving the singularity we can recover the full set of $n$-isogenies. In this talk we give background on $\\Phi_n$ and $ X_0(n)$ and demonstrate how to recover isogenies from singular points of $\\Phi_n(X,Y)$.",
-    "affiliation": "VT",
-    "datetime_end": "2024-09-23T17:00:00",
-    "datetime_start": "2024-09-23T16:00:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "William Mahaney",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "17a6336152d05072"
-  },
-  {
-    "title": "Fano mirror symmetry is a duality between Fano manifolds and Landau-Ginzburg models. Predictions include: Certain D-modules associated with given mirror pairs are isomorphic, and certain integral structures on their spaces of flat sections correspond to each other. I will discuss this picture using the projective line. Then I describe the current progress for a larger class of Fano manifolds called flag varieties.",
-    "annotations": {
-      "prerequisites": [
-        "Fano manifolds",
-        "Landau-Ginzburg models",
-        "D-modules"
-      ],
-      "related_concepts": [
-        "mirror symmetry",
-        "projective line",
-        "flag varieties"
-      ],
-      "one_line_context": "The speaker discusses Fano mirror symmetry using the projective line and outlines progress for flag varieties.",
+      "related_concepts": [],
+      "one_line_context": "A geometry and topology seminar talk by Nicola Tarasca.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
-    "datetime_end": null,
-    "datetime_start": null,
-    "location": null,
+    "affiliation": "VCU",
+    "datetime_start": "2026-11-17T00:00:00",
     "series": "Geometry/Topology Seminar",
-    "speaker": null,
+    "speaker": "Nicola Tarasca",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "442b0806018844ec"
+    "id": "e94b710752937aae"
   },
   {
     "title": "Getting Acquainted at The Maroon Door",
@@ -17595,245 +17076,107 @@
     "title": "From Virginia Tech to Silicon Valley: Navigating the AI Revolution — Career Insights, Tech Trends and Opportunities",
     "annotations": {
       "prerequisites": [
-        "Computer Engineering",
-        "Artificial Intelligence fundamentals"
+        "fundamentals of artificial intelligence",
+        "basic understanding of cloud infrastructure and semiconductors"
       ],
       "related_concepts": [
-        "Generative AI",
-        "Foundation Models",
-        "Cloud Infrastructure",
-        "Semiconductors"
+        "generative AI",
+        "foundation models",
+        "product management",
+        "silicon valley tech industry"
       ],
-      "one_line_context": "A Meta product management director discusses his career journey from Virginia Tech and shares industry trends in artificial intelligence and cloud tech.",
+      "one_line_context": "A Meta director shares his career journey and practical perspectives on how artificial intelligence is transforming the technology industry and shaping professional opportunities.",
       "ai_generated": true
     },
-    "abstract": "The technology industry is undergoing a seismic transformation driven by artificial intelligence. In this talk, Wattoo—a Virginia Tech alumnus and Director of Product Management at Meta—shares his 20+ year career journey from the halls of Virginia Tech to leadership roles at Qualcomm, Amazon, and Meta, spanning semiconductors, smartphones, cloud infrastructure, and AI. Wattoo will explore the key industry trends shaping AI today—from foundation models and generative AI to the infrastructure powering them at scale—and what these shifts mean for the broader tech landscape. He will then turn his focus to what matters most for students and emerging professionals: how to position yourself for success in this rapidly evolving field, what skills and mindsets are most valuable, and how to identify and seize the opportunities that AI is creating across every sector.",
-    "affiliation": "Meta",
-    "datetime_end": "2026-09-02T17:00:00-04:00",
-    "datetime_start": "2026-09-02T16:00:00-04:00",
+    "abstract": "The technology industry is undergoing a seismic transformation driven by artificial intelligence. In this talk, Wattoo—a Virginia Tech alumnus and Director of Product Management at Meta—shares his 20+ year career journey from the halls of Virginia Tech to leadership roles at Qualcomm, Amazon, and Meta, spanning semiconductors, smartphones, cloud infrastructure, and AI. Wattoo will explore the key industry trends shaping AI today—from foundation models and generative AI to the infrastructure powering them at scale—and what these shifts mean for the broader tech landscape. He will then turn his focus to what matters most for students and emerging professionals: how to position yourself for success in this rapidly evolving field, what skills and mindsets are most valuable, and how to identify and seize the opportunities that AI is creating across every sector. Whether you're studying engineering, computer science, business, or any discipline intersecting with technology, this talk will equip you with a practitioner's perspective on where the industry is headed and how you can be part of shaping it.",
+    "affiliation": "Meta Platforms",
+    "datetime_end": "2026-09-02T17:00:00",
+    "datetime_start": "2026-09-02T16:00:00",
     "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
     "series": "ECE/CS Colloquium",
     "speaker": "Faisal Wattoo",
     "department": "Electrical and Computer Engineering",
     "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "81552d316cca8e76"
-  },
-  {
-    "title": "Pratik Karia",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Enterprise Platforms",
-        "Technology Management"
-      ],
-      "one_line_context": "An industry leader from Bloomberg shares insights on enterprise platforms and technology.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Bloomberg",
-    "datetime_end": "2026-09-09T17:00:00-04:00",
-    "datetime_start": "2026-09-09T16:00:00-04:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Pratik Karia",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "8ed4dc3d512dbe88"
-  },
-  {
-    "title": "Ryan Toohil",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Computer Engineering",
-        "Software Technology"
-      ],
-      "one_line_context": "A technology executive shares professional insights and engineering experiences.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "GLOBO",
-    "datetime_end": "2026-09-16T17:00:00-04:00",
-    "datetime_start": "2026-09-16T16:00:00-04:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Ryan Toohil",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "7c9da2efbe1b95fc"
-  },
-  {
-    "title": "Dong Li",
-    "annotations": {
-      "prerequisites": [
-        "Computer Science",
-        "Computer Engineering"
-      ],
-      "related_concepts": [
-        "Systems Engineering",
-        "High-Performance Computing"
-      ],
-      "one_line_context": "An academic researcher discusses advanced topics in computer science and engineering.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "UC Merced",
-    "datetime_end": "2026-09-30T17:00:00-04:00",
-    "datetime_start": "2026-09-30T16:00:00-04:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Dong Li",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "7e4b8846722b5bbe"
-  },
-  {
-    "title": "Karla Gill",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Biopharma Technology",
-        "Information Technology Management"
-      ],
-      "one_line_context": "A biotechnology executive presents perspectives on technology leadership and industry applications.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "KBI Biopharma",
-    "datetime_end": "2026-10-07T17:00:00-04:00",
-    "datetime_start": "2026-10-07T16:00:00-04:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Karla Gill",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "16abf4bda0b94097"
+    "id": "cf836a0fa87b3982"
   },
   {
     "title": "Hype to Value: Finding Durable Signal in AI Noise",
     "annotations": {
       "prerequisites": [
-        "Basic software development concepts",
-        "Business strategy fundamentals"
+        "basic enterprise software concepts",
+        "organizational workflows"
       ],
       "related_concepts": [
-        "Artificial Intelligence Integration",
-        "Enterprise Automation",
-        "Workflow Optimization"
+        "enterprise automation",
+        "AI product strategy",
+        "agentic systems",
+        "document processing"
       ],
-      "one_line_context": "A Salesforce automation leader explores how companies can realistically evaluate and integrate artificial intelligence to create actual business value.",
+      "one_line_context": "Salesforce VP Andrew Hall discusses how organizations can move past artificial intelligence hype to deliver practical, high-value solutions.",
       "ai_generated": true
     },
     "abstract": "Every company claims to have an AI strategy — but what does that actually mean in practice? Behind the announcements, organizations are making high-stakes decisions with incomplete information, caught between competitive pressures and employees whose work is being rapidly reshaped. Drawing on firsthand experience, this talk will look at how companies are trying to answer the questions they're all wrestling with: How does AI change the way we work? How do we incorporate AI into the products and services we offer? And how will it reshape our customers' relationships with us?",
     "affiliation": "Salesforce",
-    "datetime_end": "2026-10-14T17:00:00-04:00",
-    "datetime_start": "2026-10-14T16:00:00-04:00",
+    "datetime_end": "2026-10-14T17:00:00",
+    "datetime_start": "2026-10-14T16:00:00",
     "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
     "series": "ECE/CS Colloquium",
     "speaker": "Andrew Hall",
     "department": "Electrical and Computer Engineering",
     "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "c6ab785620002a7a"
+    "id": "334d53c6bef26d22"
   },
   {
     "title": "Grog Finds a Rock: What Cavemen, Cost, and Coordination Teach Us About AI",
     "annotations": {
       "prerequisites": [
-        "Engineering workflow concepts"
+        "basic understanding of engineering workflows",
+        "software or systems development lifecycles"
       ],
       "related_concepts": [
-        "Model-Based Systems Engineering",
-        "Digital Engineering Transformation",
-        "Cybersecurity",
-        "Cloud Architecture"
+        "model-based systems engineering",
+        "digital engineering transformation",
+        "cybersecurity engineering",
+        "AI tool adoption"
       ],
-      "one_line_context": "Using a fictional allegory, a defense contractor CEO discusses practical lessons on matching AI tools and costs to real engineering workflows.",
+      "one_line_context": "G2 Ops CEO Tracy Gregorio uses a humorous analogy to explore how companies successfully integrate artificial intelligence into their engineering and operational workflows.",
       "ai_generated": true
     },
     "abstract": "Meet Grog, a fictional fellow who finds a powerful new tool—a rock—and immediately tries to use it for everything. His learning curve mirrors a challenge facing nearly every company adopting AI: capability does not guarantee fit. Tracy Gregorio, CEO of G2 Ops, shares how G2 Ops moved from early AI experimentation to practical applications in engineering workflows and internal operations. Following Grog from one rock to a coordinated crew, she will discuss what G2 Ops learned about coordinating AI, verifying its work, protecting data, and matching the tool—and its cost—to the job. The discussion will also examine how AI is reshaping engineering work, placing greater emphasis on defining objectives, designing workflows, and verifying results. Blending hard-won experience with humor, this talk is about how companies are wrestling with AI—and what it means for the students about to enter that fight.",
     "affiliation": "G2 Ops, Inc.",
-    "datetime_end": "2026-10-21T17:00:00-04:00",
-    "datetime_start": "2026-10-21T16:00:00-04:00",
+    "datetime_end": "2026-10-21T17:00:00",
+    "datetime_start": "2026-10-21T16:00:00",
     "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
     "series": "ECE/CS Colloquium",
     "speaker": "Tracy Gregorio",
     "department": "Electrical and Computer Engineering",
     "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "c36c19881390b560"
-  },
-  {
-    "title": "Setor Zilevu",
-    "annotations": {
-      "prerequisites": [
-        "Computer Science",
-        "Computer Engineering"
-      ],
-      "related_concepts": [
-        "Design Tools",
-        "Software Research"
-      ],
-      "one_line_context": "A software research staff member from Figma shares technical perspectives.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Figma",
-    "datetime_end": "2026-10-28T17:00:00-04:00",
-    "datetime_start": "2026-10-28T16:00:00-04:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Setor Zilevu",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "2f17741da5a5ef16"
-  },
-  {
-    "title": "Letitia Long",
-    "annotations": {
-      "prerequisites": [
-        "Electrical Engineering"
-      ],
-      "related_concepts": [
-        "Geospatial Intelligence",
-        "Defense Technology"
-      ],
-      "one_line_context": "A defense and intelligence leader presents insights on national security technology.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "NGA",
-    "datetime_end": "2026-11-04T17:00:00-04:00",
-    "datetime_start": "2026-11-04T16:00:00-04:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Letitia Long",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "18d165a7a8bac78a"
+    "id": "5f3a1c96d16cdf29"
   },
   {
     "title": "Startups: The Good, The Bad, and The Ugly",
     "annotations": {
       "prerequisites": [
-        "Engineering fundamentals"
+        "basic technical background in engineering or software development"
       ],
       "related_concepts": [
-        "Venture Capital",
-        "Entrepreneurship",
-        "Startup Management",
-        "Technology Commercialization"
+        "startup founding",
+        "venture capital",
+        "entrepreneurship",
+        "technology business management"
       ],
-      "one_line_context": "An experienced technology executive and investor provides engineering students with a practical framework for navigating the startup founder journey.",
+      "one_line_context": "An experienced technology founder and venture capital partner shares a practical framework for engineering students navigating the startup journey.",
       "ai_generated": true
     },
     "abstract": "Most engineers who want to build a company will make the same mistakes – not because they lack technical skills, but because no one gave them an honest picture of what founding a company actually involves. This session draws on thirty years of experience as an operator, executive, and venture capital partner – across multiple industries, company builds, exits, and investment decisions – to give engineering students a practical framework for the founder journey. Topics include the mistakes founders most commonly make, what venture capitalists are actually looking for and how founders tend to misread that relationship, and what a realistic path from engineer to founder looks like. The lessons are drawn from specific experiences – some successful, some not.",
     "affiliation": "Reach Power",
-    "datetime_end": "2026-12-02T17:00:00-04:00",
-    "datetime_start": "2026-12-02T16:00:00-04:00",
+    "datetime_end": "2026-12-02T17:00:00",
+    "datetime_start": "2026-12-02T16:00:00",
     "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
     "series": "ECE/CS Colloquium",
     "speaker": "Jeff White",
     "department": "Electrical and Computer Engineering",
     "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "64710adbadba2d77"
+    "id": "ed841077d423fa58"
   }
 ]
