@@ -14895,144 +14895,53 @@
       ]
     },
     "https://mii.vt.edu/outreach/technical-seminars.html": {
-      "hash": "9b9c0c30975678971ef8a5d61ad383b1daa78a7951ec738efe9f7b8666cef25d",
+      "hash": "befbb73673086d5b29ef2b52633fda427bae85f6cb895be61cab63e1a708207a",
       "talks": [
         {
-          "title": "The Adhesion of Ice to Polydimethylsiloxane",
+          "title": "Non-Traditional Polymer Synthons and Initiators for Neoteric Materials",
           "annotations": {
             "prerequisites": [
-              "Polymer science",
-              "Surface chemistry"
+              "Organic Chemistry",
+              "Polymer Chemistry"
             ],
             "related_concepts": [
-              "Ice adhesion",
-              "Polydimethylsiloxane (PDMS)",
-              "Material interfaces"
+              "Polymer Synthesis",
+              "Initiator Systems",
+              "Neoteric Materials"
             ],
-            "one_line_context": "This talk explores the adhesion properties of ice on polydimethylsiloxane surfaces.",
+            "one_line_context": "This talk explores non-traditional polymer synthons and initiators used to create advanced neoteric materials.",
             "ai_generated": true
           },
           "abstract": null,
-          "affiliation": "North Dakota State University",
-          "datetime_end": "2026-01-28T12:15:00-05:00",
-          "datetime_start": "2026-01-28T11:15:00-05:00",
-          "location": "Kelly Hall 310",
+          "affiliation": "North Carolina State University",
+          "datetime_end": "2026-09-02T12:15:00-04:00",
+          "datetime_start": "2026-09-02T11:15:00-04:00",
+          "location": "Steger Auditorium, 145",
           "series": "SYENSQO Seminar Series",
-          "speaker": "Andrew Croll"
+          "speaker": "Martin Thuo"
         },
         {
-          "title": "Mitigating Chemical and Thermal Failures of Engineered Wettability Surfaces",
+          "title": "Compliant Manipulation through Highly Tunable Adhesion: a Decade Long Effort",
           "annotations": {
             "prerequisites": [
-              "Surface science",
-              "Thermodynamics"
+              "Materials Science",
+              "Mechanics of Materials"
             ],
             "related_concepts": [
-              "Wettability",
-              "Surface engineering",
-              "Material failure analysis"
+              "Tunable Adhesion",
+              "Compliant Mechanisms",
+              "Robotic Manipulation"
             ],
-            "one_line_context": "This talk discusses strategies to prevent chemical and thermal failures in engineered wettability surfaces.",
+            "one_line_context": "This talk reviews a decade of research on achieving compliant manipulation through the use of highly tunable adhesion.",
             "ai_generated": true
           },
           "abstract": null,
-          "affiliation": "Rice University",
-          "datetime_end": "2026-02-04T12:15:00-05:00",
-          "datetime_start": "2026-02-04T11:15:00-05:00",
-          "location": "Steger Hall, Conference Room 145",
+          "affiliation": "Syracuse University",
+          "datetime_end": "2026-09-09T12:15:00-04:00",
+          "datetime_start": "2026-09-09T11:15:00-04:00",
+          "location": "Kelly 310",
           "series": "SYENSQO Seminar Series",
-          "speaker": "Daniel Preston"
-        },
-        {
-          "title": "Establishing the Precision of Polymerization Methods to Achieve Enhanced Functions",
-          "annotations": {
-            "prerequisites": [
-              "Polymer chemistry",
-              "Organic synthesis"
-            ],
-            "related_concepts": [
-              "Precision polymerization",
-              "Functional polymers"
-            ],
-            "one_line_context": "This talk examines how precision in polymerization techniques can be established to create materials with enhanced functional properties.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "University of Illinois at Urbana Champaign",
-          "datetime_end": "2026-03-04T12:15:00-05:00",
-          "datetime_start": "2026-03-04T11:15:00-05:00",
-          "location": "Kelly Hall 310",
-          "series": "SYENSQO Seminar Series",
-          "speaker": "Damien Guironnet"
-        },
-        {
-          "title": "Toward More Sustainable Macromolecules: from Polyethylene Mimics to Antimicrobial Polypeptides",
-          "annotations": {
-            "prerequisites": [
-              "Polymer science",
-              "Biochemistry or macromolecular chemistry"
-            ],
-            "related_concepts": [
-              "Sustainable polymers",
-              "Polyethylene mimics",
-              "Antimicrobial polypeptides"
-            ],
-            "one_line_context": "This talk focuses on the development of sustainable macromolecules ranging from polyethylene mimics to antimicrobial polypeptides.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "University of South Carolina",
-          "datetime_end": "2026-03-18T12:15:00-05:00",
-          "datetime_start": "2026-03-18T11:15:00-05:00",
-          "location": "Steger Hall, Conference Room 145",
-          "series": "SYENSQO Seminar Series",
-          "speaker": "Chuanbing Tang"
-        },
-        {
-          "title": "Building the Labs of the Future: Putting Automation and AI to Work in Chemistry",
-          "annotations": {
-            "prerequisites": [
-              "Basic chemistry",
-              "Introduction to artificial intelligence or laboratory automation"
-            ],
-            "related_concepts": [
-              "Laboratory automation",
-              "Artificial intelligence in chemistry",
-              "Digital chemistry"
-            ],
-            "one_line_context": "This talk explores the integration of automation and artificial intelligence into chemical laboratories.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Oak Ridge National Laboratory",
-          "datetime_end": "2026-04-01T12:15:00-04:00",
-          "datetime_start": "2026-04-01T11:15:00-04:00",
-          "location": "Kelly Hall 310",
-          "series": "SYENSQO Seminar Series",
-          "speaker": "Jeff Foster"
-        },
-        {
-          "title": "Designing Adaptive Materials at the Interface of Nanotechnology and Polymer Science",
-          "annotations": {
-            "prerequisites": [
-              "Polymer science",
-              "Nanotechnology fundamentals"
-            ],
-            "related_concepts": [
-              "Adaptive materials",
-              "Nanomaterials",
-              "Smart polymers"
-            ],
-            "one_line_context": "This talk covers the design of adaptive materials combining concepts from nanotechnology and polymer science.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Arizona State University",
-          "datetime_end": "2026-04-08T12:15:00-04:00",
-          "datetime_start": "2026-04-08T11:15:00-04:00",
-          "location": "Kelly Hall 310",
-          "series": "SYENSQO Seminar Series",
-          "speaker": "Eileen Seo"
+          "speaker": "Wanliang Shan"
         }
       ]
     },
