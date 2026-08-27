@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import { fetchPage } from './fetch.js';
 import { reduceHtml } from './reduce.js';
+import { fetchCalendarFeed, reduceCalendarEvents } from './calendar-feed.js';
 import { extractTalks } from './extract.js';
 import { mergeTalks } from './merge.js';
 import { loadCache, saveCache, hashText } from './cache.js';
@@ -31,8 +32,18 @@ async function main() {
 
   for (const source of config.sources) {
     try {
-      const html = await fetchPage(source.url);
-      const text = reduceHtml(html, source.url);
+      // Two fetch/reduce paths, same downstream contract (clean text keyed by source.url):
+      //  - a Pamplin calendar-widget page (JS-injected, unreachable via HTML) exposes a
+      //    `calendarid` -> pull its public JSON feed and reduce the events;
+      //  - everything else is a server-rendered HTML page -> plain fetch + reduce.
+      let text;
+      if (source.calendarid) {
+        const events = await fetchCalendarFeed(source.calendarid);
+        text = reduceCalendarEvents(events, config.calendarSeriesMap ?? {});
+      } else {
+        const html = await fetchPage(source.url);
+        text = reduceHtml(html, source.url);
+      }
       const hash = hashText(text);
 
       // Reuse the prior extraction when the reduced page text is unchanged — this skips the

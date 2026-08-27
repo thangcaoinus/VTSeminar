@@ -49,6 +49,23 @@ info" blurb, the list is JS-injected and the page is **not usable** (plain `fetc
 per project constraints we don't add a headless browser). Note some departments inject their *index*
 page but expose a server-rendered archive/schedule URL that works (e.g. Math ANA's `archives.php`).
 
+**VT calendar-widget pages** are the one exception to "JS-injected = unusable". If a page mounts a
+Pamplin calendar widget (its HTML contains `<calendar data-calendarid="…">`), its events come from a
+**public JSON feed** that a plain `fetch` can read — so it's usable via a `calendarid` instead of
+scraping the page:
+
+```json
+{ "department": "Mathematics", "series": "Department Calendar",
+  "url": "https://math.vt.edu/calendar.html",
+  "calendarid": "bd9c3356-e5e9-4820-aed2-defd30df9e32" }
+```
+
+Keep `url` as the human-facing page (it stays the talk's `source_url`); the `calendarid` routes the
+source through `src/calendar-feed.js`, which fetches
+`https://pamplinstorage.blob.core.windows.net/calendarwidget-v2/<calendarid>.json`. Find a
+department's `calendarid` in the registry `…/calendarwidget-v2/calendars.json`. If the feed mixes
+several seminar series, add the title-prefix→series entries to the top-level `"calendarSeriesMap"`.
+
 ## Eval (local test suite — not run in CI)
 
 The eval confirms the cheap production model is "good enough" against a strong reference across a

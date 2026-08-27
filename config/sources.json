@@ -1,5 +1,11 @@
 {
   "model": "gemini-flash-lite-latest",
+  "_calendarSeriesMap": "For Pamplin calendar-feed sources (see calendarid below): if a feed event's title starts with one of these prefixes, the reducer stamps the mapped series so extraction is grounded. A miss falls back to the model + the source's default series — so this is an optional optimization, never load-bearing.",
+  "calendarSeriesMap": {
+    "Applied Algebra Seminar": "Applied Algebra Seminar",
+    "Applied Numerical Analysis Seminar": "Applied Numerical Analysis Seminar",
+    "Math Education Seminar": "Math Education Seminar"
+  },
   "sources": [
     {
       "department": "Mathematics",
@@ -51,6 +57,13 @@
       "department": "Electrical and Computer Engineering",
       "series": "ECE/CS Colloquium",
       "url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html"
+    },
+    {
+      "_comment": "VT Math department calendar. The page (url) is JS-injected by a Pamplin calendar widget and reduces to a masthead only (Playwright fails too — the widget needs jQuery). Instead we read the widget's public JSON feed via `calendarid` (fetchCalendarFeed in calendar-feed.js); `url` stays the human-facing page and remains the source_url/cache key. Feed is Math-only, mixing several series — see calendarSeriesMap above; one-offs fall back to this default `series`. Find a department's calendarid from the registry pamplinstorage.blob.core.windows.net/calendarwidget-v2/calendars.json.",
+      "department": "Mathematics",
+      "series": "Department Calendar",
+      "url": "https://math.vt.edu/calendar.html",
+      "calendarid": "bd9c3356-e5e9-4820-aed2-defd30df9e32"
     }
   ]
 }
