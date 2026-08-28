@@ -257,22 +257,58 @@
     "title": "Title TBD",
     "annotations": {
       "prerequisites": [],
-      "related_concepts": [
-        "geometry",
-        "topology"
-      ],
-      "one_line_context": "This talk by Nicola Tarasca covers a topic in geometry and topology.",
+      "related_concepts": [],
+      "one_line_context": "This is a seminar talk with no abstract provided.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "UMD College Park",
+    "datetime_end": "2026-10-13T17:00:00-04:00",
+    "datetime_start": "2026-10-13T16:00:00-04:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Dori Bejleri",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "85dc76e220e3742d"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This is a seminar talk with no abstract provided.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Princeton",
+    "datetime_end": "2026-10-20T17:00:00-04:00",
+    "datetime_start": "2026-10-20T16:00:00-04:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Jennifer Li",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "57f8ffe66aa2e22a"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This is a seminar talk with no abstract provided.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "VCU",
-    "datetime_start": "2026-11-17T00:00:00",
-    "location": null,
+    "datetime_end": "2026-11-17T17:00:00-04:00",
+    "datetime_start": "2026-11-17T16:00:00-04:00",
+    "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
     "speaker": "Nicola Tarasca",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "e94b710752937aae"
+    "id": "123526c724d69455"
   },
   {
     "title": "Getting Acquainted at The Maroon Door",
@@ -17197,7 +17233,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
       "one_line_context": "This is an organizational meeting for the Applied Numerical Analysis Seminar.",
       "ai_generated": true
@@ -17216,13 +17253,16 @@
   {
     "title": "Graphical Properties of Quantum LDPC Codes",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Linear Algebra",
+        "Coding Theory"
+      ],
       "related_concepts": [
         "Quantum Error Correction",
-        "LDPC Codes",
+        "Low-Density Parity-Check Codes",
         "Graph Theory"
       ],
-      "one_line_context": "This talk discusses graphical properties related to quantum LDPC codes.",
+      "one_line_context": "This talk explores the graphical properties associated with quantum low-density parity-check codes.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17237,15 +17277,16 @@
     "id": "971728b02c0155c2"
   },
   {
-    "title": "AI & the Intelligence Community - How I Became an AI Researcher at NSA (Gwen Sarapata, NSA) & SPORT: Summer Program for Operations Research Technology Internship Program (Beth Goodman, NSA)",
+    "title": "AI & the Intelligence Community - How I Became an AI Researcher at NSA & SPORT: Summer Program for Operations Research Technology Internship Program",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
         "Artificial Intelligence",
         "Operations Research",
-        "Intelligence Community"
+        "Data Science",
+        "Government Research"
       ],
-      "one_line_context": "Speakers from the NSA discuss careers in AI research and the SPORT internship program.",
+      "one_line_context": "Presentations discuss career paths in AI at the NSA and opportunities within the SPORT internship program.",
       "ai_generated": true
     },
     "abstract": "This event is part of the Mathematics & the Intelligence Community series, hosted annually and sponsored by the Department of Mathematics and the Commonwealth Cyber Initiative (CCI) Southwest Virginia.",
@@ -17257,16 +17298,17 @@
     "speaker": "Gwen Sarapata & Beth Goodman",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "9185be6639b453bf"
+    "id": "3c64662db3576999"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Daniel Appelö.",
+      "one_line_context": "This is a seminar presentation in the field of applied numerical analysis.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17285,9 +17327,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Mirjeta Pasha.",
+      "one_line_context": "This is a seminar presentation in the field of applied numerical analysis.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17306,9 +17349,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by a visitor.",
+      "one_line_context": "This is a visitor presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17327,9 +17371,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Hengyi Shi and Camilo Arenas Mata.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17348,9 +17393,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Christopher Beattie and Kun Huang.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17369,9 +17415,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by a visitor and Paul Cazeaux.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17390,9 +17437,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Reetish Padhi and Slimane Adjerid.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17411,9 +17459,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Erid de Sturler and Achintya Sunil.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17432,9 +17481,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Rudi Smith and Peter DelMastro.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17453,9 +17503,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Agnieszka Miedlar and Gregory Janes.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17474,9 +17525,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Aryeh keating and Ghafirlia Istafa.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17495,9 +17547,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Sam Bender and Kurt Stein.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17516,9 +17569,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This is a seminar talk given by Mike Ackermann and Serkan Gugercin.",
+      "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17535,13 +17589,17 @@
   {
     "title": "COFI-DQI: Curve Optimal Function Intersection via Decoded Quantum Interferometry",
     "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Quantum Interferometry",
-        "Function Intersection",
-        "Applied Algebra"
+      "prerequisites": [
+        "Quantum Mechanics",
+        "Multivariable Calculus",
+        "Interferometry"
       ],
-      "one_line_context": "This talk presents COFI-DQI for curve optimal function intersection via decoded quantum interferometry.",
+      "related_concepts": [
+        "Quantum Computing",
+        "Curve Intersection",
+        "Optimization"
+      ],
+      "one_line_context": "This talk presents a method for curve optimal function intersection using decoded quantum interferometry.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17560,7 +17618,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17581,7 +17640,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17602,7 +17662,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17623,7 +17684,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17644,7 +17706,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17665,7 +17728,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17686,7 +17750,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17707,7 +17772,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17728,7 +17794,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17749,7 +17816,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17770,7 +17838,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17791,7 +17860,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17812,7 +17882,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17833,7 +17904,8 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Mathematics Education",
+        "Pedagogy"
       ],
       "one_line_context": "This is a session of the Math Education Seminar.",
       "ai_generated": true
@@ -17850,34 +17922,68 @@
     "id": "a60e251282ca2303"
   },
   {
-    "title": "Applied Algebra Seminar",
+    "title": "The Algebraic Structure of Transversal Gates",
     "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Applied Algebra"
+      "prerequisites": [
+        "Abstract Algebra",
+        "Quantum Information Theory"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "related_concepts": [
+        "Quantum Error Correction",
+        "Group Theory",
+        "Quantum Gates"
+      ],
+      "one_line_context": "This talk explores the underlying algebraic structure of transversal gates in quantum error correction.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
+    "affiliation": "Virginia Tech",
     "datetime_end": "2026-09-10T10:00:00",
     "datetime_start": "2026-09-10T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
-    "speaker": null,
+    "speaker": "Rodrigo San José",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "6cf513534e18f176"
+    "id": "e1dd410517b5ecc3"
+  },
+  {
+    "title": "Hierarchical Locally Recoverable Codes on Surfaces",
+    "annotations": {
+      "prerequisites": [
+        "Algebraic Geometry",
+        "Coding Theory"
+      ],
+      "related_concepts": [
+        "Error-Correcting Codes",
+        "Algebraic Curves",
+        "Distributed Storage"
+      ],
+      "one_line_context": "This talk discusses hierarchical locally recoverable codes constructed on geometric surfaces.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Instituto Nacional de Matemática Pura e Aplicada (IMPA) Brazil",
+    "datetime_end": "2026-09-17T10:00:00",
+    "datetime_start": "2026-09-17T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": "Luana Costa",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "b265561210210f2c"
   },
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17894,11 +18000,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17915,11 +18024,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17936,11 +18048,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17957,11 +18072,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17978,11 +18096,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17999,11 +18120,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18020,11 +18144,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18041,11 +18168,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18062,11 +18192,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18083,11 +18216,14 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Abstract Algebra"
+      ],
       "related_concepts": [
+        "Algebra",
         "Applied Algebra"
       ],
-      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "one_line_context": "This is a general session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18100,28 +18236,5 @@
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
     "id": "f5fb510b92ca90cd"
-  },
-  {
-    "title": "Hierarchical Locally Recoverable Codes on Surfaces",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Coding Theory",
-        "Algebraic Geometry",
-        "Locally Recoverable Codes"
-      ],
-      "one_line_context": "This talk explores hierarchical locally recoverable codes defined on surfaces.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Instituto Nacional de Matemática Pura e Aplicada (IMPA) Brazil",
-    "datetime_end": "2026-09-17T10:00:00",
-    "datetime_start": "2026-09-17T09:00:00",
-    "location": "118 Steger Hall",
-    "series": "Applied Algebra Seminar",
-    "speaker": "Luana Costa",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "b265561210210f2c"
   }
 ]
