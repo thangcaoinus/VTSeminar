@@ -15710,27 +15710,8 @@
       ]
     },
     "https://math.vt.edu/calendar.html": {
-      "hash": "a566bbb73fd8b9b086562cbff5e184d11bb7e7c376a8cb670e5cab7594f25484",
+      "hash": "087bc76f173430212fa16afd581fffc73fc56e7dd3d249d82a8d2c763f760f21",
       "talks": [
-        {
-          "title": "Applied Numerical Analysis Seminar (Organizational Meeting)",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
-            ],
-            "one_line_context": "This is an organizational meeting for the Applied Numerical Analysis Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-08-24T13:15:00",
-          "datetime_start": "2026-08-24T12:15:00",
-          "location": "Math Commons Room (McBryde 455)",
-          "series": "Applied Numerical Analysis Seminar",
-          "speaker": null
-        },
         {
           "title": "Graphical Properties of Quantum LDPC Codes",
           "annotations": {
@@ -15739,8 +15720,8 @@
               "Coding Theory"
             ],
             "related_concepts": [
-              "Quantum Error Correction",
-              "Low-Density Parity-Check Codes",
+              "Quantum Computing",
+              "Error-Correcting Codes",
               "Graph Theory"
             ],
             "one_line_context": "This talk explores the graphical properties associated with quantum low-density parity-check codes.",
@@ -15755,16 +15736,15 @@
           "speaker": "Kirsten Morris"
         },
         {
-          "title": "AI & the Intelligence Community - How I Became an AI Researcher at NSA & SPORT: Summer Program for Operations Research Technology Internship Program",
+          "title": "AI & the Intelligence Community - How I Became an AI Researcher at NSA (Gwen Sarapata, NSA) & SPORT: Summer Program for Operations Research Technology Internship Program (Beth Goodman, NSA)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
               "Artificial Intelligence",
               "Operations Research",
-              "Data Science",
-              "Government Research"
+              "National Security"
             ],
-            "one_line_context": "Presentations discuss career paths in AI at the NSA and opportunities within the SPORT internship program.",
+            "one_line_context": "This event discusses AI research careers at the NSA and presents the SPORT internship program for operations research technology.",
             "ai_generated": true
           },
           "abstract": "This event is part of the Mathematics & the Intelligence Community series, hosted annually and sponsored by the Department of Mathematics and the Commonwealth Cyber Initiative (CCI) Southwest Virginia.",
@@ -15778,12 +15758,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a seminar presentation in the field of applied numerical analysis.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15799,15 +15781,14 @@
           "annotations": {
             "prerequisites": [
               "Quantum Mechanics",
-              "Multivariable Calculus",
-              "Interferometry"
+              "Calculus"
             ],
             "related_concepts": [
-              "Quantum Computing",
+              "Quantum Interferometry",
               "Curve Intersection",
               "Optimization"
             ],
-            "one_line_context": "This talk presents a method for curve optimal function intersection using decoded quantum interferometry.",
+            "one_line_context": "This talk presents COFI-DQI, a method for curve optimal function intersection using decoded quantum interferometry.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15826,7 +15807,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15842,14 +15823,13 @@
           "annotations": {
             "prerequisites": [
               "Abstract Algebra",
-              "Quantum Information Theory"
+              "Quantum Computing"
             ],
             "related_concepts": [
               "Quantum Error Correction",
-              "Group Theory",
-              "Quantum Gates"
+              "Group Theory"
             ],
-            "one_line_context": "This talk explores the underlying algebraic structure of transversal gates in quantum error correction.",
+            "one_line_context": "This talk investigates the underlying algebraic structures of transversal gates in quantum information.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15868,7 +15848,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15882,12 +15862,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a seminar presentation in the field of applied numerical analysis.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15906,11 +15888,10 @@
               "Coding Theory"
             ],
             "related_concepts": [
-              "Error-Correcting Codes",
-              "Algebraic Curves",
-              "Distributed Storage"
+              "Locally Recoverable Codes",
+              "Algebraic Curves and Surfaces"
             ],
-            "one_line_context": "This talk discusses hierarchical locally recoverable codes constructed on geometric surfaces.",
+            "one_line_context": "This talk examines hierarchical locally recoverable codes constructed on geometric surfaces.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15929,7 +15910,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15943,21 +15924,23 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a visitor presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
-          "affiliation": null,
+          "affiliation": "Case Western",
           "datetime_end": "2026-09-21T13:15:00",
           "datetime_start": "2026-09-21T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Visitor"
+          "speaker": "Anuj Abhishek"
         },
         {
           "title": "Applied Algebra Seminar",
@@ -15966,10 +15949,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15988,7 +15970,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16002,12 +15984,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16025,10 +16009,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16047,7 +16030,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16061,12 +16044,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16084,10 +16069,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16106,7 +16090,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16120,12 +16104,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16143,10 +16129,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16165,7 +16150,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16179,12 +16164,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16202,10 +16189,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16224,7 +16210,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16238,12 +16224,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16261,10 +16249,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16283,7 +16270,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16297,12 +16284,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16320,10 +16309,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16342,7 +16330,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16356,12 +16344,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16379,10 +16369,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16401,7 +16390,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16415,12 +16404,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16438,10 +16429,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16460,7 +16450,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16478,10 +16468,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16500,7 +16489,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16514,12 +16503,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16537,10 +16528,9 @@
               "Abstract Algebra"
             ],
             "related_concepts": [
-              "Algebra",
-              "Applied Algebra"
+              "Algebra"
             ],
-            "one_line_context": "This is a general session of the Applied Algebra Seminar.",
+            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16559,7 +16549,7 @@
               "Mathematics Education",
               "Pedagogy"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16573,12 +16563,14 @@
         {
           "title": "Applied Numerical Analysis Seminar",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+            "prerequisites": [
+              "Numerical Analysis"
             ],
-            "one_line_context": "This is a joint seminar presentation in the Applied Numerical Analysis Seminar series.",
+            "related_concepts": [
+              "Applied Mathematics",
+              "Scientific Computing"
+            ],
+            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
             "ai_generated": true
           },
           "abstract": null,
