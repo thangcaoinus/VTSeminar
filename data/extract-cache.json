@@ -2,231 +2,31 @@
   "version": 2,
   "entries": {
     "https://seminar.math.vt.edu/colloquium/": {
-      "hash": "a5caf02a96f05f6219cd74721aee73894b2379f5886af0f46d482a2a02d9881e",
+      "hash": "056c8348161ffc0244a390b9424033686b8fb0cdc47e4857510c9f67b495119c",
       "talks": [
         {
-          "title": "Geometry, Symmetry, and Counting Curves: A Combinatorial Perspective",
-          "annotations": {
-            "prerequisites": [
-              "cohomology ring",
-              "intersection theory"
-            ],
-            "related_concepts": [
-              "quantum cohomology",
-              "Goresky-Kottwitz-MacPherson theory",
-              "combinatorics"
-            ],
-            "one_line_context": "The talk explores how combinatorial frameworks like GKM theory help organize geometric curve counts and quantum parameters.",
-            "ai_generated": true
-          },
-          "abstract": "Hilbert’s 15th problem calls for a rigorous foundation for Schubert’s calculus, which provides classical rules for counting geometric figures satisfying incidence conditions, such as the number of lines in 3‑space meeting four given lines. After surveying a few examples of “counting with geometry,” we turn to a modern viewpoint using the cohomology ring of the complex projective plane to illustrate how intersection theory organizes such problems and leads naturally to quantum cohomology, where curve counts are built into the product structure itself. We then introduce Goresky–Kottwitz–MacPherson (GKM) theory, whose combinatorial framework becomes especially transparent in the case of the complex projective plane, allowing geometric information to be encoded on a graph in a way that simplifies computations and highlights structural patterns. Finally, we describe recent work showing how GKM theory can be used to detect the behavior of quantum parameters, providing a powerful bridge between combinatorics and quantum cohomology.",
-          "affiliation": null,
-          "datetime_end": "2026-01-23T17:00:00",
-          "datetime_start": "2026-01-23T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Ryan Shifler"
-        },
-        {
-          "title": "Structure and dynamics of gene regulatory networks",
-          "annotations": {
-            "prerequisites": [
-              "Boolean networks"
-            ],
-            "related_concepts": [
-              "gene regulatory networks",
-              "network motifs",
-              "dynamical systems"
-            ],
-            "one_line_context": "This talk examines the structural and dynamical properties of Boolean gene regulatory network models.",
-            "ai_generated": true
-          },
-          "abstract": "Gene regulatory networks (GRNs) play a central role in cellular decision-making. Understanding their structure and how it impacts their dynamics constitutes thus a fundamental biological question. GRNs are frequently modeled as Boolean networks, which are intuitive, simple to describe, and can yield qualitative results even when data are sparse. We assembled the largest repository of expert-curated Boolean GRN models. A meta-analysis of this diverse set of models reveals several surprising structural and dynamical features. GRNs exhibit more canalization, redundancy, and stable dynamics than expected. Moreover, they are enriched for certain recurring network motifs. Altogether, this raises the important question how these features benefit GRNs.",
-          "affiliation": "Iowa State",
-          "datetime_end": "2026-01-30T17:00:00",
-          "datetime_start": "2026-01-30T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Claus Kadelka"
-        },
-        {
-          "title": "From harmonic analysis to exact signal recovery",
-          "annotations": {
-            "prerequisites": [
-              "harmonic analysis"
-            ],
-            "related_concepts": [
-              "restriction theory",
-              "signal recovery",
-              "time series imputation"
-            ],
-            "one_line_context": "The speaker discusses applications of classical harmonic analysis techniques to signal recovery and time series imputation.",
-            "ai_generated": true
-          },
-          "abstract": "We are going to describe how classical techniques from harmonic analysis, such as linear and bilinear restriction theory, Bourgain/Talagrand \\Lambda_p inequalities, and related ideas have been used to study signal recovery, both in the classical setting, and in the context of imputation of time series in applied data science.",
-          "affiliation": "University of Rochester",
-          "datetime_end": "2026-02-13T17:00:00",
-          "datetime_start": "2026-02-13T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Alex Iosevich"
-        },
-        {
-          "title": "Analysis of the adhesion model and reconstruction in cosmology",
+          "title": "From Grazing to Growing Up: Matching Mathematical Tools to Ecological Complexity",
           "annotations": {
             "prerequisites": [
               "differential equations",
-              "optimal transport"
+              "dynamical systems"
             ],
             "related_concepts": [
-              "cosmology",
-              "Monge-Ampère equation",
-              "adhesion model"
+              "mathematical biology",
+              "ecology",
+              "delay differential equations",
+              "population dynamics"
             ],
-            "one_line_context": "This talk investigates mass flow and Lagrangian advection in the adhesion model of cosmology using Monge-Ampère equations.",
+            "one_line_context": "This talk explores how applied mathematicians and biologists collaborate to build mechanistic models incorporating stage-structured traits and nutrient limitations to understand complex ecological dynamics.",
             "ai_generated": true
           },
-          "abstract": "In cosmology, a basic explanation of the observed concentration of mass in singular structures is provided by the Zeldovich approximation, which takes the form of free-streaming flow for perturbations of a uniform Einstein-de Sitter universe in co-moving coordinates. The adhesion model suppresses multi-streaming by introducing viscosity. We study mass flow in this model by analysis of Lagrangian advection in the zero-viscosity limit. Under mild conditions, we show that a unique limiting Lagrangian semi-flow exists. Limiting particle paths stick together after collision and are characterized uniquely by a differential inclusion. The absolutely continuous part of the mass measure satisfies a Monge-Ampère equation related to convexification of the free-streaming velocity potential. The use of Monge-Ampère equations and optimal transport theory for the reconstruction of inverse Lagrangian maps in cosmology was introduced in work of Brenier and Frisch et al (2003). We show that the singular part of the mass measure can differ from the Alexandrov solution to the Monge-Ampère equation, however, when flows along singular structures merge, as shown by analysis of a 2D Riemann problem. In a neighborhood of merging singular structures in our examples, we show that reconstruction yielding a monotone Lagrangian map cannot be exact a.e., even off of the singularities themselves.",
-          "affiliation": "Duke University",
-          "datetime_end": "2026-02-27T17:00:00",
-          "datetime_start": "2026-02-27T16:00:00",
+          "abstract": "Classical population models often rely on simple, unstructured differential equations that assume uniform life stages and instantaneous growth. In reality, species have stage-specific traits and behavioral adaptations that require more complicated mathematical tools. In this talk, I will illustrate how applied mathematicians collaborate with biologists to build mechanistic, first-principles models that capture multi-scale ecological dynamics. We begin with grazing, introducing co-limitation functions to capture how nutrient limitations alter feeding behavior. We then transition to growing up, using stage-structured and delay differential equations to model how high nutrient demands in juveniles create developmental bottlenecks. We demonstrate how stage-specific nutrient demands shift stability boundaries and control population oscillations under enrichment. Ultimately, we show how matching the right mathematical framework to biological reality uncovers novel dynamical behaviors and yields deeper insights into complex ecological systems.",
+          "affiliation": "VT",
+          "datetime_end": "2026-09-04T17:00:00-04:00",
+          "datetime_start": "2026-09-04T16:00:00-04:00",
           "location": "McBryde 455",
           "series": "Colloquium",
-          "speaker": "Jian-Guo Liu"
-        },
-        {
-          "title": "Iterated Fourier Series",
-          "annotations": {
-            "prerequisites": [
-              "Fourier series"
-            ],
-            "related_concepts": [
-              "KdV equation",
-              "absolute Galois group"
-            ],
-            "one_line_context": "The talk describes an elementary analytical bridge connecting the KdV equation and the absolute Galois group.",
-            "ai_generated": true
-          },
-          "abstract": "The plan of the talk is to describe a bridge that connects in a natural way two mathematical worlds at the first glance far away from each other: the KdV equation and the absolute Galois group. The pillars of this bridge are given by the analytical objects from the title. The presentation will be “elementary”, one would not need to know what is the KdV equation or the absolute Galois group.",
-          "affiliation": "Cornell University",
-          "datetime_end": "2026-03-20T17:00:00",
-          "datetime_start": "2026-03-20T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Camil Muscalu"
-        },
-        {
-          "title": "Dilation Methods for Deterministic and Stochastic Dynamics with Quantum Computing Applications",
-          "annotations": {
-            "prerequisites": [
-              "stochastic differential equations",
-              "quantum algorithms"
-            ],
-            "related_concepts": [
-              "quantum computing",
-              "dissipative systems",
-              "Schrödingerization"
-            ],
-            "one_line_context": "The speaker introduces a dilation-based method to embed non-unitary dynamics into frameworks suitable for quantum computation.",
-            "ai_generated": true
-          },
-          "abstract": "Quantum algorithms are naturally formulated in terms of unitary dynamics, while many models from scientific computing involve dissipation, forcing, or randomness. In this talk I will describe a dilation-based approach for bridging this gap. The main idea is to embed deterministic or stochastic dynamics into a larger system whose evolution has a structure more suitable for quantum computation. I will first discuss deterministic dynamics, where this approach provides a unified framework for several recent constructions, including LCHS-type methods and Schrödingerization. I will then show how the same perspective extends to stochastic differential equations, leading both to trajectory-based representations and to deterministic evolution equations for quadratic statistics. These ideas connect naturally to imaginary-time evolution, Lindblad-type formulations, and recent quantum algorithms for stochastic dynamics and fermionic systems.",
-          "affiliation": "Penn State",
-          "datetime_end": "2026-03-27T17:00:00",
-          "datetime_start": "2026-03-27T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Xiantao Li"
-        },
-        {
-          "title": "Expander Graphs and Coding Theory",
-          "annotations": {
-            "prerequisites": [
-              "coding theory"
-            ],
-            "related_concepts": [
-              "expander graphs",
-              "algebraic code ensembles"
-            ],
-            "one_line_context": "This talk provides an introduction to graph-based codes and the use of expander graphs in coding theory.",
-            "ai_generated": true
-          },
-          "abstract": "One fundamental goal in coding theory is to design explicit algebraic code ensembles that are asymptotically good, meaning that their minimum distance and rate do not go to zero as the block length tends to infinity. In the mid-90s, it was shown that codes whose underlying graph representations had good expansion properties could be used to obtain such ensembles. In this talk, we give an introduction to the area of graph-based codes and review the basics of expander graphs and expander codes. We derive bounds on performance guarantees for four types of expander code frameworks, and end the talk with a discussion of open problems and current uses of expander graphs in coding theory.",
-          "affiliation": "University of Nebraska-Lincoln",
-          "datetime_end": "2026-04-03T17:00:00",
-          "datetime_start": "2026-04-03T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Christine Kelley"
-        },
-        {
-          "title": "Real Time Bayesian Inference for Tsunami Early Warning",
-          "annotations": {
-            "prerequisites": [
-              "Bayesian inference",
-              "inverse problems"
-            ],
-            "related_concepts": [
-              "tsunami forecasting",
-              "uncertainty quantification",
-              "digital twins"
-            ],
-            "one_line_context": "The talk presents rapid parallel Bayesian inference algorithms for real-time tsunami forecasting and seafloor motion inversion.",
-            "ai_generated": true
-          },
-          "abstract": "The Cascadia Subduction Zone (CSZ) extends over 1000 km from northern California to northern Vancouver Island. The CSZ is capable of unleashing a magnitude 9 earthquake with resulting 30 meter high tsunamis. While 43 earthquakes have occurred on the Cascadia fault over the last 10,000 years, it has been eerily silent since 1700, and many consider it overdue for a major earthquake. Plans are underway to deploy a network of seafloor-mounted pressure sensors in the CSZ. The sensors will record acoustic waves in the ocean that are generated when the seafloor is suddenly uplifted during an earthquake. Our goal is to use these observed pressure transients, along with a coupled acoustic-gravity wave propagation forward model, to infer the seafloor motion, and then forward propagate the resulting tsunamis toward coastal regions. Since destructive tsunami waves can arrive onshore in as little as 10 minutes, the inverse solution and subsequent tsunami forecast must be carried out in seconds to be useful for early warning. Not only do we want to predict the mean of the tsunami wave heights, but we also want to equip this digital twin with uncertainty estimates in a fully Bayesian framework. However, a single forward wave propagation simulation takes an hour on 512 A100 GPUs. To infer the billion parameters representing the uncertain spatio-temporal seafloor motion, state-of-the-art inversion algorithms need hundreds of thousands of such forward simulations. We show that by exploiting the time shift-invariance and linearity of the parameter-to-observable map, transforming the inverse operator from the parameter space to the data space, and devising novel parallel Bayesian inference algorithms that map well onto GPUs, we induce a fast offline–online decomposition that allows the seafloor motion inversion and subsequent tsunami forecast to be carried out exactly in a fraction of a second. Finally, we present fast algorithms for the optimal experimental design problem of optimizing the locations of the seafloor pressure sensors to maximize information gain from the data. This work is joint with Stefan Henneking (UT Austin), Sreeram Venkat (UT Austin), and Alice Gabriel (Scripps/UCSD).",
-          "affiliation": "Oden Institute & Mechanical Engineering, UT Austin",
-          "datetime_end": "2026-04-24T17:00:00",
-          "datetime_start": "2026-04-24T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Omar Ghattas"
-        },
-        {
-          "title": "Sublattices and Subrings of ℤ n and Random Finite Abelian Groups",
-          "annotations": {
-            "prerequisites": [
-              "abstract algebra",
-              "number theory"
-            ],
-            "related_concepts": [
-              "random groups",
-              "Cohen-Lenstra heuristics",
-              "sandpile groups"
-            ],
-            "one_line_context": "The talk investigates structural properties and probabilities associated with random sublattices, subrings, and finite abelian groups.",
-            "ai_generated": true
-          },
-          "abstract": "How many sublattices of ℤ n have index at most X ? If we choose such a lattice Λ at random, what is the probability that ℤ n / Λ is cyclic? What is the probability that its order is odd? Now let R be a random subring of ℤ n . What is the probability that ℤ n / R is cyclic? We will see how these questions fit into the study of random groups in number theory and combinatorics. We will discuss connections to Cohen-Lenstra heuristics for class groups of number fields, sandpile groups of random graphs, and cokernels of random matrices over the integers.",
-          "affiliation": "UC Irvine",
-          "datetime_end": "2026-05-01T17:00:00",
-          "datetime_start": "2026-05-01T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Nathan Kaplan"
-        },
-        {
-          "title": "Two Variations on a Theme by Cremona",
-          "annotations": {
-            "prerequisites": [
-              "algebraic geometry",
-              "toric varieties"
-            ],
-            "related_concepts": [
-              "Cremona transformation",
-              "moduli of vector bundles",
-              "derived category"
-            ],
-            "one_line_context": "This talk explores variations of the Cremona transformation through toric data, orthogonal matrix completions, and secant varieties.",
-            "ai_generated": true
-          },
-          "abstract": "The Cremona transformation is a non-linear birational map between a projective space and its dual. It can be understood in terms of toric data, in which case it corresponds to the self-duality of the generalized tetrahedron. Or it can be embedded as the diagonal in the projective space of square matrices, in which case it corresponds to the cofactor method for inverting a matrix. I want to talk about two variations on this. The first, jointly with Alicia Lamarche, looks at the analogous geometry for the duality between a hypercube and a generalized octahedron. When we embed this in the space of orthogonal matrices, we obtain an interesting answer to the question: What is the best completion of the space SO(2n+1,C) for the standard representation? Hint: it is not a manifold. The second variation is concerned with Cremona in families. Here, the varieties of secants to a variety embedded in projective space give rise to dual \"cosecant\" varieties that should be understood as families of Cremona-transformed projective spaces. The interesting question is what happens when the points defining the secants come together. When the variety is a curve, this was explained by Michael Thaddeus via moduli of vector bundles (with a section) on the curve. When the variety is a surface, I have a proposal for the cosecant variety inspired by the moduli of objects in the \"derived category\" of coherent sheaves on the surface. It is somewhat surprising to see this machinery appearing in such a classical problem, but it has been a very productive point of view that I hope to convey.",
-          "affiliation": "Utah",
-          "datetime_end": "2026-05-08T17:00:00",
-          "datetime_start": "2026-05-08T16:00:00",
-          "location": "McBryde 455",
-          "series": "Colloquium",
-          "speaker": "Aaron Bertram"
+          "speaker": "Angela Peace"
         }
       ]
     },
@@ -284,44 +84,28 @@
       ]
     },
     "https://www.stat.vt.edu/about/colloquium-schedule.html": {
-      "hash": "d559ef512c7d731069661ba90e05102ff27f6ecf2a5077051556bf91259dcb1b",
+      "hash": "13758cb5261eb20be3572b8905ce13eb4a4ff7a69336eac95d7a4a9728ada110",
       "talks": [
-        {
-          "title": "Getting Acquainted at The Maroon Door",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "networking",
-              "departmental community"
-            ],
-            "one_line_context": "A social gathering for statistics department faculty and graduate students to introduce themselves and discuss goals and hobbies.",
-            "ai_generated": true
-          },
-          "abstract": "Join us for snacks, drinks, and conversation as we get to know each other better. We’ve reserved the bar area, so we’ll be comfortably inside if it’s too warm/wet outside. We’ll go around and introduce ourselves. Graduate students and faculty, please be ready to share: Your 5-year goal, your current research interests, and a hobby you enjoy",
-          "affiliation": null,
-          "datetime_start": "2026-09-04T00:00:00",
-          "location": "The Maroon Door, 418 N Main St, Blacksburg, VA 24060",
-          "series": "Colloquium",
-          "speaker": null
-        },
         {
           "title": "Continuous-space occupancy models",
           "annotations": {
             "prerequisites": [
-              "Bayesian methods",
+              "Spatial statistics",
+              "Bayesian inference",
               "Markov chain Monte Carlo (MCMC)"
             ],
             "related_concepts": [
-              "spatial statistics",
-              "ecological modeling",
-              "Gaussian processes"
+              "Ecological modeling",
+              "Gaussian processes",
+              "Species distribution modeling"
             ],
-            "one_line_context": "This talk introduces a new class of spatial occupancy models using a clipped Gaussian process to infer species distributions in continuous space.",
+            "one_line_context": "This talk introduces a new class of spatial occupancy models using clipped Gaussian processes to analyze species distributions in continuous space while accounting for observation errors.",
             "ai_generated": true
           },
           "abstract": "Occupancy models are commonly used to infer species distributions over large spatial extents while accounting for imperfect detection. Current approaches, however, are unable to model species occurrence over continuous spatial domains while accounting for the discrete spatial domain of the observed data. We develop a new class of spatial occupancy models that embeds a change of spatial support between the observed data and occurrence process. We use a clipped Gaussian process to represent species occurrence in continuous space which can provide inferences at a finer resolution than the observed occupancy data. Our approach is beneficial because it allows for more realistic models of species occurrence, can account for species occurring in only a portion of a surveyed site, and can relate detection probabilities to these within-site occurrence proportions. We show how our model can be fit using Bayesian methods and develop a computationally efficient MCMC algorithm. We also show how our framework can be extended to handle multiple years of data to learn about species occupancy dynamics in continuous space. We demonstrate our model using simulated data and compare our approach to alternative spatial occupancy models. We also use our model to analyze ovenbird occurrence data collected in New Hampshire, USA.",
           "affiliation": "University of Missouri",
-          "datetime_start": "2026-09-18T00:00:00",
+          "datetime_end": "2026-09-18T15:30:00",
+          "datetime_start": "2026-09-18T14:30:00",
           "location": "300 Seitz",
           "series": "Colloquium",
           "speaker": "Wilson Wright"
@@ -330,23 +114,49 @@
           "title": "Understanding CNN Efficiency: Statistical Generative Models for Unstructured Image Data",
           "annotations": {
             "prerequisites": [
-              "statistical learning theory",
-              "convolutional neural networks"
+              "Statistical learning theory",
+              "Deep learning",
+              "Image analysis"
             ],
             "related_concepts": [
-              "image analysis",
-              "statistical generative models",
-              "feature mapping"
+              "Convolutional Neural Networks",
+              "Generative models",
+              "Computer vision"
             ],
-            "one_line_context": "This talk presents novel statistical generative models to analyze the efficiency and approximation capabilities of Convolutional Neural Networks in computer vision tasks.",
+            "one_line_context": "This talk presents novel statistical generative models to analyze the architectural efficiency and approximation capabilities of Convolutional Neural Networks in image analysis.",
             "ai_generated": true
           },
           "abstract": "Convolutional Neural Networks (CNNs) are foundational in modern image analysis due to their ability to efficiently learn feature representations. However, theoretical understanding of their efficiency remains limited, largely due to inadequate modeling of image structures and their interaction with CNNs. To address this, we introduce novel statistical generative models (SGMs) that decompose images into task-relevant signals and noise, capturing the complexities of natural image data. Based on these SGMs, we propose a feature mapping approach (FMA) to characterize the transformation from raw image data to feature vectors. We analyze CNNs' approximation capabilities, their adaptation to low-dimensional structures, and their efficiency in vision tasks, ultimately developing statistical learning theories for CNN-based image analysis. Our findings reveal the challenges inherent in vision tasks and highlight CNNs' remarkable efficiency in addressing them, providing new insights into their theoretical and practical capabilities. This is based on the joint work with Dr. Guohao Shen.",
           "affiliation": "University of North Carolina at Chapel Hill",
-          "datetime_start": "2026-09-25T00:00:00",
+          "datetime_end": "2026-09-25T15:30:00",
+          "datetime_start": "2026-09-25T14:30:00",
           "location": "300 Seitz",
           "series": "Colloquium",
           "speaker": "Hongtu Zhu"
+        },
+        {
+          "title": "Early-stopped aggregation: Adaptive inference with computational efficiency",
+          "annotations": {
+            "prerequisites": [
+              "Bayesian model selection",
+              "Variational inference",
+              "Frequentist statistics"
+            ],
+            "related_concepts": [
+              "Model aggregation",
+              "Penalized estimation",
+              "Computational statistics"
+            ],
+            "one_line_context": "This talk proposes a computationally efficient framework called early-stopped aggregation for adaptive statistical inference across both Bayesian and frequentist paradigms.",
+            "ai_generated": true
+          },
+          "abstract": "When considering a model selection or, more generally, an aggregation approach for adaptive statistical inference, it is often necessary to compute estimators over a wide range of model complexities including unnecessarily large models even when the true data-generating process is relatively simple, due to the lack of prior knowledge. This requirement can lead to substantial computational inefficiency. In this work, we propose a novel framework for efficient model aggregation called the early-stopped aggregation (ESA): instead of computing and aggregating estimators for all candidate models, we compute only a small number of simpler ones using an early-stopping criterion and aggregate only these for final inference. Our framework is versatile and applies to both Bayesian model selection, in particular, within the variational Bayes framework, and frequentist estimation, including a general penalized estimation setting. We investigate adaptive optimal property of the ESA approach across three learning paradigms. We first show that ESA achieves optimal adaptive contraction rates in the variational Bayes setting under mild conditions. We extend this result to variational empirical Bayes, where prior hyperparameters are chosen in a data-dependent manner. In addition, we apply the ESA approach to frequentist aggregation including both penalization-based and sample-splitting implementations, and establish corresponding theory. As we demonstrate, there is a clear unification between early-stopped Bayes and frequentist penalized aggregation, with a common \"energy\" functional comprising a data-fitting term and a complexity-control term that drives both procedures. We further present several applications and numerical studies that highlight the efficiency and strong performance of the proposed approach.",
+          "affiliation": "University of Maryland",
+          "datetime_end": "2026-11-13T15:30:00",
+          "datetime_start": "2026-11-13T14:30:00",
+          "location": "300 Seitz",
+          "series": "Colloquium",
+          "speaker": "Lizhen Lin"
         }
       ]
     },
@@ -15710,21 +15520,20 @@
       ]
     },
     "https://math.vt.edu/calendar.html": {
-      "hash": "087bc76f173430212fa16afd581fffc73fc56e7dd3d249d82a8d2c763f760f21",
+      "hash": "563e62323ada5320cca22a091019d763cb466290fe4a07dcef97a5550a6c28cc",
       "talks": [
         {
           "title": "Graphical Properties of Quantum LDPC Codes",
           "annotations": {
             "prerequisites": [
-              "Linear Algebra",
-              "Coding Theory"
+              "Quantum Error Correction",
+              "Linear Algebra"
             ],
             "related_concepts": [
               "Quantum Computing",
-              "Error-Correcting Codes",
-              "Graph Theory"
+              "Low-Density Parity-Check Codes"
             ],
-            "one_line_context": "This talk explores the graphical properties associated with quantum low-density parity-check codes.",
+            "one_line_context": "This talk explores graphical properties associated with quantum low-density parity-check codes.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15736,15 +15545,16 @@
           "speaker": "Kirsten Morris"
         },
         {
-          "title": "AI & the Intelligence Community - How I Became an AI Researcher at NSA (Gwen Sarapata, NSA) & SPORT: Summer Program for Operations Research Technology Internship Program (Beth Goodman, NSA)",
+          "title": "AI & the Intelligence Community - How I Became an AI Researcher at NSA & SPORT: Summer Program for Operations Research Technology Internship Program",
           "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Artificial Intelligence",
-              "Operations Research",
-              "National Security"
+            "prerequisites": [
+              "Basic Artificial Intelligence Concepts"
             ],
-            "one_line_context": "This event discusses AI research careers at the NSA and presents the SPORT internship program for operations research technology.",
+            "related_concepts": [
+              "Operations Research",
+              "Intelligence Community Careers"
+            ],
+            "one_line_context": "Two speakers from the NSA discuss their career journeys in AI research and opportunities through the SPORT internship program.",
             "ai_generated": true
           },
           "abstract": "This event is part of the Mathematics & the Intelligence Community series, hosted annually and sponsored by the Department of Mathematics and the Commonwealth Cyber Initiative (CCI) Southwest Virginia.",
@@ -15762,10 +15572,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis seminar presentation by Daniel Appelö.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15777,18 +15586,39 @@
           "speaker": "Daniel Appelö"
         },
         {
+          "title": "AMPS - David Ouyang",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "David Ouyang presents a talk as part of the Analysis and Math Physics Seminar series.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": "LMU Munich",
+          "datetime_end": "2026-09-02T17:00:00",
+          "datetime_start": "2026-09-02T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": "David Ouyang"
+        },
+        {
           "title": "COFI-DQI: Curve Optimal Function Intersection via Decoded Quantum Interferometry",
           "annotations": {
             "prerequisites": [
               "Quantum Mechanics",
-              "Calculus"
+              "Algebraic Curves"
             ],
             "related_concepts": [
               "Quantum Interferometry",
-              "Curve Intersection",
-              "Optimization"
+              "Function Intersection"
             ],
-            "one_line_context": "This talk presents COFI-DQI, a method for curve optimal function intersection using decoded quantum interferometry.",
+            "one_line_context": "This talk introduces curve optimal function intersection via decoded quantum interferometry.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15804,10 +15634,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A seminar focused on topics in mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15819,6 +15648,28 @@
           "speaker": null
         },
         {
+          "title": "AMPS - Carlos Alberto Garzon Gutierrez",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "Carlos Alberto Garzon Gutierrez presents a talk in the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": "Virginia Tech",
+          "datetime_end": "2026-09-09T17:00:00",
+          "datetime_start": "2026-09-09T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": "Carlos Alberto Garzon Gutierrez"
+        },
+        {
           "title": "The Algebraic Structure of Transversal Gates",
           "annotations": {
             "prerequisites": [
@@ -15826,10 +15677,10 @@
               "Quantum Computing"
             ],
             "related_concepts": [
-              "Quantum Error Correction",
-              "Group Theory"
+              "Quantum Gates",
+              "Error-Correcting Codes"
             ],
-            "one_line_context": "This talk investigates the underlying algebraic structures of transversal gates in quantum information.",
+            "one_line_context": "This talk examines the algebraic structure underlying transversal gates in quantum computing.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15845,10 +15696,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A recurring seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15866,10 +15716,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis seminar session featuring Mirjeta Pasha.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15881,6 +15730,28 @@
           "speaker": "Mirjeta Pasha"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-09-16T17:00:00",
+          "datetime_start": "2026-09-16T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Hierarchical Locally Recoverable Codes on Surfaces",
           "annotations": {
             "prerequisites": [
@@ -15889,9 +15760,9 @@
             ],
             "related_concepts": [
               "Locally Recoverable Codes",
-              "Algebraic Curves and Surfaces"
+              "Algebraic Surfaces"
             ],
-            "one_line_context": "This talk examines hierarchical locally recoverable codes constructed on geometric surfaces.",
+            "one_line_context": "This talk discusses hierarchical locally recoverable codes defined on surfaces.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15907,10 +15778,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A math education seminar session.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15928,10 +15798,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis talk by Anuj Abhishek.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15943,6 +15812,28 @@
           "speaker": "Anuj Abhishek"
         },
         {
+          "title": "AMPS - Gong Chen",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "Gong Chen presents a research talk for the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": "GaTech",
+          "datetime_end": "2026-09-23T17:00:00",
+          "datetime_start": "2026-09-23T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": "Gong Chen"
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -15951,7 +15842,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15967,10 +15858,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15988,10 +15878,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis seminar presentation by Hengyi Shi and Camilo Arenas Mata.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16003,6 +15892,28 @@
           "speaker": "Hengyi Shi & Camilo Arenas Mata"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A seminar session hosted by the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-09-30T17:00:00",
+          "datetime_start": "2026-09-30T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16011,7 +15922,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16027,10 +15938,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16048,10 +15958,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis presentation by Christopher Beattie and Kun Huang.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16063,6 +15972,28 @@
           "speaker": "Christopher Beattie & Kun Huang"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-10-07T17:00:00",
+          "datetime_start": "2026-10-07T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16071,7 +16002,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16087,10 +16018,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16108,10 +16038,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis presentation featuring a visitor and Paul Cazeaux.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16123,6 +16052,28 @@
           "speaker": "Visitor & Paul Cazeaux"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-10-14T17:00:00",
+          "datetime_start": "2026-10-14T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16131,7 +16082,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16147,10 +16098,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16168,10 +16118,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis talk by Reetish Padhi and Slimane Adjerid.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16183,6 +16132,28 @@
           "speaker": "Reetish Padhi & Slimane Adjerid"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-10-21T17:00:00",
+          "datetime_start": "2026-10-21T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16191,7 +16162,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16207,10 +16178,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16228,10 +16198,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis presentation by Erid de Sturler and Achintya Sunil.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16243,6 +16212,28 @@
           "speaker": "Erid de Sturler & Achintya Sunil"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-10-28T17:00:00",
+          "datetime_start": "2026-10-28T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16251,7 +16242,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16267,10 +16258,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16288,10 +16278,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis presentation by Rudi Smith and Peter DelMastro.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16303,6 +16292,28 @@
           "speaker": "Rudi Smith & Peter DelMastro"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-11-04T17:00:00",
+          "datetime_start": "2026-11-04T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16311,7 +16322,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16327,10 +16338,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16348,10 +16358,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis presentation by Agnieszka Miedlar and Gregory Janes.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16363,6 +16372,28 @@
           "speaker": "Agnieszka Miedlar & Gregory Janes"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-11-11T17:00:00",
+          "datetime_start": "2026-11-11T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16371,7 +16402,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16387,10 +16418,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16408,10 +16438,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis presentation by Aryeh keating and Ghafirlia Istafa.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16423,6 +16452,28 @@
           "speaker": "Aryeh keating & Ghafirlia Istafa"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-11-18T17:00:00",
+          "datetime_start": "2026-11-18T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16431,7 +16482,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16447,10 +16498,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16462,6 +16512,28 @@
           "speaker": null
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-11-25T17:00:00",
+          "datetime_start": "2026-11-25T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16470,7 +16542,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16486,10 +16558,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16507,10 +16578,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis presentation by Sam Bender and Kurt Stein.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16522,6 +16592,28 @@
           "speaker": "Sam Bender & Kurt Stein"
         },
         {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-12-02T17:00:00",
+          "datetime_start": "2026-12-02T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
+        },
+        {
           "title": "Applied Algebra Seminar",
           "annotations": {
             "prerequisites": [
@@ -16530,7 +16622,7 @@
             "related_concepts": [
               "Algebra"
             ],
-            "one_line_context": "This is a placeholder or recurring meeting for the Applied Algebra Seminar.",
+            "one_line_context": "A session of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16546,10 +16638,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education",
-              "Pedagogy"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a regular meeting of the Math Education Seminar series.",
+            "one_line_context": "A session of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16567,10 +16658,9 @@
               "Numerical Analysis"
             ],
             "related_concepts": [
-              "Applied Mathematics",
-              "Scientific Computing"
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a seminar session for the Applied Numerical Analysis research group.",
+            "one_line_context": "An applied numerical analysis presentation by Mike Ackermann and Serkan Gugercin.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16580,6 +16670,28 @@
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
           "speaker": "Mike Ackermann & Serkan Gugercin"
+        },
+        {
+          "title": "AMPS",
+          "annotations": {
+            "prerequisites": [
+              "Mathematical Physics",
+              "Analysis"
+            ],
+            "related_concepts": [
+              "Mathematical Analysis",
+              "Physics"
+            ],
+            "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+            "ai_generated": true
+          },
+          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "affiliation": null,
+          "datetime_end": "2026-12-09T17:00:00",
+          "datetime_start": "2026-12-09T16:00:00",
+          "location": "McB 455 (commons room)",
+          "series": "Department Calendar",
+          "speaker": null
         }
       ]
     }
