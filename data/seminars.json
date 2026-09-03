@@ -7518,18 +7518,38 @@
     "id": "17058da9cb8470ad"
   },
   {
+    "title": "Seminar by Mohammad Abdul Malek",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Economics"
+      ],
+      "one_line_context": "This talk is presented by Mohammad Abdul Malek, Professor of Economics at Miyazaki International University.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Miyazaki International University (Japan)",
+    "datetime_end": null,
+    "datetime_start": "2026-09-11T00:00:00",
+    "location": null,
+    "series": "Seminars",
+    "speaker": "Mohammad Abdul Malek",
+    "department": "Agricultural and Applied Economics",
+    "source_url": "https://aaec.vt.edu/seminars.html",
+    "id": "745dec81b4a375da"
+  },
+  {
     "title": "Seminar by Conner Mullally",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Food Economics",
-        "Resource Economics"
+        "Food and Resource Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Conner Mullally from the University of Florida.",
+      "one_line_context": "This seminar features Conner Mullally from the Food and Resource Economics Department at the University of Florida.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": "Food and Resource Economics Department, University of Florida",
+    "affiliation": "Food and Resource Economics Department at the University of Florida",
     "datetime_end": null,
     "datetime_start": "2026-02-06T00:00:00",
     "location": null,
@@ -7547,7 +7567,7 @@
         "Economics",
         "Policy Integrity"
       ],
-      "one_line_context": "This is a research seminar presented by Peter Howard from Policy Integrity, NYU.",
+      "one_line_context": "This seminar features Peter Howard, Economics Director at Policy Integrity, NYU.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7568,11 +7588,11 @@
       "related_concepts": [
         "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Wei Zhang from Virginia Tech.",
+      "one_line_context": "This seminar features Wei Zhang from the Department of Agricultural and Applied Economics at Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": "Department of Agricultural and Applied Economics, Virginia Tech",
+    "affiliation": "Department of Agricultural and Applied Economics at Virginia Tech",
     "datetime_end": null,
     "datetime_start": "2026-03-20T00:00:00",
     "location": null,
@@ -7589,7 +7609,7 @@
       "related_concepts": [
         "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Wei Zhang from Virginia Tech.",
+      "one_line_context": "This seminar features Wei Zhang from the Dept. of Agricultural and Applied Economics, Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7610,11 +7630,11 @@
       "related_concepts": [
         "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Shourish Chakravarty from Southern Piedmont AREC and Virginia Tech.",
+      "one_line_context": "This seminar features Shourish Chakravarty from the Southern Piedmont AREC and Department of Agricultural and Applied Economics at Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": "Southern Piedmont AREC, Department of Agricultural and Applied Economics, Virginia Tech",
+    "affiliation": "Southern Piedmont AREC, Department of Agricultural and Applied Economics at Virginia Tech",
     "datetime_end": null,
     "datetime_start": "2026-04-24T00:00:00",
     "location": null,
@@ -7631,11 +7651,11 @@
       "related_concepts": [
         "Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Christian Vossler from the University of Tennessee.",
+      "one_line_context": "This seminar features Christian Vossler, J. Fred Holly Chair of Excellence in the Department of Economics at the University of Tennessee.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": "Department of Economics, Haslam College of Business, University of Tennessee",
+    "affiliation": "Haslam College of Business, University of Tennessee",
     "datetime_end": null,
     "datetime_start": "2026-05-01T00:00:00",
     "location": null,
@@ -7650,14 +7670,13 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Agricultural Economics",
-        "Resource Economics"
+        "Agricultural and Resource Economics"
       ],
-      "one_line_context": "This is a research seminar presented by David Zilberman from UC Berkeley.",
+      "one_line_context": "This seminar features David Zilberman from the Agricultural and Resource Economics Department at UC Berkeley.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": "Agricultural and Resource Economics Department, UC Berkeley",
+    "affiliation": "Agricultural and Resource Economics Department at UC Berkeley",
     "datetime_end": null,
     "datetime_start": "2026-05-04T00:00:00",
     "location": null,
@@ -7674,7 +7693,7 @@
       "related_concepts": [
         "Finance"
       ],
-      "one_line_context": "This is a research seminar presented by Michel Robe from the University of Richmond.",
+      "one_line_context": "This seminar features Michel Robe, Professor of Finance at the University of Richmond.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7695,7 +7714,7 @@
       "related_concepts": [
         "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Pratyoosh Kashyap from AAEC at Virginia Tech.",
+      "one_line_context": "This seminar features Pratyoosh Kashyap, Research Scientist at AAEC, VT.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7715,9 +7734,9 @@
       "prerequisites": [],
       "related_concepts": [
         "Economics",
-        "Business"
+        "Pamplin"
       ],
-      "one_line_context": "This is a research seminar presented by Jian Ni from Virginia Tech.",
+      "one_line_context": "This seminar features Jian Ni, Professor in Pamplin/Econ at Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7738,7 +7757,7 @@
       "related_concepts": [
         "Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Bo Zhou from Virginia Tech.",
+      "one_line_context": "This seminar features Bo Zhou, Assistant Professor in Econ at Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7759,7 +7778,7 @@
       "related_concepts": [
         "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a job market seminar presented by Yuanyuan Wen from AAEC at Virginia Tech.",
+      "one_line_context": "This seminar features Yuanyuan Wen, Job Market Candidate in AAEC at Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7780,7 +7799,7 @@
       "related_concepts": [
         "Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Nandini Das from Virginia Tech.",
+      "one_line_context": "This seminar features Nandini Das in Econ at Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7801,7 +7820,7 @@
       "related_concepts": [
         "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a job market seminar presented by Deepak Kumar from AAEC at Virginia Tech.",
+      "one_line_context": "This seminar features Deepak Kumar, Job Market Candidate in AAEC at Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7822,7 +7841,7 @@
       "related_concepts": [
         "Agribusiness"
       ],
-      "one_line_context": "This is a research seminar presented by Tim Richards from Arizona State University.",
+      "one_line_context": "This seminar features Tim Richards, Professor at the Morrison School of Agribusiness, Arizona State University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7843,7 +7862,7 @@
       "related_concepts": [
         "Agricultural and Consumer Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Sarah Janzen from UIUC.",
+      "one_line_context": "This seminar features Sarah Janzen, Associate Professor in Agricultural & Consumer Economics at UIUC.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7864,7 +7883,7 @@
       "related_concepts": [
         "Agricultural Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Brady Deaton from the University of Guelph.",
+      "one_line_context": "This seminar features Brady Deaton, Professor at the Ontario Agricultural College, University of Guelph.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7886,11 +7905,11 @@
         "Agricultural and Applied Economics",
         "AgriVisions"
       ],
-      "one_line_context": "This is a research seminar presented by David Kohl from Virginia Tech and AgriVisions, LLC.",
+      "one_line_context": "This seminar features David Kohl, Professor Emeritus at AAEC and President of AgriVisions, LLC.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": "AAEC and AgriVisions, LLC",
+    "affiliation": "AAEC and President, AgriVisions, LLC",
     "datetime_end": null,
     "datetime_start": "2025-03-19T00:00:00",
     "location": null,
@@ -7907,7 +7926,7 @@
       "related_concepts": [
         "Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Lala Ma from the University of Kentucky.",
+      "one_line_context": "This seminar features Lala Ma, Associate Professor of Economics at the University of Kentucky.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7928,7 +7947,7 @@
       "related_concepts": [
         "Agricultural and Resource Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Dale Manning from the University of Tennessee, Knoxville.",
+      "one_line_context": "This seminar features Dale Manning, Associate Professor of Agricultural and Resource Economics at UTK.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7949,7 +7968,7 @@
       "related_concepts": [
         "Food and Resource Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Sungeun Yoon from the University of Florida.",
+      "one_line_context": "This seminar features Sungeun Yoon, Assistant Research Scientist in Food and Resource Economics at the University of Florida.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7968,10 +7987,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics",
-        "Management"
+        "Applied Economics and Management"
       ],
-      "one_line_context": "This is a research seminar presented by Becca Jablonski from Cornell University.",
+      "one_line_context": "This seminar features Becca Jablonski, Visiting Associate Professor at the Dyson School of Applied Economics and Management, Cornell.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7993,7 +8011,7 @@
         "Agricultural Economics",
         "Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Diane Charlton from Montana State University.",
+      "one_line_context": "This seminar features Diane Charlton, Associate Professor of Agricultural Economics and Economics at Montana State University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8014,7 +8032,7 @@
       "related_concepts": [
         "Agricultural, Food and Resource Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Titus Awokuse from Michigan State University.",
+      "one_line_context": "This seminar features Titus Awokuse, Professor of Agricultural, Food and Resource Economics at Michigan State University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8033,9 +8051,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Mario Ortez.",
+      "one_line_context": "This seminar features Mario Ortez.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8054,9 +8072,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Klaus Moeltner.",
+      "one_line_context": "This seminar features Klaus Moeltner.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8075,9 +8093,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Yuetong Zhang.",
+      "one_line_context": "This seminar features Yuetong Zhang.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8096,9 +8114,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Junjie Wu.",
+      "one_line_context": "This seminar features Junjie Wu.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8117,9 +8135,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Chenyang Hu.",
+      "one_line_context": "This seminar features Chenyang Hu.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8138,9 +8156,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Yoonjung Lee.",
+      "one_line_context": "This seminar features Yoonjung Lee.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8159,9 +8177,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Leonard-Allen Quaye.",
+      "one_line_context": "This seminar features Leonard-Allen Quaye.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8182,7 +8200,7 @@
       "related_concepts": [
         "Agribusiness"
       ],
-      "one_line_context": "This is a virtual research seminar presented by Carola Grebitus from Arizona State University.",
+      "one_line_context": "This virtual seminar features Carola Grebitus from Arizona State University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8201,11 +8219,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Energy",
-        "Environment",
-        "Climate Action"
+        "Energy, Environment and Climate Action"
       ],
-      "one_line_context": "This is a virtual research seminar presented by Gwen DeBoe from the Victorian Department of Energy, Environment and Climate Action.",
+      "one_line_context": "This virtual seminar features Gwen DeBoe from the Victorian Department of Energy, Environment and Climate Action.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8226,7 +8242,7 @@
       "related_concepts": [
         "Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Charlotte Ambrozek from the University of Minnesota.",
+      "one_line_context": "This seminar features Charlotte Ambrozek from the University of Minnesota.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8245,9 +8261,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Alejandro Gutierrez-Li from North Carolina State University.",
+      "one_line_context": "This seminar features Alejandro Gutierrez-Li from North Carolina State University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8268,7 +8284,7 @@
       "related_concepts": [
         "Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Rebecca Epanchin-Niell from the University of Maryland.",
+      "one_line_context": "This seminar features Rebecca Epanchin-Niell from the University of Maryland.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8287,9 +8303,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural Economics"
       ],
-      "one_line_context": "This is a research seminar presented by LuLu Pi from NC State.",
+      "one_line_context": "This seminar features LuLu Pi, Ph.D. Candidate at NC State.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8308,10 +8324,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Government",
+        "Economics",
         "Public Service"
       ],
-      "one_line_context": "This is a research seminar presented by Eric Lewis from Texas A&M University.",
+      "one_line_context": "This seminar features Eric Lewis, Economist at the Bush School of Government and Public Service at Texas A&M University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8333,11 +8349,11 @@
         "Sustainability",
         "Innovation"
       ],
-      "one_line_context": "This is a research seminar presented by Danae Hernandez-Cortez from Arizona State University.",
+      "one_line_context": "This seminar features Danae Hernandez-Cortez, Assistant Professor at Arizona State University and Research Affiliate at emLab, UC Santa Barbara.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": "Arizona State University and emLab at the University of California, Santa Barbara",
+    "affiliation": "School of Sustainability, Arizona State University",
     "datetime_end": null,
     "datetime_start": null,
     "location": null,
@@ -8354,7 +8370,7 @@
       "related_concepts": [
         "Agricultural and Resource Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Eric Edwards from North Carolina State University.",
+      "one_line_context": "This seminar features Eric Edwards, Associate professor in the Department of Agricultural and Resource Economics at North Carolina State University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8375,7 +8391,7 @@
       "related_concepts": [
         "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Minkyong Ko from Virginia Tech.",
+      "one_line_context": "This seminar features Minkyong Ko from the Virginia Tech Dept. of Agricultural and Applied Economics.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8394,9 +8410,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Joshua Berning.",
+      "one_line_context": "This seminar features Joshua Berning.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8417,7 +8433,7 @@
       "related_concepts": [
         "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Mary Marchant from Virginia Tech.",
+      "one_line_context": "This seminar features Mary Marchant, Professor at the Virginia Tech Dept. of Agricultural and Applied Economics.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8438,7 +8454,7 @@
       "related_concepts": [
         "Agricultural, Environmental, and Development Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Leah Bevis from Ohio State University.",
+      "one_line_context": "This seminar features Leah Bevis, Associate Professor in the Department of Agricultural, Environmental, and Development Economics at Ohio State University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8459,7 +8475,7 @@
       "related_concepts": [
         "Food and Resource Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Di Fang from the University of Florida.",
+      "one_line_context": "This seminar features Di Fang, Associate professor in the Food and Resource Economics Department at the University of Florida.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8480,7 +8496,7 @@
       "related_concepts": [
         "Applied Economics"
       ],
-      "one_line_context": "This is a research seminar presented by Yang Cheng.",
+      "one_line_context": "This seminar features Yang Cheng, 5th year Ph.D. Student.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8501,7 +8517,7 @@
       "related_concepts": [
         "Natural Resources"
       ],
-      "one_line_context": "This is a research seminar presented by Siddharta Bora from West Virginia University.",
+      "one_line_context": "This seminar features Siddharta Bora, Assistant professor at the School of Natural Resources, West Virginia University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8520,9 +8536,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural Economics"
       ],
-      "one_line_context": "This is an in-person research seminar presented by Nick Magnan from the University of Georgia.",
+      "one_line_context": "This seminar features Nick Magnan from the University of Georgia.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8543,7 +8559,7 @@
       "related_concepts": [
         "Agribusiness"
       ],
-      "one_line_context": "This is an in-person research seminar presented by Lauren Chenarides from Arizona State University.",
+      "one_line_context": "This seminar features Lauren Chenarides from Arizona State University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8562,9 +8578,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Economics"
       ],
-      "one_line_context": "This is an in-person research seminar presented by Jonathan Malacarne from the University of Maine.",
+      "one_line_context": "This seminar features Jonathan Malacarne from the University of Maine.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8583,9 +8599,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Economics"
       ],
-      "one_line_context": "This is a Zoom research seminar presented by Wenying Li from Auburn University.",
+      "one_line_context": "This seminar features Wenying Li from Auburn University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8607,7 +8623,7 @@
         "Gerontology",
         "Health"
       ],
-      "one_line_context": "This is an in-person research seminar presented by Laura Sands from Virginia Tech.",
+      "one_line_context": "This seminar features Laura Sands from Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8628,7 +8644,7 @@
       "related_concepts": [
         "Applied Economics"
       ],
-      "one_line_context": "This is an in-person research seminar presented by Alex Michuda from Cornell University.",
+      "one_line_context": "This seminar features Alex Michuda from Cornell University.",
       "ai_generated": true
     },
     "abstract": null,
@@ -8647,9 +8663,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Economics"
+        "Agricultural and Applied Economics"
       ],
-      "one_line_context": "This is an in-person research seminar presented by Elinor Benami from Virginia Tech.",
+      "one_line_context": "This seminar features Elinor Benami from Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17545,42 +17561,19 @@
     "id": "ed841077d423fa58"
   },
   {
-    "title": "AI & the Intelligence Community - How I Became an AI Researcher at NSA (Gwen Sarapata, NSA) & SPORT: Summer Program for Operations Research Technology Internship Program (Beth Goodman, NSA)",
+    "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Artificial Intelligence",
-        "Operations Research",
-        "Intelligence Community"
-      ],
-      "one_line_context": "This event discusses artificial intelligence research at the NSA and presents an overview of the SPORT internship program.",
-      "ai_generated": true
-    },
-    "abstract": "This event is part of the Mathematics & the Intelligence Community series, hosted annually and sponsored by the Department of Mathematics and the Commonwealth Cyber Initiative (CCI) Southwest Virginia.",
-    "affiliation": "NSA",
-    "datetime_start": "2026-08-27T15:30:00",
-    "location": "310 Kelly Hall",
-    "series": "Mathematics & the Intelligence Community",
-    "speaker": "Gwen Sarapata & Beth Goodman",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "9185be6639b453bf"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
-      "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Daniel Appelö.",
+      "one_line_context": "An applied numerical analysis seminar talk presented by Daniel Appelö from Virginia Tech.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-08-31T13:15:00",
     "datetime_start": "2026-08-31T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17592,18 +17585,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Mirjeta Pasha.",
+      "one_line_context": "An applied numerical analysis seminar talk by Mirjeta Pasha.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-09-14T13:15:00",
     "datetime_start": "2026-09-14T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17615,18 +17607,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Anuj Abhishek.",
+      "one_line_context": "An applied numerical analysis seminar talk by Anuj Abhishek.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Case Western",
+    "datetime_end": "2026-09-21T13:15:00",
     "datetime_start": "2026-09-21T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17638,11 +17629,9 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
       "one_line_context": "An applied numerical analysis seminar presentation by Hengyi Shi and Camilo Arenas Mata.",
@@ -17650,6 +17639,7 @@
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-09-28T13:15:00",
     "datetime_start": "2026-09-28T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17661,18 +17651,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Christopher Beattie and Kun Huang.",
+      "one_line_context": "An applied numerical analysis seminar talk by Christopher Beattie and Kun Huang.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-05T13:15:00",
     "datetime_start": "2026-10-05T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17684,18 +17673,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by a visitor and Paul Cazeaux.",
+      "one_line_context": "An applied numerical analysis seminar talk featuring a visitor and Paul Cazeaux.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-12T13:15:00",
     "datetime_start": "2026-10-12T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17707,18 +17695,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Reetish Padhi and Slimane Adjerid.",
+      "one_line_context": "An applied numerical analysis seminar talk by Reetish Padhi and Slimane Adjerid.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-19T13:15:00",
     "datetime_start": "2026-10-19T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17730,18 +17717,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Erid de Sturler and Achintya Sunil.",
+      "one_line_context": "An applied numerical analysis seminar talk by Erid de Sturler and Achintya Sunil.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-26T13:15:00",
     "datetime_start": "2026-10-26T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17753,18 +17739,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Rudi Smith and Peter DelMastro.",
+      "one_line_context": "An applied numerical analysis seminar talk by Rudi Smith and Peter DelMastro.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-02T13:15:00",
     "datetime_start": "2026-11-02T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17776,18 +17761,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Agnieszka Miedlar and Gregory Janes.",
+      "one_line_context": "An applied numerical analysis seminar talk by Agnieszka Miedlar and Gregory Janes.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-09T13:15:00",
     "datetime_start": "2026-11-09T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17799,18 +17783,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Aryeh keating and Ghafirlia Istafa.",
+      "one_line_context": "An applied numerical analysis seminar talk by Aryeh keating and Ghafirlia Istafa.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-16T13:15:00",
     "datetime_start": "2026-11-16T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17822,18 +17805,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Sam Bender and Kurt Stein.",
+      "one_line_context": "An applied numerical analysis seminar talk by Sam Bender and Kurt Stein.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-30T13:15:00",
     "datetime_start": "2026-11-30T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17845,18 +17827,17 @@
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Numerical Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Numerical Methods",
+        "Numerical Analysis",
         "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Mike Ackermann and Serkan Gugercin.",
+      "one_line_context": "An applied numerical analysis seminar talk by Mike Ackermann and Serkan Gugercin.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-12-07T13:15:00",
     "datetime_start": "2026-12-07T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
@@ -17868,19 +17849,17 @@
   {
     "title": "AMPS - David Ouyang",
     "annotations": {
-      "prerequisites": [
+      "prerequisites": [],
+      "related_concepts": [
         "Mathematical Physics",
         "Analysis"
       ],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "A seminar talk on analysis and mathematical physics by David Ouyang.",
+      "one_line_context": "An Analysis and Math Physics Seminar talk given by David Ouyang from LMU Munich.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": "LMU Munich",
+    "datetime_end": "2026-09-02T17:00:00",
     "datetime_start": "2026-09-02T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -17892,19 +17871,18 @@
   {
     "title": "COFI-DQI: Curve Optimal Function Intersection via Decoded Quantum Interferometry",
     "annotations": {
-      "prerequisites": [
-        "Applied Algebra",
-        "Quantum Information"
-      ],
+      "prerequisites": [],
       "related_concepts": [
+        "Applied Algebra",
         "Quantum Interferometry",
         "Curve Optimization"
       ],
-      "one_line_context": "A talk on curve optimal function intersection using decoded quantum interferometry.",
+      "one_line_context": "A talk on curve optimal function intersection via decoded quantum interferometry by Julia Shapiro.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-09-03T10:00:00",
     "datetime_start": "2026-09-03T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -17918,14 +17896,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A talk in the Math Education Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-09-03T13:00:00",
     "datetime_start": "2026-09-03T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -17939,14 +17917,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A seminar session focusing on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-09-10T13:00:00",
     "datetime_start": "2026-09-10T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -17960,14 +17938,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A session dedicated to math education topics.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-09-17T13:00:00",
     "datetime_start": "2026-09-17T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -17981,14 +17959,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
       "one_line_context": "A regular meeting of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-09-24T13:00:00",
     "datetime_start": "2026-09-24T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18002,14 +17980,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A session for the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-01T13:00:00",
     "datetime_start": "2026-10-01T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18023,14 +18001,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-08T13:00:00",
     "datetime_start": "2026-10-08T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18044,14 +18022,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-15T13:00:00",
     "datetime_start": "2026-10-15T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18065,14 +18043,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-22T13:00:00",
     "datetime_start": "2026-10-22T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18086,14 +18064,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-29T13:00:00",
     "datetime_start": "2026-10-29T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18107,14 +18085,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-05T13:00:00",
     "datetime_start": "2026-11-05T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18128,14 +18106,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-12T13:00:00",
     "datetime_start": "2026-11-12T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18149,14 +18127,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-19T13:00:00",
     "datetime_start": "2026-11-19T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18170,14 +18148,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-26T13:00:00",
     "datetime_start": "2026-11-26T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18191,14 +18169,14 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education",
-        "Pedagogy"
+        "Mathematics Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A Math Education Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-12-03T13:00:00",
     "datetime_start": "2026-12-03T12:00:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Math Education Seminar",
@@ -18210,19 +18188,17 @@
   {
     "title": "AMPS - Carlos Alberto Garzon Gutierrez",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A seminar talk on analysis and mathematical physics by Carlos Alberto Garzon Gutierrez.",
+      "one_line_context": "An Analysis and Math Physics Seminar talk presented by Carlos Alberto Garzon Gutierrez.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-09-09T17:00:00",
     "datetime_start": "2026-09-09T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18234,19 +18210,18 @@
   {
     "title": "The Algebraic Structure of Transversal Gates",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra",
+      "prerequisites": [],
+      "related_concepts": [
+        "Applied Algebra",
+        "Transversal Gates",
         "Quantum Computing"
       ],
-      "related_concepts": [
-        "Transversal Gates",
-        "Algebraic Structures"
-      ],
-      "one_line_context": "A discussion on the algebraic structures underlying transversal gates.",
+      "one_line_context": "A discussion on the algebraic structure of transversal gates by Rodrigo San José.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Virginia Tech",
+    "datetime_end": "2026-09-10T10:00:00",
     "datetime_start": "2026-09-10T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18258,19 +18233,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar session.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-09-16T17:00:00",
     "datetime_start": "2026-09-16T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18282,19 +18255,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar meeting.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-09-30T17:00:00",
     "datetime_start": "2026-09-30T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18306,19 +18277,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar session.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-07T17:00:00",
     "datetime_start": "2026-10-07T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18330,19 +18299,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-14T17:00:00",
     "datetime_start": "2026-10-14T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18354,19 +18321,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-21T17:00:00",
     "datetime_start": "2026-10-21T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18378,19 +18343,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-28T17:00:00",
     "datetime_start": "2026-10-28T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18402,19 +18365,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-04T17:00:00",
     "datetime_start": "2026-11-04T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18426,19 +18387,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-11T17:00:00",
     "datetime_start": "2026-11-11T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18450,19 +18409,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-18T17:00:00",
     "datetime_start": "2026-11-18T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18474,19 +18431,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-25T17:00:00",
     "datetime_start": "2026-11-25T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18498,19 +18453,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-12-02T17:00:00",
     "datetime_start": "2026-12-02T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18522,19 +18475,17 @@
   {
     "title": "AMPS",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-12-09T17:00:00",
     "datetime_start": "2026-12-09T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18546,19 +18497,18 @@
   {
     "title": "Hierarchical Locally Recoverable Codes on Surfaces",
     "annotations": {
-      "prerequisites": [
+      "prerequisites": [],
+      "related_concepts": [
+        "Algebra",
         "Coding Theory",
         "Algebraic Geometry"
       ],
-      "related_concepts": [
-        "Locally Recoverable Codes",
-        "Surface Codes"
-      ],
-      "one_line_context": "A lecture on hierarchical locally recoverable codes defined on algebraic surfaces.",
+      "one_line_context": "A talk on hierarchical locally recoverable codes on surfaces by Luana Costa.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Instituto Nacional de Matemática Pura e Aplicada (IMPA) Brazil",
+    "datetime_end": "2026-09-17T10:00:00",
     "datetime_start": "2026-09-17T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18570,19 +18520,17 @@
   {
     "title": "AMPS - Gong Chen",
     "annotations": {
-      "prerequisites": [
-        "Mathematical Physics",
-        "Analysis"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An analysis and mathematical physics seminar talk by Gong Chen.",
+      "one_line_context": "An Analysis and Math Physics Seminar talk given by Gong Chen.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": "GaTech",
+    "datetime_end": "2026-09-23T17:00:00",
     "datetime_start": "2026-09-23T16:00:00",
     "location": "McB 455 (commons room)",
     "series": "Department Calendar",
@@ -18594,17 +18542,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "A session in the Applied Algebra Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-09-24T10:00:00",
     "datetime_start": "2026-09-24T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18616,17 +18563,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "A session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-01T10:00:00",
     "datetime_start": "2026-10-01T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18638,17 +18584,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "An Applied Algebra Seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-08T10:00:00",
     "datetime_start": "2026-10-08T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18660,39 +18605,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "An Applied Algebra Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
-    "datetime_start": "2026-10-15T09:00:00",
-    "location": "118 Steger Hall",
-    "series": "Applied Algebra Seminar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "d6f9bf5074a609f7"
-  },
-  {
-    "title": "Applied Algebra Seminar",
-    "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
-      "related_concepts": [
-        "Applied Algebra"
-      ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
+    "datetime_end": "2026-10-22T10:00:00",
     "datetime_start": "2026-10-22T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18704,17 +18626,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "An Applied Algebra Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-10-29T10:00:00",
     "datetime_start": "2026-10-29T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18726,17 +18647,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "An Applied Algebra Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-05T10:00:00",
     "datetime_start": "2026-11-05T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18748,17 +18668,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "An Applied Algebra Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-12T10:00:00",
     "datetime_start": "2026-11-12T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18770,17 +18689,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "An Applied Algebra Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-19T10:00:00",
     "datetime_start": "2026-11-19T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18792,17 +18710,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "An Applied Algebra Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-11-26T10:00:00",
     "datetime_start": "2026-11-26T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18814,17 +18731,16 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [
-        "Abstract Algebra"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A regular meeting of the Applied Algebra Seminar.",
+      "one_line_context": "An Applied Algebra Seminar session.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
+    "datetime_end": "2026-12-03T10:00:00",
     "datetime_start": "2026-12-03T09:00:00",
     "location": "118 Steger Hall",
     "series": "Applied Algebra Seminar",
@@ -18832,5 +18748,28 @@
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
     "id": "f5fb510b92ca90cd"
+  },
+  {
+    "title": "Recent Results on Spatially Coupled Macula (and Similar) Codes",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Applied Algebra",
+        "Coding Theory",
+        "Spatially Coupled Codes"
+      ],
+      "one_line_context": "A talk on recent results on spatially coupled macula and similar codes by Maciej Piwowarczyk.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "University of South Carolina",
+    "datetime_end": "2026-10-15T10:00:00",
+    "datetime_start": "2026-10-15T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": "Maciej Piwowarczyk",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "2f7db501bacbc402"
   }
 ]
