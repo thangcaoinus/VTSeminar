@@ -27,63 +27,6 @@
     "id": "d203750c1853e4c1"
   },
   {
-    "title": "Title TBD",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [],
-      "one_line_context": "This is a seminar talk with no abstract provided.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "UMD College Park",
-    "datetime_end": "2026-10-13T17:00:00-04:00",
-    "datetime_start": "2026-10-13T16:00:00-04:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Dori Bejleri",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "85dc76e220e3742d"
-  },
-  {
-    "title": "Title TBD",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [],
-      "one_line_context": "This is a seminar talk with no abstract provided.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Princeton",
-    "datetime_end": "2026-10-20T17:00:00-04:00",
-    "datetime_start": "2026-10-20T16:00:00-04:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Jennifer Li",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "57f8ffe66aa2e22a"
-  },
-  {
-    "title": "Title TBD",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [],
-      "one_line_context": "This is a seminar talk with no abstract provided.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "VCU",
-    "datetime_end": "2026-11-17T17:00:00-04:00",
-    "datetime_start": "2026-11-17T16:00:00-04:00",
-    "location": "McBryde Hall 563",
-    "series": "Geometry/Topology Seminar",
-    "speaker": "Nicola Tarasca",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "123526c724d69455"
-  },
-  {
     "title": "Continuous-space occupancy models",
     "annotations": {
       "prerequisites": [
@@ -17391,10 +17334,10 @@
       ],
       "related_concepts": [
         "Polymer synthesis",
-        "Initiators",
-        "Neoteric materials"
+        "Neoteric materials",
+        "Initiators"
       ],
-      "one_line_context": "This talk discusses non-traditional polymer synthons and initiators used to create novel materials.",
+      "one_line_context": "This talk explores non-traditional polymer synthons and initiators used to create neoteric materials.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17413,14 +17356,14 @@
     "annotations": {
       "prerequisites": [
         "Materials science",
-        "Mechanics"
+        "Mechanics of materials"
       ],
       "related_concepts": [
-        "Adhesion",
+        "Tunable adhesion",
         "Compliant manipulation",
-        "Tunable surfaces"
+        "Adhesive interfaces"
       ],
-      "one_line_context": "This talk reviews a decade-long research effort focusing on compliant manipulation using highly tunable adhesion.",
+      "one_line_context": "This talk presents a decade-long research effort focusing on compliant manipulation achieved through highly tunable adhesion.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17445,9 +17388,9 @@
         "artificial intelligence",
         "semiconductors",
         "cloud infrastructure",
-        "product management"
+        "generative AI"
       ],
-      "one_line_context": "A Meta director and Virginia Tech alumnus shares career insights and explores how artificial intelligence is transforming the tech industry.",
+      "one_line_context": "A Meta product manager shares career insights from Virginia Tech to Silicon Valley and explores current industry trends in artificial intelligence.",
       "ai_generated": true
     },
     "abstract": "The technology industry is undergoing a seismic transformation driven by artificial intelligence. In this talk, Wattoo—a Virginia Tech alumnus and Director of Product Management at Meta—shares his 20+ year career journey from the halls of Virginia Tech to leadership roles at Qualcomm, Amazon, and Meta, spanning semiconductors, smartphones, cloud infrastructure, and AI. Wattoo will explore the key industry trends shaping AI today—from foundation models and generative AI to the infrastructure powering them at scale—and what these shifts mean for the broader tech landscape. He will then turn his focus to what matters most for students and emerging professionals: how to position yourself for success in this rapidly evolving field, what skills and mindsets are most valuable, and how to identify and seize the opportunities that AI is creating across every sector. Whether you're studying engineering, computer science, business, or any discipline intersecting with technology, this talk will equip you with a practitioner's perspective on where the industry is headed and how you can be part of shaping it.",
@@ -17462,17 +17405,22 @@
     "id": "cf836a0fa87b3982"
   },
   {
-    "title": "Pratik Karia",
+    "title": "What does it take to build enterprise systems that can keep up with today’s demands and tomorrow’s AI-driven future?",
     "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "enterprise platforms",
-        "software engineering"
+      "prerequisites": [
+        "system architecture",
+        "software engineering principles"
       ],
-      "one_line_context": "A talk by Pratik Karia, Head of Product – Enterprise Platform & Technology at Bloomberg.",
+      "related_concepts": [
+        "low-latency systems",
+        "high-throughput platforms",
+        "enterprise technology",
+        "artificial intelligence"
+      ],
+      "one_line_context": "An enterprise platform leader discusses the challenges of designing low-latency, high-throughput products for an AI-driven future.",
       "ai_generated": true
     },
-    "abstract": null,
+    "abstract": "What does it take to build enterprise systems that can keep up with today’s demands and tomorrow’s AI-driven future? This talk explores the challenges of designing low-latency, high-throughput products and how the rise of AI is driving changes in system architecture. Students will learn about key considerations for building scalable, high-performance platforms designed to evolve with emerging technologies.",
     "affiliation": "Bloomberg",
     "datetime_end": "2026-09-09T17:00:00",
     "datetime_start": "2026-09-09T16:00:00",
@@ -17481,18 +17429,19 @@
     "speaker": "Pratik Karia",
     "department": "Electrical and Computer Engineering",
     "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "68037a998adcafa7"
+    "id": "83e76f63587b696c"
   },
   {
     "title": "You Don't Have to Be the Smartest Engineer in the Room",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "engineering management",
+        "engineering leadership",
+        "business drivers",
         "startup growth",
-        "business levers"
+        "corporate management"
       ],
-      "one_line_context": "An industry veteran discusses non-technical business and team drivers that make engineers truly valuable.",
+      "one_line_context": "A tech CTO shares how understanding business levers and non-technical aspects of a company proved more valuable than pure engineering skill.",
       "ai_generated": true
     },
     "abstract": "I got my first job at a haptics startup a decade before haptics was a thing. Everybody seemed smarter than me, so I had to find another way to be valuable. I got curious about everything that wasn't my job. What customers were trying to do. How the company made money. Why the plan kept changing. Twenty-six years and four companies later, I've run engineering on three continents for a public company and co-founded one I helped grow from 5 to 500. This talk is about the levers — what drives your team, your boss, your business — and how they shift under venture, private-equity, or public ownership. Understanding them made me more valuable than my technical work ever could. I'll help you see them, too.",
@@ -17507,84 +17456,18 @@
     "id": "b1f40cf6bf36513e"
   },
   {
-    "title": "John Daniel",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "engineering management",
-        "aerospace"
-      ],
-      "one_line_context": "A talk by John Daniel, Senior Engineering Manager at Collins Aerospace.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Collins Aerospace",
-    "datetime_end": "2026-09-23T17:00:00",
-    "datetime_start": "2026-09-23T16:00:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "John Daniel",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "826858a15a4cec71"
-  },
-  {
-    "title": "Dong Li",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "computer science",
-        "computer engineering"
-      ],
-      "one_line_context": "A research seminar talk by Associate Professor Dong Li from UC Merced.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "UC Merced",
-    "datetime_end": "2026-09-30T17:00:00",
-    "datetime_start": "2026-09-30T16:00:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Dong Li",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "6334c5f4151d6f7b"
-  },
-  {
-    "title": "Karla Gill",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "biopharma",
-        "technology leadership"
-      ],
-      "one_line_context": "A seminar talk by Karla Gill, CTO of KBI Biopharma.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "KBI Biopharma",
-    "datetime_end": "2026-10-07T17:00:00",
-    "datetime_start": "2026-10-07T16:00:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Karla Gill",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "a8e7712fcab28c30"
-  },
-  {
     "title": "Hype to Value: Finding Durable Signal in AI Noise",
     "annotations": {
       "prerequisites": [
-        "basic software engineering concepts"
+        "basic business strategy",
+        "software workflows"
       ],
       "related_concepts": [
-        "artificial intelligence",
-        "product management",
+        "artificial intelligence strategy",
         "automation",
-        "enterprise software"
+        "enterprise technology"
       ],
-      "one_line_context": "A salesforce executive discusses how companies can cut through artificial intelligence hype to deliver practical value and address workplace changes.",
+      "one_line_context": "A Salesforce VP explores how companies can separate AI hype from practical business value and integrate automation effectively.",
       "ai_generated": true
     },
     "abstract": "Every company claims to have an AI strategy — but what does that actually mean in practice? Behind the announcements, organizations are making high-stakes decisions with incomplete information, caught between competitive pressures and employees whose work is being rapidly reshaped. Drawing on firsthand experience, this talk will look at how companies are trying to answer the questions they're all wrestling with: How does AI change the way we work? How do we incorporate AI into the products and services we offer? And how will it reshape our customers' relationships with us?",
@@ -17603,12 +17486,12 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "artificial intelligence",
+        "artificial intelligence implementation",
+        "digital engineering",
         "systems engineering",
-        "workflow automation",
-        "cybersecurity"
+        "workflow automation"
       ],
-      "one_line_context": "Using a humorous analogy, G2 Ops CEO Tracy Gregorio discusses how companies practically adopt, coordinate, and verify artificial intelligence tools.",
+      "one_line_context": "A defense tech CEO uses a humorous analogy to discuss the practical challenges of adopting AI tools and matching their cost to real workflows.",
       "ai_generated": true
     },
     "abstract": "Meet Grog, a fictional fellow who finds a powerful new tool—a rock—and immediately tries to use it for everything. His learning curve mirrors a challenge facing nearly every company adopting AI: capability does not guarantee fit. Tracy Gregorio, CEO of G2 Ops, shares how G2 Ops moved from early AI experimentation to practical applications in engineering workflows and internal operations. Following Grog from one rock to a coordinated crew, she will discuss what G2 Ops learned about coordinating AI, verifying its work, protecting data, and matching the tool—and its cost—to the job. The discussion will also examine how AI is reshaping engineering work, placing greater emphasis on defining objectives, designing workflows, and verifying results. Blending hard-won experience with humor, this talk is about how companies are wrestling with AI—and what it means for the students about to enter that fight.",
@@ -17623,109 +17506,16 @@
     "id": "5f3a1c96d16cdf29"
   },
   {
-    "title": "Setor Zilevu",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "computer engineering",
-        "computer science",
-        "design tools"
-      ],
-      "one_line_context": "A talk by Setor Zilevu, Staff Researcher at Figma.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Figma",
-    "datetime_end": "2026-10-28T17:00:00",
-    "datetime_start": "2026-10-28T16:00:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Setor Zilevu",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "1ac309df339c8977"
-  },
-  {
-    "title": "Letitia Long",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "electrical engineering",
-        "national security",
-        "geospatial intelligence"
-      ],
-      "one_line_context": "A seminar talk by Letitia Long, former Director of NGA.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "NGA",
-    "datetime_end": "2026-11-04T17:00:00",
-    "datetime_start": "2026-11-04T16:00:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Letitia Long",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "2abb9060172018b3"
-  },
-  {
-    "title": "Brian Hartstock",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "data engineering",
-        "software experiences"
-      ],
-      "one_line_context": "A seminar talk by Brian Hartstock, Head of Engineering for Data Experiences at Atlassian.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Atlassian",
-    "datetime_end": "2026-11-11T17:00:00",
-    "datetime_start": "2026-11-11T16:00:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Brian Hartstock",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "ad85f5fdaca957db"
-  },
-  {
-    "title": "Kurt Luther",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "human centered computing",
-        "computer science",
-        "computer graphics"
-      ],
-      "one_line_context": "A research seminar talk by Associate Professor Kurt Luther from Virginia Tech.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-18T17:00:00",
-    "datetime_start": "2026-11-18T16:00:00",
-    "location": "Virginia Tech Academic Building One, Room 2110, 3625 Potomac Ave, Alexandria, VA 22305",
-    "series": "ECE/CS Colloquium",
-    "speaker": "Kurt Luther",
-    "department": "Electrical and Computer Engineering",
-    "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "a5420311ec62f71d"
-  },
-  {
     "title": "Startups: The Good, The Bad, and The Ugly",
     "annotations": {
-      "prerequisites": [
-        "engineering background"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "startup founding",
+        "entrepreneurship",
         "venture capital",
-        "product marketing",
-        "business strategy"
+        "startup founding",
+        "business management"
       ],
-      "one_line_context": "An experienced operator and venture investor provides engineering students with a practical framework for the founder journey.",
+      "one_line_context": "An experienced executive and investor offers engineering students a practical framework for navigating the startup founder journey.",
       "ai_generated": true
     },
     "abstract": "Most engineers who want to build a company will make the same mistakes – not because they lack technical skills, but because no one gave them an honest picture of what founding a company actually involves. This session draws on thirty years of experience as an operator, executive, and venture capital partner – across multiple industries, company builds, exits, and investment decisions – to give engineering students a practical framework for the founder journey. Topics include the mistakes founders most commonly make, what venture capitalists are actually looking for and how founders tend to misread that relationship, and what a realistic path from engineer to founder looks like. The lessons are drawn from specific experiences – some successful, some not.",
