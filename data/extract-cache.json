@@ -31,19 +31,33 @@
       ]
     },
     "https://seminar.math.vt.edu/geom-top/": {
-      "hash": "23ac19e53e860991332ac846eb039579f7b388255fbc90505cfd0a578dbd21b7",
+      "hash": "c347f923dc6b682353899fa7af6bfa2e48d014e865e8365e30f722851d26516c",
       "talks": [
         {
           "title": "Title TBD",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [],
-            "one_line_context": "This is a seminar talk with no abstract provided.",
+            "one_line_context": "The talk details and abstract are currently to be determined.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "Ohio State University",
+          "datetime_start": "2026-10-06T16:00:00-04:00",
+          "location": "McBryde Hall 563",
+          "series": "Geometry/Topology Seminar",
+          "speaker": "Richard Haburcak"
+        },
+        {
+          "title": "Title TBD",
+          "annotations": {
+            "prerequisites": [],
+            "related_concepts": [],
+            "one_line_context": "The talk details and abstract are currently to be determined.",
             "ai_generated": true
           },
           "abstract": null,
           "affiliation": "UMD College Park",
-          "datetime_end": "2026-10-13T17:00:00-04:00",
           "datetime_start": "2026-10-13T16:00:00-04:00",
           "location": "McBryde Hall 563",
           "series": "Geometry/Topology Seminar",
@@ -54,12 +68,11 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [],
-            "one_line_context": "This is a seminar talk with no abstract provided.",
+            "one_line_context": "The talk details and abstract are currently to be determined.",
             "ai_generated": true
           },
           "abstract": null,
           "affiliation": "Princeton",
-          "datetime_end": "2026-10-20T17:00:00-04:00",
           "datetime_start": "2026-10-20T16:00:00-04:00",
           "location": "McBryde Hall 563",
           "series": "Geometry/Topology Seminar",
@@ -70,12 +83,11 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [],
-            "one_line_context": "This is a seminar talk with no abstract provided.",
+            "one_line_context": "The talk details and abstract are currently to be determined.",
             "ai_generated": true
           },
           "abstract": null,
           "affiliation": "VCU",
-          "datetime_end": "2026-11-17T17:00:00-04:00",
           "datetime_start": "2026-11-17T16:00:00-04:00",
           "location": "McBryde Hall 563",
           "series": "Geometry/Topology Seminar",

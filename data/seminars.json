@@ -27,6 +27,78 @@
     "id": "d203750c1853e4c1"
   },
   {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "The talk details and abstract are currently to be determined.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Ohio State University",
+    "datetime_start": "2026-10-06T16:00:00-04:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Richard Haburcak",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "d12379e9473189f0"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "The talk details and abstract are currently to be determined.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "UMD College Park",
+    "datetime_start": "2026-10-13T16:00:00-04:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Dori Bejleri",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "85dc76e220e3742d"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "The talk details and abstract are currently to be determined.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Princeton",
+    "datetime_start": "2026-10-20T16:00:00-04:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Jennifer Li",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "57f8ffe66aa2e22a"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "The talk details and abstract are currently to be determined.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "VCU",
+    "datetime_start": "2026-11-17T16:00:00-04:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Nicola Tarasca",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "123526c724d69455"
+  },
+  {
     "title": "Continuous-space occupancy models",
     "annotations": {
       "prerequisites": [
