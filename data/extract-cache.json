@@ -15570,36 +15570,17 @@
       ]
     },
     "https://math.vt.edu/calendar.html": {
-      "hash": "fefc5cc3fdf39aa81cee801a637125b35c4e3eed37ab4f496d883ea62cb1530d",
+      "hash": "c811b880a33ee2ab8a9375f33855b196caa95cda274c178012001241e97b79b6",
       "talks": [
-        {
-          "title": "Applied Numerical Analysis Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
-            ],
-            "one_line_context": "An applied numerical analysis seminar talk presented by Daniel Appelö from Virginia Tech.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Virginia Tech",
-          "datetime_end": "2026-08-31T13:15:00",
-          "datetime_start": "2026-08-31T12:15:00",
-          "location": "Math Commons Room (McBryde 455)",
-          "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Daniel Appelö"
-        },
         {
           "title": "AMPS - David Ouyang",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematical Physics",
-              "Analysis"
+              "Analysis",
+              "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk given by David Ouyang from LMU Munich.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15616,10 +15597,9 @@
             "prerequisites": [],
             "related_concepts": [
               "Applied Algebra",
-              "Quantum Interferometry",
-              "Curve Optimization"
+              "Quantum Interferometry"
             ],
-            "one_line_context": "A talk on curve optimal function intersection via decoded quantum interferometry by Julia Shapiro.",
+            "one_line_context": "A talk on curve optimal function intersection via decoded quantum interferometry.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15635,9 +15615,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A talk in the Math Education Seminar series.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15656,7 +15636,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk presented by Carlos Alberto Garzon Gutierrez.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15673,10 +15653,9 @@
             "prerequisites": [],
             "related_concepts": [
               "Applied Algebra",
-              "Transversal Gates",
               "Quantum Computing"
             ],
-            "one_line_context": "A discussion on the algebraic structure of transversal gates by Rodrigo San José.",
+            "one_line_context": "A talk on the algebraic structure of transversal gates.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15692,9 +15671,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar session focusing on mathematics education.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15710,10 +15689,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Mirjeta Pasha.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15732,7 +15710,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar session.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15748,11 +15726,10 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Algebra",
               "Coding Theory",
               "Algebraic Geometry"
             ],
-            "one_line_context": "A talk on hierarchical locally recoverable codes on surfaces by Luana Costa.",
+            "one_line_context": "A talk on hierarchical locally recoverable codes on surfaces.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15768,9 +15745,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A session dedicated to math education topics.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15786,10 +15763,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Anuj Abhishek.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15808,7 +15784,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk given by Gong Chen.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15826,7 +15802,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "A session in the Applied Algebra Seminar series.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15842,9 +15818,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A regular meeting of the Math Education Seminar.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15860,10 +15836,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar presentation by Hengyi Shi and Camilo Arenas Mata.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15872,7 +15847,7 @@
           "datetime_start": "2026-09-28T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Hengyi Shi & Camilo Arenas Mata"
+          "speaker": "Hengyi Shi, Camilo Arenas Mata"
         },
         {
           "title": "AMPS",
@@ -15882,7 +15857,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar meeting.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15900,7 +15875,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "A session of the Applied Algebra Seminar.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15916,9 +15891,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A session for the Math Education Seminar.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15934,10 +15909,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Christopher Beattie and Kun Huang.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15946,7 +15920,7 @@
           "datetime_start": "2026-10-05T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Christopher Beattie & Kun Huang"
+          "speaker": "Christopher Beattie, Kun Huang"
         },
         {
           "title": "AMPS",
@@ -15956,7 +15930,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar session.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15974,7 +15948,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An Applied Algebra Seminar meeting.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15990,9 +15964,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar meeting.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16008,10 +15982,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk featuring a visitor and Paul Cazeaux.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16020,7 +15993,7 @@
           "datetime_start": "2026-10-12T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Visitor & Paul Cazeaux"
+          "speaker": "Visitor, Paul Cazeaux"
         },
         {
           "title": "AMPS",
@@ -16030,7 +16003,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16046,11 +16019,10 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Applied Algebra",
               "Coding Theory",
               "Spatially Coupled Codes"
             ],
-            "one_line_context": "A talk on recent results on spatially coupled macula and similar codes by Maciej Piwowarczyk.",
+            "one_line_context": "A talk on recent results on spatially coupled codes.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16066,9 +16038,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar session.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16084,10 +16056,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Reetish Padhi and Slimane Adjerid.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16096,7 +16067,7 @@
           "datetime_start": "2026-10-19T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Reetish Padhi & Slimane Adjerid"
+          "speaker": "Reetish Padhi, Slimane Adjerid"
         },
         {
           "title": "AMPS",
@@ -16106,7 +16077,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16124,7 +16095,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An Applied Algebra Seminar session.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16140,9 +16111,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar session.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16158,10 +16129,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Erid de Sturler and Achintya Sunil.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16170,7 +16140,7 @@
           "datetime_start": "2026-10-26T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Erid de Sturler & Achintya Sunil"
+          "speaker": "Erid de Sturler, Achintya Sunil"
         },
         {
           "title": "AMPS",
@@ -16180,7 +16150,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16198,7 +16168,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An Applied Algebra Seminar session.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16214,9 +16184,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar session.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16232,10 +16202,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Rudi Smith and Peter DelMastro.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16244,7 +16213,7 @@
           "datetime_start": "2026-11-02T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Rudi Smith & Peter DelMastro"
+          "speaker": "Rudi Smith, Peter DelMastro"
         },
         {
           "title": "AMPS",
@@ -16254,7 +16223,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16272,7 +16241,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An Applied Algebra Seminar session.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16288,9 +16257,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar session.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16306,10 +16275,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Agnieszka Miedlar and Gregory Janes.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16318,7 +16286,7 @@
           "datetime_start": "2026-11-09T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Agnieszka Miedlar & Gregory Janes"
+          "speaker": "Agnieszka Miedlar, Gregory Janes"
         },
         {
           "title": "AMPS",
@@ -16328,7 +16296,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16346,7 +16314,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An Applied Algebra Seminar session.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16362,9 +16330,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar session.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16380,10 +16348,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Aryeh keating and Ghafirlia Istafa.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16392,7 +16359,7 @@
           "datetime_start": "2026-11-16T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Aryeh keating & Ghafirlia Istafa"
+          "speaker": "Aryeh keating, Ghafirlia Istafa"
         },
         {
           "title": "AMPS",
@@ -16402,7 +16369,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16420,7 +16387,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An Applied Algebra Seminar session.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16436,9 +16403,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar session.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16457,7 +16424,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16475,7 +16442,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An Applied Algebra Seminar session.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16491,9 +16458,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar session.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16509,10 +16476,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Sam Bender and Kurt Stein.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16521,7 +16487,7 @@
           "datetime_start": "2026-11-30T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Sam Bender & Kurt Stein"
+          "speaker": "Sam Bender, Kurt Stein"
         },
         {
           "title": "AMPS",
@@ -16531,7 +16497,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16549,7 +16515,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An Applied Algebra Seminar session.",
+            "one_line_context": "An applied algebra seminar meeting.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16565,9 +16531,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A Math Education Seminar session.",
+            "one_line_context": "A seminar session on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16583,10 +16549,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Mike Ackermann and Serkan Gugercin.",
+            "one_line_context": "An applied numerical analysis seminar presentation.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16595,7 +16560,7 @@
           "datetime_start": "2026-12-07T12:15:00",
           "location": "Math Commons Room (McBryde 455)",
           "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Mike Ackermann & Serkan Gugercin"
+          "speaker": "Mike Ackermann, Serkan Gugercin"
         },
         {
           "title": "AMPS",
@@ -16605,7 +16570,7 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+            "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
             "ai_generated": true
           },
           "abstract": null,

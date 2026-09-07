@@ -17602,300 +17602,14 @@
     "id": "ed841077d423fa58"
   },
   {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk presented by Daniel Appelö from Virginia Tech.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-08-31T13:15:00",
-    "datetime_start": "2026-08-31T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Daniel Appelö",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "51d44c609596e4c2"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Mirjeta Pasha.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-09-14T13:15:00",
-    "datetime_start": "2026-09-14T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Mirjeta Pasha",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "5b2d2c28687ef6c5"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Anuj Abhishek.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Case Western",
-    "datetime_end": "2026-09-21T13:15:00",
-    "datetime_start": "2026-09-21T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Anuj Abhishek",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "50b388d69f2ba53b"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar presentation by Hengyi Shi and Camilo Arenas Mata.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-09-28T13:15:00",
-    "datetime_start": "2026-09-28T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Hengyi Shi & Camilo Arenas Mata",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "3fe6fac20790f85a"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Christopher Beattie and Kun Huang.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-10-05T13:15:00",
-    "datetime_start": "2026-10-05T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Christopher Beattie & Kun Huang",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "c942f3b93fb136da"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk featuring a visitor and Paul Cazeaux.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-10-12T13:15:00",
-    "datetime_start": "2026-10-12T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Visitor & Paul Cazeaux",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "a001eb85bcb301fb"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Reetish Padhi and Slimane Adjerid.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-10-19T13:15:00",
-    "datetime_start": "2026-10-19T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Reetish Padhi & Slimane Adjerid",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "d6cdb030f0cf3c3c"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Erid de Sturler and Achintya Sunil.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-10-26T13:15:00",
-    "datetime_start": "2026-10-26T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Erid de Sturler & Achintya Sunil",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "821c0d07d1c6283c"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Rudi Smith and Peter DelMastro.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-02T13:15:00",
-    "datetime_start": "2026-11-02T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Rudi Smith & Peter DelMastro",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "0b3bf46a88dfd847"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Agnieszka Miedlar and Gregory Janes.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-09T13:15:00",
-    "datetime_start": "2026-11-09T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Agnieszka Miedlar & Gregory Janes",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "a964547719aec5b4"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Aryeh keating and Ghafirlia Istafa.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-16T13:15:00",
-    "datetime_start": "2026-11-16T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Aryeh keating & Ghafirlia Istafa",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "daabcec4727050e3"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Sam Bender and Kurt Stein.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-30T13:15:00",
-    "datetime_start": "2026-11-30T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Sam Bender & Kurt Stein",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "836f9a30149ebfc8"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "An applied numerical analysis seminar talk by Mike Ackermann and Serkan Gugercin.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-12-07T13:15:00",
-    "datetime_start": "2026-12-07T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Mike Ackermann & Serkan Gugercin",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "00cb530291514946"
-  },
-  {
     "title": "AMPS - David Ouyang",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematical Physics",
-        "Analysis"
+        "Analysis",
+        "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar talk given by David Ouyang from LMU Munich.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17915,10 +17629,9 @@
       "prerequisites": [],
       "related_concepts": [
         "Applied Algebra",
-        "Quantum Interferometry",
-        "Curve Optimization"
+        "Quantum Interferometry"
       ],
-      "one_line_context": "A talk on curve optimal function intersection via decoded quantum interferometry by Julia Shapiro.",
+      "one_line_context": "A talk on curve optimal function intersection via decoded quantum interferometry.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17937,9 +17650,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A talk in the Math Education Seminar series.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17958,9 +17671,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A seminar session focusing on mathematics education.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17979,9 +17692,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A session dedicated to math education topics.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18000,9 +17713,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A regular meeting of the Math Education Seminar.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18021,9 +17734,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A session for the Math Education Seminar.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18042,9 +17755,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar meeting.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18063,9 +17776,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar session.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18084,9 +17797,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar session.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18105,9 +17818,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar session.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18126,9 +17839,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar session.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18147,9 +17860,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar session.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18168,9 +17881,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar session.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18189,9 +17902,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar session.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18210,9 +17923,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Mathematics Education"
+        "Math Education"
       ],
-      "one_line_context": "A Math Education Seminar session.",
+      "one_line_context": "A seminar session on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18234,7 +17947,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar talk presented by Carlos Alberto Garzon Gutierrez.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18254,10 +17967,9 @@
       "prerequisites": [],
       "related_concepts": [
         "Applied Algebra",
-        "Transversal Gates",
         "Quantum Computing"
       ],
-      "one_line_context": "A discussion on the algebraic structure of transversal gates by Rodrigo San José.",
+      "one_line_context": "A talk on the algebraic structure of transversal gates.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18272,6 +17984,258 @@
     "id": "e1dd410517b5ecc3"
   },
   {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-09-14T13:15:00",
+    "datetime_start": "2026-09-14T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Mirjeta Pasha",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "5b2d2c28687ef6c5"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Case Western",
+    "datetime_end": "2026-09-21T13:15:00",
+    "datetime_start": "2026-09-21T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Anuj Abhishek",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "50b388d69f2ba53b"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-09-28T13:15:00",
+    "datetime_start": "2026-09-28T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Hengyi Shi, Camilo Arenas Mata",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "a495d4e4643d0cc3"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-05T13:15:00",
+    "datetime_start": "2026-10-05T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Christopher Beattie, Kun Huang",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "ee62ea5be4a3f553"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-12T13:15:00",
+    "datetime_start": "2026-10-12T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Visitor, Paul Cazeaux",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "09a825087ea64a35"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-19T13:15:00",
+    "datetime_start": "2026-10-19T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Reetish Padhi, Slimane Adjerid",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "179a26d7b4434915"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-26T13:15:00",
+    "datetime_start": "2026-10-26T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Erid de Sturler, Achintya Sunil",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "b4e93045bd0acacd"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-02T13:15:00",
+    "datetime_start": "2026-11-02T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Rudi Smith, Peter DelMastro",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "c8b8d3610cf160a7"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-09T13:15:00",
+    "datetime_start": "2026-11-09T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Agnieszka Miedlar, Gregory Janes",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "3767e8244f4a2d66"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-16T13:15:00",
+    "datetime_start": "2026-11-16T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Aryeh keating, Ghafirlia Istafa",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "e24a4b141da0310e"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-30T13:15:00",
+    "datetime_start": "2026-11-30T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Sam Bender, Kurt Stein",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "60d05c5e30220cef"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis"
+      ],
+      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-12-07T13:15:00",
+    "datetime_start": "2026-12-07T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Mike Ackermann, Serkan Gugercin",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "19403725cbb32553"
+  },
+  {
     "title": "AMPS",
     "annotations": {
       "prerequisites": [],
@@ -18279,7 +18243,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18301,7 +18265,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar meeting.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18323,7 +18287,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18345,7 +18309,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18367,7 +18331,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18389,7 +18353,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18411,7 +18375,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18433,7 +18397,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18455,7 +18419,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18477,7 +18441,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18499,7 +18463,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18521,7 +18485,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar gathering.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18540,11 +18504,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Algebra",
         "Coding Theory",
         "Algebraic Geometry"
       ],
-      "one_line_context": "A talk on hierarchical locally recoverable codes on surfaces by Luana Costa.",
+      "one_line_context": "A talk on hierarchical locally recoverable codes on surfaces.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18566,7 +18529,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar talk given by Gong Chen.",
+      "one_line_context": "A talk in the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18587,7 +18550,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A session in the Applied Algebra Seminar series.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18608,7 +18571,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "A session of the Applied Algebra Seminar.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18629,7 +18592,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An Applied Algebra Seminar meeting.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18650,7 +18613,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An Applied Algebra Seminar session.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18671,7 +18634,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An Applied Algebra Seminar session.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18692,7 +18655,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An Applied Algebra Seminar session.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18713,7 +18676,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An Applied Algebra Seminar session.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18734,7 +18697,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An Applied Algebra Seminar session.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18755,7 +18718,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An Applied Algebra Seminar session.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18776,7 +18739,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An Applied Algebra Seminar session.",
+      "one_line_context": "An applied algebra seminar meeting.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18795,11 +18758,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Algebra",
         "Coding Theory",
         "Spatially Coupled Codes"
       ],
-      "one_line_context": "A talk on recent results on spatially coupled macula and similar codes by Maciej Piwowarczyk.",
+      "one_line_context": "A talk on recent results on spatially coupled codes.",
       "ai_generated": true
     },
     "abstract": null,
