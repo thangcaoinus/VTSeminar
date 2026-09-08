@@ -31,18 +31,22 @@
       ]
     },
     "https://seminar.math.vt.edu/geom-top/": {
-      "hash": "c347f923dc6b682353899fa7af6bfa2e48d014e865e8365e30f722851d26516c",
+      "hash": "e9ffc7999163e67122f1aec9aa11830a5784e2aa29e2277d6341376ad09eed27",
       "talks": [
         {
           "title": "Title TBD",
           "annotations": {
             "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "The talk details and abstract are currently to be determined.",
+            "related_concepts": [
+              "geometry",
+              "topology"
+            ],
+            "one_line_context": "This is a geometry and topology seminar talk by Richard Haburcak.",
             "ai_generated": true
           },
           "abstract": null,
           "affiliation": "Ohio State University",
+          "datetime_end": "2026-10-06T17:00:00-04:00",
           "datetime_start": "2026-10-06T16:00:00-04:00",
           "location": "McBryde Hall 563",
           "series": "Geometry/Topology Seminar",
@@ -52,12 +56,16 @@
           "title": "Title TBD",
           "annotations": {
             "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "The talk details and abstract are currently to be determined.",
+            "related_concepts": [
+              "geometry",
+              "topology"
+            ],
+            "one_line_context": "This is a geometry and topology seminar talk by Dori Bejleri.",
             "ai_generated": true
           },
           "abstract": null,
           "affiliation": "UMD College Park",
+          "datetime_end": "2026-10-13T17:00:00-04:00",
           "datetime_start": "2026-10-13T16:00:00-04:00",
           "location": "McBryde Hall 563",
           "series": "Geometry/Topology Seminar",
@@ -67,12 +75,16 @@
           "title": "Title TBD",
           "annotations": {
             "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "The talk details and abstract are currently to be determined.",
+            "related_concepts": [
+              "geometry",
+              "topology"
+            ],
+            "one_line_context": "This is a geometry and topology seminar talk by Jennifer Li.",
             "ai_generated": true
           },
           "abstract": null,
           "affiliation": "Princeton",
+          "datetime_end": "2026-10-20T17:00:00-04:00",
           "datetime_start": "2026-10-20T16:00:00-04:00",
           "location": "McBryde Hall 563",
           "series": "Geometry/Topology Seminar",
@@ -82,12 +94,35 @@
           "title": "Title TBD",
           "annotations": {
             "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "The talk details and abstract are currently to be determined.",
+            "related_concepts": [
+              "geometry",
+              "topology"
+            ],
+            "one_line_context": "This is a geometry and topology seminar talk by Carl Lian.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "Washington University St. Louis",
+          "datetime_end": "2026-10-27T17:00:00-04:00",
+          "datetime_start": "2026-10-27T16:00:00-04:00",
+          "location": "McBryde Hall 563",
+          "series": "Geometry/Topology Seminar",
+          "speaker": "Carl Lian"
+        },
+        {
+          "title": "Title TBD",
+          "annotations": {
+            "prerequisites": [],
+            "related_concepts": [
+              "geometry",
+              "topology"
+            ],
+            "one_line_context": "This is a geometry and topology seminar talk by Nicola Tarasca.",
             "ai_generated": true
           },
           "abstract": null,
           "affiliation": "VCU",
+          "datetime_end": "2026-11-17T17:00:00-04:00",
           "datetime_start": "2026-11-17T16:00:00-04:00",
           "location": "McBryde Hall 563",
           "series": "Geometry/Topology Seminar",
