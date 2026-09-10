@@ -15502,38 +15502,20 @@
       ]
     },
     "https://math.vt.edu/calendar.html": {
-      "hash": "32d0544bda56a83f9d8df53f6d85c9a0e5057b61123f33c8c16413ca5996dad9",
+      "hash": "9812367179e6955f3d1128c0bc15ad70fb547d8ab624561472b817d3cb4ae28e",
       "talks": [
         {
-          "title": "Math Education Seminar",
+          "title": "AMPS - Carlos Alberto Garzon Gutierrez (Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
           "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-09-03T13:00:00",
-          "datetime_start": "2026-09-03T12:00:00",
-          "location": "Math Commons Room (McBryde 455)",
-          "series": "Math Education Seminar",
-          "speaker": null
-        },
-        {
-          "title": "AMPS",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "analysis",
-              "mathematical physics"
-            ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
-            "ai_generated": true
-          },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
           "affiliation": "Virginia Tech",
           "datetime_end": "2026-09-09T17:00:00",
           "datetime_start": "2026-09-09T16:00:00",
@@ -15542,32 +15524,13 @@
           "speaker": "Carlos Alberto Garzon Gutierrez"
         },
         {
-          "title": "The Algebraic Structure of Transversal Gates",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "abstract algebra",
-              "transversal gates"
-            ],
-            "one_line_context": "A talk on the algebraic structure of transversal gates.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Virginia Tech",
-          "datetime_end": "2026-09-10T10:00:00",
-          "datetime_start": "2026-09-10T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": "Rodrigo San José"
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15579,14 +15542,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Mirjeta Pasha, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15598,51 +15561,32 @@
           "speaker": "Mirjeta Pasha"
         },
         {
-          "title": "AMPS",
+          "title": "AMPS - Quy Pham (Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-          "affiliation": null,
+          "abstract": null,
+          "affiliation": "Virginia Tech",
           "datetime_end": "2026-09-16T17:00:00",
           "datetime_start": "2026-09-16T16:00:00",
           "location": "McB 455 (commons room)",
           "series": "Department Calendar",
-          "speaker": null
-        },
-        {
-          "title": "Hierarchical Locally Recoverable Codes on Surfaces",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebraic geometry",
-              "coding theory"
-            ],
-            "one_line_context": "A talk about hierarchical locally recoverable codes defined on surfaces.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Instituto Nacional de Matemática Pura e Aplicada (IMPA) Brazil",
-          "datetime_end": "2026-09-17T10:00:00",
-          "datetime_start": "2026-09-17T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": "Luana Costa"
+          "speaker": "Quy Pham"
         },
         {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15654,14 +15598,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Anuj Abhishek, Case Western)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15673,17 +15617,17 @@
           "speaker": "Anuj Abhishek"
         },
         {
-          "title": "AMPS",
+          "title": "AMPS - Gong Chen (GaTech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": "GaTech",
           "datetime_end": "2026-09-23T17:00:00",
           "datetime_start": "2026-09-23T16:00:00",
@@ -15692,32 +15636,13 @@
           "speaker": "Gong Chen"
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-09-24T10:00:00",
-          "datetime_start": "2026-09-24T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15729,14 +15654,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Hengyi Shi, Virginia Tech & Camilo Arenas Mata, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15752,13 +15677,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-09-30T17:00:00",
           "datetime_start": "2026-09-30T16:00:00",
@@ -15767,32 +15692,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-10-01T10:00:00",
-          "datetime_start": "2026-10-01T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15804,14 +15710,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Christopher Beattie, Virginia Tech & Kun Huang, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15827,13 +15733,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-10-07T17:00:00",
           "datetime_start": "2026-10-07T16:00:00",
@@ -15842,32 +15748,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-10-08T10:00:00",
-          "datetime_start": "2026-10-08T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15879,14 +15766,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Visitor & Paul Cazeaux, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15902,13 +15789,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-10-14T17:00:00",
           "datetime_start": "2026-10-14T16:00:00",
@@ -15917,32 +15804,13 @@
           "speaker": null
         },
         {
-          "title": "Recent Results on Spatially Coupled Macula (and Similar) Codes",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "coding theory",
-              "error-correcting codes"
-            ],
-            "one_line_context": "A talk discussing recent results on spatially coupled codes.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "University of South Carolina",
-          "datetime_end": "2026-10-15T10:00:00",
-          "datetime_start": "2026-10-15T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": "Maciej Piwowarczyk"
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15954,14 +15822,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Reetish Padhi, Virginia Tech & Slimane Adjerid, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15977,13 +15845,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-10-21T17:00:00",
           "datetime_start": "2026-10-21T16:00:00",
@@ -15992,32 +15860,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-10-22T10:00:00",
-          "datetime_start": "2026-10-22T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16029,14 +15878,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Erid de Sturler, Virginia Tech & Achintya Sunil, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16052,13 +15901,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-10-28T17:00:00",
           "datetime_start": "2026-10-28T16:00:00",
@@ -16067,32 +15916,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-10-29T10:00:00",
-          "datetime_start": "2026-10-29T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16104,14 +15934,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Rudi Smith, Virginia Tech & Peter DelMastro, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16127,13 +15957,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-11-04T17:00:00",
           "datetime_start": "2026-11-04T16:00:00",
@@ -16142,32 +15972,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-11-05T10:00:00",
-          "datetime_start": "2026-11-05T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16179,14 +15990,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Agnieszka Miedlar, Virginia Tech & Gregory Janes, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16202,13 +16013,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-11-11T17:00:00",
           "datetime_start": "2026-11-11T16:00:00",
@@ -16217,32 +16028,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-11-12T10:00:00",
-          "datetime_start": "2026-11-12T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16254,14 +16046,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Aryeh keating, Virginia Tech & Ghafirlia Istafa, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16277,13 +16069,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-11-18T17:00:00",
           "datetime_start": "2026-11-18T16:00:00",
@@ -16292,32 +16084,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-11-19T10:00:00",
-          "datetime_start": "2026-11-19T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16333,13 +16106,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-11-25T17:00:00",
           "datetime_start": "2026-11-25T16:00:00",
@@ -16348,32 +16121,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-11-26T10:00:00",
-          "datetime_start": "2026-11-26T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16385,14 +16139,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Sam Bender, Virginia Tech & Kurt Stein, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16408,13 +16162,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-12-02T17:00:00",
           "datetime_start": "2026-12-02T16:00:00",
@@ -16423,32 +16177,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Algebra Seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "algebra",
-              "applied algebra"
-            ],
-            "one_line_context": "This is a session of the Applied Algebra Seminar.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-12-03T10:00:00",
-          "datetime_start": "2026-12-03T09:00:00",
-          "location": "118 Steger Hall",
-          "series": "Applied Algebra Seminar",
-          "speaker": null
-        },
-        {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "mathematics education"
+              "Mathematics Education"
             ],
-            "one_line_context": "This is a session of the Math Education Seminar.",
+            "one_line_context": "This is a seminar focused on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16460,14 +16195,14 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar",
+          "title": "Applied Numerical Analysis Seminar (Mike Ackermann, Virginia Tech & Serkan Gugercin, Virginia Tech)",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "numerical analysis",
-              "applied mathematics"
+              "Numerical Analysis",
+              "Applied Mathematics"
             ],
-            "one_line_context": "This is a session of the Applied Numerical Analysis Seminar.",
+            "one_line_context": "This is a research seminar session in applied numerical analysis.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16483,13 +16218,13 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "analysis",
-              "mathematical physics"
+              "Mathematical Physics",
+              "Analysis"
             ],
-            "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+            "one_line_context": "This is a research talk hosted by the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-12-09T17:00:00",
           "datetime_start": "2026-12-09T16:00:00",
