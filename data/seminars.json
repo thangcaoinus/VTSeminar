@@ -27,33 +27,43 @@
     "id": "d203750c1853e4c1"
   },
   {
-    "title": "Title TBD",
+    "title": "Spaces from algebra: From compact Hausdorff spaces to logarithmic geometry",
     "annotations": {
-      "prerequisites": [],
-      "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "prerequisites": [
+        "abstract algebra",
+        "basic category theory"
+      ],
+      "related_concepts": [
+        "logarithmic geometry",
+        "universal algebra",
+        "tropical geometry",
+        "toric varieties"
+      ],
+      "one_line_context": "The speaker explores how various geometric structures can be modeled as algebraic algebras, with applications to logarithmic geometry and tropicalization.",
       "ai_generated": true
     },
-    "abstract": null,
+    "abstract": "Many geometric structures can be described as algebras for a suitable monad. E.g., compact Hausdorff spaces are exactly the algebras for the ultrafilter monad on sets. I will explain this point of view through several concrete examples, starting with free abelian groups and rings, and then discussing ultrafilters, Eilenberg--Moore categories, and Kleisli categories. The emphasis will be on examples rather than category theory. The main application is in logarithmic geometry. I will explain how logarithmic maps can be realized as Kleisli morphisms for a natural monad built from Olsson's logarithmic stack. This leads to a functorial tropicalization construction for logarithmic schemes, recovering the usual fans of toric varieties and toroidal embeddings while remaining functorial for arbitrary logarithmic maps. (This talk is meant to be accessible to graduate students)",
     "affiliation": "VT",
+    "datetime_end": "2026-09-22T17:00:00-04:00",
     "datetime_start": "2026-09-22T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
     "speaker": "Leo Herr",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "67066bc932bfc0d0"
+    "id": "c9279d4f536a1dfa"
   },
   {
     "title": "Title TBD",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "one_line_context": "Research seminar talk by Richard Haburcak.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Ohio State University",
+    "datetime_end": "2026-10-06T17:00:00-04:00",
     "datetime_start": "2026-10-06T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
@@ -67,11 +77,12 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "one_line_context": "Research seminar talk by Dori Bejleri.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "UMD College Park",
+    "datetime_end": "2026-10-13T17:00:00-04:00",
     "datetime_start": "2026-10-13T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
@@ -85,11 +96,12 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "one_line_context": "Research seminar talk by Jennifer Li.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Princeton",
+    "datetime_end": "2026-10-20T17:00:00-04:00",
     "datetime_start": "2026-10-20T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
@@ -103,11 +115,12 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "one_line_context": "Research seminar talk by Carl Lian.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Washington University St. Louis",
+    "datetime_end": "2026-10-27T17:00:00-04:00",
     "datetime_start": "2026-10-27T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
@@ -121,11 +134,12 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "one_line_context": "Research seminar talk by Soham Karwa.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Duke",
+    "datetime_end": "2026-11-10T17:00:00-04:00",
     "datetime_start": "2026-11-10T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
@@ -139,11 +153,12 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "one_line_context": "Research seminar talk by Nicola Tarasca.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "VCU",
+    "datetime_end": "2026-11-17T17:00:00-04:00",
     "datetime_start": "2026-11-17T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
@@ -157,11 +172,12 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "one_line_context": "Research seminar talk by Daniel Halmrast.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "Lafeyette College",
+    "datetime_end": "2026-12-01T17:00:00-04:00",
     "datetime_start": "2026-12-01T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
@@ -175,11 +191,12 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk about geometry and topology.",
+      "one_line_context": "Research seminar talk by Edgar Saenz.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "VT",
+    "datetime_end": "2026-12-08T17:00:00-04:00",
     "datetime_start": "2026-12-08T16:00:00-04:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
@@ -17406,7 +17423,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar talk given by Carlos Alberto Garzon Gutierrez.",
+      "one_line_context": "This is an Analysis and Math Physics Seminar talk given by Carlos Alberto Garzon Gutierrez.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17427,10 +17444,10 @@
         "Abstract Algebra"
       ],
       "related_concepts": [
-        "Transversal Gates",
-        "Quantum Computing"
+        "Quantum Computing",
+        "Algebraic Structures"
       ],
-      "one_line_context": "A talk on the algebraic structure of transversal gates.",
+      "one_line_context": "This talk explores the algebraic structure of transversal gates.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17451,10 +17468,10 @@
         "Numerical Analysis"
       ],
       "related_concepts": [
-        "Applied Mathematics",
-        "Numerical Methods"
+        "Numerical Methods",
+        "Applied Mathematics"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17477,7 +17494,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17500,7 +17517,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17523,7 +17540,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17546,7 +17563,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17569,7 +17586,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17592,7 +17609,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17615,7 +17632,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17638,7 +17655,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17661,7 +17678,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17684,7 +17701,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17707,7 +17724,7 @@
       "related_concepts": [
         "Numerical Methods"
       ],
-      "one_line_context": "An applied numerical analysis seminar talk.",
+      "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17728,7 +17745,7 @@
       "related_concepts": [
         "Undergraduate Research"
       ],
-      "one_line_context": "A workshop to learn about undergraduate research opportunities on campus.",
+      "one_line_context": "A workshop to learn about undergraduate research opportunities and how to find them on campus.",
       "ai_generated": true
     },
     "abstract": "Learn about undergraduate research and how to find it on campus! In partnership with the Office of Undergraduate Research.",
@@ -17750,7 +17767,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar talk given by Quy Pham.",
+      "one_line_context": "This is an Analysis and Math Physics Seminar talk given by Quy Pham.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17768,13 +17785,14 @@
     "title": "Hierarchical Locally Recoverable Codes on Surfaces",
     "annotations": {
       "prerequisites": [
-        "Algebraic Coding Theory"
-      ],
-      "related_concepts": [
-        "Locally Recoverable Codes",
+        "Coding Theory",
         "Algebraic Geometry"
       ],
-      "one_line_context": "A talk on hierarchical locally recoverable codes on surfaces.",
+      "related_concepts": [
+        "Error-Correcting Codes",
+        "Surface Codes"
+      ],
+      "one_line_context": "This talk discusses hierarchical locally recoverable codes defined on surfaces.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17789,13 +17807,13 @@
     "id": "b265561210210f2c"
   },
   {
-    "title": "Colloquium: Hessam Babaee",
+    "title": "Colloquium",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Applied Mathematics"
+        "Mathematics"
       ],
-      "one_line_context": "A department colloquium talk by Hessam Babaee.",
+      "one_line_context": "This is a departmental colloquium talk given by Hessam Babaee.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17807,7 +17825,7 @@
     "speaker": "Hessam Babaee",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "66941ebdca7cc498"
+    "id": "815ed02d74e547e0"
   },
   {
     "title": "AMPS - Gong Chen",
@@ -17817,7 +17835,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "An Analysis and Math Physics Seminar talk given by Gong Chen.",
+      "one_line_context": "This is an Analysis and Math Physics Seminar talk given by Gong Chen.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17835,14 +17853,14 @@
     "title": "Properties of Quantum Tanner Codes",
     "annotations": {
       "prerequisites": [
-        "Linear Algebra",
+        "Quantum Computing",
         "Coding Theory"
       ],
       "related_concepts": [
         "Quantum Error Correction",
-        "Quantum Tanner Codes"
+        "Tanner Codes"
       ],
-      "one_line_context": "A talk discussing the properties of quantum Tanner codes.",
+      "one_line_context": "This talk examines the properties of quantum Tanner codes.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17857,259 +17875,17 @@
     "id": "da97b31d7f3ed87f"
   },
   {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-09-30T17:00:00",
-    "datetime_start": "2026-09-30T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "00cecd3191ed5791"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-10-07T17:00:00",
-    "datetime_start": "2026-10-07T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "d3f8d43a15a92ab8"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-10-14T17:00:00",
-    "datetime_start": "2026-10-14T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "f79f3c94c0d9a977"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-10-21T17:00:00",
-    "datetime_start": "2026-10-21T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "459054e1fdb05181"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-10-28T17:00:00",
-    "datetime_start": "2026-10-28T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "ebb5e5f4de6123fe"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-11-04T17:00:00",
-    "datetime_start": "2026-11-04T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "676a4119933599e0"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-11-11T17:00:00",
-    "datetime_start": "2026-11-11T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "4ae2644bc0148d73"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-11-18T17:00:00",
-    "datetime_start": "2026-11-18T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "88a06988714fbab9"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-11-25T17:00:00",
-    "datetime_start": "2026-11-25T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "665ac6c370ed6b99"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-12-02T17:00:00",
-    "datetime_start": "2026-12-02T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "3c27879934492e93"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "An Analysis and Math Physics Seminar session.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-12-09T17:00:00",
-    "datetime_start": "2026-12-09T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "32d33d08482e4eb5"
-  },
-  {
     "title": "Theory and Practice of Adaptor Signatures",
     "annotations": {
       "prerequisites": [
         "Cryptography",
-        "Abstract Algebra"
+        "Algebra"
       ],
       "related_concepts": [
-        "Adaptor Signatures",
+        "Digital Signatures",
         "Blockchain"
       ],
-      "one_line_context": "A talk on the theory and practice of adaptor signatures.",
+      "one_line_context": "This talk covers the theory and practice of adaptor signatures.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18130,10 +17906,10 @@
         "Coding Theory"
       ],
       "related_concepts": [
-        "Spatially Coupled Codes",
-        "Error-Correcting Codes"
+        "Error-Correcting Codes",
+        "Spatially Coupled Codes"
       ],
-      "one_line_context": "A talk on recent results regarding spatially coupled codes.",
+      "one_line_context": "This talk presents recent results on spatially coupled codes.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18148,17 +17924,41 @@
     "id": "2f7db501bacbc402"
   },
   {
+    "title": "Subcode Ensemble Decoding Techniques for Degeneracy-Aware Quantum Error Correction",
+    "annotations": {
+      "prerequisites": [
+        "Quantum Computing",
+        "Coding Theory"
+      ],
+      "related_concepts": [
+        "Quantum Error Correction",
+        "Decoding Techniques"
+      ],
+      "one_line_context": "This talk explores subcode ensemble decoding techniques for degeneracy-aware quantum error correction.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Karlsruhe Institute of Technology",
+    "datetime_end": "2026-10-29T10:00:00",
+    "datetime_start": "2026-10-29T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": "Jonathan Mandelbaum",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "484e514e8d1781e1"
+  },
+  {
     "title": "Light Edge Fault Tolerant Graph Spanners",
     "annotations": {
       "prerequisites": [
-        "Graph Theory",
-        "Algorithms"
+        "Graph Theory"
       ],
       "related_concepts": [
-        "Graph Spanners",
-        "Network Reliability"
+        "Network Design",
+        "Fault Tolerance"
       ],
-      "one_line_context": "A talk on light edge fault tolerant graph spanners.",
+      "one_line_context": "This talk discusses light edge fault tolerant graph spanners.",
       "ai_generated": true
     },
     "abstract": null,
