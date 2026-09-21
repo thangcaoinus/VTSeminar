@@ -3,27 +3,26 @@
     "title": "From Grazing to Growing Up: Matching Mathematical Tools to Ecological Complexity",
     "annotations": {
       "prerequisites": [
-        "ordinary differential equations",
-        "delay differential equations"
+        "differential equations",
+        "multivariable calculus"
       ],
       "related_concepts": [
-        "mathematical biology",
         "population dynamics",
-        "stage-structured models"
+        "mathematical biology",
+        "delay differential equations"
       ],
-      "one_line_context": "This talk explains how applied mathematicians and biologists use mechanistic differential equation models to capture ecological complexity across different life stages.",
+      "one_line_context": "This talk explores how applied mathematicians collaborate with biologists to build mechanistic differential equation models that capture complex multi-scale ecological dynamics.",
       "ai_generated": true
     },
     "abstract": "Classical population models often rely on simple, unstructured differential equations that assume uniform life stages and instantaneous growth. In reality, species have stage-specific traits and behavioral adaptations that require more complicated mathematical tools. In this talk, I will illustrate how applied mathematicians collaborate with biologists to build mechanistic, first-principles models that capture multi-scale ecological dynamics. We begin with grazing, introducing co-limitation functions to capture how nutrient limitations alter feeding behavior. We then transition to growing up, using stage-structured and delay differential equations to model how high nutrient demands in juveniles create developmental bottlenecks. We demonstrate how stage-specific nutrient demands shift stability boundaries and control population oscillations under enrichment. Ultimately, we show how matching the right mathematical framework to biological reality uncovers novel dynamical behaviors and yields deeper insights into complex ecological systems.",
     "affiliation": "VT",
-    "datetime_end": "2026-09-04T17:00:00-04:00",
-    "datetime_start": "2026-09-04T16:00:00-04:00",
+    "datetime_start": "2026-09-04T16:00:00",
     "location": "McBryde 455",
     "series": "Colloquium",
     "speaker": "Angela Peace",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "d203750c1853e4c1"
+    "id": "94fc3626a40dd44a"
   },
   {
     "title": "On-the-Fly Reduced-Order Modeling via Matrix and Tensor Network Low-Rank Approximations",
@@ -31,50 +30,74 @@
       "prerequisites": [
         "linear algebra",
         "numerical analysis",
-        "partial differential equations"
+        "differential equations"
       ],
       "related_concepts": [
         "tensor networks",
         "reduced-order modeling",
-        "high-dimensional dynamical systems"
+        "high-dimensional partial differential equations"
       ],
-      "one_line_context": "This talk introduces adaptive low-rank matrix and tensor network approximations to solve high-dimensional differential equations efficiently.",
+      "one_line_context": "This presentation discusses adaptive low-rank matrix and tensor network approximation strategies for solving large-scale and high-dimensional differential equations.",
       "ai_generated": true
     },
-    "abstract": "Some of the most computationally demanding problems in science and engineering involve large-scale and high-dimensional matrix and tensor differential equations (MDEs and TDEs). These arise in applications ranging from the Schr¨odinger equation and kinetic transport mod- els (Fokker–Planck and Boltzmann equations) to probability density function transport in turbulent combustion and Hamilton–Jacobi–Bellman equations. Even in three-dimensional settings, such as turbulent reacting flows, the sheer scale and multiscale structure of the dynamics render direct numerical treatment prohibitively expensive. The underlying chal- lenge is structural: the number of degrees of freedom grows combinatorially with dimension, resolution, or parametric complexity. Low-rank matrix and their extension to tensor network approximations provide a principled framework to address this challenge by exploiting in- trinsic low-dimensional structure and multi-dimensional correlations in the solution. In this presentation, we focus on computational strategies for solving nonlinear MDEs and TDEs directly in adaptive low-rank form. We introduce a novel formulation based on adaptive cross interpolation and develop CUR-type decompositions grounded in the Discrete Em- pirical Interpolation Method (DEIM) for matrix, tensor-train, and Tucker representations. These DEIM-CUR algorithms enable on-the-fly reduced-order modeling with near-optimal accuracy for broad classes of nonlinear dynamical systems. We demonstrate the effectiveness of these approaches across applications in turbulent com- bustion, sensitivity analysis, uncertainty quantification, and both high-dimensional and large-scale partial differential equations.",
+    "abstract": "Some of the most computationally demanding problems in science and engineering involve large-scale and high-dimensional matrix and tensor differential equations (MDEs and TDEs). These arise in applications ranging from the Schr¨odinger equation and kinetic transport models (Fokker–Planck and Boltzmann equations) to probability density function transport in turbulent combustion and Hamilton–Jacobi–Bellman equations. Even in three-dimensional settings, such as turbulent reacting flows, the sheer scale and multiscale structure of the dynamics render direct numerical treatment prohibitively expensive. The underlying challenge is structural: the number of degrees of freedom grows combinatorially with dimension, resolution, or parametric complexity. Low-rank matrix and their extension to tensor network approximations provide a principled framework to address this challenge by exploiting intrinsic low-dimensional structure and multi-dimensional correlations in the solution. In this presentation, we focus on computational strategies for solving nonlinear MDEs and TDEs directly in adaptive low-rank form. We introduce a novel formulation based on adaptive cross interpolation and develop CUR-type decompositions grounded in the Discrete Empirical Interpolation Method (DEIM) for matrix, tensor-train, and Tucker representations. These DEIM-CUR algorithms enable on-the-fly reduced-order modeling with near-optimal accuracy for broad classes of nonlinear dynamical systems. We demonstrate the effectiveness of these approaches across applications in turbulent combustion, sensitivity analysis, uncertainty quantification, and both high-dimensional and large-scale partial differential equations.",
     "affiliation": "University of Pittsburgh",
-    "datetime_end": "2026-09-18T17:00:00-04:00",
-    "datetime_start": "2026-09-18T16:00:00-04:00",
+    "datetime_start": "2026-09-18T16:00:00",
     "location": "McBryde 455",
     "series": "Colloquium",
     "speaker": "Hessam Babaee",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "d286720ec842b676"
+    "id": "262febf3c9ae0ea8"
+  },
+  {
+    "title": "From Host–Pathogen to Vector–Host Systems: Modeling Disease Dynamics",
+    "annotations": {
+      "prerequisites": [
+        "differential equations"
+      ],
+      "related_concepts": [
+        "epidemiology",
+        "disease modeling",
+        "population biology"
+      ],
+      "one_line_context": "This talk models the dynamics of infectious diseases transitioning from host-pathogen to vector-host systems.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "VT Math Postdocs",
+    "datetime_start": "2026-09-25T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Mohammad Chowdhury",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "e0cebed2db8182a7"
   },
   {
     "title": "Quantifying the Strength of Cross-Protection Between Dengue and Zika: A Mechanistic Analysis of Subnational Transmission in Brazil",
     "annotations": {
       "prerequisites": [
-        "epidemiological modeling"
+        "differential equations",
+        "mathematical modeling"
       ],
       "related_concepts": [
-        "disease transmission dynamics",
+        "epidemiology",
+        "infectious disease transmission",
         "mechanistic analysis"
       ],
-      "one_line_context": "This talk presents a mechanistic analysis of subnational transmission to quantify cross-protection between Dengue and Zika in Brazil.",
+      "one_line_context": "This talk uses a mechanistic analysis to quantify cross-protection between Dengue and Zika in Brazil.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-09-25T17:00:00-04:00",
-    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "affiliation": "VT Math Postdocs",
+    "datetime_start": "2026-09-25T16:00:00",
     "location": "McBryde 455",
     "series": "Colloquium",
     "speaker": "Daniela Flores Pineda",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "4068fb5cbaa6a259"
+    "id": "7a8b54f6614159de"
   },
   {
     "title": "A lifting--projection method for the homogeneous Landau equation based on TT cross approximation",
@@ -84,23 +107,46 @@
         "differential equations"
       ],
       "related_concepts": [
+        "tensor trains",
         "Landau equation",
-        "tensor-train approximation",
         "numerical methods"
       ],
-      "one_line_context": "This talk discusses a lifting-projection numerical method for solving the homogeneous Landau equation using tensor-train cross approximation.",
+      "one_line_context": "This talk introduces a lifting-projection method using tensor-train cross approximation for the homogeneous Landau equation.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-09-25T17:00:00-04:00",
-    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "affiliation": "VT Math Postdocs",
+    "datetime_start": "2026-09-25T16:00:00",
     "location": "McBryde 455",
     "series": "Colloquium",
     "speaker": "Kun Huang",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "90e486fbfbfa26ef"
+    "id": "f5ca67aca33d72c6"
+  },
+  {
+    "title": "How Harmonic Analysis Sees the Geometry of Fractals",
+    "annotations": {
+      "prerequisites": [
+        "real analysis",
+        "harmonic analysis"
+      ],
+      "related_concepts": [
+        "fractal geometry",
+        "measure theory"
+      ],
+      "one_line_context": "This talk explores how harmonic analysis can be applied to understand the geometry of fractals.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "VT Math Postdocs",
+    "datetime_start": "2026-09-25T16:00:00",
+    "location": "McBryde 455",
+    "series": "Colloquium",
+    "speaker": "Quy Pham",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "bed7bab18009fc80"
   },
   {
     "title": "Temperature-driven competition and infectious disease dynamics",
@@ -109,41 +155,22 @@
         "differential equations"
       ],
       "related_concepts": [
-        "infectious disease modeling",
-        "temperature-driven population dynamics"
+        "disease dynamics",
+        "thermal ecology",
+        "mathematical biology"
       ],
-      "one_line_context": "This talk explores how temperature affects species competition and infectious disease dynamics.",
+      "one_line_context": "This talk investigates how temperature-driven competition affects infectious disease dynamics.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-09-25T17:00:00-04:00",
-    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "affiliation": "VT Math Postdocs",
+    "datetime_start": "2026-09-25T16:00:00",
     "location": "McBryde 455",
     "series": "Colloquium",
     "speaker": "Nusrat Tabassum",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "9e49692aa6e29db0"
-  },
-  {
-    "title": "TBD",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [],
-      "one_line_context": "This is a placeholder entry with no title or abstract provided.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-12-04T17:00:00-04:00",
-    "datetime_start": "2026-12-04T16:00:00-04:00",
-    "location": "McBryde 455",
-    "series": "Colloquium",
-    "speaker": "Alvaro Lozano-Robledo",
-    "department": "Mathematics",
-    "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "26c5c540652c6652"
+    "id": "41c4edb35450c4e6"
   },
   {
     "title": "Spaces from algebra: From compact Hausdorff spaces to logarithmic geometry",
