@@ -3,174 +3,199 @@
     "title": "From Grazing to Growing Up: Matching Mathematical Tools to Ecological Complexity",
     "annotations": {
       "prerequisites": [
-        "differential equations",
-        "multivariable calculus"
+        "Ordinary Differential Equations",
+        "Calculus"
       ],
       "related_concepts": [
-        "population dynamics",
-        "mathematical biology",
-        "delay differential equations"
+        "Population dynamics",
+        "Delay differential equations",
+        "Stage-structured models"
       ],
-      "one_line_context": "This talk explores how applied mathematicians collaborate with biologists to build mechanistic differential equation models that capture complex multi-scale ecological dynamics.",
+      "one_line_context": "This talk explores how applied mathematicians collaborate with biologists to build differential equation models that capture complex ecological dynamics.",
       "ai_generated": true
     },
     "abstract": "Classical population models often rely on simple, unstructured differential equations that assume uniform life stages and instantaneous growth. In reality, species have stage-specific traits and behavioral adaptations that require more complicated mathematical tools. In this talk, I will illustrate how applied mathematicians collaborate with biologists to build mechanistic, first-principles models that capture multi-scale ecological dynamics. We begin with grazing, introducing co-limitation functions to capture how nutrient limitations alter feeding behavior. We then transition to growing up, using stage-structured and delay differential equations to model how high nutrient demands in juveniles create developmental bottlenecks. We demonstrate how stage-specific nutrient demands shift stability boundaries and control population oscillations under enrichment. Ultimately, we show how matching the right mathematical framework to biological reality uncovers novel dynamical behaviors and yields deeper insights into complex ecological systems.",
     "affiliation": "VT",
-    "datetime_start": "2026-09-04T16:00:00",
+    "datetime_end": "2026-09-04T17:00:00-04:00",
+    "datetime_start": "2026-09-04T16:00:00-04:00",
     "location": "McBryde 455",
     "series": "Colloquium",
     "speaker": "Angela Peace",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "94fc3626a40dd44a"
+    "id": "d203750c1853e4c1"
   },
   {
     "title": "On-the-Fly Reduced-Order Modeling via Matrix and Tensor Network Low-Rank Approximations",
     "annotations": {
       "prerequisites": [
-        "linear algebra",
-        "numerical analysis",
-        "differential equations"
+        "Linear Algebra",
+        "Multivariable Calculus",
+        "Differential Equations"
       ],
       "related_concepts": [
-        "tensor networks",
-        "reduced-order modeling",
-        "high-dimensional partial differential equations"
+        "Tensor networks",
+        "Reduced-order modeling",
+        "High-dimensional partial differential equations"
       ],
-      "one_line_context": "This presentation discusses adaptive low-rank matrix and tensor network approximation strategies for solving large-scale and high-dimensional differential equations.",
+      "one_line_context": "This talk presents computational strategies for solving high-dimensional matrix and tensor differential equations using adaptive low-rank approximations.",
       "ai_generated": true
     },
-    "abstract": "Some of the most computationally demanding problems in science and engineering involve large-scale and high-dimensional matrix and tensor differential equations (MDEs and TDEs). These arise in applications ranging from the Schr¨odinger equation and kinetic transport models (Fokker–Planck and Boltzmann equations) to probability density function transport in turbulent combustion and Hamilton–Jacobi–Bellman equations. Even in three-dimensional settings, such as turbulent reacting flows, the sheer scale and multiscale structure of the dynamics render direct numerical treatment prohibitively expensive. The underlying challenge is structural: the number of degrees of freedom grows combinatorially with dimension, resolution, or parametric complexity. Low-rank matrix and their extension to tensor network approximations provide a principled framework to address this challenge by exploiting intrinsic low-dimensional structure and multi-dimensional correlations in the solution. In this presentation, we focus on computational strategies for solving nonlinear MDEs and TDEs directly in adaptive low-rank form. We introduce a novel formulation based on adaptive cross interpolation and develop CUR-type decompositions grounded in the Discrete Empirical Interpolation Method (DEIM) for matrix, tensor-train, and Tucker representations. These DEIM-CUR algorithms enable on-the-fly reduced-order modeling with near-optimal accuracy for broad classes of nonlinear dynamical systems. We demonstrate the effectiveness of these approaches across applications in turbulent combustion, sensitivity analysis, uncertainty quantification, and both high-dimensional and large-scale partial differential equations.",
+    "abstract": "Some of the most computationally demanding problems in science and engineering involve large-scale and high-dimensional matrix and tensor differential equations (MDEs and TDEs). These arise in applications ranging from the Schr\"odinger equation and kinetic transport mod- els (Fokker–Planck and Boltzmann equations) to probability density function transport in turbulent combustion and Hamilton–Jacobi–Bellman equations. Even in three-dimensional settings, such as turbulent reacting flows, the sheer scale and multiscale structure of the dynamics render direct numerical treatment prohibitively expensive. The underlying chal- lenge is structural: the number of degrees of freedom grows combinatorially with dimension, resolution, or parametric complexity. Low-rank matrix and their extension to tensor network approximations provide a principled framework to address this challenge by exploiting in- trinsic low-dimensional structure and multi-dimensional correlations in the solution. In this presentation, we focus on computational strategies for solving nonlinear MDEs and TDEs directly in adaptive low-rank form. We introduce a novel formulation based on adaptive cross interpolation and develop CUR-type decompositions grounded in the Discrete Em- pirical Interpolation Method (DEIM) for matrix, tensor-train, and Tucker representations. These DEIM-CUR algorithms enable on-the-fly reduced-order modeling with near-optimal accuracy for broad classes of nonlinear dynamical systems. We demonstrate the effectiveness of these approaches across applications in turbulent com- bustion, sensitivity analysis, uncertainty quantification, and both high-dimensional and large-scale partial differential equations.",
     "affiliation": "University of Pittsburgh",
-    "datetime_start": "2026-09-18T16:00:00",
+    "datetime_end": "2026-09-18T17:00:00-04:00",
+    "datetime_start": "2026-09-18T16:00:00-04:00",
     "location": "McBryde 455",
     "series": "Colloquium",
     "speaker": "Hessam Babaee",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "262febf3c9ae0ea8"
+    "id": "d286720ec842b676"
   },
   {
     "title": "From Host–Pathogen to Vector–Host Systems: Modeling Disease Dynamics",
     "annotations": {
       "prerequisites": [
-        "differential equations"
+        "Differential Equations"
       ],
       "related_concepts": [
-        "epidemiology",
-        "disease modeling",
-        "population biology"
+        "Epidemiological models",
+        "Disease dynamics"
       ],
-      "one_line_context": "This talk models the dynamics of infectious diseases transitioning from host-pathogen to vector-host systems.",
+      "one_line_context": "This talk discusses mathematical modeling of disease dynamics moving from host-pathogen to vector-host systems.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "VT Math Postdocs",
-    "datetime_start": "2026-09-25T16:00:00",
-    "location": "McBryde 455",
+    "datetime_end": "2026-09-25T17:00:00-04:00",
+    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "location": "DDS 130",
     "series": "Colloquium",
     "speaker": "Mohammad Chowdhury",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "e0cebed2db8182a7"
+    "id": "0388a664a2efde68"
+  },
+  {
+    "title": "Investigating Stress During an Emergency Evacuation",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Emergency evacuation",
+        "Applied mathematics"
+      ],
+      "one_line_context": "This talk investigates stress dynamics during emergency evacuations.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "VT Math Postdocs",
+    "datetime_end": "2026-09-25T17:00:00-04:00",
+    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "location": "DDS 130",
+    "series": "Colloquium",
+    "speaker": "Mohammad Chowdhury",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/colloquium/",
+    "id": "0bdf151e8b56f10e"
   },
   {
     "title": "Quantifying the Strength of Cross-Protection Between Dengue and Zika: A Mechanistic Analysis of Subnational Transmission in Brazil",
     "annotations": {
       "prerequisites": [
-        "differential equations",
-        "mathematical modeling"
+        "Differential Equations",
+        "Probability"
       ],
       "related_concepts": [
-        "epidemiology",
-        "infectious disease transmission",
-        "mechanistic analysis"
+        "Mechanistic disease transmission",
+        "Cross-protection analysis"
       ],
-      "one_line_context": "This talk uses a mechanistic analysis to quantify cross-protection between Dengue and Zika in Brazil.",
+      "one_line_context": "This talk uses mechanistic analysis to quantify cross-protection between Dengue and Zika in Brazil.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "VT Math Postdocs",
-    "datetime_start": "2026-09-25T16:00:00",
-    "location": "McBryde 455",
+    "datetime_end": "2026-09-25T17:00:00-04:00",
+    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "location": "DDS 130",
     "series": "Colloquium",
     "speaker": "Daniela Flores Pineda",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "7a8b54f6614159de"
+    "id": "4068fb5cbaa6a259"
   },
   {
     "title": "A lifting--projection method for the homogeneous Landau equation based on TT cross approximation",
     "annotations": {
       "prerequisites": [
-        "numerical analysis",
-        "differential equations"
+        "Partial Differential Equations",
+        "Numerical Analysis"
       ],
       "related_concepts": [
-        "tensor trains",
         "Landau equation",
-        "numerical methods"
+        "Tensor-train cross approximation"
       ],
-      "one_line_context": "This talk introduces a lifting-projection method using tensor-train cross approximation for the homogeneous Landau equation.",
+      "one_line_context": "This talk presents a lifting-projection method for solving the homogeneous Landau equation.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "VT Math Postdocs",
-    "datetime_start": "2026-09-25T16:00:00",
-    "location": "McBryde 455",
+    "datetime_end": "2026-09-25T17:00:00-04:00",
+    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "location": "DDS 130",
     "series": "Colloquium",
     "speaker": "Kun Huang",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "f5ca67aca33d72c6"
+    "id": "90e486fbfbfa26ef"
   },
   {
     "title": "How Harmonic Analysis Sees the Geometry of Fractals",
     "annotations": {
       "prerequisites": [
-        "real analysis",
-        "harmonic analysis"
+        "Real Analysis",
+        "Harmonic Analysis"
       ],
       "related_concepts": [
-        "fractal geometry",
-        "measure theory"
+        "Fractal geometry",
+        "Measure theory"
       ],
       "one_line_context": "This talk explores how harmonic analysis can be applied to understand the geometry of fractals.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "VT Math Postdocs",
-    "datetime_start": "2026-09-25T16:00:00",
-    "location": "McBryde 455",
+    "datetime_end": "2026-09-25T17:00:00-04:00",
+    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "location": "DDS 130",
     "series": "Colloquium",
     "speaker": "Quy Pham",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "bed7bab18009fc80"
+    "id": "06b571fbda4a0b0e"
   },
   {
     "title": "Temperature-driven competition and infectious disease dynamics",
     "annotations": {
       "prerequisites": [
-        "differential equations"
+        "Differential Equations"
       ],
       "related_concepts": [
-        "disease dynamics",
-        "thermal ecology",
-        "mathematical biology"
+        "Temperature effects on disease",
+        "Infectious disease modeling"
       ],
-      "one_line_context": "This talk investigates how temperature-driven competition affects infectious disease dynamics.",
+      "one_line_context": "This talk examines how temperature-driven competition influences infectious disease dynamics.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": "VT Math Postdocs",
-    "datetime_start": "2026-09-25T16:00:00",
-    "location": "McBryde 455",
+    "datetime_end": "2026-09-25T17:00:00-04:00",
+    "datetime_start": "2026-09-25T16:00:00-04:00",
+    "location": "DDS 130",
     "series": "Colloquium",
     "speaker": "Nusrat Tabassum",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/colloquium/",
-    "id": "41c4edb35450c4e6"
+    "id": "9e49692aa6e29db0"
   },
   {
     "title": "Spaces from algebra: From compact Hausdorff spaces to logarithmic geometry",
@@ -352,85 +377,205 @@
     "id": "6d8705df71f88f5c"
   },
   {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This is a placeholder seminar entry with details yet to be announced.",
+      "ai_generated": true
+    },
+    "abstract": "TBD",
+    "affiliation": null,
+    "datetime_end": null,
+    "datetime_start": "2026-10-23T14:30:00-04:00",
+    "location": "McBryde 329",
+    "series": "Algebra Seminar",
+    "speaker": "Speaker TBD",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/algebra/",
+    "id": "fc9e198e05be5068"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This is a placeholder seminar entry with details yet to be announced.",
+      "ai_generated": true
+    },
+    "abstract": "TBD",
+    "affiliation": "Clemson",
+    "datetime_end": null,
+    "datetime_start": "2026-11-06T14:30:00-04:00",
+    "location": "McBryde 329",
+    "series": "Algebra Seminar",
+    "speaker": "Daniel Martin",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/algebra/",
+    "id": "b91b4ced8302d285"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This is a placeholder seminar entry with details yet to be announced.",
+      "ai_generated": true
+    },
+    "abstract": "TBD",
+    "affiliation": "VT",
+    "datetime_end": null,
+    "datetime_start": "2026-11-13T14:30:00-04:00",
+    "location": "McBryde 329",
+    "series": "Algebra Seminar",
+    "speaker": "Sarah Arpin",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/algebra/",
+    "id": "b62a1769a757afb4"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This is a placeholder seminar entry with details yet to be announced.",
+      "ai_generated": true
+    },
+    "abstract": "TBD",
+    "affiliation": null,
+    "datetime_end": null,
+    "datetime_start": "2026-12-04T14:30:00-04:00",
+    "location": "McBryde 329",
+    "series": "Algebra Seminar",
+    "speaker": "Speaker TBD",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/algebra/",
+    "id": "21e2ec4d7c386f23"
+  },
+  {
+    "title": "Getting Acquainted at The Maroon Door",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "departmental social",
+        "graduate student orientation",
+        "research interests"
+      ],
+      "one_line_context": "An informal departmental social gathering for faculty and graduate students to introduce themselves and share their goals.",
+      "ai_generated": true
+    },
+    "abstract": "Join us for snacks, drinks, and conversation as we get to know each other better. We’ve reserved the bar area, so we’ll be comfortably inside if it’s too warm/wet outside. We’ll go around and introduce ourselves. Graduate students and faculty, please be ready to share: Your 5-year goal, your current research interests, and a hobby you enjoy",
+    "affiliation": null,
+    "datetime_start": "2026-09-04T00:00:00",
+    "location": "The Maroon Door, 418 N Main St, Blacksburg, VA 24060",
+    "series": "Colloquium",
+    "speaker": null,
+    "department": "Statistics",
+    "source_url": "https://www.stat.vt.edu/about/colloquium-schedule.html",
+    "id": "332e715cac6408e2"
+  },
+  {
     "title": "Continuous-space occupancy models",
     "annotations": {
       "prerequisites": [
-        "Spatial statistics",
-        "Bayesian inference",
+        "spatial statistics",
+        "Bayesian methods",
         "Markov chain Monte Carlo (MCMC)"
       ],
       "related_concepts": [
-        "Ecological modeling",
-        "Gaussian processes",
-        "Species distribution modeling"
+        "occupancy models",
+        "ecological modeling",
+        "Gaussian processes"
       ],
-      "one_line_context": "This talk introduces a new class of spatial occupancy models using clipped Gaussian processes to analyze species distributions in continuous space while accounting for observation errors.",
+      "one_line_context": "This talk introduces a new class of spatial occupancy models using a clipped Gaussian process to infer species distributions in continuous space.",
       "ai_generated": true
     },
     "abstract": "Occupancy models are commonly used to infer species distributions over large spatial extents while accounting for imperfect detection. Current approaches, however, are unable to model species occurrence over continuous spatial domains while accounting for the discrete spatial domain of the observed data. We develop a new class of spatial occupancy models that embeds a change of spatial support between the observed data and occurrence process. We use a clipped Gaussian process to represent species occurrence in continuous space which can provide inferences at a finer resolution than the observed occupancy data. Our approach is beneficial because it allows for more realistic models of species occurrence, can account for species occurring in only a portion of a surveyed site, and can relate detection probabilities to these within-site occurrence proportions. We show how our model can be fit using Bayesian methods and develop a computationally efficient MCMC algorithm. We also show how our framework can be extended to handle multiple years of data to learn about species occupancy dynamics in continuous space. We demonstrate our model using simulated data and compare our approach to alternative spatial occupancy models. We also use our model to analyze ovenbird occurrence data collected in New Hampshire, USA.",
     "affiliation": "University of Missouri",
-    "datetime_end": "2026-09-18T15:30:00",
-    "datetime_start": "2026-09-18T14:30:00",
+    "datetime_start": "2026-09-18T00:00:00",
     "location": "300 Seitz",
     "series": "Colloquium",
     "speaker": "Wilson Wright",
     "department": "Statistics",
     "source_url": "https://www.stat.vt.edu/about/colloquium-schedule.html",
-    "id": "aa70661ef30185d2"
+    "id": "7123c9d277c7aed9"
   },
   {
     "title": "Understanding CNN Efficiency: Statistical Generative Models for Unstructured Image Data",
     "annotations": {
       "prerequisites": [
-        "Statistical learning theory",
-        "Deep learning",
-        "Image analysis"
+        "statistical learning theory",
+        "convolutional neural networks"
       ],
       "related_concepts": [
-        "Convolutional Neural Networks",
-        "Generative models",
-        "Computer vision"
+        "image analysis",
+        "generative models",
+        "feature mapping"
       ],
-      "one_line_context": "This talk presents novel statistical generative models to analyze the architectural efficiency and approximation capabilities of Convolutional Neural Networks in image analysis.",
+      "one_line_context": "This talk presents statistical generative models to analyze the structural efficiency and approximation capabilities of Convolutional Neural Networks in image analysis.",
       "ai_generated": true
     },
     "abstract": "Convolutional Neural Networks (CNNs) are foundational in modern image analysis due to their ability to efficiently learn feature representations. However, theoretical understanding of their efficiency remains limited, largely due to inadequate modeling of image structures and their interaction with CNNs. To address this, we introduce novel statistical generative models (SGMs) that decompose images into task-relevant signals and noise, capturing the complexities of natural image data. Based on these SGMs, we propose a feature mapping approach (FMA) to characterize the transformation from raw image data to feature vectors. We analyze CNNs' approximation capabilities, their adaptation to low-dimensional structures, and their efficiency in vision tasks, ultimately developing statistical learning theories for CNN-based image analysis. Our findings reveal the challenges inherent in vision tasks and highlight CNNs' remarkable efficiency in addressing them, providing new insights into their theoretical and practical capabilities. This is based on the joint work with Dr. Guohao Shen.",
     "affiliation": "University of North Carolina at Chapel Hill",
-    "datetime_end": "2026-09-25T15:30:00",
-    "datetime_start": "2026-09-25T14:30:00",
+    "datetime_start": "2026-09-25T00:00:00",
     "location": "300 Seitz",
     "series": "Colloquium",
     "speaker": "Hongtu Zhu",
     "department": "Statistics",
     "source_url": "https://www.stat.vt.edu/about/colloquium-schedule.html",
-    "id": "35dfe47d21bd4a41"
+    "id": "d54a0e7d11a09e6f"
+  },
+  {
+    "title": "Statistical Foundations of Deep Learning: Toward Efficient and Trustworthy AI",
+    "annotations": {
+      "prerequisites": [
+        "Bayesian statistics",
+        "deep learning",
+        "variational inference"
+      ],
+      "related_concepts": [
+        "uncertainty quantification",
+        "artificial intelligence",
+        "scalable computation"
+      ],
+      "one_line_context": "This talk provides a statistical perspective on deep learning to build more principled, efficient, and trustworthy artificial intelligence.",
+      "ai_generated": true
+    },
+    "abstract": "Deep learning has transformed modern artificial intelligence through increasingly flexible models, large datasets, and scalable computation. For statisticians, however, its rapid development raises fundamental questions about statistical modeling, inference, theory, and computational efficiency. In this talk, we present a statistical perspective on deep learning, focusing on Bayesian neural networks, variational inference, theoretical validation, and structurally sparse deep networks. We discuss how statistical modeling and optimization can provide theoretical guarantees, quantify approximation effects, and produce more efficient deep-learning models without substantial loss of predictive performance. Applications to high-dimensional and complex data illustrate the role of statistical methodology in developing reliable and computationally efficient AI. More broadly, the talk explores how statistical theory, machine learning, and optimization can work together to build more principled and trustworthy AI.",
+    "affiliation": "Michigan State University",
+    "datetime_start": "2026-10-30T00:00:00",
+    "location": "300 Seitz",
+    "series": "Colloquium",
+    "speaker": "Taps Maiti",
+    "department": "Statistics",
+    "source_url": "https://www.stat.vt.edu/about/colloquium-schedule.html",
+    "id": "0191088ceb49a840"
   },
   {
     "title": "Early-stopped aggregation: Adaptive inference with computational efficiency",
     "annotations": {
       "prerequisites": [
-        "Bayesian model selection",
-        "Variational inference",
-        "Frequentist statistics"
+        "model selection",
+        "variational Bayes",
+        "statistical asymptotic theory"
       ],
       "related_concepts": [
-        "Model aggregation",
-        "Penalized estimation",
-        "Computational statistics"
+        "adaptive inference",
+        "penalized estimation",
+        "deep neural networks"
       ],
-      "one_line_context": "This talk proposes a computationally efficient framework called early-stopped aggregation for adaptive statistical inference across both Bayesian and frequentist paradigms.",
+      "one_line_context": "This talk introduces early-stopped aggregation as a versatile and computationally efficient framework for adaptive statistical inference.",
       "ai_generated": true
     },
     "abstract": "When considering a model selection or, more generally, an aggregation approach for adaptive statistical inference, it is often necessary to compute estimators over a wide range of model complexities including unnecessarily large models even when the true data-generating process is relatively simple, due to the lack of prior knowledge. This requirement can lead to substantial computational inefficiency. In this work, we propose a novel framework for efficient model aggregation called the early-stopped aggregation (ESA): instead of computing and aggregating estimators for all candidate models, we compute only a small number of simpler ones using an early-stopping criterion and aggregate only these for final inference. Our framework is versatile and applies to both Bayesian model selection, in particular, within the variational Bayes framework, and frequentist estimation, including a general penalized estimation setting. We investigate adaptive optimal property of the ESA approach across three learning paradigms. We first show that ESA achieves optimal adaptive contraction rates in the variational Bayes setting under mild conditions. We extend this result to variational empirical Bayes, where prior hyperparameters are chosen in a data-dependent manner. In addition, we apply the ESA approach to frequentist aggregation including both penalization-based and sample-splitting implementations, and establish corresponding theory. As we demonstrate, there is a clear unification between early-stopped Bayes and frequentist penalized aggregation, with a common \"energy\" functional comprising a data-fitting term and a complexity-control term that drives both procedures. We further present several applications and numerical studies that highlight the efficiency and strong performance of the proposed approach.",
     "affiliation": "University of Maryland",
-    "datetime_end": "2026-11-13T15:30:00",
-    "datetime_start": "2026-11-13T14:30:00",
+    "datetime_start": "2026-11-13T00:00:00",
     "location": "300 Seitz",
     "series": "Colloquium",
     "speaker": "Lizhen Lin",
     "department": "Statistics",
     "source_url": "https://www.stat.vt.edu/about/colloquium-schedule.html",
-    "id": "8db64ef7dd5c5a77"
+    "id": "0bd37f565b209cff"
   },
   {
     "title": "Generalized Rothe diagrams for orthogonal roots",
@@ -443,10 +588,10 @@
       "related_concepts": [
         "Rothe diagrams",
         "Schubert polynomials",
-        "Coxeter groups",
-        "Iwahori-Hecke algebras"
+        "Iwahori-Hecke algebras",
+        "Quasiparabolic sets"
       ],
-      "one_line_context": "This talk introduces a root-theoretic framework using generalized Rothe diagrams that recovers and generalizes various algebraic and combinatorial objects.",
+      "one_line_context": "This talk introduces a root-theoretic framework using orthogonal roots to recover and unify various algebraic and combinatorial objects such as permutations, involutions, and rook configurations.",
       "ai_generated": true
     },
     "abstract": "Let \\(\\Phi\\) be a simply-laced root system with Weyl group \\(W\\), let \\(U\\) be a set of positive roots in \\(\\Phi\\), and let \\(\\Omega_U\\) be the set of all maximum-cardinality orthogonal subsets of \\(U\\). Define the generalized Rothe diagram of each \\(R\\in \\Omega_U\\) to be the set\n\\[ D_U(R)=\\{\\alpha\\in U : s_\\beta(\\alpha)>0 \\text{ for all } \\beta\\in R\\}. \\]\nWe show how the set \\(\\Omega_U\\) and the diagrams \\(D_U(R)\\) provide a root-theoretic framework that recovers many widely studied algebraic and combinatorial objects. For example, for a suitable choice of \\(U\\) in type \\(D_{2k}\\), the set \\(\\Omega_U\\) can be identified with the symmetric group \\(S_k\\), and the diagrams \\(D_U(R)\\) coincide with the traditional Rothe diagrams of permutations. For another choice in type \\(D_{2k}\\), the elements of \\(\\Omega_U\\) can be identified with the fixed-point-free involutions in \\(S_{2k}\\), and the diagrams \\(D_U(R)\\) recover the involution Rothe diagrams used by Hamaker–Marberg–Pawlowski to obtain their involution Schubert polynomials. Our other examples involve perfect matchings, rook configurations, labelled Fano planes, del Pezzo surfaces, and minuscule representations. The set \\(\\Omega_U\\) also forms a quasiparabolic set in the sense of Rains–Vazirani in all our examples, which endows \\(\\Omega_U\\) with a Bruhat-like partial order and natural connections to the Iwahori–Hecke algebra of \\(W\\). (Joint work with Richard Green.)",
@@ -459,6 +604,35 @@
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/algebra/",
     "id": "27d508445407067c"
+  },
+  {
+    "title": "Zeta functions of modular curves and abstract isogeny graphs",
+    "annotations": {
+      "prerequisites": [
+        "Elliptic curves",
+        "Modular forms",
+        "Graph theory",
+        "Algebraic geometry"
+      ],
+      "related_concepts": [
+        "Supersingular isogeny graphs",
+        "Ihara zeta functions",
+        "Modular curves",
+        "Post-quantum cryptography"
+      ],
+      "one_line_context": "This talk discusses abstract isogeny graphs and their Ihara zeta functions, connecting them to modular curves and Hasse-Weil zeta functions.",
+      "ai_generated": true
+    },
+    "abstract": "Isogeny graphs of supersingular elliptic curves have broad application, from the study and computation of modular forms to post-quantum cryptography. This is in part because the family of q-isogeny graphs in characteristic p (with prime p varying, for a fixed prime q) is Ramanujan. One tool for studying a graph is its Ihara zeta function, defined as an Euler product over the primes of the graph. Defining the zeta function formally requires a graph in the sense of Serre and Bass, i.e. a directed graph equipped with a fixed-point free involution on the edge set. In general, isogeny graphs fail to be graphs in this sense. In this talk, I will discuss joint work with Lau, Orvis, Scullard, and Zobernig in which we introduce abstract isogeny graphs along with their zeta functions; these graphs capture the combinatorial structure of supersingular isogeny graphs (with level structure). I will survey some of our results, including an analogue of Ihara’s determinant formula, showing in particular that the zeta function is rational. We use this formula and the Eichler-Shimura relation to give a formula relating the zeta function of a q-isogeny graph with level-H structure (for certain H, including B0(N) and B1(N)) to the Hasse-Weil zeta functions of two associated modular curves over the finite field Fq, generalizing results of Hashimoto, Sugiyama, and Lei-Muller.",
+    "affiliation": "VT",
+    "datetime_end": "2026-09-25T15:30:00-04:00",
+    "datetime_start": "2026-09-25T14:30:00-04:00",
+    "location": "McBryde 329",
+    "series": "Algebra Seminar",
+    "speaker": "Travis Morrison",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/algebra/",
+    "id": "3836e9cd8f170929"
   },
   {
     "title": "Reflections on 25 Years of Parallel Computing: Hardware transformations, programming incrementalism, and the tenacity of Chapel",
@@ -17146,18 +17320,18 @@
     "title": "You Don't Have to Be the Smartest Engineer in the Room",
     "annotations": {
       "prerequisites": [
-        "basic engineering concepts"
+        "basic engineering workflows"
       ],
       "related_concepts": [
         "engineering management",
-        "career development",
-        "business strategy",
-        "startup growth"
+        "venture capital",
+        "private equity",
+        "business strategy"
       ],
-      "one_line_context": "An engineering leader shares how non-technical curiosity and understanding business drivers can lead to greater career value than technical skills alone.",
+      "one_line_context": "A veteran CTO shares how understanding business levers and non-technical aspects of a company can drive a successful engineering career.",
       "ai_generated": true
     },
-    "abstract": "I got my first job at a haptics startup a decade before haptics was a thing. Everybody seemed smarter than me, so I had to find another way to be valuable. I got curious about everything that wasn't my job. What customers were trying to do. How the company made money. Why the plan kept changing. Twenty-six years and four companies later, I've run engineering on three continents for a public company and co-founded one I helped grow from 5 to 500. This talk is about the levers — what drives your team, your boss, your business — and how they shift under venture, private-equity, or public ownership. Understanding them made me more valuable than my technical work ever could. I'll help you see them, too.",
+    "abstract": "I got my first job at a haptics startup a decade before haptics was a thing. Everybody seemed smarter than me, so I had to find another way to be valuable. I got curious about everything that wasn't my job. What customers were trying to do. How the company made money. Why the plan kept changing. Twenty-six years and four companies later, I've run engineering on three continents for a public company and co-founded one I helped grow from 5 to 500. This talk is about the levers -- what drives your team, your boss, your business -- and how they shift under venture, private-equity, or public ownership. Understanding them made me more valuable than my technical work ever could. I'll help you see them, too.",
     "affiliation": "GLOBO",
     "datetime_end": "2026-09-16T17:00:00",
     "datetime_start": "2026-09-16T16:00:00",
@@ -17172,17 +17346,16 @@
     "title": "An Unscheduled Landing in Aerospace",
     "annotations": {
       "prerequisites": [
-        "low-level C programming",
-        "assembly code",
-        "embedded systems"
+        "low-level C and assembly programming",
+        "embedded systems fundamentals"
       ],
       "related_concepts": [
         "avionics",
         "safety-critical systems",
-        "flight controls",
-        "product lifecycle management"
+        "servant leadership",
+        "autonomous flight controls"
       ],
-      "one_line_context": "An engineering manager discusses the transition from low-level software development to leading multidisciplinary teams for safety-critical aerospace systems.",
+      "one_line_context": "An engineering manager discusses the multidisciplinary product lifecycle and safety-critical engineering behind aerospace flight controls.",
       "ai_generated": true
     },
     "abstract": "When graduating with an engineering degree, few careers follow a straight line. Fewer still are planned down to the exact subfield destination. In this talk, John Daniel shares his journey from writing and testing low-level C and assembly code running on DSPs for tactical radios to directing multidisciplinary teams developing safety-critical flight and engine control systems. Drawing from experience across the entire product lifecycle, Daniel will discuss the engineering rigor behind systems that can never be safe enough, the power of embracing high-stakes opportunities, and how curiosity outside your job description can define your career.",
@@ -17200,17 +17373,17 @@
     "title": "My Journey to Make AI More Approachable",
     "annotations": {
       "prerequisites": [
+        "high-performance computing",
         "computer architecture",
-        "distributed systems",
-        "artificial intelligence fundamentals"
+        "GPU programming"
       ],
       "related_concepts": [
-        "high-performance computing",
-        "machine learning systems",
-        "GPU acceleration",
-        "model training and inference"
+        "artificial intelligence",
+        "distributed systems",
+        "model training and inference",
+        "resource-aware system design"
       ],
-      "one_line_context": "A university researcher presents system-level innovations like ZeRO-Offload and BloomBee designed to reduce computing resource barriers for large-scale AI.",
+      "one_line_context": "A computer science professor explains how resource-aware system design can enable large-scale AI training and inference on modest hardware.",
       "ai_generated": true
     },
     "abstract": "Today’s most capable AI models often require massive GPU clusters and infrastructure available to only a small number of organizations. Li's research asks a different question: Can we redesign AI systems so that more people can use the computing resources already available to them? In this talk, Li will share two steps in his journey to make AI more approachable. ZeRO-Offload combines CPU and GPU resources to enable efficient training of models with more than 13 billion parameters on a single consumer-class GPU. BloomBee extends this vision to inference by coordinating heterogeneous, geographically distributed devices over bandwidth-constrained internet connections. Together, these projects demonstrate how resource-aware system design can lower the barriers to large-scale AI and move AI computation beyond expensive, centralized GPU clusters.",
@@ -17228,18 +17401,17 @@
     "title": "Hype to Value: Finding Durable Signal in AI Noise",
     "annotations": {
       "prerequisites": [
-        "basic business concepts",
-        "software product management"
+        "software engineering fundamentals"
       ],
       "related_concepts": [
-        "artificial intelligence strategy",
-        "enterprise automation",
-        "product management"
+        "artificial intelligence product strategy",
+        "developer tools",
+        "automation workflows"
       ],
-      "one_line_context": "A product management leader examines how businesses can navigate AI hype to make practical, high-stakes decisions and integrate AI into products.",
+      "one_line_context": "A software product executive explores how companies can extract genuine value from AI amidst industry hype.",
       "ai_generated": true
     },
-    "abstract": "Every company claims to have an AI strategy — but what does that actually mean in practice? Behind the announcements, organizations are making high-stakes decisions with incomplete information, caught between competitive pressures and employees whose work is being rapidly reshaped. Drawing on firsthand experience, this talk will look at how companies are trying to answer the questions they're all wrestling with: How does AI change the way we work? How do we incorporate AI into the products and services we offer? And how will it reshape our customers' relationships with us?",
+    "abstract": "Every company claims to have an AI strategy -- but what does that actually mean in practice? Behind the announcements, organizations are making high-stakes decisions with incomplete information, caught between competitive pressures and employees whose work is being rapidly reshaped. Drawing on firsthand experience, this talk will look at how companies are trying to answer the questions they're all wrestling with: How does AI change the way we work? How do we incorporate AI into the products and services we offer? And how will it reshape our customers' relationships with us?",
     "affiliation": "Salesforce",
     "datetime_end": "2026-10-14T17:00:00",
     "datetime_start": "2026-10-14T16:00:00",
@@ -17254,15 +17426,15 @@
     "title": "Grog Finds a Rock: What Cavemen, Cost, and Coordination Teach Us About AI",
     "annotations": {
       "prerequisites": [
-        "systems engineering fundamentals"
+        "engineering workflows"
       ],
       "related_concepts": [
         "digital engineering transformation",
-        "model-based systems engineering",
-        "artificial intelligence adoption",
-        "cybersecurity"
+        "Model-Based Systems Engineering",
+        "cybersecurity engineering",
+        "artificial intelligence integration"
       ],
-      "one_line_context": "A technology executive uses a humorous analogy to explore how organizations can practically adopt AI and manage its operational costs and workflows.",
+      "one_line_context": "A defense tech CEO uses a humorous allegory to discuss the practical realities of integrating, coordinating, and verifying AI tools in engineering.",
       "ai_generated": true
     },
     "abstract": "Meet Grog, a fictional fellow who finds a powerful new tool—a rock—and immediately tries to use it for everything. His learning curve mirrors a challenge facing nearly every company adopting AI: capability does not guarantee fit. Tracy Gregorio, CEO of G2 Ops, shares how G2 Ops moved from early AI experimentation to practical applications in engineering workflows and internal operations. Following Grog from one rock to a coordinated crew, she will discuss what G2 Ops learned about coordinating AI, verifying its work, protecting data, and matching the tool—and its cost—to the job. The discussion will also examine how AI is reshaping engineering work, placing greater emphasis on defining objectives, designing workflows, and verifying results. Blending hard-won experience with humor, this talk is about how companies are wrestling with AI—and what it means for the students about to enter that fight.",
@@ -17287,9 +17459,9 @@
         "large language models",
         "agentic workflows",
         "evaluation frameworks",
-        "user experience"
+        "cyber-human systems"
       ],
-      "one_line_context": "A staff researcher advocates for human-in-the-loop evaluation frameworks to measure complex AI system behavior in real-world use.",
+      "one_line_context": "A researcher at Figma argues for dynamic, human-in-the-loop evaluation frameworks to measure complex AI systems in real user environments.",
       "ai_generated": true
     },
     "abstract": "Large language models and agentic workflows are advancing faster than our ability to measure them. Traditional engineering benchmarks do not consistently capture how these systems behave in the hands of real users. Drawing on experience across healthcare, consumer tech, and design, this talk makes the case for what the next generation of engineers will need to build instead: dynamic, human-in-the-loop evaluation frameworks that sit at the intersection of core systems engineering and human-computer interaction.",
@@ -17312,13 +17484,13 @@
       "related_concepts": [
         "entrepreneurship",
         "venture capital",
-        "company founding",
+        "company building",
         "technology management"
       ],
-      "one_line_context": "An experienced operator and venture capitalist offers engineering students a practical framework for navigating the founder journey and startup pitfalls.",
+      "one_line_context": "An experienced technology investor and operator outlines a practical framework for engineering students considering the founder journey.",
       "ai_generated": true
     },
-    "abstract": "Most engineers who want to build a company will make the same mistakes – not because they lack technical skills, but because no one gave them an honest picture of what founding a company actually involves. This session draws on thirty years of experience as an operator, executive, and venture capital partner – across multiple industries, company builds, exits, and investment decisions – to give engineering students a practical framework for the founder journey. Topics include the mistakes founders most commonly make, what venture capitalists are actually looking for and how founders tend to misread that relationship, and what a realistic path from engineer to founder looks like. The lessons are drawn from specific experiences – some successful, some not.",
+    "abstract": "Most engineers who want to build a company will make the same mistakes -- not because they lack technical skills, but because no one gave them an honest picture of what founding a company actually involves. This session draws on thirty years of experience as an operator, executive, and venture capital partner -- across multiple industries, company builds, exits, and investment decisions -- to give engineering students a practical framework for the founder journey. Topics include the mistakes founders most commonly make, what venture capitalists are actually looking for and how founders tend to misread that relationship, and what a realistic path from engineer to founder looks like. The lessons are drawn from specific experiences -- some successful, some not.",
     "affiliation": "Reach Power",
     "datetime_end": "2026-12-02T17:00:00",
     "datetime_start": "2026-12-02T16:00:00",
@@ -17333,42 +17505,44 @@
     "title": "From Virginia Tech to Silicon Valley: Navigating the AI Revolution — Career Insights, Tech Trends and Opportunities",
     "annotations": {
       "prerequisites": [
-        "Basic understanding of artificial intelligence and cloud infrastructure"
+        "basic understanding of technology and computing"
       ],
       "related_concepts": [
-        "Generative AI",
-        "Semiconductors",
-        "Cloud Infrastructure",
-        "Career Development"
+        "artificial intelligence",
+        "generative AI",
+        "cloud infrastructure",
+        "semiconductors",
+        "career development"
       ],
-      "one_line_context": "A veteran tech leader shares industry trends in artificial intelligence and career insights for navigating the evolving technology landscape.",
+      "one_line_context": "This talk explores the AI-driven transformation of the tech industry, current trends in foundation models, and career strategies for students entering the field.",
       "ai_generated": true
     },
-    "abstract": "The technology industry is undergoing a seismic transformation driven by artificial intelligence. In this talk, Wattoo—a Virginia Tech alumnus and Director of Product Management at Meta—shares his 20+ year career journey from the halls of Virginia Tech to leadership roles at Qualcomm, Amazon, and Meta, spanning semiconductors, smartphones, cloud infrastructure, and AI. Wattoo will explore the key industry trends shaping AI today—from foundation models and generative AI to the infrastructure powering them at scale—and what these shifts mean for the broader tech landscape. He will then turn his focus to what matters most for students and emerging professionals: how to position yourself for success in this rapidly evolving field, what skills and mindsets are most valuable, and how to identify and seize the opportunities that AI is creating across every sector.",
-    "affiliation": "Meta Platforms",
+    "abstract": "The technology industry is undergoing a seismic transformation driven by artificial intelligence. In this talk, Wattoo—a Virginia Tech alumnus and Director of Product Management at Meta—shares his 20+ year career journey from the halls of Virginia Tech to leadership roles at Qualcomm, Amazon, and Meta, spanning semiconductors, smartphones, cloud infrastructure, and AI. Wattoo will explore the key industry trends shaping AI today—from foundation models and generative AI to the infrastructure powering them at scale—and what these shifts mean for the broader tech landscape. He will then turn his focus to what matters most for students and emerging professionals: how to position yourself for success in this rapidly evolving field, what skills and mindsets are most valuable, and how to identify and seize the opportunities that AI is creating across every sector. Whether you're studying engineering, computer science, business, or any discipline intersecting with technology, this talk will equip you with a practitioner's perspective on where the industry is headed and how you can be part of shaping it.",
+    "affiliation": "Meta",
     "datetime_end": null,
-    "datetime_start": null,
+    "datetime_start": "2026-09-02T00:00:00",
     "location": null,
     "series": "ECE/CS Colloquium",
     "speaker": "Faisal Wattoo",
     "department": "Electrical and Computer Engineering",
     "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "c060860a4cc8e6eb"
+    "id": "fc446706469033f0"
   },
   {
-    "title": "Enterprise systems and low-latency, high-throughput products",
+    "title": "Building Enterprise Systems for Tomorrow",
     "annotations": {
       "prerequisites": [
-        "Computer Science fundamentals",
-        "System Architecture basics"
+        "software engineering fundamentals",
+        "system architecture concepts"
       ],
       "related_concepts": [
-        "Enterprise Platforms",
-        "Low-Latency Systems",
-        "Scalable Architecture",
-        "Trading Systems"
+        "low-latency systems",
+        "high-throughput platforms",
+        "enterprise technology",
+        "system scalability",
+        "AI-driven architecture"
       ],
-      "one_line_context": "An exploration of the design challenges behind scalable, low-latency enterprise systems and how artificial intelligence impacts modern system architecture.",
+      "one_line_context": "This talk discusses the challenges of designing low-latency, high-throughput enterprise systems and how AI is influencing modern system architecture.",
       "ai_generated": true
     },
     "abstract": "What does it take to build enterprise systems that can keep up with today’s demands and tomorrow’s AI-driven future? This talk explores the challenges of designing low-latency, high-throughput products and how the rise of AI is driving changes in system architecture. Students will learn about key considerations for building scalable, high-performance platforms designed to evolve with emerging technologies.",
@@ -17380,28 +17554,7 @@
     "speaker": "Pratik Karia",
     "department": "Electrical and Computer Engineering",
     "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
-    "id": "51b062e54bf66d24"
-  },
-  {
-    "title": "Undergraduate Research Workshop",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Undergraduate Research"
-      ],
-      "one_line_context": "An introductory workshop on finding and participating in undergraduate research opportunities on campus.",
-      "ai_generated": true
-    },
-    "abstract": "Learn about undergraduate research and how to find it on campus! In partnership with the Office of Undergraduate Research.",
-    "affiliation": null,
-    "datetime_end": "2026-09-15T18:30:00",
-    "datetime_start": "2026-09-15T17:30:00",
-    "location": "Owen's Ballroom",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "cde337d2727f457e"
+    "id": "a0be2ea8b3afca5a"
   },
   {
     "title": "AMPS - Quy Pham",
@@ -17411,10 +17564,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A seminar talk on analysis and mathematical physics by Quy Pham.",
+      "one_line_context": "A talk by Quy Pham as part of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": "Virginia Tech",
     "datetime_end": "2026-09-16T17:00:00",
     "datetime_start": "2026-09-16T16:00:00",
@@ -17430,11 +17583,11 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
+        "Algebra",
         "Coding Theory",
-        "Algebraic Geometry",
         "Surfaces"
       ],
-      "one_line_context": "A talk on hierarchical locally recoverable codes on surfaces.",
+      "one_line_context": "A talk on hierarchical locally recoverable codes on surfaces by Luana Costa.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17455,7 +17608,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A seminar session focusing on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17476,7 +17629,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17497,7 +17650,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17518,7 +17671,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17539,7 +17692,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17560,7 +17713,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17581,7 +17734,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17602,7 +17755,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17623,7 +17776,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17644,7 +17797,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17665,7 +17818,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17686,7 +17839,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "A seminar dedicated to topics in mathematics education.",
+      "one_line_context": "A session of the Math Education Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17704,10 +17857,8 @@
     "title": "Colloquium: Hessam Babaee",
     "annotations": {
       "prerequisites": [],
-      "related_concepts": [
-        "Applied Mathematics"
-      ],
-      "one_line_context": "A general department colloquium talk by Hessam Babaee.",
+      "related_concepts": [],
+      "one_line_context": "A department colloquium talk given by Hessam Babaee.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17726,10 +17877,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar talk featuring Anuj Abhishek.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17748,10 +17898,9 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Kun Huang and Camilo Arenas Mata.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17760,20 +17909,19 @@
     "datetime_start": "2026-09-28T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Hengyi Shi, Camilo Arenas Mata",
+    "speaker": "Kun Huang & Camilo Arenas Mata",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "a495d4e4643d0cc3"
+    "id": "513881779e57abad"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Christopher Beattie and Hengyi Shi.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17782,20 +17930,19 @@
     "datetime_start": "2026-10-05T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Christopher Beattie, Kun Huang",
+    "speaker": "Christopher Beattie & Hengyi Shi",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "ee62ea5be4a3f553"
+    "id": "9712ef9c05dce1fc"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring a Visitor and Paul Cazeaux.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17804,20 +17951,19 @@
     "datetime_start": "2026-10-12T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Visitor, Paul Cazeaux",
+    "speaker": "Visitor & Paul Cazeaux",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "09a825087ea64a35"
+    "id": "a001eb85bcb301fb"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Reetish Padhi and Slimane Adjerid.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17826,20 +17972,19 @@
     "datetime_start": "2026-10-19T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Reetish Padhi, Slimane Adjerid",
+    "speaker": "Reetish Padhi & Slimane Adjerid",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "179a26d7b4434915"
+    "id": "d6cdb030f0cf3c3c"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Erid de Sturler and Achintya Sunil.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17848,20 +17993,19 @@
     "datetime_start": "2026-10-26T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Erid de Sturler, Achintya Sunil",
+    "speaker": "Erid de Sturler & Achintya Sunil",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "b4e93045bd0acacd"
+    "id": "821c0d07d1c6283c"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Rudi Smith and Peter DelMastro.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17870,20 +18014,19 @@
     "datetime_start": "2026-11-02T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Rudi Smith, Peter DelMastro",
+    "speaker": "Rudi Smith & Peter DelMastro",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "c8b8d3610cf160a7"
+    "id": "0b3bf46a88dfd847"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Agnieszka Miedlar and Gregory Janes.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17892,20 +18035,19 @@
     "datetime_start": "2026-11-09T12:15:00",
     "location": "Data and Decision Sciences 450",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Agnieszka Miedlar, Gregory Janes",
+    "speaker": "Agnieszka Miedlar & Gregory Janes",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "3767e8244f4a2d66"
+    "id": "a964547719aec5b4"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Aryeh keating and Ghafirlia Istafa.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17914,20 +18056,19 @@
     "datetime_start": "2026-11-16T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Aryeh keating, Ghafirlia Istafa",
+    "speaker": "Aryeh keating & Ghafirlia Istafa",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "e24a4b141da0310e"
+    "id": "daabcec4727050e3"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Sam Bender and Kurt Stein.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17936,20 +18077,19 @@
     "datetime_start": "2026-11-30T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Sam Bender, Kurt Stein",
+    "speaker": "Sam Bender & Kurt Stein",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "60d05c5e30220cef"
+    "id": "836f9a30149ebfc8"
   },
   {
     "title": "Applied Numerical Analysis Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
+        "Numerical Analysis"
       ],
-      "one_line_context": "An applied numerical analysis seminar presentation.",
+      "one_line_context": "An applied numerical analysis seminar featuring Mike Ackermann and Serkan Gugercin.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17958,10 +18098,10 @@
     "datetime_start": "2026-12-07T12:15:00",
     "location": "Math Commons Room (McBryde 455)",
     "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Mike Ackermann, Serkan Gugercin",
+    "speaker": "Mike Ackermann & Serkan Gugercin",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "19403725cbb32553"
+    "id": "00cb530291514946"
   },
   {
     "title": "Geometry/Topology seminar",
@@ -17971,7 +18111,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17993,7 +18133,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18015,7 +18155,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18037,7 +18177,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18059,7 +18199,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18081,7 +18221,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18103,7 +18243,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18125,7 +18265,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18147,7 +18287,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18169,7 +18309,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18191,7 +18331,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18213,7 +18353,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18235,7 +18375,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18257,7 +18397,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18279,7 +18419,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18301,7 +18441,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18323,7 +18463,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18345,7 +18485,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18367,7 +18507,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18389,7 +18529,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18411,7 +18551,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18433,7 +18573,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18455,7 +18595,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18477,7 +18617,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18499,7 +18639,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18521,7 +18661,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "A seminar covering topics in geometry and topology.",
+      "one_line_context": "A regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18543,10 +18683,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A seminar talk on analysis and mathematical physics by Gong Chen.",
+      "one_line_context": "A talk by Gong Chen for the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": "GaTech",
     "datetime_end": "2026-09-23T17:00:00",
     "datetime_start": "2026-09-23T16:00:00",
@@ -18563,10 +18703,10 @@
       "prerequisites": [],
       "related_concepts": [
         "Quantum Error Correction",
-        "Quantum Tanner Codes",
-        "Coding Theory"
+        "Coding Theory",
+        "Applied Algebra"
       ],
-      "one_line_context": "A talk discussing the mathematical properties of quantum Tanner codes.",
+      "one_line_context": "A talk on the properties of quantum Tanner codes given by Ivan Tarasenkov.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18588,10 +18728,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-09-30T17:00:00",
     "datetime_start": "2026-09-30T16:00:00",
@@ -18610,10 +18750,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-10-07T17:00:00",
     "datetime_start": "2026-10-07T16:00:00",
@@ -18632,10 +18772,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-10-14T17:00:00",
     "datetime_start": "2026-10-14T16:00:00",
@@ -18654,10 +18794,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-10-21T17:00:00",
     "datetime_start": "2026-10-21T16:00:00",
@@ -18676,10 +18816,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-10-28T17:00:00",
     "datetime_start": "2026-10-28T16:00:00",
@@ -18698,10 +18838,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-11-04T17:00:00",
     "datetime_start": "2026-11-04T16:00:00",
@@ -18720,10 +18860,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-11-11T17:00:00",
     "datetime_start": "2026-11-11T16:00:00",
@@ -18742,10 +18882,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-11-18T17:00:00",
     "datetime_start": "2026-11-18T16:00:00",
@@ -18764,10 +18904,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-11-25T17:00:00",
     "datetime_start": "2026-11-25T16:00:00",
@@ -18786,10 +18926,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-12-02T17:00:00",
     "datetime_start": "2026-12-02T16:00:00",
@@ -18808,10 +18948,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "A regular session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "A meeting of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-12-09T17:00:00",
     "datetime_start": "2026-12-09T16:00:00",
@@ -18827,11 +18967,11 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "LDPC Codes",
         "Coding Theory",
-        "Signal Processing"
+        "Applied Algebra",
+        "Information Theory"
       ],
-      "one_line_context": "A talk on noise-aided decoding techniques for non-binary LDPC codes over communication channels.",
+      "one_line_context": "A talk on noise-aided decoding of non-binary LDPC codes over QAM-AWGN channels by Zinnia Muntha Mowri.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18850,11 +18990,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Cryptography",
-        "Adaptor Signatures",
-        "Blockchain"
+        "Applied Algebra",
+        "Cryptography"
       ],
-      "one_line_context": "A talk exploring the theory and practical applications of adaptor signatures.",
+      "one_line_context": "A talk on the theory and practice of adaptor signatures by Nathan Daly.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18874,9 +19013,9 @@
       "prerequisites": [],
       "related_concepts": [
         "Coding Theory",
-        "Spatially Coupled Codes"
+        "Applied Algebra"
       ],
-      "one_line_context": "A talk discussing recent results on spatially coupled codes.",
+      "one_line_context": "A talk on recent results on spatially coupled codes by Maciej Piwowarczyk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18897,7 +19036,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An applied algebra seminar meeting.",
+      "one_line_context": "A session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18918,7 +19057,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An applied algebra seminar meeting.",
+      "one_line_context": "A session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18939,7 +19078,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An applied algebra seminar meeting.",
+      "one_line_context": "A session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18960,7 +19099,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "An applied algebra seminar meeting.",
+      "one_line_context": "A session of the Applied Algebra Seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18980,10 +19119,10 @@
       "prerequisites": [],
       "related_concepts": [
         "Quantum Error Correction",
-        "Decoding Techniques",
+        "Applied Algebra",
         "Coding Theory"
       ],
-      "one_line_context": "A talk on subcode ensemble decoding techniques designed for degeneracy-aware quantum error correction.",
+      "one_line_context": "A talk on subcode ensemble decoding techniques for degeneracy-aware quantum error correction by Jonathan Mandelbaum.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19003,10 +19142,9 @@
       "prerequisites": [],
       "related_concepts": [
         "Graph Theory",
-        "Fault Tolerance",
-        "Graph Spanners"
+        "Applied Algebra"
       ],
-      "one_line_context": "A talk discussing light edge fault tolerant graph spanners.",
+      "one_line_context": "A talk on light edge fault tolerant graph spanners by Ama Korentang.",
       "ai_generated": true
     },
     "abstract": null,
