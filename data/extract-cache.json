@@ -181,159 +181,32 @@
       ]
     },
     "https://seminar.math.vt.edu/geom-top/": {
-      "hash": "940be1b1f85f8e154c678995feaf6fe86186d4c6fca789800b0ca4052b465ccb",
+      "hash": "9e0b2cb605105398fb44e5cf7c2fa67384e79e80654c44b1c1d8f4a6b672af17",
       "talks": [
         {
-          "title": "Spaces from algebra: From compact Hausdorff spaces to logarithmic geometry",
+          "title": "Monads in geometry and logarithmic structures",
           "annotations": {
             "prerequisites": [
+              "category theory",
               "abstract algebra",
-              "basic category theory"
+              "topology"
             ],
             "related_concepts": [
+              "monads",
               "logarithmic geometry",
-              "universal algebra",
-              "tropical geometry",
-              "toric varieties"
+              "Eilenberg-Moore categories",
+              "tropicalization"
             ],
-            "one_line_context": "The speaker explores how various geometric structures can be modeled as algebraic algebras, with applications to logarithmic geometry and tropicalization.",
+            "one_line_context": "This talk explains how geometric structures and logarithmic maps can be described using monads, leading to a new functorial tropicalization construction.",
             "ai_generated": true
           },
-          "abstract": "Many geometric structures can be described as algebras for a suitable monad. E.g., compact Hausdorff spaces are exactly the algebras for the ultrafilter monad on sets. I will explain this point of view through several concrete examples, starting with free abelian groups and rings, and then discussing ultrafilters, Eilenberg--Moore categories, and Kleisli categories. The emphasis will be on examples rather than category theory. The main application is in logarithmic geometry. I will explain how logarithmic maps can be realized as Kleisli morphisms for a natural monad built from Olsson's logarithmic stack. This leads to a functorial tropicalization construction for logarithmic schemes, recovering the usual fans of toric varieties and toroidal embeddings while remaining functorial for arbitrary logarithmic maps. (This talk is meant to be accessible to graduate students)",
-          "affiliation": "VT",
-          "datetime_end": "2026-09-22T17:00:00-04:00",
-          "datetime_start": "2026-09-22T16:00:00-04:00",
-          "location": "McBryde Hall 563",
+          "abstract": "Many geometric structures can be described as algebras for a suitable monad. E.g., compact Hausdorff spaces are exactly the algebras for the ultrafilter monad on sets. I will explain this point of view through several concrete examples, starting with free abelian groups and rings, and then discussing ultrafilters, Eilenberg--Moore categories, and Kleisli categories. The emphasis will be on examples rather than category theory. The main application is in logarithmic geometry. I will explain how logarithmic maps can be realized as Kleisli morphisms for a natural monad built from Olsson's logarithmic stack. This leads to a functorial tropicalization construction for logarithmic schemes, recovering the usual fans of toric varieties and toroidal embeddings while remaining functorial for arbitrary logarithmic maps.",
+          "affiliation": null,
+          "datetime_end": null,
+          "datetime_start": null,
+          "location": null,
           "series": "Geometry/Topology Seminar",
-          "speaker": "Leo Herr"
-        },
-        {
-          "title": "Title TBD",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "Research seminar talk by Richard Haburcak.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Ohio State University",
-          "datetime_end": "2026-10-06T17:00:00-04:00",
-          "datetime_start": "2026-10-06T16:00:00-04:00",
-          "location": "McBryde Hall 563",
-          "series": "Geometry/Topology Seminar",
-          "speaker": "Richard Haburcak"
-        },
-        {
-          "title": "Title TBD",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "Research seminar talk by Dori Bejleri.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "UMD College Park",
-          "datetime_end": "2026-10-13T17:00:00-04:00",
-          "datetime_start": "2026-10-13T16:00:00-04:00",
-          "location": "McBryde Hall 563",
-          "series": "Geometry/Topology Seminar",
-          "speaker": "Dori Bejleri"
-        },
-        {
-          "title": "Title TBD",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "Research seminar talk by Jennifer Li.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Princeton",
-          "datetime_end": "2026-10-20T17:00:00-04:00",
-          "datetime_start": "2026-10-20T16:00:00-04:00",
-          "location": "McBryde Hall 563",
-          "series": "Geometry/Topology Seminar",
-          "speaker": "Jennifer Li"
-        },
-        {
-          "title": "Title TBD",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "Research seminar talk by Carl Lian.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Washington University St. Louis",
-          "datetime_end": "2026-10-27T17:00:00-04:00",
-          "datetime_start": "2026-10-27T16:00:00-04:00",
-          "location": "McBryde Hall 563",
-          "series": "Geometry/Topology Seminar",
-          "speaker": "Carl Lian"
-        },
-        {
-          "title": "Title TBD",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "Research seminar talk by Soham Karwa.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Duke",
-          "datetime_end": "2026-11-10T17:00:00-04:00",
-          "datetime_start": "2026-11-10T16:00:00-04:00",
-          "location": "McBryde Hall 563",
-          "series": "Geometry/Topology Seminar",
-          "speaker": "Soham Karwa"
-        },
-        {
-          "title": "Title TBD",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "Research seminar talk by Nicola Tarasca.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "VCU",
-          "datetime_end": "2026-11-17T17:00:00-04:00",
-          "datetime_start": "2026-11-17T16:00:00-04:00",
-          "location": "McBryde Hall 563",
-          "series": "Geometry/Topology Seminar",
-          "speaker": "Nicola Tarasca"
-        },
-        {
-          "title": "Title TBD",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "Research seminar talk by Daniel Halmrast.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Lafeyette College",
-          "datetime_end": "2026-12-01T17:00:00-04:00",
-          "datetime_start": "2026-12-01T16:00:00-04:00",
-          "location": "McBryde Hall 563",
-          "series": "Geometry/Topology Seminar",
-          "speaker": "Daniel Halmrast"
-        },
-        {
-          "title": "Title TBD",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [],
-            "one_line_context": "Research seminar talk by Edgar Saenz.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "VT",
-          "datetime_end": "2026-12-08T17:00:00-04:00",
-          "datetime_start": "2026-12-08T16:00:00-04:00",
-          "location": "McBryde Hall 563",
-          "series": "Geometry/Topology Seminar",
-          "speaker": "Edgar Saenz"
+          "speaker": null
         }
       ]
     },
@@ -15912,77 +15785,20 @@
       ]
     },
     "https://math.vt.edu/calendar.html": {
-      "hash": "2de2c2bdbc63eb365cfdb84164786be96f6296eabba9c178b5eb7e08472826a5",
+      "hash": "9f846406c25575268d9ea143e212461d8c839dc140d5b9cc65ea0b88a636ca0c",
       "talks": [
         {
-          "title": "Applied Numerical Analysis Seminar (Anuj Abhishek, Case Western)",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
-            ],
-            "one_line_context": "An applied numerical analysis seminar talk by Anuj Abhishek from Case Western.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Case Western",
-          "datetime_end": "2026-09-21T13:15:00",
-          "datetime_start": "2026-09-21T12:15:00",
-          "location": "Math Commons Room (McBryde 455)",
-          "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Anuj Abhishek"
-        },
-        {
-          "title": "Applied Numerical Analysis Seminar (Jiangguo Liu, Colorado State)",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
-            ],
-            "one_line_context": "An applied numerical analysis seminar talk by Jiangguo Liu from Colorado State.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": "Colorado State",
-          "datetime_end": "2026-09-21T14:15:00",
-          "datetime_start": "2026-09-21T13:15:00",
-          "location": "Math Commons Room (McBryde 455)",
-          "series": "Applied Numerical Analysis Seminar",
-          "speaker": "Jiangguo Liu"
-        },
-        {
-          "title": "Geometry/Topology seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Geometry",
-              "Topology"
-            ],
-            "one_line_context": "A seminar talk on geometry and topology.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-09-22T17:00:00",
-          "datetime_start": "2026-09-22T16:00:00",
-          "location": "McB 563",
-          "series": "Department Calendar",
-          "speaker": null
-        },
-        {
-          "title": "AMPS - Gong Chen (GaTech)",
+          "title": "AMPS - Gong Chen",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk by Gong Chen from GaTech.",
+            "one_line_context": "This is an Analysis and Math Physics Seminar talk given by Gong Chen.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": "GaTech",
           "datetime_end": "2026-09-23T17:00:00",
           "datetime_start": "2026-09-23T16:00:00",
@@ -15991,14 +15807,14 @@
           "speaker": "Gong Chen"
         },
         {
-          "title": "Properties of Quantum Tanner Codes (Ivan Tarasenkov, Virginia Tech)",
+          "title": "Properties of Quantum Tanner Codes",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Applied Algebra",
-              "Quantum Codes"
+              "Quantum Codes",
+              "Applied Algebra"
             ],
-            "one_line_context": "A talk on the properties of quantum Tanner codes by Ivan Tarasenkov.",
+            "one_line_context": "This talk discusses the properties of quantum Tanner codes.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16014,9 +15830,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16028,14 +15844,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Kun Huang, Virginia Tech & Camilo Arenas Mata, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Kun Huang and Camilo Arenas Mata from Virginia Tech.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16054,7 +15869,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16066,32 +15881,32 @@
           "speaker": null
         },
         {
-          "title": "AMPS",
+          "title": "AMPS - Christina Giannitsi",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is an Analysis and Math Physics Seminar talk given by Christina Giannitsi.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-          "affiliation": null,
+          "abstract": null,
+          "affiliation": "Virginia Tech",
           "datetime_end": "2026-09-30T17:00:00",
           "datetime_start": "2026-09-30T16:00:00",
           "location": "McB 455 (commons room)",
           "series": "Department Calendar",
-          "speaker": null
+          "speaker": "Christina Giannitsi"
         },
         {
           "title": "Math Education Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16103,14 +15918,14 @@
           "speaker": null
         },
         {
-          "title": "Noise-Aided Decoding of Non-Binary LDPC Codes over QAM-AWGN Channels (Zinnia Muntha Mowri, Utah State University)",
+          "title": "Noise-Aided Decoding of Non-Binary LDPC Codes over QAM-AWGN Channels",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Applied Algebra",
-              "Error-Correcting Codes"
+              "Error Correction Codes",
+              "Applied Algebra"
             ],
-            "one_line_context": "A talk on noise-aided decoding of non-binary LDPC codes over QAM-AWGN channels by Zinnia Muntha Mowri.",
+            "one_line_context": "This talk covers noise-aided decoding techniques for non-binary LDPC codes over QAM-AWGN channels.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16122,14 +15937,13 @@
           "speaker": "Zinnia Muntha Mowri"
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Christopher Beattie, Virginia Tech & Shuang Liu, UNT)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Christopher Beattie and Shuang Liu.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16148,7 +15962,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16160,33 +15974,33 @@
           "speaker": null
         },
         {
-          "title": "AMPS",
+          "title": "AMPS - Alessandro Olgiati",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is an Analysis and Math Physics Seminar talk given by Alessandro Olgiati.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-          "affiliation": null,
+          "abstract": null,
+          "affiliation": "Politecnico di Milano",
           "datetime_end": "2026-10-07T17:00:00",
           "datetime_start": "2026-10-07T16:00:00",
-          "location": "McB 455 (commons room)",
+          "location": "Zoom Talk",
           "series": "Department Calendar",
-          "speaker": null
+          "speaker": "Alessandro Olgiati"
         },
         {
-          "title": "Theory and Practice of Adaptor Signatures (Nathan Daly, Virginia Tech)",
+          "title": "Theory and Practice of Adaptor Signatures",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Applied Algebra",
-              "Cryptography"
+              "Cryptography",
+              "Applied Algebra"
             ],
-            "one_line_context": "A talk on the theory and practice of adaptor signatures by Nathan Daly.",
+            "one_line_context": "This talk explores the theory and practice of adaptor signatures.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16202,9 +16016,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16216,14 +16030,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Visitor & Paul Cazeaux, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by a visitor and Paul Cazeaux.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16242,7 +16055,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16261,10 +16074,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-10-14T17:00:00",
           "datetime_start": "2026-10-14T16:00:00",
@@ -16273,14 +16086,14 @@
           "speaker": null
         },
         {
-          "title": "Recent Results on Spatially Coupled Macula (and Similar) Codes (Maciej Piwowarczyk, University of South Carolina)",
+          "title": "Recent Results on Spatially Coupled Macula (and Similar) Codes",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Applied Algebra",
-              "Coding Theory"
+              "Error Correction Codes",
+              "Applied Algebra"
             ],
-            "one_line_context": "A talk on recent results on spatially coupled codes by Maciej Piwowarczyk.",
+            "one_line_context": "This talk presents recent results on spatially coupled macula and similar codes.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16296,9 +16109,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16310,14 +16123,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Reetish Padhi, Virginia Tech & Slimane Adjerid, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Reetish Padhi and Slimane Adjerid.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16336,7 +16148,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16355,10 +16167,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-10-21T17:00:00",
           "datetime_start": "2026-10-21T16:00:00",
@@ -16373,7 +16185,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An applied algebra seminar talk.",
+            "one_line_context": "This is an Applied Algebra Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16389,9 +16201,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16403,14 +16215,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Erid de Sturler, Virginia Tech & Achintya Sunil, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Erid de Sturler and Achintya Sunil.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16429,7 +16240,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16448,10 +16259,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-10-28T17:00:00",
           "datetime_start": "2026-10-28T16:00:00",
@@ -16460,14 +16271,14 @@
           "speaker": null
         },
         {
-          "title": "Subcode Ensemble Decoding Techniques for Degeneracy-Aware Quantum Error Correction (Jonathan Mandelbaum, Karlsruhe Institute of Technology)",
+          "title": "Subcode Ensemble Decoding Techniques for Degeneracy-Aware Quantum Error Correction",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Applied Algebra",
-              "Quantum Error Correction"
+              "Quantum Error Correction",
+              "Applied Algebra"
             ],
-            "one_line_context": "A talk on subcode ensemble decoding techniques for degeneracy-aware quantum error correction by Jonathan Mandelbaum.",
+            "one_line_context": "This talk discusses subcode ensemble decoding techniques for degeneracy-aware quantum error correction.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16483,9 +16294,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16497,14 +16308,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Rudi Smith, Virginia Tech & Peter DelMastro, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Rudi Smith and Peter DelMastro.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16523,7 +16333,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16535,33 +16345,33 @@
           "speaker": null
         },
         {
-          "title": "AMPS",
+          "title": "AMPS - Simone Rademacher",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is a special-time Analysis and Math Physics Seminar talk given by Simone Rademacher.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-          "affiliation": null,
-          "datetime_end": "2026-11-04T17:00:00",
-          "datetime_start": "2026-11-04T16:00:00",
-          "location": "McB 455 (commons room)",
+          "abstract": null,
+          "affiliation": "University of Mannheim",
+          "datetime_end": "2026-11-04T15:00:00",
+          "datetime_start": "2026-11-04T14:00:00",
+          "location": "Zoom Talk",
           "series": "Department Calendar",
-          "speaker": null
+          "speaker": "Simone Rademacher"
         },
         {
-          "title": "Light Edge Fault Tolerant Graph Spanners (Ama Korentang, Boeing)",
+          "title": "Light Edge Fault Tolerant Graph Spanners",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Applied Algebra",
-              "Graph Theory"
+              "Graph Theory",
+              "Applied Algebra"
             ],
-            "one_line_context": "A talk on light edge fault tolerant graph spanners by Ama Korentang.",
+            "one_line_context": "This talk explores light edge fault tolerant graph spanners.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16577,9 +16387,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16591,14 +16401,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Agnieszka Miedlar, Virginia Tech & Gregory Janes, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Agnieszka Miedlar and Gregory Janes.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16617,7 +16426,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16636,10 +16445,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-11-11T17:00:00",
           "datetime_start": "2026-11-11T16:00:00",
@@ -16654,7 +16463,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An applied algebra seminar talk.",
+            "one_line_context": "This is an Applied Algebra Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16670,9 +16479,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16684,14 +16493,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Aryeh keating, Virginia Tech & Ghafirlia Istafa, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Aryeh keating and Ghafirlia Istafa.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16710,7 +16518,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16722,23 +16530,23 @@
           "speaker": null
         },
         {
-          "title": "AMPS",
+          "title": "AMPS - Marco Fraccaroli",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is an Analysis and Math Physics Seminar talk given by Marco Fraccaroli.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-          "affiliation": null,
+          "abstract": null,
+          "affiliation": "UMass Lowell",
           "datetime_end": "2026-11-18T17:00:00",
           "datetime_start": "2026-11-18T16:00:00",
           "location": "McB 455 (commons room)",
           "series": "Department Calendar",
-          "speaker": null
+          "speaker": "Marco Fraccaroli"
         },
         {
           "title": "Applied Algebra Seminar",
@@ -16747,7 +16555,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An applied algebra seminar talk.",
+            "one_line_context": "This is an Applied Algebra Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16763,9 +16571,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16784,7 +16592,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16803,10 +16611,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-11-25T17:00:00",
           "datetime_start": "2026-11-25T16:00:00",
@@ -16819,9 +16627,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16833,14 +16641,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Sam Bender, Virginia Tech & Kurt Stein, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Sam Bender and Kurt Stein.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16859,7 +16666,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16878,10 +16685,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-12-02T17:00:00",
           "datetime_start": "2026-12-02T16:00:00",
@@ -16896,7 +16703,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An applied algebra seminar talk.",
+            "one_line_context": "This is an Applied Algebra Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16912,9 +16719,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "A seminar talk focusing on mathematics education.",
+            "one_line_context": "This is a seminar on mathematics education.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16926,14 +16733,13 @@
           "speaker": null
         },
         {
-          "title": "Applied Numerical Analysis Seminar (Mike Ackermann, Virginia Tech & Serkan Gugercin, Virginia Tech)",
+          "title": "Applied Numerical Analysis Seminar",
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Numerical Analysis",
-              "Applied Mathematics"
+              "Numerical Analysis"
             ],
-            "one_line_context": "An applied numerical analysis seminar talk by Mike Ackermann and Serkan Gugercin.",
+            "one_line_context": "This is an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16952,7 +16758,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -16971,10 +16777,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "An Analysis and Math Physics Seminar talk.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-12-09T17:00:00",
           "datetime_start": "2026-12-09T16:00:00",
@@ -16990,7 +16796,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17009,7 +16815,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17028,7 +16834,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17047,7 +16853,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17066,7 +16872,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17085,7 +16891,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17104,7 +16910,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17123,7 +16929,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17142,7 +16948,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17161,7 +16967,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17180,7 +16986,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17199,7 +17005,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17218,7 +17024,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
@@ -17237,7 +17043,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "A seminar talk on geometry and topology.",
+            "one_line_context": "This is a seminar covering topics in geometry and topology.",
             "ai_generated": true
           },
           "abstract": null,
