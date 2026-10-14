@@ -15811,5 +15811,1361 @@
     "department": "Electrical and Computer Engineering",
     "source_url": "https://ece.vt.edu/news/vt-ece-department-news/fall-2026-colloquium.html",
     "id": "42245f727446dd78"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics",
+        "Numerical Methods"
+      ],
+      "one_line_context": "This is a seminar session featuring talks by Reetish Padhi and Paul Cazeaux.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-12T13:15:00",
+    "datetime_start": "2026-10-12T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Reetish Padhi & Paul Cazeaux",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "fd7d62dcda7b6882"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics",
+        "Numerical Methods"
+      ],
+      "one_line_context": "This is a seminar session featuring talks by Matthew Walker and a visitor.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech & Visitor",
+    "datetime_end": "2026-10-19T13:15:00",
+    "datetime_start": "2026-10-19T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Matthew Walker",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "7461ef8e11406150"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics",
+        "Numerical Methods"
+      ],
+      "one_line_context": "This is a seminar session featuring talks by Erid de Sturler and Achintya Sunil.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-26T13:15:00",
+    "datetime_start": "2026-10-26T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Erid de Sturler & Achintya Sunil",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "821c0d07d1c6283c"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics",
+        "Numerical Methods"
+      ],
+      "one_line_context": "This is a seminar session featuring talks by Rudi Smith and Peter DelMastro.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-02T13:15:00",
+    "datetime_start": "2026-11-02T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Rudi Smith & Peter DelMastro",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "0b3bf46a88dfd847"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics",
+        "Numerical Methods"
+      ],
+      "one_line_context": "This is a seminar session featuring talks by Agnieszka Miedlar and Gregory Janes.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-09T13:15:00",
+    "datetime_start": "2026-11-09T12:15:00",
+    "location": "Data and Decision Sciences 450",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Agnieszka Miedlar & Gregory Janes",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "a964547719aec5b4"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics",
+        "Numerical Methods"
+      ],
+      "one_line_context": "This is a seminar session featuring talks by Aryeh keating and Ghafirlia Istafa.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-16T13:15:00",
+    "datetime_start": "2026-11-16T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Aryeh keating & Ghafirlia Istafa",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "daabcec4727050e3"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics",
+        "Numerical Methods"
+      ],
+      "one_line_context": "This is a seminar session featuring talks by Sam Bender and Kurt Stein.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-30T13:15:00",
+    "datetime_start": "2026-11-30T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Sam Bender & Kurt Stein",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "836f9a30149ebfc8"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics",
+        "Numerical Methods"
+      ],
+      "one_line_context": "This is a seminar session featuring talks by Mike Ackermann and Serkan Gugercin.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-12-07T13:15:00",
+    "datetime_start": "2026-12-07T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Mike Ackermann & Serkan Gugercin",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "00cb530291514946"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-13T17:00:00",
+    "datetime_start": "2026-10-13T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "c2d1b4b72ea2fc4c"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-20T17:00:00",
+    "datetime_start": "2026-10-20T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "5774b94407f4a9a2"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-27T17:00:00",
+    "datetime_start": "2026-10-27T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "129dd77536ace803"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-03T17:00:00",
+    "datetime_start": "2026-11-03T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "1f4db2c181db9fc6"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-10T17:00:00",
+    "datetime_start": "2026-11-10T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "21a953b45a1dbdbc"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-17T17:00:00",
+    "datetime_start": "2026-11-17T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "b8e8a16d745225bf"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-24T17:00:00",
+    "datetime_start": "2026-11-24T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "f369578332313ece"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-01T17:00:00",
+    "datetime_start": "2026-12-01T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "dc5bddd546fb0de0"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-08T17:00:00",
+    "datetime_start": "2026-12-08T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "5be7944070550aa1"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-15T17:00:00",
+    "datetime_start": "2026-12-15T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "332a8e60d4412567"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-22T17:00:00",
+    "datetime_start": "2026-12-22T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "ad9344af4dc51d7b"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-29T17:00:00",
+    "datetime_start": "2026-12-29T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "394d5d328769de48"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-01-05T17:00:00",
+    "datetime_start": "2027-01-05T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "d8f18fd255514d48"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-01-12T17:00:00",
+    "datetime_start": "2027-01-12T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "f761e00ad3f3b17e"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-01-19T17:00:00",
+    "datetime_start": "2027-01-19T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "ce07c07552c01963"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-01-26T17:00:00",
+    "datetime_start": "2027-01-26T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "e43a34022c2d7aaa"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-02-02T17:00:00",
+    "datetime_start": "2027-02-02T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "165be0b935dfa133"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-02-09T17:00:00",
+    "datetime_start": "2027-02-09T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "f208c652c66282c4"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-02-16T17:00:00",
+    "datetime_start": "2027-02-16T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "42b4b9204c7a0cf5"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-02-23T17:00:00",
+    "datetime_start": "2027-02-23T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "f6c5d8461f0bcd29"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-03-02T17:00:00",
+    "datetime_start": "2027-03-02T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "2a0c2c3d89e7effe"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-03-09T17:00:00",
+    "datetime_start": "2027-03-09T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "6c7e8c003a5d8085"
+  },
+  {
+    "title": "Geometry/Topology seminar",
+    "annotations": {
+      "prerequisites": [
+        "Geometry",
+        "Topology"
+      ],
+      "related_concepts": [
+        "Differential Geometry",
+        "Algebraic Topology"
+      ],
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2027-03-16T17:00:00",
+    "datetime_start": "2027-03-16T16:00:00",
+    "location": "McB 563",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "42299fe0a9847330"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-14T17:00:00",
+    "datetime_start": "2026-10-14T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "f79f3c94c0d9a977"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-21T17:00:00",
+    "datetime_start": "2026-10-21T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "459054e1fdb05181"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-28T17:00:00",
+    "datetime_start": "2026-10-28T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "ebb5e5f4de6123fe"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "Simone Rademacher gives a talk in the Analysis and Math Physics Seminar at a special time.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "University of Mannheim",
+    "datetime_end": "2026-11-04T15:00:00",
+    "datetime_start": "2026-11-04T14:00:00",
+    "location": "Zoom Talk",
+    "series": "Department Calendar",
+    "speaker": "Simone Rademacher",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "86eb7c418dabef2b"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-11T17:00:00",
+    "datetime_start": "2026-11-11T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "4ae2644bc0148d73"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "Marco Fraccaroli gives a talk in the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "UMass Lowell",
+    "datetime_end": "2026-11-18T17:00:00",
+    "datetime_start": "2026-11-18T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": "Marco Fraccaroli",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "cf6d6efd315b14ae"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-25T17:00:00",
+    "datetime_start": "2026-11-25T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "665ac6c370ed6b99"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-02T17:00:00",
+    "datetime_start": "2026-12-02T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "3c27879934492e93"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [
+        "Mathematical Physics",
+        "Analysis"
+      ],
+      "related_concepts": [
+        "Mathematical Physics",
+        "Functional Analysis"
+      ],
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-09T17:00:00",
+    "datetime_start": "2026-12-09T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "32d33d08482e4eb5"
+  },
+  {
+    "title": "Recent Results on Spatially Coupled Macula (and Similar) Codes",
+    "annotations": {
+      "prerequisites": [
+        "Coding Theory",
+        "Applied Algebra"
+      ],
+      "related_concepts": [
+        "Error-Correcting Codes",
+        "Algebraic Coding Theory"
+      ],
+      "one_line_context": "Maciej Piwowarczyk presents recent results on spatially coupled codes.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "University of South Carolina",
+    "datetime_end": "2026-10-15T10:00:00",
+    "datetime_start": "2026-10-15T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": "Maciej Piwowarczyk",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "2f7db501bacbc402"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Mathematics Education"
+      ],
+      "related_concepts": [
+        "Pedagogy",
+        "Curriculum Development"
+      ],
+      "one_line_context": "This is a session of the Math Education Seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-15T13:00:00",
+    "datetime_start": "2026-10-15T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "7ef7b14394d1acac"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Mathematics Education"
+      ],
+      "related_concepts": [
+        "Pedagogy",
+        "Curriculum Development"
+      ],
+      "one_line_context": "This is a session of the Math Education Seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-22T13:00:00",
+    "datetime_start": "2026-10-22T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "90967418a89da4c6"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Mathematics Education"
+      ],
+      "related_concepts": [
+        "Pedagogy",
+        "Curriculum Development"
+      ],
+      "one_line_context": "This is a session of the Math Education Seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-29T13:00:00",
+    "datetime_start": "2026-10-29T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "85eb2231df877441"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Mathematics Education"
+      ],
+      "related_concepts": [
+        "Pedagogy",
+        "Curriculum Development"
+      ],
+      "one_line_context": "This is a session of the Math Education Seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-05T13:00:00",
+    "datetime_start": "2026-11-05T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "93068a99fe8c8d72"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Mathematics Education"
+      ],
+      "related_concepts": [
+        "Pedagogy",
+        "Curriculum Development"
+      ],
+      "one_line_context": "This is a session of the Math Education Seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-12T13:00:00",
+    "datetime_start": "2026-11-12T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "446ab8db397cba33"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Mathematics Education"
+      ],
+      "related_concepts": [
+        "Pedagogy",
+        "Curriculum Development"
+      ],
+      "one_line_context": "This is a session of the Math Education Seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-19T13:00:00",
+    "datetime_start": "2026-11-19T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "da0262b5a24632e7"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Mathematics Education"
+      ],
+      "related_concepts": [
+        "Pedagogy",
+        "Curriculum Development"
+      ],
+      "one_line_context": "This is a session of the Math Education Seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-26T13:00:00",
+    "datetime_start": "2026-11-26T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "bff17de453d20c86"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Mathematics Education"
+      ],
+      "related_concepts": [
+        "Pedagogy",
+        "Curriculum Development"
+      ],
+      "one_line_context": "This is a session of the Math Education Seminar series.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-03T13:00:00",
+    "datetime_start": "2026-12-03T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "a60e251282ca2303"
+  },
+  {
+    "title": "Building Codes with Transversal CCZ using Projective Geometry and SAT Solvers",
+    "annotations": {
+      "prerequisites": [
+        "Projective Geometry",
+        "Coding Theory"
+      ],
+      "related_concepts": [
+        "Quantum Error Correction",
+        "Automated Theorem Proving"
+      ],
+      "one_line_context": "Bohan Lu discusses building error-correcting codes using projective geometry and SAT solvers.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Duke University",
+    "datetime_end": "2026-10-22T10:00:00",
+    "datetime_start": "2026-10-22T09:00:00",
+    "location": "zoom",
+    "series": "Applied Algebra Seminar",
+    "speaker": "Bohan Lu",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "e32424b0c0d9aac3"
+  },
+  {
+    "title": "Subcode Ensemble Decoding Techniques for Degeneracy-Aware Quantum Error Correction",
+    "annotations": {
+      "prerequisites": [
+        "Quantum Error Correction",
+        "Coding Theory"
+      ],
+      "related_concepts": [
+        "Quantum Information",
+        "Decoding Algorithms"
+      ],
+      "one_line_context": "Jonathan Mandelbaum presents subcode ensemble decoding techniques for degeneracy-aware quantum error correction.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Karlsruhe Institute of Technology",
+    "datetime_end": "2026-10-29T10:00:00",
+    "datetime_start": "2026-10-29T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": "Jonathan Mandelbaum",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "484e514e8d1781e1"
+  },
+  {
+    "title": "Applied Algebra Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Algebra"
+      ],
+      "related_concepts": [
+        "Abstract Algebra",
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-05T10:00:00",
+    "datetime_start": "2026-11-05T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "577d3fe9ae7592fd"
+  },
+  {
+    "title": "Applied Algebra Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Algebra"
+      ],
+      "related_concepts": [
+        "Abstract Algebra",
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-12T10:00:00",
+    "datetime_start": "2026-11-12T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "855ea4f4701f1917"
+  },
+  {
+    "title": "Applied Algebra Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Algebra"
+      ],
+      "related_concepts": [
+        "Abstract Algebra",
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is a session of the Applied Algebra Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-19T10:00:00",
+    "datetime_start": "2026-11-19T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "fb0ed036425a62b2"
+  },
+  {
+    "title": "Error-and-Erasure Decoding of Product and Staircase Codes",
+    "annotations": {
+      "prerequisites": [
+        "Coding Theory",
+        "Applied Algebra"
+      ],
+      "related_concepts": [
+        "Error-Correcting Codes",
+        "Information Theory"
+      ],
+      "one_line_context": "Lukas Rapp presents error-and-erasure decoding techniques for product and staircase codes.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Massachusetts Institute of Technology",
+    "datetime_end": "2026-12-03T10:00:00",
+    "datetime_start": "2026-12-03T09:00:00",
+    "location": "118 Steger Hall",
+    "series": "Applied Algebra Seminar",
+    "speaker": "Lukas Rapp",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "eb328dd92c98a888"
   }
 ]
