@@ -378,41 +378,22 @@
       ]
     },
     "https://www.stat.vt.edu/about/colloquium-schedule.html": {
-      "hash": "e2db5e6739d50825080665f22faa3f0f4dd898243931a3ac6d5e99974087484a",
+      "hash": "166e97e44c1c3b4241a8fe51ec03a250a2cea4e14bc00514207bda106a2fdc58",
       "talks": [
-        {
-          "title": "Getting Acquainted at The Maroon Door",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Networking",
-              "Academic Community"
-            ],
-            "one_line_context": "A welcoming departmental gathering for students and faculty to share research interests and goals.",
-            "ai_generated": true
-          },
-          "abstract": "Join us for snacks, drinks, and conversation as we get to know each other better. We’ve reserved the bar area, so we’ll be comfortably inside if it’s too warm/wet outside. We’ll go around and introduce ourselves. Graduate students and faculty, please be ready to share: Your 5-year goal, your current research interests, and a hobby you enjoy",
-          "affiliation": null,
-          "datetime_end": "2026-09-04T15:30:00",
-          "datetime_start": "2026-09-04T14:30:00",
-          "location": "The Maroon Door",
-          "series": "Colloquium",
-          "speaker": null
-        },
         {
           "title": "Continuous-space occupancy models",
           "annotations": {
             "prerequisites": [
-              "Spatial Statistics",
-              "Bayesian Methods",
-              "Markov Chain Monte Carlo (MCMC)"
+              "Spatial statistics",
+              "Bayesian methods",
+              "Markov chain Monte Carlo (MCMC)"
             ],
             "related_concepts": [
-              "Ecological Modeling",
-              "Gaussian Processes",
-              "Species Distribution"
+              "Occupancy models",
+              "Gaussian processes",
+              "Ecological data analysis"
             ],
-            "one_line_context": "This talk introduces a new class of spatial occupancy models using clipped Gaussian processes to analyze species distributions over continuous domains.",
+            "one_line_context": "This talk introduces a new class of spatial occupancy models using clipped Gaussian processes to analyze species distributions in continuous space.",
             "ai_generated": true
           },
           "abstract": "Occupancy models are commonly used to infer species distributions over large spatial extents while accounting for imperfect detection. Current approaches, however, are unable to model species occurrence over continuous spatial domains while accounting for the discrete spatial domain of the observed data. We develop a new class of spatial occupancy models that embeds a change of spatial support between the observed data and occurrence process. We use a clipped Gaussian process to represent species occurrence in continuous space which can provide inferences at a finer resolution than the observed occupancy data. Our approach is beneficial because it allows for more realistic models of species occurrence, can account for species occurring in only a portion of a surveyed site, and can relate detection probabilities to these within-site occurrence proportions. We show how our model can be fit using Bayesian methods and develop a computationally efficient MCMC algorithm. We also show how our framework can be extended to handle multiple years of data to learn about species occupancy dynamics in continuous space. We demonstrate our model using simulated data and compare our approach to alternative spatial occupancy models. We also use our model to analyze ovenbird occurrence data collected in New Hampshire, USA.",
@@ -427,15 +408,15 @@
           "title": "Understanding CNN Efficiency: Statistical Generative Models for Unstructured Image Data",
           "annotations": {
             "prerequisites": [
-              "Statistical Learning Theory",
-              "Image Analysis"
+              "Statistical learning theory",
+              "Convolutional neural networks (CNNs)"
             ],
             "related_concepts": [
-              "Convolutional Neural Networks",
-              "Generative Models",
-              "Computer Vision"
+              "Image analysis",
+              "Generative models",
+              "Feature mapping"
             ],
-            "one_line_context": "This talk presents statistical generative models to analyze the theoretical efficiency and capabilities of Convolutional Neural Networks in vision tasks.",
+            "one_line_context": "This talk presents statistical generative models to analyze the efficiency and approximation capabilities of convolutional neural networks in image analysis.",
             "ai_generated": true
           },
           "abstract": "Convolutional Neural Networks (CNNs) are foundational in modern image analysis due to their ability to efficiently learn feature representations. However, theoretical understanding of their efficiency remains limited, largely due to inadequate modeling of image structures and their interaction with CNNs. To address this, we introduce novel statistical generative models (SGMs) that decompose images into task-relevant signals and noise, capturing the complexities of natural image data. Based on these SGMs, we propose a feature mapping approach (FMA) to characterize the transformation from raw image data to feature vectors. We analyze CNNs' approximation capabilities, their adaptation to low-dimensional structures, and their efficiency in vision tasks, ultimately developing statistical learning theories for CNN-based image analysis. Our findings reveal the challenges inherent in vision tasks and highlight CNNs' remarkable efficiency in addressing them, providing new insights into their theoretical and practical capabilities. This is based on the joint work with Dr. Guohao Shen.",
@@ -450,15 +431,16 @@
           "title": "Statistical Foundations of Deep Learning: Toward Efficient and Trustworthy AI",
           "annotations": {
             "prerequisites": [
-              "Bayesian Statistics",
-              "Statistical Inference"
+              "Bayesian statistics",
+              "Deep learning",
+              "Optimization"
             ],
             "related_concepts": [
-              "Deep Learning",
-              "Variational Inference",
-              "Uncertainty Quantification"
+              "Variational inference",
+              "Uncertainty quantification",
+              "Trustworthy AI"
             ],
-            "one_line_context": "This talk offers a statistical perspective on deep learning, exploring Bayesian neural networks and variational inference to build more efficient and trustworthy AI.",
+            "one_line_context": "This talk explores a statistical perspective on deep learning, highlighting Bayesian neural networks and variational inference for trustworthy artificial intelligence.",
             "ai_generated": true
           },
           "abstract": "Deep learning has transformed modern artificial intelligence through increasingly flexible models, large datasets, and scalable computation. For statisticians, however, its rapid development raises fundamental questions about statistical modeling, inference, theory, and computational efficiency. In this talk, we present a statistical perspective on deep learning, focusing on Bayesian neural networks, variational inference, theoretical validation, and structurally sparse deep networks. We discuss how statistical modeling and optimization can provide theoretical guarantees, quantify approximation effects, and produce more efficient deep-learning models without substantial loss of predictive performance. Applications to high-dimensional and complex data illustrate the role of statistical methodology in developing reliable and computationally efficient AI. More broadly, the talk explores how statistical theory, machine learning, and optimization can work together to build more principled and trustworthy AI.",
@@ -470,18 +452,39 @@
           "speaker": "Taps Maiti"
         },
         {
+          "title": "Careers and Research Opportunities in the Pharmaceutical Industry: A Panel Discussion",
+          "annotations": {
+            "prerequisites": [],
+            "related_concepts": [
+              "Clinical trials",
+              "Pharmaceutical statistics",
+              "Data science in industry"
+            ],
+            "one_line_context": "This panel discussion features alumni sharing insights on careers, research opportunities, and statistical challenges in the pharmaceutical industry.",
+            "ai_generated": true
+          },
+          "abstract": "The pharmaceutical industry offers statisticians opportunities to contribute across the entire lifecycle of medical products, from early discovery and preclinical research through clinical trials, regulatory decision-making, manufacturing, and post-market surveillance. At the same time, advances in data science, artificial intelligence, and precision medicine continue to create new methodological challenges and research opportunities. This panel brings together VT alumni from three pharmaceutical companies to discuss their career journeys, current roles, and perspectives on the evolving landscape of the industry. Panelists will share insights into organizational structures, emerging workforce needs, and the skills most valued in today's pharmaceutical companies. They will also discuss pressing statistical and data science challenges facing the industry and opportunities for collaboration between academia and industry. The session will conclude with an open question and answer period.",
+          "affiliation": null,
+          "datetime_end": "2026-11-06T15:30:00",
+          "datetime_start": "2026-11-06T14:30:00",
+          "location": "300 Seitz",
+          "series": "Colloquium",
+          "speaker": "Christian Johnson, Lisa Lupinacci, J. Brooke Marshall"
+        },
+        {
           "title": "Early-stopped aggregation: Adaptive inference with computational efficiency",
           "annotations": {
             "prerequisites": [
-              "Statistical Inference",
-              "Bayesian Model Selection"
+              "Bayesian model selection",
+              "Statistical inference",
+              "Variational Bayes"
             ],
             "related_concepts": [
-              "Model Aggregation",
-              "Variational Bayes",
-              "Frequentist Estimation"
+              "Model aggregation",
+              "Frequentist estimation",
+              "Computational efficiency"
             ],
-            "one_line_context": "This talk proposes a computationally efficient model aggregation framework called early-stopped aggregation for adaptive statistical inference.",
+            "one_line_context": "This talk proposes an early-stopped aggregation framework for efficient model selection and adaptive statistical inference.",
             "ai_generated": true
           },
           "abstract": "When considering a model selection or, more generally, an aggregation approach for adaptive statistical inference, it is often necessary to compute estimators over a wide range of model complexities including unnecessarily large models even when the true data-generating process is relatively simple, due to the lack of prior knowledge. This requirement can lead to substantial computational inefficiency. In this work, we propose a novel framework for efficient model aggregation called the early-stopped aggregation (ESA): instead of computing and aggregating estimators for all candidate models, we compute only a small number of simpler ones using an early-stopping criterion and aggregate only these for final inference. Our framework is versatile and applies to both Bayesian model selection, in particular, within the variational Bayes framework, and frequentist estimation, including a general penalized estimation setting. We investigate adaptive optimal property of the ESA approach across three learning paradigms. We first show that ESA achieves optimal adaptive contraction rates in the variational Bayes setting under mild conditions. We extend this result to variational empirical Bayes, where prior hyperparameters are chosen in a data-dependent manner. In addition, we apply the ESA approach to frequentist aggregation including both penalization-based and sample-splitting implementations, and establish corresponding theory. As we demonstrate, there is a clear unification between early-stopped Bayes and frequentist penalized aggregation, with a common \"energy\" functional comprising a data-fitting term and a complexity-control term that drives both procedures. We further present several applications and numerical studies that highlight the efficiency and strong performance of the proposed approach.",
@@ -14142,27 +14145,8 @@
       ]
     },
     "https://math.vt.edu/calendar.html": {
-      "hash": "19de789e06aa993245f616443531b208faf4b0722a6b176907aa2b49fb55e3d7",
+      "hash": "b9802c1b47af5e3aab2ace94e53ea98b1f9bf07f45692e10619ffe7f8803a898",
       "talks": [
-        {
-          "title": "Geometry/Topology seminar",
-          "annotations": {
-            "prerequisites": [],
-            "related_concepts": [
-              "Geometry",
-              "Topology"
-            ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
-            "ai_generated": true
-          },
-          "abstract": null,
-          "affiliation": null,
-          "datetime_end": "2026-10-13T17:00:00",
-          "datetime_start": "2026-10-13T16:00:00",
-          "location": "McB 563",
-          "series": "Department Calendar",
-          "speaker": null
-        },
         {
           "title": "AMPS",
           "annotations": {
@@ -14171,10 +14155,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a seminar on analysis and mathematical physics.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-10-14T17:00:00",
           "datetime_start": "2026-10-14T16:00:00",
@@ -14190,7 +14174,7 @@
               "Applied Algebra",
               "Coding Theory"
             ],
-            "one_line_context": "A talk on recent results regarding spatially coupled codes and similar error-correcting codes.",
+            "one_line_context": "Maciej Piwowarczyk presents recent results on spatially coupled macula and similar codes.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14206,9 +14190,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "This is a seminar dedicated to mathematics education.",
+            "one_line_context": "This is a meeting of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14227,7 +14211,7 @@
               "Numerical Analysis",
               "Applied Mathematics"
             ],
-            "one_line_context": "An applied numerical analysis seminar presentation.",
+            "one_line_context": "Matthew Walker presents an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14246,7 +14230,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14265,16 +14249,16 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a seminar on analysis and mathematical physics.",
+            "one_line_context": "Andreas Deuchert presents an Analysis and Math Physics Seminar talk.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-          "affiliation": null,
+          "abstract": null,
+          "affiliation": "Virginia Tech",
           "datetime_end": "2026-10-21T17:00:00",
           "datetime_start": "2026-10-21T16:00:00",
           "location": "McB 455 (commons room)",
           "series": "Department Calendar",
-          "speaker": null
+          "speaker": "Andreas Deuchert"
         },
         {
           "title": "Building Codes with Transversal CCZ using Projective Geometry and SAT Solvers",
@@ -14283,11 +14267,11 @@
               "Projective Geometry"
             ],
             "related_concepts": [
-              "Coding Theory",
+              "Applied Algebra",
               "SAT Solvers",
-              "Algebra"
+              "Coding Theory"
             ],
-            "one_line_context": "A talk on constructing codes with transversal CCZ using projective geometry and SAT solvers.",
+            "one_line_context": "Bohan Lu discusses building codes with transversal CCZ using projective geometry and SAT solvers.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14303,9 +14287,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "This is a seminar dedicated to mathematics education.",
+            "one_line_context": "This is a meeting of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14324,7 +14308,7 @@
               "Numerical Analysis",
               "Applied Mathematics"
             ],
-            "one_line_context": "An applied numerical analysis seminar presentation.",
+            "one_line_context": "Erid de Sturler and Achintya Sunil present an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14336,6 +14320,25 @@
           "speaker": "Erid de Sturler & Achintya Sunil"
         },
         {
+          "title": "Applied Numerical Analysis Seminar",
+          "annotations": {
+            "prerequisites": [],
+            "related_concepts": [
+              "Numerical Analysis",
+              "Applied Mathematics"
+            ],
+            "one_line_context": "Youngsoo Choi presents an Applied Numerical Analysis Seminar talk.",
+            "ai_generated": true
+          },
+          "abstract": null,
+          "affiliation": "Lawrence Livermore National Lab",
+          "datetime_end": "2026-10-26T14:15:00",
+          "datetime_start": "2026-10-26T13:15:00",
+          "location": "Math Commons Room (McBryde 455)",
+          "series": "Applied Numerical Analysis Seminar",
+          "speaker": "Youngsoo Choi"
+        },
+        {
           "title": "Geometry/Topology seminar",
           "annotations": {
             "prerequisites": [],
@@ -14343,7 +14346,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14362,16 +14365,16 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a seminar on analysis and mathematical physics.",
+            "one_line_context": "Félix Brokering presents an Analysis and Math Physics Seminar talk.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-          "affiliation": null,
+          "abstract": null,
+          "affiliation": "University of Bristol",
           "datetime_end": "2026-10-28T17:00:00",
           "datetime_start": "2026-10-28T16:00:00",
           "location": "McB 455 (commons room)",
           "series": "Department Calendar",
-          "speaker": null
+          "speaker": "Félix Brokering"
         },
         {
           "title": "Subcode Ensemble Decoding Techniques for Degeneracy-Aware Quantum Error Correction",
@@ -14379,10 +14382,10 @@
             "prerequisites": [],
             "related_concepts": [
               "Quantum Error Correction",
-              "Decoding Techniques",
-              "Applied Algebra"
+              "Applied Algebra",
+              "Decoding Techniques"
             ],
-            "one_line_context": "A talk on subcode ensemble decoding techniques designed for degeneracy-aware quantum error correction.",
+            "one_line_context": "Jonathan Mandelbaum discusses subcode ensemble decoding techniques for degeneracy-aware quantum error correction.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14398,9 +14401,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "This is a seminar dedicated to mathematics education.",
+            "one_line_context": "This is a meeting of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14419,7 +14422,7 @@
               "Numerical Analysis",
               "Applied Mathematics"
             ],
-            "one_line_context": "An applied numerical analysis seminar presentation.",
+            "one_line_context": "Rudi Smith and Peter DelMastro present an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14438,7 +14441,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14457,10 +14460,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a special-time seminar on analysis and mathematical physics.",
+            "one_line_context": "Simone Rademacher presents an Analysis and Math Physics Seminar talk at a special time.",
             "ai_generated": true
           },
-          "abstract": "Note the special time! Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": "University of Mannheim",
           "datetime_end": "2026-11-04T15:00:00",
           "datetime_start": "2026-11-04T14:00:00",
@@ -14475,7 +14478,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An applied algebra seminar meeting.",
+            "one_line_context": "This is a meeting of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14491,9 +14494,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "This is a seminar dedicated to mathematics education.",
+            "one_line_context": "This is a meeting of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14512,7 +14515,7 @@
               "Numerical Analysis",
               "Applied Mathematics"
             ],
-            "one_line_context": "An applied numerical analysis seminar presentation.",
+            "one_line_context": "Agnieszka Miedlar and Gregory Janes present an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14531,7 +14534,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14550,10 +14553,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a seminar on analysis and mathematical physics.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-11-11T17:00:00",
           "datetime_start": "2026-11-11T16:00:00",
@@ -14568,7 +14571,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An applied algebra seminar meeting.",
+            "one_line_context": "This is a meeting of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14584,9 +14587,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "This is a seminar dedicated to mathematics education.",
+            "one_line_context": "This is a meeting of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14605,7 +14608,7 @@
               "Numerical Analysis",
               "Applied Mathematics"
             ],
-            "one_line_context": "An applied numerical analysis seminar presentation.",
+            "one_line_context": "Aryeh keating and Ghafirlia Istafa present an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14624,7 +14627,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14643,10 +14646,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a seminar on analysis and mathematical physics.",
+            "one_line_context": "Marco Fraccaroli presents an Analysis and Math Physics Seminar talk.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": "UMass Lowell",
           "datetime_end": "2026-11-18T17:00:00",
           "datetime_start": "2026-11-18T16:00:00",
@@ -14661,7 +14664,7 @@
             "related_concepts": [
               "Applied Algebra"
             ],
-            "one_line_context": "An applied algebra seminar meeting.",
+            "one_line_context": "This is a meeting of the Applied Algebra Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14677,9 +14680,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "This is a seminar dedicated to mathematics education.",
+            "one_line_context": "This is a meeting of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14698,7 +14701,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14717,10 +14720,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a seminar on analysis and mathematical physics.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-11-25T17:00:00",
           "datetime_start": "2026-11-25T16:00:00",
@@ -14733,9 +14736,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "This is a seminar dedicated to mathematics education.",
+            "one_line_context": "This is a meeting of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14754,7 +14757,7 @@
               "Numerical Analysis",
               "Applied Mathematics"
             ],
-            "one_line_context": "An applied numerical analysis seminar presentation.",
+            "one_line_context": "Sam Bender and Kurt Stein present an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14773,7 +14776,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14792,10 +14795,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a seminar on analysis and mathematical physics.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-12-02T17:00:00",
           "datetime_start": "2026-12-02T16:00:00",
@@ -14808,10 +14811,10 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Coding Theory",
-              "Applied Algebra"
+              "Applied Algebra",
+              "Error-Correcting Codes"
             ],
-            "one_line_context": "A talk on error-and-erasure decoding of product and staircase codes.",
+            "one_line_context": "Lukas Rapp discusses error-and-erasure decoding of product and staircase codes.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14827,9 +14830,9 @@
           "annotations": {
             "prerequisites": [],
             "related_concepts": [
-              "Mathematics Education"
+              "Math Education"
             ],
-            "one_line_context": "This is a seminar dedicated to mathematics education.",
+            "one_line_context": "This is a meeting of the Math Education Seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14848,7 +14851,7 @@
               "Numerical Analysis",
               "Applied Mathematics"
             ],
-            "one_line_context": "An applied numerical analysis seminar presentation.",
+            "one_line_context": "Mike Ackermann and Serkan Gugercin present an Applied Numerical Analysis Seminar talk.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14867,7 +14870,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14886,10 +14889,10 @@
               "Analysis",
               "Mathematical Physics"
             ],
-            "one_line_context": "This is a seminar on analysis and mathematical physics.",
+            "one_line_context": "This is a meeting of the Analysis and Math Physics Seminar.",
             "ai_generated": true
           },
-          "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+          "abstract": null,
           "affiliation": null,
           "datetime_end": "2026-12-09T17:00:00",
           "datetime_start": "2026-12-09T16:00:00",
@@ -14905,7 +14908,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14924,7 +14927,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14943,7 +14946,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14962,7 +14965,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -14981,7 +14984,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15000,7 +15003,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15019,7 +15022,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15038,7 +15041,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15057,7 +15060,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15076,7 +15079,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15095,7 +15098,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15114,7 +15117,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15133,7 +15136,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
@@ -15152,7 +15155,7 @@
               "Geometry",
               "Topology"
             ],
-            "one_line_context": "This is a seminar on topics in geometry and topology.",
+            "one_line_context": "This is a meeting of the Geometry/Topology seminar.",
             "ai_generated": true
           },
           "abstract": null,
