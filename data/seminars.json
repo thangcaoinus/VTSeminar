@@ -198,22 +198,23 @@
     "id": "9e49692aa6e29db0"
   },
   {
-    "title": "(Joint with Peter Haine) Many geometric structures can be described as  algebras  for a suitable monad.",
+    "title": "Algebras for a monad and logarithmic geometry",
     "annotations": {
       "prerequisites": [
-        "basic category theory",
-        "abstract algebra"
+        "Category theory basics",
+        "Abstract algebra",
+        "Basic algebraic geometry"
       ],
       "related_concepts": [
-        "monads",
-        "ultrafilters",
-        "logarithmic geometry",
-        "tropicalization"
+        "Monads",
+        "Ultrafilters",
+        "Logarithmic geometry",
+        "Tropicalization"
       ],
-      "one_line_context": "This talk explains how various geometric structures and logarithmic maps can be described using monads and Kleisli categories.",
+      "one_line_context": "This talk explains how geometric structures and logarithmic maps can be described using algebras and Kleisli morphisms for monads.",
       "ai_generated": true
     },
-    "abstract": "(Joint with Peter Haine)  Many geometric structures can be described as \\emph{algebras} for a suitable monad. E.g., compact Hausdorff spaces are exactly the algebras for the ultrafilter monad on sets.  I will explain this point of view through several concrete examples, starting with free abelian groups and rings, and then discussing ultrafilters, Eilenberg--Moore categories, and Kleisli categories. The emphasis will be on examples rather than category theory.  The main application is in logarithmic geometry. I will explain how logarithmic maps can be realized as Kleisli morphisms for a natural monad built from Olsson's logarithmic stack. This leads to a functorial tropicalization construction for logarithmic schemes, recovering the usual fans of toric varieties and toroidal embeddings while remaining functorial for arbitrary logarithmic maps. (This talk is meant to be accessible to graduate students)",
+    "abstract": "Many geometric structures can be described as algebras for a suitable monad. E.g., compact Hausdorff spaces are exactly the algebras for the ultrafilter monad on sets. I will explain this point of view through several concrete examples, starting with free abelian groups and rings, and then discussing ultrafilters, Eilenberg--Moore categories, and Kleisli categories. The emphasis will be on examples rather than category theory. The main application is in logarithmic geometry. I will explain how logarithmic maps can be realized as Kleisli morphisms for a natural monad built from Olsson's logarithmic stack. This leads to a functorial tropicalization construction for logarithmic schemes, recovering the usual fans of toric varieties and toroidal embeddings while remaining functorial for arbitrary logarithmic maps.",
     "affiliation": "VT",
     "datetime_end": "2023-09-22T17:00:00",
     "datetime_start": "2023-09-22T16:00:00",
@@ -222,26 +223,26 @@
     "speaker": "Leo Herr",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "0ca1075ef89ff841"
+    "id": "faa7c57c986c3938"
   },
   {
     "title": "Brill--Noether theory of curves on K3 surfaces",
     "annotations": {
       "prerequisites": [
-        "algebraic geometry",
-        "vector bundles",
-        "curve theory"
+        "Algebraic geometry",
+        "Complex curves",
+        "Vector bundles"
       ],
       "related_concepts": [
         "Brill-Noether theory",
         "K3 surfaces",
-        "unstable vector bundles",
-        "Giesker-Petri loci"
+        "Giesker-Petri loci",
+        "Linear series"
       ],
-      "one_line_context": "This talk surveys recent results regarding the Brill--Noether theory of curves on K3 surfaces and related vector bundles.",
+      "one_line_context": "This talk surveys recent results regarding the refined Brill-Noether theory of curves on K3 surfaces and related unstable vector bundles.",
       "ai_generated": true
     },
-    "abstract": "Brill--Noether theory studies linear systems on an algebraic curve. K3 surfaces have been central in Brill--Noether theory since Lazarfeld's proof of the Brill--Noether theorem, which describes the linear series on a general curve of genus $g$. In this talk, we'll survey some recent results concerning the Brill--Noether theory of curves on K3 surfaces. Specifically, we'll discuss a refined Brill--Noether theory, which aims to understand the linear series on curves with a given Brill--Noether special linear series, and related unstable vector bundles on K3 surfaces with applications to the dimensions of components of Giesker--Petri loci in \\mathcal{M}_g, parameterizing curves admitting a linear series with non-injective Petri map.",
+    "abstract": "Brill--Noether theory studies linear systems on an algebraic curve. K3 surfaces have been central in Brill--Noether theory since Lazarfeld's proof of the Brill--Noether theorem, which describes the linear series on a general curve of genus g. In this talk, we'll survey some recent results concerning the Brill--Noether theory of curves on K3 surfaces. Specifically, we'll discuss a refined Brill--Noether theory, which aims to understand the linear series on curves with a given Brill--Noether special linear series, and related unstable vector bundles on K3 surfaces with applications to the dimensions of components of Giesker--Petri loci in \\mathcal{M}_g, parameterizing curves admitting a linear series with non-injective Petri map.",
     "affiliation": "Ohio State University",
     "datetime_end": "2023-10-06T17:00:00",
     "datetime_start": "2023-10-06T16:00:00",
@@ -253,21 +254,23 @@
     "id": "0bd4b4208713f343"
   },
   {
-    "title": "Moduli-theoretic approach to heights on stacks over function fields",
+    "title": "Moduli-theoretic approach to heights on stacks",
     "annotations": {
       "prerequisites": [
-        "arithmetic geometry",
-        "moduli stacks"
+        "Algebraic geometry",
+        "Arithmetic geometry",
+        "Moduli stacks"
       ],
       "related_concepts": [
-        "arithmetic statistics",
-        "heights on stacks",
-        "twisted stable maps"
+        "Arithmetic statistics",
+        "Height functions",
+        "Twisted stable maps",
+        "Vector bundles on curves"
       ],
       "one_line_context": "This talk presents a moduli-theoretic approach to heights on stacks over function fields to study arithmetic counting problems.",
       "ai_generated": true
     },
-    "abstract": "Many counting problems in arithmetic statistics can be formulated as counting points of bounded height on moduli stacks over global fields. Ellenberg, Satriano, and Zureick-Brown introduced a theory of heights on stacks that provides a common framework for studying these problems. In this talk, I will present a moduli-theoretic approach to heights on stacks over function fields, inspired by Abramovich and Vistoli’s theory of twisted stable maps. The idea is to construct moduli spaces parametrizing points of fixed height, translating arithmetic counting problems into questions about the geometry of these spaces. I will describe this construction for a suitable class of stacks and outline an approach to more general stacks that is closely related to the geometry of the moduli space of vector bundles on a curve. This is based on joint work with Park and Satriano.",
+    "abstract": "Many counting problems in arithmetic statistics can be formulated as counting points of bounded height on moduli stacks over global fields. Ellenberg, Satriano, and Zureick-Brown introduced a theory of heights on stacks that provides a common framework for studying these problems. In this talk, I will present a moduli-theoretic approach to heights on stacks over function fields, inspired by Abramovich and Vistoli’s theory of twisted stable maps. The idea is to construct moduli spaces parametrizing points of fixed height, translating arithmetic counting problems into questions about the geometry of these spaces. I will describe this construction for a suitable class of stacks and outline an approach to more general stacks that is closely related to the geometry of the moduli space of vector bundles on a curve.",
     "affiliation": "UMD College Park",
     "datetime_end": "2023-10-13T17:00:00",
     "datetime_start": "2023-10-13T16:00:00",
@@ -276,22 +279,22 @@
     "speaker": "Dori Bejleri",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "2c8c49271621f6f3"
+    "id": "959111079bccc95c"
   },
   {
     "title": "Automorphism groups of rational surfaces and log Calabi-Yau surfaces",
     "annotations": {
       "prerequisites": [
-        "algebraic geometry",
-        "surface theory"
+        "Algebraic geometry",
+        "Hyperbolic geometry"
       ],
       "related_concepts": [
-        "automorphism groups",
-        "arithmetic groups",
-        "log Calabi-Yau surfaces",
-        "rational surfaces"
+        "K3 surfaces",
+        "Automorphism groups",
+        "Log Calabi-Yau surfaces",
+        "Rational surfaces"
       ],
-      "one_line_context": "This talk gives examples of rational log Calabi-Yau surfaces whose automorphism groups are not commensurable with an arithmetic group.",
+      "one_line_context": "This talk provides examples of rational surfaces whose automorphism groups are not commensurable with an arithmetic group.",
       "ai_generated": true
     },
     "abstract": "In [Algebraic surfaces and hyperbolic geometry, Cambridge University Press, 2012], Totaro gave examples of a K3 surface such that its automorphism group is not commensurable with an arithmetic group, answering a question of Mazur. We give examples of rational surfaces with the same property. Our examples Y are log Calabi-Yau surfaces, i.e., there is a reduced normal crossing divisor D in Y such that K_Y+D=0. This is joint work with Sebastián Torres.",
@@ -306,14 +309,23 @@
     "id": "d2673bd42e9955d9"
   },
   {
-    "title": "Talk 5",
+    "title": "Geometric Tevelev degrees of projective space",
     "annotations": {
-      "prerequisites": [],
-      "related_concepts": [],
-      "one_line_context": "This is a seminar talk with details currently to be announced.",
+      "prerequisites": [
+        "Algebraic geometry",
+        "Gromov-Witten theory",
+        "Schubert calculus"
+      ],
+      "related_concepts": [
+        "Tevelev degrees",
+        "Grassmannians",
+        "Matroid theory",
+        "RSK correspondence"
+      ],
+      "one_line_context": "This talk explains a complete calculation of the geometric Tevelev degrees of projective space using Schubert calculus and torus orbit closures.",
       "ai_generated": true
     },
-    "abstract": null,
+    "abstract": "The geometric Tevelev degrees of projective space enumerate general, pointed curves with fixed complex structure interpolating through the maximal number of points in P^r. The study of the corresponding virtual invariants goes back to the beginning of Gromov-Witten theory in the 1990s, whereas the closely related problem of enumerating linear series on general curves goes back even earlier, to the 19th century. We explain a complete calculation of the geometric Tevelev degrees of projective space in terms of Schubert calculus, which interpolates between both of these worlds. The final answer involves torus orbit closures on Grassmannians, which are fundamental objects in matroid theory. Recent work with Saskia Solotko expresses the invariants alternatively in terms of combinatorics of words, via the RSK correspondence.",
     "affiliation": "Washington University St. Louis",
     "datetime_end": "2023-10-27T17:00:00",
     "datetime_start": "2023-10-27T16:00:00",
@@ -322,33 +334,33 @@
     "speaker": "Carl Lian",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "162f8d14aa1ca77f"
+    "id": "83a32d4c060c4f05"
   },
   {
     "title": "Talk 6",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk with details currently to be announced.",
+      "one_line_context": "This talk has no abstract available yet.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
+    "affiliation": "VT",
     "datetime_end": "2023-11-03T17:00:00",
     "datetime_start": "2023-11-03T16:00:00",
     "location": "McBryde Hall 563",
     "series": "Geometry/Topology Seminar",
-    "speaker": null,
+    "speaker": "Michael Schultz",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "d7c009cdc4a60cc4"
+    "id": "26f10de53ff959fe"
   },
   {
     "title": "Talk 7",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk with details currently to be announced.",
+      "one_line_context": "This talk has no abstract available yet.",
       "ai_generated": true
     },
     "abstract": null,
@@ -367,7 +379,7 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk with details currently to be announced.",
+      "one_line_context": "This talk has no abstract available yet.",
       "ai_generated": true
     },
     "abstract": null,
@@ -386,7 +398,7 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk with details currently to be announced.",
+      "one_line_context": "This talk has no abstract available yet.",
       "ai_generated": true
     },
     "abstract": null,
@@ -405,7 +417,7 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This is a seminar talk with details currently to be announced.",
+      "one_line_context": "This talk has no abstract available yet.",
       "ai_generated": true
     },
     "abstract": null,
