@@ -3,15 +3,15 @@
     "title": "From Grazing to Growing Up: Matching Mathematical Tools to Ecological Complexity",
     "annotations": {
       "prerequisites": [
-        "differential equations",
-        "calculus"
+        "Ordinary differential equations",
+        "Calculus"
       ],
       "related_concepts": [
-        "population models",
-        "ecological dynamics",
-        "delay differential equations"
+        "Delay differential equations",
+        "Stage-structured population models",
+        "Mathematical ecology"
       ],
-      "one_line_context": "This talk explores how applied mathematicians collaborate with biologists to build mechanistic differential equation models that capture complex ecological dynamics.",
+      "one_line_context": "This talk explains how applied mathematicians use differential equations to model complex ecological dynamics across different life stages of species.",
       "ai_generated": true
     },
     "abstract": "Classical population models often rely on simple, unstructured differential equations that assume uniform life stages and instantaneous growth. In reality, species have stage-specific traits and behavioral adaptations that require more complicated mathematical tools. In this talk, I will illustrate how applied mathematicians collaborate with biologists to build mechanistic, first-principles models that capture multi-scale ecological dynamics. We begin with grazing, introducing co-limitation functions to capture how nutrient limitations alter feeding behavior. We then transition to growing up, using stage-structured and delay differential equations to model how high nutrient demands in juveniles create developmental bottlenecks. We demonstrate how stage-specific nutrient demands shift stability boundaries and control population oscillations under enrichment. Ultimately, we show how matching the right mathematical framework to biological reality uncovers novel dynamical behaviors and yields deeper insights into complex ecological systems.",
@@ -29,19 +29,20 @@
     "title": "On-the-Fly Reduced-Order Modeling via Matrix and Tensor Network Low-Rank Approximations",
     "annotations": {
       "prerequisites": [
-        "linear algebra",
-        "numerical analysis",
-        "differential equations"
+        "Linear algebra",
+        "Multivariable calculus",
+        "Differential equations"
       ],
       "related_concepts": [
-        "tensor networks",
-        "reduced-order modeling",
-        "high-dimensional partial differential equations"
+        "Tensor networks",
+        "Reduced-order modeling",
+        "Low-rank approximations",
+        "High-dimensional partial differential equations"
       ],
-      "one_line_context": "This presentation discusses adaptive low-rank approximations and tensor network methods for solving high-dimensional matrix and tensor differential equations efficiently.",
+      "one_line_context": "This talk discusses adaptive low-rank matrix and tensor network methods for solving high-dimensional differential equations in science and engineering.",
       "ai_generated": true
     },
-    "abstract": "Some of the most computationally demanding problems in science and engineering involve large-scale and high-dimensional matrix and tensor differential equations (MDEs and TDEs). These arise in applications ranging from the Schr¨odinger equation and kinetic transport models (Fokker–Planck and Boltzmann equations) to probability density function transport in turbulent combustion and Hamilton–Jacobi–Bellman equations. Even in three-dimensional settings, such as turbulent reacting flows, the sheer scale and multiscale structure of the dynamics render direct numerical treatment prohibitively expensive. The underlying challenge is structural: the number of degrees of freedom grows combinatorially with dimension, resolution, or parametric complexity. Low-rank matrix and their extension to tensor network approximations provide a principled framework to address this challenge by exploiting intrinsic low-dimensional structure and multi-dimensional correlations in the solution. In this presentation, we focus on computational strategies for solving nonlinear MDEs and TDEs directly in adaptive low-rank form. We introduce a novel formulation based on adaptive cross interpolation and develop CUR-type decompositions grounded in the Discrete Empirical Interpolation Method (DEIM) for matrix, tensor-train, and Tucker representations. These DEIM-CUR algorithms enable on-the-fly reduced-order modeling with near-optimal accuracy for broad classes of nonlinear dynamical systems. We demonstrate the effectiveness of these approaches across applications in turbulent combustion, sensitivity analysis, uncertainty quantification, and both high-dimensional and large-scale partial differential equations.",
+    "abstract": "Some of the most computationally demanding problems in science and engineering involve large-scale and high-dimensional matrix and tensor differential equations (MDEs and TDEs). These arise in applications ranging from the Schr¨odinger equation and kinetic transport mod- els (Fokker–Planck and Boltzmann equations) to probability density function transport in turbulent combustion and Hamilton–Jacobi–Bellman equations. Even in three-dimensional settings, such as turbulent reacting flows, the sheer scale and multiscale structure of the dynamics render direct numerical treatment prohibitively expensive. The underlying chal- lenge is structural: the number of degrees of freedom grows combinatorially with dimension, resolution, or parametric complexity. Low-rank matrix and their extension to tensor network approximations provide a principled framework to address this challenge by exploiting in- trinsic low-dimensional structure and multi-dimensional correlations in the solution. In this presentation, we focus on computational strategies for solving nonlinear MDEs and TDEs directly in adaptive low-rank form. We introduce a novel formulation based on adaptive cross interpolation and develop CUR-type decompositions grounded in the Discrete Em- pirical Interpolation Method (DEIM) for matrix, tensor-train, and Tucker representations. These DEIM-CUR algorithms enable on-the-fly reduced-order modeling with near-optimal accuracy for broad classes of nonlinear dynamical systems. We demonstrate the effectiveness of these approaches across applications in turbulent com- bustion, sensitivity analysis, uncertainty quantification, and both high-dimensional and large-scale partial differential equations.",
     "affiliation": "University of Pittsburgh",
     "datetime_end": "2026-09-18T17:00:00-04:00",
     "datetime_start": "2026-09-18T16:00:00-04:00",
@@ -56,17 +57,18 @@
     "title": "From Host–Pathogen to Vector–Host Systems: Modeling Disease Dynamics",
     "annotations": {
       "prerequisites": [
-        "differential equations"
+        "Differential equations"
       ],
       "related_concepts": [
-        "epidemiology",
-        "disease modeling"
+        "Epidemiological models",
+        "Disease dynamics",
+        "Mathematical biology"
       ],
-      "one_line_context": "This talk discusses mathematical modeling of disease dynamics moving from host-pathogen to vector-host systems.",
+      "one_line_context": "This talk explores mathematical modeling techniques used to understand the transmission dynamics of infectious diseases.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
+    "affiliation": "VT Math Postdocs",
     "datetime_end": "2026-09-25T17:00:00-04:00",
     "datetime_start": "2026-09-25T16:00:00-04:00",
     "location": "DDS 130",
@@ -81,14 +83,15 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "applied mathematics",
-        "modeling"
+        "Crowd dynamics",
+        "Emergency evacuation",
+        "Applied mathematics"
       ],
-      "one_line_context": "This talk investigates the role of stress during emergency evacuations using mathematical modeling.",
+      "one_line_context": "This talk examines the mathematical modeling of stress and movement during emergency evacuations.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
+    "affiliation": "VT Math Postdocs",
     "datetime_end": "2026-09-25T17:00:00-04:00",
     "datetime_start": "2026-09-25T16:00:00-04:00",
     "location": "DDS 130",
@@ -102,18 +105,19 @@
     "title": "Quantifying the Strength of Cross-Protection Between Dengue and Zika: A Mechanistic Analysis of Subnational Transmission in Brazil",
     "annotations": {
       "prerequisites": [
-        "differential equations",
-        "probability"
+        "Differential equations",
+        "Probability and statistics"
       ],
       "related_concepts": [
-        "epidemiology",
-        "transmission dynamics"
+        "Epidemiology",
+        "Mechanistic modeling",
+        "Infectious disease transmission"
       ],
-      "one_line_context": "This talk provides a mechanistic analysis of subnational transmission dynamics in Brazil to quantify cross-protection between Dengue and Zika.",
+      "one_line_context": "This talk presents a mechanistic analysis of subnational disease transmission to measure cross-protection between Dengue and Zika in Brazil.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
+    "affiliation": "VT Math Postdocs",
     "datetime_end": "2026-09-25T17:00:00-04:00",
     "datetime_start": "2026-09-25T16:00:00-04:00",
     "location": "DDS 130",
@@ -127,18 +131,19 @@
     "title": "A lifting--projection method for the homogeneous Landau equation based on TT cross approximation",
     "annotations": {
       "prerequisites": [
-        "numerical analysis",
-        "partial differential equations"
+        "Numerical analysis",
+        "Partial differential equations"
       ],
       "related_concepts": [
         "Landau equation",
-        "tensor train approximation"
+        "Tensor-train cross approximation",
+        "Kinetic theory"
       ],
-      "one_line_context": "This talk introduces a lifting-projection method using tensor-train cross approximation for solving the homogeneous Landau equation.",
+      "one_line_context": "This talk introduces a lifting-projection numerical method utilizing tensor-train approximations to solve the homogeneous Landau equation.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
+    "affiliation": "VT Math Postdocs",
     "datetime_end": "2026-09-25T17:00:00-04:00",
     "datetime_start": "2026-09-25T16:00:00-04:00",
     "location": "DDS 130",
@@ -152,18 +157,18 @@
     "title": "How Harmonic Analysis Sees the Geometry of Fractals",
     "annotations": {
       "prerequisites": [
-        "real analysis",
-        "measure theory"
+        "Real analysis",
+        "Measure theory"
       ],
       "related_concepts": [
-        "harmonic analysis",
-        "fractal geometry"
+        "Harmonic analysis",
+        "Fractal geometry"
       ],
-      "one_line_context": "This talk explores the connections between harmonic analysis and the geometric properties of fractals.",
+      "one_line_context": "This talk explores how tools from harmonic analysis can be applied to understand the geometric properties of fractals.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
+    "affiliation": "VT Math Postdocs",
     "datetime_end": "2026-09-25T17:00:00-04:00",
     "datetime_start": "2026-09-25T16:00:00-04:00",
     "location": "DDS 130",
@@ -177,17 +182,18 @@
     "title": "Temperature-driven competition and infectious disease dynamics",
     "annotations": {
       "prerequisites": [
-        "differential equations"
+        "Differential equations"
       ],
       "related_concepts": [
-        "disease dynamics",
-        "environmental effects on populations"
+        "Disease dynamics",
+        "Thermal ecology",
+        "Mathematical biology"
       ],
-      "one_line_context": "This talk examines how temperature-driven competition influences infectious disease dynamics.",
+      "one_line_context": "This talk investigates how temperature affects species competition and the resulting dynamics of infectious diseases.",
       "ai_generated": true
     },
     "abstract": null,
-    "affiliation": null,
+    "affiliation": "VT Math Postdocs",
     "datetime_end": "2026-09-25T17:00:00-04:00",
     "datetime_start": "2026-09-25T16:00:00-04:00",
     "location": "DDS 130",
@@ -640,15 +646,14 @@
       ],
       "related_concepts": [
         "Schubert polynomials",
-        "Iwahori-Hecke algebras",
-        "Quasiparabolic sets"
+        "Quasiparabolic sets",
+        "Iwahori-Hecke algebras"
       ],
-      "one_line_context": "This talk introduces a root-theoretic framework using generalized Rothe diagrams to recover and generalize various algebraic and combinatorial objects.",
+      "one_line_context": "This talk explores a new root-theoretic framework using generalized Rothe diagrams to unify various algebraic and combinatorial objects.",
       "ai_generated": true
     },
     "abstract": "Let \\(\\Phi\\) be a simply-laced root system with Weyl group \\(W\\), let \\(U\\) be a set of positive roots in \\(\\Phi\\), and let \\(\\Omega_U\\) be the set of all maximum-cardinality orthogonal subsets of \\(U\\). Define the generalized Rothe diagram of each \\(R\\in \\Omega_U\\) to be the set\n\\[ D_U(R)=\\{\\alpha\\in U : s_\\beta(\\alpha)>0 \\text{ for all } \\beta\\in R\\}. \\]\nWe show how the set \\(\\Omega_U\\) and the diagrams \\(D_U(R)\\) provide a root-theoretic framework that recovers many widely studied algebraic and combinatorial objects. For example, for a suitable choice of \\(U\\) in type \\(D_{2k}\\), the set \\(\\Omega_U\\) can be identified with the symmetric group \\(S_k\\), and the diagrams \\(D_U(R)\\) coincide with the traditional Rothe diagrams of permutations. For another choice in type \\(D_{2k}\\), the elements of \\(\\Omega_U\\) can be identified with the fixed-point-free involutions in \\(S_{2k}\\), and the diagrams \\(D_U(R)\\) recover the involution Rothe diagrams used by Hamaker–Marberg–Pawlowski to obtain their involution Schubert polynomials. Our other examples involve perfect matchings, rook configurations, labelled Fano planes, del Pezzo surfaces, and minuscule representations. The set \\(\\Omega_U\\) also forms a quasiparabolic set in the sense of Rains–Vazirani in all our examples, which endows \\(\\Omega_U\\) with a Bruhat-like partial order and natural connections to the Iwahori–Hecke algebra of \\(W\\). (Joint work with Richard Green.)",
     "affiliation": "University of Richmond",
-    "datetime_end": "2026-09-18T15:30:00",
     "datetime_start": "2026-09-18T14:30:00",
     "location": "McBryde 218",
     "series": "Algebra Seminar",
@@ -662,20 +667,20 @@
     "annotations": {
       "prerequisites": [
         "Elliptic curves",
-        "Modular forms",
-        "Graph theory"
+        "Graph theory",
+        "Algebraic number theory"
       ],
       "related_concepts": [
         "Supersingular isogeny graphs",
         "Ihara zeta functions",
+        "Modular curves",
         "Post-quantum cryptography"
       ],
-      "one_line_context": "This talk discusses abstract isogeny graphs and their zeta functions, relating them to modular curves over finite fields.",
+      "one_line_context": "This talk discusses abstract isogeny graphs and their zeta functions to study the combinatorial structure of supersingular isogeny graphs.",
       "ai_generated": true
     },
     "abstract": "Isogeny graphs of supersingular elliptic curves have broad application, from the study and computation of modular forms to post-quantum cryptography. This is in part because the family of q-isogeny graphs in characteristic p (with prime p varying, for a fixed prime q) is Ramanujan. One tool for studying a graph is its Ihara zeta function, defined as an Euler product over the primes of the graph. Defining the zeta function formally requires a graph in the sense of Serre and Bass, i.e. a directed graph equipped with a fixed-point free involution on the edge set. In general, isogeny graphs fail to be graphs in this sense. In this talk, I will discuss joint work with Lau, Orvis, Scullard, and Zobernig in which we introduce abstract isogeny graphs along with their zeta functions; these graphs capture the combinatorial structure of supersingular isogeny graphs (with level structure). I will survey some of our results, including an analogue of Ihara’s determinant formula, showing in particular that the zeta function is rational. We use this formula and the Eichler-Shimura relation to give a formula relating the zeta function of a q-isogeny graph with level-H structure (for certain H, including B0(N) and B1(N)) to the Hasse-Weil zeta functions of two associated modular curves over the finite field Fq, generalizing results of Hashimoto, Sugiyama, and Lei-Muller.",
     "affiliation": "VT",
-    "datetime_end": "2026-09-25T15:30:00",
     "datetime_start": "2026-09-25T14:30:00",
     "location": "McBryde 329",
     "series": "Algebra Seminar",
@@ -683,6 +688,42 @@
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/algebra/",
     "id": "4c2427992a6f7635"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This is a placeholder for a future seminar talk.",
+      "ai_generated": true
+    },
+    "abstract": "TBD",
+    "affiliation": "Clemson",
+    "datetime_start": "2026-11-06T14:30:00",
+    "location": "McBryde 329",
+    "series": "Algebra Seminar",
+    "speaker": "Daniel Martin",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/algebra/",
+    "id": "b33ce4a8a41050fd"
+  },
+  {
+    "title": "Title TBD",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This is a placeholder for a future seminar talk.",
+      "ai_generated": true
+    },
+    "abstract": "TBD",
+    "affiliation": "VT",
+    "datetime_start": "2026-11-13T14:30:00",
+    "location": "McBryde 329",
+    "series": "Algebra Seminar",
+    "speaker": "Sarah Arpin",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/algebra/",
+    "id": "6edfd99738a74dfc"
   },
   {
     "title": "Reflections on 25 Years of Parallel Computing: Hardware transformations, programming incrementalism, and the tenacity of Chapel",
@@ -16159,26 +16200,336 @@
     "id": "aa50ed79865af68b"
   },
   {
-    "title": "Geometry/Topology seminar",
+    "title": "AMPS - Andreas Deuchert",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Geometry",
-        "Topology"
+        "Analysis",
+        "Mathematical Physics"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a talk given by Andreas Deuchert as part of the Analysis and Math Physics Seminar.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-21T17:00:00",
+    "datetime_start": "2026-10-21T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": "Andreas Deuchert",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "03b8b77f2fed537c"
+  },
+  {
+    "title": "Building Codes with Transversal CCZ using Projective Geometry and SAT Solvers",
+    "annotations": {
+      "prerequisites": [
+        "Projective Geometry"
+      ],
+      "related_concepts": [
+        "Building Codes",
+        "SAT Solvers",
+        "Quantum Error Correction"
+      ],
+      "one_line_context": "This talk explores building codes with transversal CCZ using projective geometry and SAT solvers.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Duke University",
+    "datetime_end": "2026-10-22T10:00:00",
+    "datetime_start": "2026-10-22T09:00:00",
+    "location": "zoom",
+    "series": "Applied Algebra Seminar",
+    "speaker": "Bohan Lu",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "e32424b0c0d9aac3"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Math Education"
+      ],
+      "one_line_context": "This is a seminar session focusing on topics in mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
     "affiliation": null,
-    "datetime_end": "2026-10-20T17:00:00",
-    "datetime_start": "2026-10-20T16:00:00",
-    "location": "McB 563",
-    "series": "Department Calendar",
+    "datetime_end": "2026-10-22T13:00:00",
+    "datetime_start": "2026-10-22T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
     "speaker": null,
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "5774b94407f4a9a2"
+    "id": "90967418a89da4c6"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Math Education"
+      ],
+      "one_line_context": "This is a seminar session focusing on topics in mathematics education.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-10-29T13:00:00",
+    "datetime_start": "2026-10-29T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "85eb2231df877441"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Math Education"
+      ],
+      "one_line_context": "This is a seminar session focusing on topics in mathematics education.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-05T13:00:00",
+    "datetime_start": "2026-11-05T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "93068a99fe8c8d72"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Math Education"
+      ],
+      "one_line_context": "This is a seminar session focusing on topics in mathematics education.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-12T13:00:00",
+    "datetime_start": "2026-11-12T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "446ab8db397cba33"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Math Education"
+      ],
+      "one_line_context": "This is a seminar session focusing on topics in mathematics education.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-19T13:00:00",
+    "datetime_start": "2026-11-19T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "da0262b5a24632e7"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Math Education"
+      ],
+      "one_line_context": "This is a seminar session focusing on topics in mathematics education.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-11-26T13:00:00",
+    "datetime_start": "2026-11-26T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "bff17de453d20c86"
+  },
+  {
+    "title": "Math Education Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Math Education"
+      ],
+      "one_line_context": "This is a seminar session focusing on topics in mathematics education.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-03T13:00:00",
+    "datetime_start": "2026-12-03T12:00:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Math Education Seminar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "a60e251282ca2303"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is an applied numerical analysis seminar presentation by Erid de Sturler and Achintya Sunil.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-10-26T13:15:00",
+    "datetime_start": "2026-10-26T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Erid de Sturler & Achintya Sunil",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "821c0d07d1c6283c"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is an applied numerical analysis seminar presentation by Rudi Smith and Peter DelMastro.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-02T13:15:00",
+    "datetime_start": "2026-11-02T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Rudi Smith & Peter DelMastro",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "0b3bf46a88dfd847"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is an applied numerical analysis seminar presentation by Gregory Janes.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-09T13:15:00",
+    "datetime_start": "2026-11-09T12:15:00",
+    "location": "Data and Decision Sciences 450",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Gregory Janes",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "02d0ffaac2935e50"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is an applied numerical analysis seminar presentation by Aryeh keating and Ghafirlia Istafa.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-16T13:15:00",
+    "datetime_start": "2026-11-16T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Aryeh keating & Ghafirlia Istafa",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "daabcec4727050e3"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is an applied numerical analysis seminar presentation by Sam Bender and Kurt Stein.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-30T13:15:00",
+    "datetime_start": "2026-11-30T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Sam Bender & Kurt Stein",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "836f9a30149ebfc8"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [
+        "Numerical Analysis"
+      ],
+      "related_concepts": [
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is an applied numerical analysis seminar presentation by Mike Ackermann and Serkan Gugercin.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-12-07T13:15:00",
+    "datetime_start": "2026-12-07T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Mike Ackermann & Serkan Gugercin",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "00cb530291514946"
   },
   {
     "title": "Geometry/Topology seminar",
@@ -16188,7 +16539,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16210,7 +16561,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16232,7 +16583,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16254,7 +16605,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16276,7 +16627,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16298,7 +16649,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16320,7 +16671,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16342,7 +16693,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16364,7 +16715,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16386,7 +16737,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16408,7 +16759,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16430,7 +16781,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16452,7 +16803,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16474,7 +16825,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16496,7 +16847,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16518,7 +16869,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16540,7 +16891,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16562,7 +16913,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16584,7 +16935,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16606,7 +16957,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16628,7 +16979,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a seminar session focusing on topics in geometry and topology.",
+      "one_line_context": "This is a regular meeting of the Geometry/Topology seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -16643,332 +16994,6 @@
     "id": "42299fe0a9847330"
   },
   {
-    "title": "AMPS - Andreas Deuchert",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Analysis",
-        "Mathematical Physics"
-      ],
-      "one_line_context": "This is an analysis and mathematical physics seminar talk given by Andreas Deuchert.",
-      "ai_generated": true
-    },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-10-21T17:00:00",
-    "datetime_start": "2026-10-21T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": "Andreas Deuchert",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "03b8b77f2fed537c"
-  },
-  {
-    "title": "Building Codes with Transversal CCZ using Projective Geometry and SAT Solvers",
-    "annotations": {
-      "prerequisites": [
-        "Projective Geometry"
-      ],
-      "related_concepts": [
-        "Coding Theory",
-        "SAT Solvers",
-        "Applied Algebra"
-      ],
-      "one_line_context": "This talk explores building codes with transversal CCZ using projective geometry and SAT solvers.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Duke University",
-    "datetime_end": "2026-10-22T10:00:00",
-    "datetime_start": "2026-10-22T09:00:00",
-    "location": "zoom",
-    "series": "Applied Algebra Seminar",
-    "speaker": "Bohan Lu",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "e32424b0c0d9aac3"
-  },
-  {
-    "title": "Math Education Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Mathematics Education"
-      ],
-      "one_line_context": "This is a seminar meeting focusing on math education.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-10-22T13:00:00",
-    "datetime_start": "2026-10-22T12:00:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Math Education Seminar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "90967418a89da4c6"
-  },
-  {
-    "title": "Math Education Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Mathematics Education"
-      ],
-      "one_line_context": "This is a seminar meeting focusing on math education.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-10-29T13:00:00",
-    "datetime_start": "2026-10-29T12:00:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Math Education Seminar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "85eb2231df877441"
-  },
-  {
-    "title": "Math Education Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Mathematics Education"
-      ],
-      "one_line_context": "This is a seminar meeting focusing on math education.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-11-05T13:00:00",
-    "datetime_start": "2026-11-05T12:00:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Math Education Seminar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "93068a99fe8c8d72"
-  },
-  {
-    "title": "Math Education Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Mathematics Education"
-      ],
-      "one_line_context": "This is a seminar meeting focusing on math education.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-11-12T13:00:00",
-    "datetime_start": "2026-11-12T12:00:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Math Education Seminar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "446ab8db397cba33"
-  },
-  {
-    "title": "Math Education Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Mathematics Education"
-      ],
-      "one_line_context": "This is a seminar meeting focusing on math education.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-11-19T13:00:00",
-    "datetime_start": "2026-11-19T12:00:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Math Education Seminar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "da0262b5a24632e7"
-  },
-  {
-    "title": "Math Education Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Mathematics Education"
-      ],
-      "one_line_context": "This is a seminar meeting focusing on math education.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-11-26T13:00:00",
-    "datetime_start": "2026-11-26T12:00:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Math Education Seminar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "bff17de453d20c86"
-  },
-  {
-    "title": "Math Education Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Mathematics Education"
-      ],
-      "one_line_context": "This is a seminar meeting focusing on math education.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": null,
-    "datetime_end": "2026-12-03T13:00:00",
-    "datetime_start": "2026-12-03T12:00:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Math Education Seminar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "a60e251282ca2303"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "This is a seminar session focusing on applied numerical analysis.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-10-26T13:15:00",
-    "datetime_start": "2026-10-26T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Erid de Sturler & Achintya Sunil",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "821c0d07d1c6283c"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "This is a seminar session focusing on applied numerical analysis.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-02T13:15:00",
-    "datetime_start": "2026-11-02T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Rudi Smith & Peter DelMastro",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "0b3bf46a88dfd847"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "This is a seminar session focusing on applied numerical analysis.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-09T13:15:00",
-    "datetime_start": "2026-11-09T12:15:00",
-    "location": "Data and Decision Sciences 450",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Agnieszka Miedlar & Gregory Janes",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "a964547719aec5b4"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "This is a seminar session focusing on applied numerical analysis.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-16T13:15:00",
-    "datetime_start": "2026-11-16T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Aryeh keating & Ghafirlia Istafa",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "daabcec4727050e3"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "This is a seminar session focusing on applied numerical analysis.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-30T13:15:00",
-    "datetime_start": "2026-11-30T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Sam Bender & Kurt Stein",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "836f9a30149ebfc8"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "This is a seminar session focusing on applied numerical analysis.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-12-07T13:15:00",
-    "datetime_start": "2026-12-07T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Mike Ackermann & Serkan Gugercin",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "00cb530291514946"
-  },
-  {
     "title": "AMPS - Félix Brokering",
     "annotations": {
       "prerequisites": [],
@@ -16976,10 +17001,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is an analysis and mathematical physics seminar talk given by Félix Brokering.",
+      "one_line_context": "This is a talk given by Félix Brokering as part of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": "University of Bristol",
     "datetime_end": "2026-10-28T17:00:00",
     "datetime_start": "2026-10-28T16:00:00",
@@ -16993,13 +17018,14 @@
   {
     "title": "Subcode Ensemble Decoding Techniques for Degeneracy-Aware Quantum Error Correction",
     "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Quantum Error Correction",
-        "Decoding Techniques",
-        "Applied Algebra"
+      "prerequisites": [
+        "Quantum Error Correction"
       ],
-      "one_line_context": "This talk discusses subcode ensemble decoding techniques for degeneracy-aware quantum error correction.",
+      "related_concepts": [
+        "Decoding Techniques",
+        "Subcode Ensembles"
+      ],
+      "one_line_context": "This talk discusses subcode ensemble decoding techniques designed for degeneracy-aware quantum error correction.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17019,10 +17045,9 @@
       "prerequisites": [],
       "related_concepts": [
         "Cyber Defense",
-        "Agentic AI",
-        "Applied Algebra"
+        "Agentic AI"
       ],
-      "one_line_context": "This talk explores rethinking cyber defense in the context of agentic AI.",
+      "one_line_context": "This talk explores modern cyber defense strategies in the context of agentic artificial intelligence.",
       "ai_generated": true
     },
     "abstract": "This seminar is joint with the Commonwealth Cyber Initiative (CCI) Southwest Virginia.",
@@ -17044,7 +17069,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is an analysis and mathematical physics seminar talk given by Antonio Pedro Ramos.",
+      "one_line_context": "This is an AMPS talk given by Antonio Pedro Ramos.",
       "ai_generated": true
     },
     "abstract": "Note the special time! Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
@@ -17066,10 +17091,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is an analysis and mathematical physics seminar talk given by Simone Rademacher.",
+      "one_line_context": "This is a talk given by Simone Rademacher as part of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": "University of Mannheim",
     "datetime_end": "2026-11-11T15:00:00",
     "datetime_start": "2026-11-11T14:00:00",
@@ -17083,11 +17108,13 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Algebra"
+      ],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "This is a seminar meeting focusing on applied algebra.",
+      "one_line_context": "This is a seminar meeting for the Applied Algebra Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17104,11 +17131,13 @@
   {
     "title": "Applied Algebra Seminar",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Algebra"
+      ],
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "This is a seminar meeting focusing on applied algebra.",
+      "one_line_context": "This is a seminar meeting for the Applied Algebra Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -17130,10 +17159,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is an analysis and mathematical physics seminar talk given by Marco Fraccaroli.",
+      "one_line_context": "This is a talk given by Marco Fraccaroli as part of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": "UMass Lowell",
     "datetime_end": "2026-11-18T17:00:00",
     "datetime_start": "2026-11-18T16:00:00",
@@ -17152,10 +17181,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is an analysis and mathematical physics seminar session.",
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-12-02T17:00:00",
     "datetime_start": "2026-12-02T16:00:00",
@@ -17174,10 +17203,10 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is an analysis and mathematical physics seminar session.",
+      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
       "ai_generated": true
     },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
+    "abstract": null,
     "affiliation": null,
     "datetime_end": "2026-12-09T17:00:00",
     "datetime_start": "2026-12-09T16:00:00",
@@ -17191,14 +17220,15 @@
   {
     "title": "Error-and-Erasure Decoding of Product and Staircase Codes",
     "annotations": {
-      "prerequisites": [],
+      "prerequisites": [
+        "Coding Theory"
+      ],
       "related_concepts": [
-        "Error-and-Erasure Decoding",
         "Product Codes",
         "Staircase Codes",
-        "Applied Algebra"
+        "Error-and-Erasure Decoding"
       ],
-      "one_line_context": "This talk discusses error-and-erasure decoding of product and staircase codes.",
+      "one_line_context": "This talk covers error-and-erasure decoding techniques for product and staircase codes.",
       "ai_generated": true
     },
     "abstract": null,
