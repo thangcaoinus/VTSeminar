@@ -242,22 +242,22 @@
     "id": "26c5c540652c6652"
   },
   {
-    "title": "Many geometric structures can be described as algebras for a suitable monad",
+    "title": "Algebraic structures and logarithmic geometry",
     "annotations": {
       "prerequisites": [
-        "category theory basics",
-        "abstract algebra"
+        "abstract algebra",
+        "basic category theory"
       ],
       "related_concepts": [
         "monads",
         "ultrafilters",
         "logarithmic geometry",
-        "tropicalization"
+        "toric varieties"
       ],
-      "one_line_context": "This talk explains how various geometric structures can be viewed as algebras over monads, with applications to logarithmic geometry and tropicalization.",
+      "one_line_context": "This talk explains how geometric structures can be viewed as monad algebras, with applications to logarithmic geometry and functorial tropicalization.",
       "ai_generated": true
     },
-    "abstract": "(Joint with Peter Haine)  Many geometric structures can be described as \\emph{algebras} for a suitable monad. E.g., compact Hausdorff spaces are exactly the algebras for the ultrafilter monad on sets.  I will explain this point of view through several concrete examples, starting with free abelian groups and rings, and then discussing ultrafilters, Eilenberg--Moore categories, and Kleisli categories. The emphasis will be on examples rather than category theory.  The main application is in logarithmic geometry. I will explain how logarithmic maps can be realized as Kleisli morphisms for a natural monad built from Olsson's logarithmic stack. This leads to a functorial tropicalization construction for logarithmic schemes, recovering the usual fans of toric varieties and toroidal embeddings while remaining functorial for arbitrary logarithmic maps. (This talk is meant to be accessible to graduate students)",
+    "abstract": "(Joint with Peter Haine) Many geometric structures can be described as \n\nemephal\n\n algebras for a suitable monad. E.g., compact Hausdorff spaces are exactly the algebras for the ultrafilter monad on sets.  I will explain this point of view through several concrete examples, starting with free abelian groups and rings, and then discussing ultrafilters, Eilenberg--Moore categories, and Kleisli categories. The emphasis will be on examples rather than category theory.  The main application is in logarithmic geometry. I will explain how logarithmic maps can be realized as Kleisli morphisms for a natural monad built from Olsson's logarithmic stack. This leads to a functorial tropicalization construction for logarithmic schemes, recovering the usual fans of toric varieties and toroidal embeddings while remaining functorial for arbitrary logarithmic maps. (This talk is meant to be accessible to graduate students)",
     "affiliation": "VT",
     "datetime_end": null,
     "datetime_start": "2023-09-22T00:00:00",
@@ -266,22 +266,23 @@
     "speaker": "Leo Herr",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "6c043586407f46d1"
+    "id": "f744807b973cdefe"
   },
   {
-    "title": "Brill--Noether theory and curves on K3 surfaces",
+    "title": "Brill--Noether theory of curves on K3 surfaces",
     "annotations": {
       "prerequisites": [
         "algebraic geometry",
-        "algebraic curves"
+        "algebraic curves",
+        "K3 surfaces"
       ],
       "related_concepts": [
         "Brill-Noether theory",
-        "K3 surfaces",
+        "linear series",
         "vector bundles",
         "Giesker-Petri loci"
       ],
-      "one_line_context": "This talk surveys recent results regarding the Brill--Noether theory of curves on K3 surfaces and related unstable vector bundles.",
+      "one_line_context": "This talk surveys recent results on the refined Brill-Noether theory of curves on K3 surfaces and its relation to unstable vector bundles.",
       "ai_generated": true
     },
     "abstract": "Brill--Noether theory studies linear systems on an algebraic curve. K3 surfaces have been central in Brill--Noether theory since Lazarfeld's proof of the Brill--Noether theorem, which describes the linear series on a general curve of genus $g$. In this talk, we'll survey some recent results concerning the Brill--Noether theory of curves on K3 surfaces. Specifically, we'll discuss a refined Brill--Noether theory, which aims to understand the linear series on curves with a given Brill--Noether special linear series, and related unstable vector bundles on K3 surfaces with applications to the dimensions of components of Giesker--Petri loci in $\\mathcal{M}_g$, parameterizing curves admitting a linear series with non-injective Petri map.",
@@ -293,10 +294,10 @@
     "speaker": "Richard Haburcak",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "251b7876c1b1acf3"
+    "id": "2b43377dcf3b8ef4"
   },
   {
-    "title": "A moduli-theoretic approach to heights on stacks over function fields",
+    "title": "Moduli spaces and heights on stacks",
     "annotations": {
       "prerequisites": [
         "algebraic geometry",
@@ -304,8 +305,8 @@
       ],
       "related_concepts": [
         "arithmetic statistics",
-        "heights on stacks",
-        "twisted stable maps"
+        "twisted stable maps",
+        "heights on stacks"
       ],
       "one_line_context": "This talk presents a moduli-theoretic approach to heights on stacks over function fields to study arithmetic counting problems.",
       "ai_generated": true
@@ -319,20 +320,21 @@
     "speaker": "Dori Bejleri",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "b41dd8868ea536ac"
+    "id": "82260754e83355b3"
   },
   {
     "title": "Automorphism groups of rational surfaces and log Calabi-Yau surfaces",
     "annotations": {
       "prerequisites": [
         "algebraic geometry",
-        "hyperbolic geometry"
+        "hyperbolic geometry",
+        "algebraic surfaces"
       ],
       "related_concepts": [
-        "K3 surfaces",
-        "rational surfaces",
+        "automorphism groups",
+        "arithmetic groups",
         "log Calabi-Yau surfaces",
-        "automorphism groups"
+        "rational surfaces"
       ],
       "one_line_context": "This talk provides examples of rational surfaces whose automorphism groups are not commensurable with an arithmetic group.",
       "ai_generated": true
@@ -349,19 +351,21 @@
     "id": "b6aac6a9ad6d7c4f"
   },
   {
-    "title": "The geometric Tevelev degrees of projective space",
+    "title": "Geometric Tevelev degrees of projective space",
     "annotations": {
       "prerequisites": [
         "algebraic geometry",
-        "Gromov-Witten theory"
+        "Gromov-Witten theory",
+        "Schubert calculus"
       ],
       "related_concepts": [
         "Tevelev degrees",
-        "Schubert calculus",
-        "Grassmannians",
-        "matroid theory"
+        "linear series",
+        "grassmannians",
+        "matroid theory",
+        "RSK correspondence"
       ],
-      "one_line_context": "This talk explains a complete calculation of the geometric Tevelev degrees of projective space using Schubert calculus and matroid theory.",
+      "one_line_context": "This talk explains a complete calculation of geometric Tevelev degrees of projective space using Schubert calculus and torus orbit closures.",
       "ai_generated": true
     },
     "abstract": "The geometric Tevelev degrees of projective space enumerate general, pointed curves with fixed complex structure interpolating through the maximal number of points in P^r. The study of the corresponding virtual invariants goes back to the beginning of Gromov-Witten theory in the 1990s, whereas the closely related problem of enumerating linear series on general curves goes back even earlier, to the 19th century. We explain a complete calculation of the geometric Tevelev degrees of projective space in terms of Schubert calculus, which interpolates between both of these worlds. The final answer involves torus orbit closures on Grassmannians, which are fundamental objects in matroid theory. Recent work with Saskia Solotko expresses the invariants alternatively in terms of combinatorics of words, via the RSK correspondence.",
@@ -373,14 +377,14 @@
     "speaker": "Carl Lian",
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
-    "id": "9ce5bcf66f7a1970"
+    "id": "ab8c67268fef67b2"
   },
   {
     "title": "Abstract TBD",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This talk has no abstract available yet.",
+      "one_line_context": "This entry lists a seminar talk with an abstract to be determined.",
       "ai_generated": true
     },
     "abstract": null,
@@ -399,7 +403,7 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This talk has no abstract available yet.",
+      "one_line_context": "This entry lists a seminar talk with an abstract to be determined.",
       "ai_generated": true
     },
     "abstract": null,
@@ -418,7 +422,7 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This talk has no abstract available yet.",
+      "one_line_context": "This entry lists a seminar talk with an abstract to be determined.",
       "ai_generated": true
     },
     "abstract": null,
@@ -437,7 +441,7 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [],
-      "one_line_context": "This talk has no abstract available yet.",
+      "one_line_context": "This entry lists a seminar talk with an abstract to be determined.",
       "ai_generated": true
     },
     "abstract": null,
@@ -450,6 +454,25 @@
     "department": "Mathematics",
     "source_url": "https://seminar.math.vt.edu/geom-top/",
     "id": "38c3a195fb102058"
+  },
+  {
+    "title": "Tentative Talk",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [],
+      "one_line_context": "This entry lists a tentative seminar talk without an abstract or specified topic.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": null,
+    "datetime_start": "2024-02-02T00:00:00",
+    "location": "McBryde Hall 563",
+    "series": "Geometry/Topology Seminar",
+    "speaker": "Samuel Panitch",
+    "department": "Mathematics",
+    "source_url": "https://seminar.math.vt.edu/geom-top/",
+    "id": "9ddf838b0ca224e1"
   },
   {
     "title": "Getting Acquainted at The Maroon Door",
@@ -18409,133 +18432,6 @@
     "id": "aa50ed79865af68b"
   },
   {
-    "title": "Applied Numerical Analysis Seminar (Erid de Sturler, Virginia Tech & Achintya Sunil, Virginia Tech)",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis",
-        "Applied Mathematics"
-      ],
-      "one_line_context": "This is a session of the Applied Numerical Analysis Seminar featuring speakers from Virginia Tech.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-10-26T13:15:00",
-    "datetime_start": "2026-10-26T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Erid de Sturler & Achintya Sunil",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "78dbff44860d56f7"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar (Rudi Smith, Virginia Tech & Peter DelMastro, Virginia Tech)",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis"
-      ],
-      "one_line_context": "This is a session of the Applied Numerical Analysis Seminar presented by speakers from Virginia Tech.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-02T13:15:00",
-    "datetime_start": "2026-11-02T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Rudi Smith & Peter DelMastro",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "60e00fb553848f1c"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar (Gregory Janes, Virginia Tech)",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis"
-      ],
-      "one_line_context": "This is a session of the Applied Numerical Analysis Seminar featuring a speaker from Virginia Tech.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-09T13:15:00",
-    "datetime_start": "2026-11-09T12:15:00",
-    "location": "Data and Decision Sciences 450",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Gregory Janes",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "35ff0b4af4a4de1c"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar (Aryeh keating, Virginia Tech & Ghafirlia Istafa, Virginia Tech)",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis"
-      ],
-      "one_line_context": "This is a session of the Applied Numerical Analysis Seminar presented by researchers from Virginia Tech.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-16T13:15:00",
-    "datetime_start": "2026-11-16T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Aryeh keating & Ghafirlia Istafa",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "66839878f1ce1bd4"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar (Sam Bender, Virginia Tech & Kurt Stein, Virginia Tech)",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis"
-      ],
-      "one_line_context": "This is a session of the Applied Numerical Analysis Seminar presented by speakers from Virginia Tech.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-30T13:15:00",
-    "datetime_start": "2026-11-30T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Sam Bender & Kurt Stein",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "9ce95feac22e9bca"
-  },
-  {
-    "title": "Applied Numerical Analysis Seminar (Mike Ackermann, Virginia Tech & Serkan Gugercin, Virginia Tech)",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "Numerical Analysis"
-      ],
-      "one_line_context": "This is a session of the Applied Numerical Analysis Seminar presented by researchers from Virginia Tech.",
-      "ai_generated": true
-    },
-    "abstract": null,
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-12-07T13:15:00",
-    "datetime_start": "2026-12-07T12:15:00",
-    "location": "Math Commons Room (McBryde 455)",
-    "series": "Applied Numerical Analysis Seminar",
-    "speaker": "Mike Ackermann & Serkan Gugercin",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "b69d0d811fb8e542"
-  },
-  {
     "title": "Geometry/Topology seminar",
     "annotations": {
       "prerequisites": [],
@@ -18543,7 +18439,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18565,7 +18461,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18587,7 +18483,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18609,7 +18505,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18631,7 +18527,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18653,7 +18549,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18675,7 +18571,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18697,7 +18593,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18719,7 +18615,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18741,7 +18637,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18763,7 +18659,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18785,7 +18681,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18807,7 +18703,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18829,7 +18725,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18851,7 +18747,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18873,7 +18769,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18895,7 +18791,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18917,7 +18813,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18939,7 +18835,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18961,7 +18857,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18983,7 +18879,7 @@
         "Geometry",
         "Topology"
       ],
-      "one_line_context": "This is a meeting of the Geometry/Topology seminar series.",
+      "one_line_context": "This is a seminar on geometry and topology.",
       "ai_generated": true
     },
     "abstract": null,
@@ -18998,14 +18894,14 @@
     "id": "42299fe0a9847330"
   },
   {
-    "title": "AMPS - Félix Brokering (University of Bristol)",
+    "title": "AMPS - Félix Brokering",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This seminar is part of the Analysis and Math Physics Seminar series, hosted online via Zoom.",
+      "one_line_context": "This is an analysis and mathematical physics seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19017,18 +18913,18 @@
     "speaker": "Félix Brokering",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "f2ae3afed88cf5e2"
+    "id": "a1985b31e734701d"
   },
   {
     "title": "ROOTS Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "Collective Motion",
-        "Mathematical Modeling",
-        "Animal Behavior"
+        "Collective motion",
+        "Animal groups",
+        "Mathematical modeling"
       ],
-      "one_line_context": "This talk discusses the phenomenon of collective motion in animal groups, mathematical modeling choices, and using data to validate models.",
+      "one_line_context": "This talk discusses the phenomenon of collective motion in animal groups and how mathematical models are built and validated using data.",
       "ai_generated": true
     },
     "abstract": "We will discuss the phenomenon of collective motion in animal groups, why someone would want to model it, what modeling choices can be made, and how data can be used to inform or validate a model. Pizza provided!",
@@ -19043,17 +18939,15 @@
     "id": "9d8b6763b21bad17"
   },
   {
-    "title": "Subcode Ensemble Decoding Techniques for Degeneracy-Aware Quantum Error Correction (Jonathan Mandelbaum, Karlsruhe Institute of Technology)",
+    "title": "Subcode Ensemble Decoding Techniques for Degeneracy-Aware Quantum Error Correction",
     "annotations": {
-      "prerequisites": [
-        "Quantum Error Correction"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Subcode Ensembles",
+        "Quantum Error Correction",
         "Decoding Techniques",
-        "Quantum Computing"
+        "Applied Algebra"
       ],
-      "one_line_context": "This talk explores subcode ensemble decoding techniques designed for degeneracy-aware quantum error correction.",
+      "one_line_context": "This talk explores subcode ensemble decoding techniques for degeneracy-aware quantum error correction.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19065,7 +18959,7 @@
     "speaker": "Jonathan Mandelbaum",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "6ad93bc0bfddd987"
+    "id": "484e514e8d1781e1"
   },
   {
     "title": "Math Education Seminar",
@@ -19074,7 +18968,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "This is a session of the Math Education Seminar.",
+      "one_line_context": "This is a seminar focused on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19095,7 +18989,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "This is a session of the Math Education Seminar.",
+      "one_line_context": "This is a seminar focused on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19116,7 +19010,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "This is a session of the Math Education Seminar.",
+      "one_line_context": "This is a seminar focused on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19137,7 +19031,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "This is a session of the Math Education Seminar.",
+      "one_line_context": "This is a seminar focused on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19158,7 +19052,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "This is a session of the Math Education Seminar.",
+      "one_line_context": "This is a seminar focused on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19179,7 +19073,7 @@
       "related_concepts": [
         "Mathematics Education"
       ],
-      "one_line_context": "This is a session of the Math Education Seminar.",
+      "one_line_context": "This is a seminar focused on mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19200,10 +19094,10 @@
       "related_concepts": [
         "Mathematical Research"
       ],
-      "one_line_context": "This event highlights departmental research activities.",
+      "one_line_context": "This is a departmental research day event.",
       "ai_generated": true
     },
-    "abstract": null,
+    "abstract": "https://math.vt.edu/math-news/research-day-2026.html",
     "affiliation": null,
     "datetime_end": "2026-10-30T17:00:00",
     "datetime_start": "2026-10-30T12:15:00",
@@ -19215,17 +19109,125 @@
     "id": "be7dd25af6f7ab04"
   },
   {
-    "title": "Colloquium - Edgar Costa MIT",
+    "title": "Applied Numerical Analysis Seminar",
     "annotations": {
-      "prerequisites": [
-        "Number Theory"
-      ],
+      "prerequisites": [],
       "related_concepts": [
-        "Polynomial Equations",
-        "Curves",
-        "Algorithms"
+        "Numerical Analysis",
+        "Applied Mathematics"
       ],
-      "one_line_context": "This talk explores the interplay between theory and computation in number theory, focusing on polynomial equations and practical algorithms.",
+      "one_line_context": "This is a seminar in applied numerical analysis.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-02T13:15:00",
+    "datetime_start": "2026-11-02T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Rudi Smith & Peter DelMastro",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "0b3bf46a88dfd847"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis",
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is a seminar in applied numerical analysis.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-09T13:15:00",
+    "datetime_start": "2026-11-09T12:15:00",
+    "location": "Data and Decision Sciences 450",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Gregory Janes",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "02d0ffaac2935e50"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis",
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is a seminar in applied numerical analysis.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-16T13:15:00",
+    "datetime_start": "2026-11-16T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Aryeh keating & Ghafirlia Istafa",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "daabcec4727050e3"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis",
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is a seminar in applied numerical analysis.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-11-30T13:15:00",
+    "datetime_start": "2026-11-30T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Sam Bender & Kurt Stein",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "836f9a30149ebfc8"
+  },
+  {
+    "title": "Applied Numerical Analysis Seminar",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Numerical Analysis",
+        "Applied Mathematics"
+      ],
+      "one_line_context": "This is a seminar in applied numerical analysis.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "Virginia Tech",
+    "datetime_end": "2026-12-07T13:15:00",
+    "datetime_start": "2026-12-07T12:15:00",
+    "location": "Math Commons Room (McBryde 455)",
+    "series": "Applied Numerical Analysis Seminar",
+    "speaker": "Mike Ackermann & Serkan Gugercin",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "00cb530291514946"
+  },
+  {
+    "title": "Explicit computations in number theory",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "Number Theory",
+        "Algorithms",
+        "Polynomial Equations"
+      ],
+      "one_line_context": "This talk explores the interplay between theory and computation in number theory, examining polynomial equations and curves to develop practical algorithms.",
       "ai_generated": true
     },
     "abstract": "In this talk, we will explore the flow of ideas between theory and computation in number theory. Through examples involving polynomial equations and curves, we will see how apparently random behavior reveals hidden structure. We will explain how this perspective leads to practical algorithms, and how to certify that their answers are correct.",
@@ -19237,10 +19239,10 @@
     "speaker": "Edgar Costa",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "094ae9054089dba6"
+    "id": "f26c0974d7dd664a"
   },
   {
-    "title": "Rethinking Cyber Defense in the Age of Agentic AI (Peng Gao, Virginia Tech)",
+    "title": "Rethinking Cyber Defense in the Age of Agentic AI",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
@@ -19248,10 +19250,10 @@
         "Agentic AI",
         "Cybersecurity"
       ],
-      "one_line_context": "This seminar, held jointly with the Commonwealth Cyber Initiative, explores cyber defense in the era of agentic AI.",
+      "one_line_context": "This seminar addresses rethinking cyber defense strategies in the era of agentic artificial intelligence.",
       "ai_generated": true
     },
-    "abstract": null,
+    "abstract": "This seminar is joint with the Commonwealth Cyber Initiative (CCI) Southwest Virginia.",
     "affiliation": "Virginia Tech",
     "datetime_end": "2026-11-04T15:00:00",
     "datetime_start": "2026-11-04T14:00:00",
@@ -19260,20 +19262,20 @@
     "speaker": "Peng Gao",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "c026d04db1c9211c"
+    "id": "8a3accc72123ae62"
   },
   {
-    "title": "AMPS -Antonio Pedro Ramos (IHES)",
+    "title": "AMPS -Antonio Pedro Ramos",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is a special-time session of the Analysis and Math Physics Seminar held via Zoom.",
+      "one_line_context": "This is an analysis and mathematical physics seminar talk.",
       "ai_generated": true
     },
-    "abstract": null,
+    "abstract": "Note the special time! Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
     "affiliation": "IHES",
     "datetime_end": "2026-11-04T16:00:00",
     "datetime_start": "2026-11-04T15:00:00",
@@ -19282,17 +19284,17 @@
     "speaker": "Antonio Pedro Ramos",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "390c63fb059bebc5"
+    "id": "0ecb819ada75ab42"
   },
   {
-    "title": "AMPS - Simone Rademacher (University of Mannheim)",
+    "title": "AMPS - Simone Rademacher",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is a session of the Analysis and Math Physics Seminar.",
+      "one_line_context": "This is an analysis and mathematical physics seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19304,7 +19306,7 @@
     "speaker": "Simone Rademacher",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "66167b28a89120a4"
+    "id": "f4dbafd92d88fa5e"
   },
   {
     "title": "Applied Algebra Seminar",
@@ -19313,7 +19315,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "This is a meeting of the Applied Algebra Seminar.",
+      "one_line_context": "This is an applied algebra seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19334,7 +19336,7 @@
       "related_concepts": [
         "Applied Algebra"
       ],
-      "one_line_context": "This is a meeting of the Applied Algebra Seminar.",
+      "one_line_context": "This is an applied algebra seminar.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19349,14 +19351,14 @@
     "id": "fb0ed036425a62b2"
   },
   {
-    "title": "AMPS - Marco Fraccaroli (UMass Lowell)",
+    "title": "AMPS - Marco Fraccaroli",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is a session of the Analysis and Math Physics Seminar series.",
+      "one_line_context": "This is an analysis and mathematical physics seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19368,7 +19370,7 @@
     "speaker": "Marco Fraccaroli",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "ac3e971e0ed3e9e2"
+    "id": "845da95bd215d691"
   },
   {
     "title": "AMPS",
@@ -19378,7 +19380,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is a session of the Analysis and Math Physics Seminar series.",
+      "one_line_context": "This is an analysis and mathematical physics seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19400,7 +19402,7 @@
         "Analysis",
         "Mathematical Physics"
       ],
-      "one_line_context": "This is a session of the Analysis and Math Physics Seminar series.",
+      "one_line_context": "This is an analysis and mathematical physics seminar talk.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19415,17 +19417,16 @@
     "id": "32d33d08482e4eb5"
   },
   {
-    "title": "Error-and-Erasure Decoding of Product and Staircase Codes (Lukas Rapp, Massachusetts Institute of Technology)",
+    "title": "Error-and-Erasure Decoding of Product and Staircase Codes",
     "annotations": {
-      "prerequisites": [
-        "Coding Theory"
-      ],
+      "prerequisites": [],
       "related_concepts": [
         "Error-and-Erasure Decoding",
         "Product Codes",
-        "Staircase Codes"
+        "Staircase Codes",
+        "Applied Algebra"
       ],
-      "one_line_context": "This talk covers error-and-erasure decoding techniques applied to product and staircase codes.",
+      "one_line_context": "This talk covers error-and-erasure decoding techniques for product and staircase codes.",
       "ai_generated": true
     },
     "abstract": null,
@@ -19437,6 +19438,6 @@
     "speaker": "Lukas Rapp",
     "department": "Mathematics",
     "source_url": "https://math.vt.edu/calendar.html",
-    "id": "f19815e39cf9a637"
+    "id": "eb328dd92c98a888"
   }
 ]
