@@ -6819,145 +6819,13 @@
     "id": "2cfd42f51e780ae9"
   },
   {
-    "title": "Rethinking Cyber Defense in the Age of Agentic AI",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "artificial intelligence",
-        "cyber defense"
-      ],
-      "one_line_context": "This talk discusses cybersecurity defense strategies in the context of agentic artificial intelligence.",
-      "ai_generated": true
-    },
-    "abstract": "This seminar is joint with the Commonwealth Cyber Initiative (CCI) Southwest Virginia.",
-    "affiliation": "Virginia Tech",
-    "datetime_end": "2026-11-04T15:00:00",
-    "datetime_start": "2026-11-04T14:00:00",
-    "location": "118 Steger Hall",
-    "series": "Applied Algebra Seminar",
-    "speaker": "Peng Gao",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "8a3accc72123ae62"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "analysis",
-        "mathematical physics"
-      ],
-      "one_line_context": "This is an Analysis and Math Physics Seminar presented by Antonio Pedro Ramos.",
-      "ai_generated": true
-    },
-    "abstract": "Note the special time! Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-    "affiliation": "IHES",
-    "datetime_end": "2026-11-04T16:00:00",
-    "datetime_start": "2026-11-04T15:00:00",
-    "location": "Zoom Talk",
-    "series": "Department Calendar",
-    "speaker": "Antonio Pedro Ramos",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "614482ebc7d805de"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "analysis",
-        "mathematical physics"
-      ],
-      "one_line_context": "This is an Analysis and Math Physics Seminar presented by Simone Rademacher.",
-      "ai_generated": true
-    },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-    "affiliation": "University of Mannheim",
-    "datetime_end": "2026-11-11T15:00:00",
-    "datetime_start": "2026-11-11T14:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": "Simone Rademacher",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "5ca2fedd9b556304"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "analysis",
-        "mathematical physics"
-      ],
-      "one_line_context": "This is an Analysis and Math Physics Seminar presented by Marco Fraccaroli.",
-      "ai_generated": true
-    },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-    "affiliation": "UMass Lowell",
-    "datetime_end": "2026-11-18T17:00:00",
-    "datetime_start": "2026-11-18T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": "Marco Fraccaroli",
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "cf6d6efd315b14ae"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "analysis",
-        "mathematical physics"
-      ],
-      "one_line_context": "This is an Analysis and Math Physics Seminar.",
-      "ai_generated": true
-    },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-    "affiliation": null,
-    "datetime_end": "2026-12-02T17:00:00",
-    "datetime_start": "2026-12-02T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "3c27879934492e93"
-  },
-  {
-    "title": "AMPS",
-    "annotations": {
-      "prerequisites": [],
-      "related_concepts": [
-        "analysis",
-        "mathematical physics"
-      ],
-      "one_line_context": "This is an Analysis and Math Physics Seminar.",
-      "ai_generated": true
-    },
-    "abstract": "Join the Analysis and Math Physics Seminar on Zoom: https://virginiatech.zoom.us/j/83756806647?pwd=GEN8GbgxKeUaLbUraVV5h6bkhRb2py.1",
-    "affiliation": null,
-    "datetime_end": "2026-12-09T17:00:00",
-    "datetime_start": "2026-12-09T16:00:00",
-    "location": "McB 455 (commons room)",
-    "series": "Department Calendar",
-    "speaker": null,
-    "department": "Mathematics",
-    "source_url": "https://math.vt.edu/calendar.html",
-    "id": "32d33d08482e4eb5"
-  },
-  {
     "title": "Math Education Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
         "mathematics education"
       ],
-      "one_line_context": "This is a recurring seminar focusing on mathematics education.",
+      "one_line_context": "A seminar focused on topics in mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -6978,7 +6846,7 @@
       "related_concepts": [
         "mathematics education"
       ],
-      "one_line_context": "This is a recurring seminar focusing on mathematics education.",
+      "one_line_context": "A seminar focused on topics in mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -6999,7 +6867,7 @@
       "related_concepts": [
         "mathematics education"
       ],
-      "one_line_context": "This is a recurring seminar focusing on mathematics education.",
+      "one_line_context": "A seminar focused on topics in mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7020,7 +6888,7 @@
       "related_concepts": [
         "mathematics education"
       ],
-      "one_line_context": "This is a recurring seminar focusing on mathematics education.",
+      "one_line_context": "A seminar focused on topics in mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7041,7 +6909,7 @@
       "related_concepts": [
         "mathematics education"
       ],
-      "one_line_context": "This is a recurring seminar focusing on mathematics education.",
+      "one_line_context": "A seminar focused on topics in mathematics education.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7060,9 +6928,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "numerical analysis"
+        "numerical analysis",
+        "applied mathematics"
       ],
-      "one_line_context": "This is an applied numerical analysis seminar talk given by Gregory Janes.",
+      "one_line_context": "A seminar talk in the Applied Numerical Analysis Seminar series given by Gregory Janes.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7081,9 +6950,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "numerical analysis"
+        "numerical analysis",
+        "applied mathematics"
       ],
-      "one_line_context": "This is an applied numerical analysis seminar talk given by Aryeh keating and Ghafirlia Istafa.",
+      "one_line_context": "A joint seminar talk in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7102,9 +6972,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "numerical analysis"
+        "numerical analysis",
+        "applied mathematics"
       ],
-      "one_line_context": "This is an applied numerical analysis seminar talk given by Sam Bender and Kurt Stein.",
+      "one_line_context": "A joint seminar talk in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7123,9 +6994,10 @@
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "numerical analysis"
+        "numerical analysis",
+        "applied mathematics"
       ],
-      "one_line_context": "This is an applied numerical analysis seminar talk given by Mike Ackermann and Serkan Gugercin.",
+      "one_line_context": "A joint seminar talk in the Applied Numerical Analysis Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7147,7 +7019,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7169,7 +7041,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7191,7 +7063,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7213,7 +7085,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7235,7 +7107,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7257,7 +7129,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7279,7 +7151,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7301,7 +7173,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7323,7 +7195,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7345,7 +7217,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7367,7 +7239,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7389,7 +7261,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7411,7 +7283,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7433,7 +7305,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7455,7 +7327,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7477,7 +7349,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7499,7 +7371,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7521,7 +7393,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7543,7 +7415,7 @@
         "geometry",
         "topology"
       ],
-      "one_line_context": "This is a departmental seminar focused on geometry and topology.",
+      "one_line_context": "A seminar talk in the Geometry/Topology seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7558,13 +7430,35 @@
     "id": "42299fe0a9847330"
   },
   {
+    "title": "AMPS - Simone Rademacher",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "analysis",
+        "mathematical physics"
+      ],
+      "one_line_context": "An Analysis and Math Physics Seminar talk presented by Simone Rademacher.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "University of Mannheim",
+    "datetime_end": "2026-11-11T15:00:00",
+    "datetime_start": "2026-11-11T14:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": "Simone Rademacher",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "f4dbafd92d88fa5e"
+  },
+  {
     "title": "Applied Algebra Seminar",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
         "applied algebra"
       ],
-      "one_line_context": "This is a departmental seminar focused on applied algebra.",
+      "one_line_context": "A seminar talk in the Applied Algebra Seminar series.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7579,15 +7473,39 @@
     "id": "855ea4f4701f1917"
   },
   {
-    "title": "Chain Codes for Binary Images and their Relationship to the Euler Characteristic",
+    "title": "AMPS - Marco Fraccaroli",
     "annotations": {
       "prerequisites": [],
+      "related_concepts": [
+        "analysis",
+        "mathematical physics"
+      ],
+      "one_line_context": "An Analysis and Math Physics Seminar talk presented by Marco Fraccaroli.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": "UMass Lowell",
+    "datetime_end": "2026-11-18T17:00:00",
+    "datetime_start": "2026-11-18T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": "Marco Fraccaroli",
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "845da95bd215d691"
+  },
+  {
+    "title": "Chain Codes for Binary Images and their Relationship to the Euler Characteristic",
+    "annotations": {
+      "prerequisites": [
+        "topology"
+      ],
       "related_concepts": [
         "chain codes",
         "binary images",
         "Euler characteristic"
       ],
-      "one_line_context": "This talk explores chain codes for binary images and how they relate to the Euler characteristic.",
+      "one_line_context": "A talk exploring chain codes for binary images and how they relate to the Euler characteristic.",
       "ai_generated": true
     },
     "abstract": null,
@@ -7602,15 +7520,61 @@
     "id": "0cb742fa52fa643a"
   },
   {
-    "title": "Error-and-Erasure Decoding of Product and Staircase Codes",
+    "title": "AMPS",
     "annotations": {
       "prerequisites": [],
       "related_concepts": [
-        "error-and-erasure decoding",
+        "analysis",
+        "mathematical physics"
+      ],
+      "one_line_context": "An Analysis and Math Physics Seminar talk.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-02T17:00:00",
+    "datetime_start": "2026-12-02T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "3c27879934492e93"
+  },
+  {
+    "title": "AMPS",
+    "annotations": {
+      "prerequisites": [],
+      "related_concepts": [
+        "analysis",
+        "mathematical physics"
+      ],
+      "one_line_context": "An Analysis and Math Physics Seminar talk.",
+      "ai_generated": true
+    },
+    "abstract": null,
+    "affiliation": null,
+    "datetime_end": "2026-12-09T17:00:00",
+    "datetime_start": "2026-12-09T16:00:00",
+    "location": "McB 455 (commons room)",
+    "series": "Department Calendar",
+    "speaker": null,
+    "department": "Mathematics",
+    "source_url": "https://math.vt.edu/calendar.html",
+    "id": "32d33d08482e4eb5"
+  },
+  {
+    "title": "Error-and-Erasure Decoding of Product and Staircase Codes",
+    "annotations": {
+      "prerequisites": [
+        "coding theory"
+      ],
+      "related_concepts": [
+        "error-correcting codes",
         "product codes",
         "staircase codes"
       ],
-      "one_line_context": "This talk covers error-and-erasure decoding techniques for product and staircase codes.",
+      "one_line_context": "A talk on error-and-erasure decoding techniques for product and staircase codes.",
       "ai_generated": true
     },
     "abstract": null,
